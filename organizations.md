@@ -3,7 +3,7 @@
 ## ID
 
 
-Please pretty please use this field to put your name/initials and date on rows you enter data on (This will be auto-filled by the Content Management System (CMS) being built right now.) Changing this paragraph here to see what happens. Introducing a change from a local machine. And another line, which I'll approve from Gitbook.
+Please pretty please use this field to put your name/initials and date on rows you enter data on (This will be auto-filled by the Content Management System (CMS) being built right now.)
 
 ## Name
 
