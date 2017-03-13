@@ -2,7 +2,7 @@
 
 ## About this Handbook
 
-This handbook explains the data structure of the Security Force Monitor and the process of entering data into it. Currently, data entry is done into a spreadsheet pending the release of a CMS.
+This handbook explains the data structure of the Security Force Monitor and the process of entering data into it. Currently, data entry is done into a spreadsheet pending the release of a Content Management System (CMS).
 
 This is a first cut and should not be considered complete – please add comments on areas that could be improved upon, identify needed additions, suggest deletions or other edits.
 
