@@ -1,4 +1,4 @@
-#Research Handbook for Security Force Monitor
+# Research Handbook for Security Force Monitor
 
 ## About this Handbook
 
@@ -20,3 +20,6 @@ The Monitor will compile data from government sources, local and international n
 * Maps of the location and jurisdiction of security forces
 * Dossiers on commanders and units
 * Maps and dossiers of documented human rights abuses committed by security forces as reported by civil society organizations, the United Nations and other sources
+
+
+
