@@ -1,13 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-* [Overview](overview.md)
 * [Sources and Confidence](sources_confidence.md)
- * [Citation format](sources_confidence.md#Citation format)
- * [Country Information](sources_confidence.md#Country information)
+ * [Citation format](sources_confidence.md#source_citation_format)
+ * [Country Information](sources_confidence.md#source_country_information)
  * [Date](sources_confidence.md#source_date)
- * [Archive URL](sources_confidence.md#Which archived URL to use)
- * [Confidence](sources_confidence.md#Confidence)
+ * [Archive URL](sources_confidence.md#source_which_archive_url)
+ * [Confidence](sources_confidence.md#source_confidence)
 * [Organizations](organizations.md)
  * [ID](organizations.md#ID)   
  * [Name](organizations.md#Name)

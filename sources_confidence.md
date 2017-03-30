@@ -1,25 +1,28 @@
 # Sources and Confidence
 
-##Citation format
+Every piece of data in Security Force Monitor has a source and is assigned a confidence score.
 
-Every entry in Security Force Monitor must have one or more sources associated with it. A source generally follows this citation format:
+## Sources
+### Citation format {#source_citation_format}
 
-> Title of article/website page. Name of publishing organization \(country of organization\). Date. url. Internet Archive link: url
+Every data point in Security Force Monitor must have one or more sources associated with it. A source should be recorded in this format:
+
+> Title of article or website page. Name of publishing organization \(country of organization\). Date. url. Internet Archive link: url
 
 For example:
 
 > Army parades oil bunkers in Kaduna. Premium Times \(Nigeria\). 8 May 2013. [http://www.premiumtimesng.com/regional/nwest/133295-army-parades-oil-bunkers-in-kaduna.html](http://www.premiumtimesng.com/regional/nwest/133295-army-parades-oil-bunkers-in-kaduna.html)   
 > Internet Archive link: [https://web.archive.org/web/20140912060820/https://www.premiumtimesng.com/regional/nwest/133295-army-parades-oil-bunkers-in-kaduna.html\#sthash.Fc0DTTxe.dpbs](https://web.archive.org/web/20140912060820/https://www.premiumtimesng.com/regional/nwest/133295-army-parades-oil-bunkers-in-kaduna.html#sthash.Fc0DTTxe.dpbs)
 
-## Country information
+### Country information {#source_country_information}
 
 We include the country information because there could be a publication with the same name based in another country - for example there is a publication based in Nigeria named [The Guardian](https://guardian.ng/) as well as a publication based in the United Kingdom named [The Guardian](https://www.theguardian.com/uk).
 
-## Date {#source_date}
+### Date {#source_date}
 
 For the date we always use the ISO standard which means DAY MONTH YEAR
 
-## Which archived URL to use
+### Which archived URL to use {#source_which_archive_url}
 
 If the website you are using has been archived previously, use the oldest archive date url. For example, if the url was saved 2 times, once in 2011 and once in  2013, use the url from 2011.
 
@@ -33,17 +36,14 @@ If you try to access the link, you'll get nowhere. When you look up the link in 
 
 In this specific case you could also find the article on the AllAfrica.com server by looking up the title of the article in Google. This is because the parent website of the article is one of the websites archived by AllAfrica.com. However, if the article came from a source that AllAfrica.com doesn't cover, you'd still be able to access it via the Internet Archive \(if it's been saved there before\).
 
-## Confidence
+## Confidence {#source_confidence}
 
-Across all people and organization sheets - each entry has a confidence score attached to it. The confidence scores only relate to the specific entry to which they are attached to.
+Each data point has a confidence score attached to it. The confidence scores only relate to the specific data point to which they are attached.
 
-For instance, a wide variety of sources could agree on the name of an organization:
+For instance, a wide variety of sources could agree on ``` 1 Division``` as the name of an organization. A confidence score of ```High``` could be assgned to this data point. However, if there is only one source for ```One Division``` as an alias, a confidence score of ```Low``` would be merited.
 
-> 1 Division, leading to a score of “High” while there is only one source for a alias e.g. One Division which would merit a score of “Low”
+Confidence scores are determined first by what is agreed about the overall structure and nature of the security forces by highly reputable sources \(government, major reports/books and other sources of high quality information\).
 
-Confidence scores are determined first by what agreed about the overall structure and nature of the security forces by highly reputable sources \(government, major reports/books and other sources of high quality information\).
+The Confidence scores assigned to each data point are  also influenced by the number of confirming sources and the source type. In general, government sources are weighed as more reliable than non-government sources. **However** there is no _gold standard_ source. Government sources make spelling errors, contain conflicting information, just as non-government sources do \(media, civil society, etc.\).
 
-For each entry confidence is then also influenced by the number of confirming sources and the source type. In general, government sources are weighed as more reliable than non-government sources **however** there is no “gold standard” source. Government sources make spelling errors, contain conflicting information, just as non-government sources \(media, civil society, etc.\).
-
-All entries should begin as graded as Low confidence until a confluence of sources merit a Medium determination. The gap between making a determination from Low to Medium is higher when moving from Medium to High.
-
+All data points begin with a confidence score of ``` Low``` until a confluence of sources merit the designation of ```Medium```. The gap between upgrading the confidence score of a data point from ```Low``` to ```Medium``` is smaller than  when moving from ```Medium to High```.
