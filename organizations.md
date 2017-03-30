@@ -99,7 +99,7 @@ Often when there is an operation or joint task force that is something that does
 
 ### Confidence: Parent Organization:
 
-## Administrative, Command, or Informal parent relationship:
+## Administrative, Command, or Informal parent relationship
 
 Organizations have a Command relationship when the parent organization can order the organization to perform some action, and/or remove or appoint the commander of the organization.
 
@@ -137,7 +137,7 @@ Only put the citation for the latest date here
 If there is only one citation put it in the Source: Date of first citation for parent organization column, if appropriate, and leave this column blank.  
 Confidence: Date of last citation for parent organization
 
-## Assume Parent Organization and Relationship to Current Date? \(Y/N\):
+## Assume Parent Organization and Relationship to Current Date? \(Y/N\)
 
 In many cases a relationship could be assumed past the last citation date -ie a battalion has been reporting to a brigade for years, one could safely assume that this relationship will continue.
 
@@ -147,7 +147,7 @@ There are always assumptions made in this sort of analysis - e.g. a press releas
 
 In cases where there appears to be a temporary relationship, a historical relationship or there is simply not enough data to base an assumption on - the analyst would put a N in the column in order to not assume a continuation of this relationship after the last citation.
 
-## Headquarters \(Barracks, Base, Physical Asset\):
+## Headquarters \(Barracks, Base, Physical Asset\)
 
 This column is for units that have a uniquely named building or complex for their headquaters  
 Example: The 3 Battalion is cited as being based in the Lubanga Barracks in Enugu, Enugu State Nigeria.  
@@ -157,7 +157,8 @@ Don’t use this column for anything that matches the name or alias of a unit - 
 
 ### Confidence: Headquarters
 
-City or smallest administrative unit GeoName:  
+## City or smallest administrative unit GeoName
+
 The Geoname data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
 
 This column is for the city or smallest administrative unit that a unit is based in. For example a unit could be based in the city of New York or the county of King’s County.
@@ -174,7 +175,8 @@ Organizations can be based in multiple cities, in which case a new row should be
 
 Geoname data will be shared with you and we will do a separate training on it. You can find more information about Geonames here: [http://www.geonames.org/](http://www.geonames.org/)
 
-City or smallest administrative unit GeonameID  
+## City or smallest administrative unit GeonameID  
+
 This is tied to the matching Geoname
 
 ### Source: City or smallest administrative unit
@@ -224,7 +226,7 @@ Follow the same rules as Site: Date of first citation
 
 ### Confidence: Date of last citation
 
-## Assume Site \(City or smallest administrative unit GeoName and/or AMIN1\) to Current Date? \(Y/N\):
+## Assume Site \(City or smallest administrative unit GeoName and/or AMIN1\) to Current Date? \(Y/N\)
 
 For marking Y \(Y=yes, assume site to current date, so the site will displayed on the map up to the current date\) an analyst would have to make a determination using a variety of factors including: the history of basing for the unit, the overall structure/nature of the security forces, the frequency of movement of similar units
 
