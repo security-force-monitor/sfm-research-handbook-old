@@ -1,6 +1,6 @@
 # Sources and Confidence
 
-## Citation format
+##Citation format
 
 Every entry in Security Force Monitor must have one or more sources associated with it. A source generally follows this citation format:
 
