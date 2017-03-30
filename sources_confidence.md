@@ -15,7 +15,7 @@ For example:
 
 We include the country information because there could be a publication with the same name based in another country - for example there is a publication based in Nigeria named [The Guardian](https://guardian.ng/) as well as a publication based in the United Kingdom named [The Guardian](https://www.theguardian.com/uk).
 
-## Date {#date}
+## Date {#source_date}
 
 For the date we always use the ISO standard which means DAY MONTH YEAR
 

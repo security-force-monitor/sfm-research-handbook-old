@@ -5,7 +5,7 @@
 * [Sources and Confidence](sources_confidence.md)
  * [Citation format](sources_confidence.md#Citation format)
  * [Country Information](sources_confidence.md#Country information)
- * [Date](sources_confidence.md#date)
+ * [Date](sources_confidence.md#source_date)
  * [Archive URL](sources_confidence.md#Which archived URL to use)
  * [Confidence](sources_confidence.md#Confidence)
 * [Organizations](organizations.md)
