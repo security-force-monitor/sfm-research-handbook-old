@@ -12,7 +12,7 @@
  * [Name](organizations.md#organization_name)
  * [Aliases](organizations.md#organization_other_names)
  * [Division id](organizations.md#organization_division_id)
- * [Classification](organzations.md#organization_classification)
+ * [Classification](organizations.md#organization_classification)
  * [Parent organization](organizations.md#organization_organization_name)
  * [Parent relationship](organizations.md#organization_organization_classification)
  * [Date of first citation for parent relationship](organizations.md#organization_organization_date_first_cited)
