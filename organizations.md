@@ -1,4 +1,4 @@
-# Organizations
+
 
 ## ID {#organization_id}
 Information about who entered the data contained in this Organization record.
