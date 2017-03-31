@@ -2,7 +2,7 @@
 
 ### Introduction
 
-* [Introduction](README.md)
+* [About the Research Handbook](README.md)
 
 ### Data structure
 
