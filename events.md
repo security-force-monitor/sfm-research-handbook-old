@@ -56,7 +56,7 @@ The same reasoning and rules for data entry in this field as applies to fields i
 
 ##City or smallest administrative unit GeoNameID {#event_geonames_id}
 
-##ADMIN 1 GeoName {#event_geonames_admin_1_geoname_name}
+##ADMIN 1 GeoName {#event_geonames_admin_1_geonames_name}
 Same reasoning and rules for data entry in this field as applies to the organization records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that
 
 ##ADMIN 1 GeonameID {#event_geonames_admin_1_geonames_id
