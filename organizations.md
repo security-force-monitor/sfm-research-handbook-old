@@ -82,7 +82,7 @@ Often when there is an operation or joint task force, it may not have have perso
 
 ## Administrative, Command, or Informal parent relationship {#organization_organization_classification}
 
-Organizations have a Command relationship when the parent organization can order the organization to perform some action, and/or remove or appoint the commander of the organization.
+Organizations have a Command relationship when the parent organization can order the organization to perform some action.
 
 Informal relationships occur where no legal or formal relationship exists, but there is a relationship where parent organization could exert some form of influence on the organization.
 
