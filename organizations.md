@@ -1,7 +1,6 @@
 # Organizations
 
 ## ID {#organization_id}
-
 Information about who entered the data contained in this Organization record.
 
 ## Name {#organization_name}
@@ -55,7 +54,7 @@ The `division_id` enables the system to identify which country this organization
 
 You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
-## Classification {organization_classification}
+## Classification {#organization_classification}
 
 We will build the classification list for each country covered by the Monitor cover. We will have in-person discussions to decide on a schema but here are some general guidelines and explanation for this field.
 
@@ -119,7 +118,7 @@ Organizations can have multiple parent relationships at the same time.
 
 ### Source: Date of first citation for parent organization \(MM/DD/YYYY\)
 
-Only put the citation for the earliest date here. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields
+Only put the citation for the earliest date here. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
 
 ### Confidence: Date of first citation for parent organization
 
@@ -140,7 +139,7 @@ In many cases a relationship could be assumed past the last citation date. For e
 
 This field exists because if the Monitor only displays data up to the last citation any Map and Chart showing the data would quickly be blank. Not every unit is reported on every day so it's impossible to keep things truly “up-to-date”.
 
-There are always assumptions made in the sort of analysis done by the Monitor. For example, a parent relationship established between two units in the military sourced from a press briefing released at 09:00 AM might be change by a second press briefing at 09:01 AM the same day. Having this field forces us to be more thoughtful about what we assume and why.
+There are always assumptions made in the sort of analysis done by the Monitor. For example, a parent relationship established between two units in the military sourced from a press briefing released at 09:00 AM might be changed by a second press briefing at 09:01 AM the same day. Having this field forces us to be more thoughtful about what we assume and why.
 
 There are cases where there appears to be a temporary relationship, a historical relationship simply not enough data to base an assumption on. In these cases, the analyst would record an ```N``` in this field in order to state that there is no assumption this relation continue following the date of last citation.
 
@@ -149,6 +148,7 @@ There are cases where there appears to be a temporary relationship, a historical
 This field is used to record data about units that have a uniquely named building or complex for their headquarters.
 
 >Example: ```3 Battalion``` in Nigeria is cited as being based in the ```Lubanga Barracks``` in ```Enugu, Enugu State, Nigeria```.  
+
 This field should not be used for anything that matches the name or alias of a organization. For example, ``` North Sector Police Station``` should not be put in this field if the name of the organization is ```North Sector Police Station```.
 
 ### Source: Headquarters
@@ -181,7 +181,7 @@ This is tied to the matching Geoname.
 
 ### Confidence: City or smallest administrative unit
 
-## ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname {#organization_admin_level_1_geonames}
+## ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname {#organization_admin_level_1_geonames_name}
 
 As a unit can be based in multiple cities, that means it can be based in cities in different ADMIN1 as well. Make sure the ADMIN1 matches the city on the row it is on.
 
@@ -191,7 +191,7 @@ As a unit can be based in multiple cities, that means it can be based in cities 
 
 ### Confidence: ADMIN1
 
-## Site division\_id {#organization_division_id}
+## Site: division\_id {#organization_site_division_id}
 
 The division\_id enables the system to identify which country this organization belongs to, thus all entries in this field would be ia two letter country code.
 
@@ -230,7 +230,7 @@ For marking ```Y``` \(Y=yes, assume site to current date, so the site will displ
 
 For historical basing or for instances where the longevity of a unit being based in a Site is unclear, use ```N```.
 
-## Area of Operations Geoname {#organization_area_geonames_name}
+## Area of Operations: Geoname Name {#organization_area_geonames_name}
 
 Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner - for all organizations.
 
@@ -252,9 +252,9 @@ Often we can infer the AOO of police units based on a crime being reported to th
 >Example: It is stated in an article that “The Rivers State Police Command yesterday confirmed the death of a clergyman, Pastor Geoffrey Ogagaghene at Ohalia-Elu town in Ogba/Egbema/Ndoni local government area of the State. The clergyman was reportedly killed by suspected herdsmen who were on a reprisal attack over the alleged stealing of their cattle. Media reports had it that more than six persons were killed. The Rivers State Police Command Public Relations Officer, Ahmad Muhammad said in a press statement in Port Harcourt yesterday that only one person was killed. He said assailants suspected to be herdsmen struck in Ohali-Elu and killed one Pastor, that the crisis was heightened because unspecified number of cows were allegedly stolen. He said, "The Command found it instructive to state that on Thursday 30/03/2016 about 5:30 am the police in Egi Division received a report that on Wednesday 29/03/2016, about 10:00 pm unidentified assailants suspected to be herdsmen struck in Ohali-Elu town leaving one pastor, Geoffrey Ogagaghene with severe cutlass cuts that later led to his death.”  
 >In this case  the organization would be ```Egi Division```, and it would have an ```AOO``` of ```Ogba/Egbema/Ndoni``` local government area with a first citation date of ```29 March 2016```.
 
-## Area of Operations GeonameID {#organization_area_geonames_id}
+## Area of Operations: GeonameID {#organization_area_geonames_id}
 
-## Area of Operations division\_id {#organization_area_division_id}
+## Area of Operations: division\_id {#organization_area_division_id}
 
 ### Source: Area of Operations
 
@@ -310,7 +310,7 @@ Follow the rules for parent units, sites, AOOs for the dates/citations.
 
 ### Confidence: Date of last citation for affiliation
 
-## International affiliation \(like UN peacekeeping\) {#organization_affiliation_interational}
+## International affiliation \(like UN peacekeeping\) {#organization_affiliation_international}
 
 This field should only be used for international peacekeeping affiliations. In the future it could also be used to record participation in international military exercises.
 
