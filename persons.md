@@ -1,9 +1,9 @@
 #Persons
 
-##ID
+## ID {#person_id}
 Please use this field to put your name/initials and date on rows you enter data on. In the future this field will be used to create an unique identifier for each person in the Monitor’s database.
 
-## Name
+## Name {#person_name}
 Full name of the individual - whenever possible the most complicated/complete name is used, even if it has the least number of citations.
 
 Use the name with the most characters e.g. “Magaji Musa Majia'a” instead of “Magaji Musa Majiaa”.
@@ -15,19 +15,19 @@ The full CMS will make this easy to do - while it's being built as a temporary f
 ###Source: Name
 ###Confidence: Name
 
-##Aliases or alternative spellings (semicolon separated)
+##Aliases or alternative spellings (semicolon separated) {#person_other_names}
 
 ##Source: Aliases or alternative spellings
 ##Confidence: Aliases or alternative spellings
 
-##Organization
-The organization that the individual is affiliated with
-This organization must have an entry in an Organizations sheet.
+##Organization {#person_organization}
+The organization that the individual is affiliated with. This organization must have an entry in an Organizations sheet.
 
 ###Source: Organization
 ###Confidence: Organization
 
-##Role
+##Role {#person_role}
+
 This column is to record the role the individual played in the organization that is usually not evident from their title or rank.
 
 The main role we record - and that you will come across - is Commander.
@@ -44,7 +44,8 @@ If someone is referred to as “Spokesperson” and the source does not state th
 ###Source: Role
 ###Confidence: Role
 
-##Title (official title)
+##Title (official title) {#person_title}
+
 This column is to record titles that individuals have that are separate from their rank or role. 
 
 >For example commanders of army divisions in Nigeria, who usually hold the rank of Major General also hold the title of General Officer Commanding.
@@ -52,36 +53,37 @@ This column is to record titles that individuals have that are separate from the
 ###Source: Title
 ###Confidence: Title
 
-##Rank
+##Rank {#person_rank}
 This column record the rank of the individual, as a style issue the Monitor removes dashes in ranks e.g. record an individual as Brigadier General rather than Brigadier-General.
 
 ###Source: Rank
 ###Confidence: Rank
 
-##First citation (MM/DD/YYYY)
+##First citation (MM/DD/YYYY) {#person_date_first_cited}
 
 ###Source: First citation
 ###Confidence: First citation
 
-##Start date? (Y/N)
+##Start date? (Y/N) {#person_date_first_cited_is_start}
 
-##Context for start date
+##Context for start date {#person_date_first_cited_context}
 Entries for this column should be kept to one word if possible - entries include appointed or transferred or promoted.
 
 ###Source: Context for start date
 ###Confidence: Context for start date
 
-##Last citation (MM/DD/YYYY)
+##Last citation (MM/DD/YYYY) {#person_date_last_cited}
 
 ###Source: Last citation
 ###Confidence: Last citation
 
-##End date? (Y/N)
+##End date? (Y/N) {#person_date_last_cited_is_end}
 
-##Context for end date
+##Context for end date {#person_date_last_cited_context}
+
 Entries for this column should be kept to one word if possible - entries include transferred,  promoted, retired, arrested, or killed.
 
 ###Source: Context for end date
 ###Confidence: Context for end date
 
-##Notes
+##Notes {#person_notes}
