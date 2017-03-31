@@ -1,6 +1,11 @@
 # Summary
 
+### Introduction
+
 * [Introduction](README.md)
+
+### Data structure
+
 * [Sources and Confidence](sources_confidence.md)
  * [Citation format](sources_confidence.md#source_citation_format)
  * [Country Information](sources_confidence.md#source_country_information)
