@@ -31,20 +31,12 @@ Use the name in the local language \(official\) of the country where appropriate
 
 > Example: A unit in the Mexican Army would be called by its name in Spanish (```10 Regimiento de Caballería Motorizado```), rather than the English translation ( ```10 Motorized Cavalry Regiment```). See the section on Aliases of alternative spellings for more information on what to do with English language translations of names.
 
-### Source: Name 
-
-### Confidence: Name
-
 ## Aliases or alternative spellings \(semicolon separated\) {#organization_other_names}
 
 Use this field for all other names for the organization  
 If the country being researched is non-English speaking, use this field for English language translations as well.
 
 > Example: We’d put the English translation of ```10 Regimiento de Caballería Motorizado```, ```10 Motorized Cavalry Regiment```, here. In addition we’d put the Spanish name of the unit with an Ordinal indicator (```10/o. Regimiento de Caballería Motorizado```) in this field as well.
-
-### Source: Aliases or alternative spellings
-
-### Confidence: Aliases or alternative spellings
 
 ## Organization division\_id {#organization_division_id}
 
@@ -79,10 +71,6 @@ By necessity classifications vary slightly country to country - again the Monito
 >
 > Example - The ```Central Security Forces \(CSF\)``` in Egypt are generally deployed during riots and other civil disturbances. They are commonly referred to as the "riot police". However, “regular” police are also deployed when riots occur. Using a generic classification of ```riot police``` for ```CSF``` units could be confusing to experts, but creating a specific classification for ```CSF``` units could be confusing for non-experts. The Monitor splits the difference by classifying ```CSF``` units as ```Central Security Forces \(riot police\)```.
 
-### Source: Classification
-
-### Confidence: Classification
-
 ## Parent Organization: The superior affiliated organization {#organization_organization_name}
 
 The parent must be also entered into the sheet as its own organization.
@@ -90,10 +78,6 @@ The parent must be also entered into the sheet as its own organization.
 Think of an organizational chart - the parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
 
 Often when there is an operation or joint task force, it may not have have personnel of its own. Rather, it gets personnel assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart, but “on the same level” as it. These types of relationships are handled in another field Other Affiliation \(like joint task force\).
-
-### Source: Parent Organization
-
-### Confidence: Parent Organization
 
 ## Administrative, Command, or Informal parent relationship {#organization_organization_classification}
 
@@ -110,28 +94,15 @@ Administrative relationships exist where a formal, non-command relationship exis
 
 Organizations can have multiple parent relationships at the same time.
 
-### Source: Administrative, Command, or Informal parent relationship
-
-### Confidence: Administrative, Command, or Informal parent relationship
-
 ## Date of first citation for parent organization {#organization_organization_date_first_cited}
 
-### Source: Date of first citation for parent organization \(MM/DD/YYYY\)
-
-Only put the citation for the earliest date here. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
-
-### Confidence: Date of first citation for parent organization
+Note that in ```Source: Date of first citation for parent organization \(MM/DD/YYYY\)``` only put the citation for the earliest date. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
 
 ## Date of last citation for parent organization \(MM/DD/YYYY\) {#organization_organization_date_last_cited}
 
 If there is only one citation for a relationship, and the citation is not for the end of that relationship, leave this field blank and only put the date in the Date of first citation for parent organization.
 
-### Source: Date of last citation for parent organization
-
-Only put the citation for the latest date here.
-If there is only one citation put it in the Source: Date of first citation for parent organization field, if appropriate, and leave this field blank.
-
-### Confidence: Date of last citation for parent organization
+Note that for ```Source: Date of last citation for parent organization``` only put the citation for the latest date. If there is only one citation put it in the Source: Date of first citation for parent organization field, if appropriate, and leave this field blank.
 
 ## Assume Parent Organization and Relationship to Current Date? \(Y/N\) {#organization_organization_assume_to_current_date}
 
@@ -150,10 +121,6 @@ This field is used to record data about units that have a uniquely named buildin
 >Example: ```3 Battalion``` in Nigeria is cited as being based in the ```Lubanga Barracks``` in ```Enugu, Enugu State, Nigeria```.  
 
 This field should not be used for anything that matches the name or alias of a organization. For example, ``` North Sector Police Station``` should not be put in this field if the name of the organization is ```North Sector Police Station```.
-
-### Source: Headquarters
-
-### Confidence: Headquarters
 
 ## City or smallest administrative unit GeoName {#organization_geonames_name}
 
@@ -177,19 +144,11 @@ Geoname data will be shared with you and we will do a separate training on it. Y
 
 This is tied to the matching Geoname.
 
-### Source: City or smallest administrative unit
-
-### Confidence: City or smallest administrative unit
-
 ## ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname {#organization_admin_level_1_geonames_name}
 
 As a unit can be based in multiple cities, that means it can be based in cities in different ADMIN1 as well. Make sure the ADMIN1 matches the city on the row it is on.
 
 ## ADMIN1 \(state, province, governorate, or other largest administrative unit\) GeonameID {#organization_admin_level_1_geonames_id}
-
-### Source: ADMIN1
-
-### Confidence: ADMIN1
 
 ## Site: division\_id {#organization_site_division_id}
 
@@ -203,10 +162,6 @@ The division\_id enables the system to identify which country this organization 
 This field is for the earliest citation for the unit being located at City or smallest administrative unit GeoName if there is no City or smallest administrative unit then use the earliest citation for ADMIN1.
 Always default to City or smallest administrative unit when you have that information.
 
-### Source: Date of first citation
-
-### Confidence: Date of first citation
-
 ## Is this the founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
 
 This field is a simple Y \(for yes\) or N \(for no\) that is tied to the City or ADMIN1 of an organization.
@@ -219,10 +174,6 @@ If we can answer "yes this organization began being based in this city or ADMIN1
 ## Site: Date of last citation \(MM/DD/YYYY\) {#organization_site_date_last_cited}
 
 Follow the same rules as Site: Date of first citation.
-
-### Source: Date of last citation
-
-### Confidence: Date of last citation
 
 ## Assume Site \(City or smallest administrative unit GeoName and/or AMIN1\) to Current Date? \(Y/N\) {#organization_site_date_last_cited_assume_to_current_date}
 
@@ -252,29 +203,17 @@ Often we can infer the AOO of police units based on a crime being reported to th
 >Example: It is stated in an article that “The Rivers State Police Command yesterday confirmed the death of a clergyman, Pastor Geoffrey Ogagaghene at Ohalia-Elu town in Ogba/Egbema/Ndoni local government area of the State. The clergyman was reportedly killed by suspected herdsmen who were on a reprisal attack over the alleged stealing of their cattle. Media reports had it that more than six persons were killed. The Rivers State Police Command Public Relations Officer, Ahmad Muhammad said in a press statement in Port Harcourt yesterday that only one person was killed. He said assailants suspected to be herdsmen struck in Ohali-Elu and killed one Pastor, that the crisis was heightened because unspecified number of cows were allegedly stolen. He said, "The Command found it instructive to state that on Thursday 30/03/2016 about 5:30 am the police in Egi Division received a report that on Wednesday 29/03/2016, about 10:00 pm unidentified assailants suspected to be herdsmen struck in Ohali-Elu town leaving one pastor, Geoffrey Ogagaghene with severe cutlass cuts that later led to his death.”  
 >In this case  the organization would be ```Egi Division```, and it would have an ```AOO``` of ```Ogba/Egbema/Ndoni``` local government area with a first citation date of ```29 March 2016```.
 
+Note that ```Source: Area of Operations``` covers all citations for ```Area of Operations``` fields.
+
 ## Area of Operations: GeonameID {#organization_area_geonames_id}
 
 ## Area of Operations: division\_id {#organization_area_division_id}
 
-### Source: Area of Operations
-
-This field is for all citations for the AOO.
-
-### Confidence: Area of Operations
-
 ## Date of first citation for area of operations \(MM/DD/YYYY\) {#organization_area_date_first_cited}
 
-### Source: Date of first citation for area of operations
-
-Follow the rules for date of first citation of parent units and sites outlined above. Only put the earliest date here unless the only citation you have is for the end of an AOO in which case put it in the Date of last citation for area of operations.
-
-### Confidence: Date of first citation for area of operations
+For ```Source: Date of first citation for area of operations``` follow the rules for date of first citation of parent units and sites outlined above. Only put the earliest date here unless the only citation you have is for the end of an AOO in which case put it in the Date of last citation for area of operations.
 
 ## Date of last citation for area of operations \(MM/DD/YYYY\) {#organization_area_date_last_cited}
-
-### Source: Date of last citation for area of operations
-
-### Confidence: Date of last citation for area of operations
 
 ## Assume Area of Operations to Current Date? \(Y/N\) {#organization_area_date_late_cited_assume_to_current}
 
@@ -292,23 +231,11 @@ Generally this means one of two things:
 2\) Multiple units “lend” or otherwise deploy personnel who operate under the command of a Joint Task Force or Operation, usually which has a commander of its own. 
 >Example: soldiers from ```1 Division``` are deployed to the northeast of Nigeria to operate under ```Operation BOYANA```. ```1 Division``` has a commander, but the soldiers as part of ```Operation BOYANA``` likely report to and take orders from the commander of ```Operation BOYANA```. When the soldiers are done with their rotation, after several months, they return to their “home unit” ```1 Division```. So while ```Operation BOYANA``` commands some soldiers who are part of ```1 Division``` it doesn’t technically command all of the soldiers of ```1 Division``` \(otherwise it would be the parent unit\) These operations - joint task forces, and so on - should have their own distinct ```Organization``` entries.
 
-### Source: Other affiliation \(like joint task force\)
-
-### Confidence: Other affiliation \(like joint task force\)
-
 ## Date of first citation for affiliation \(MM/DD/YYYY\) {#organization_affiliation_date_first_cited}
 
 Follow the rules for parent units, sites, AOOs for the dates/citations.
 
-### Source: Date of first citation for affiliation
-
-### Confidence: Date of first citation for affiliation
-
 ## Date of last citation for affiliation \(MM/DD/YYYY\) {#organization_affiliation_date_last_cited}
-
-### Source: Date of last citation for affiliation
-
-### Confidence: Date of last citation for affiliation
 
 ## International affiliation \(like UN peacekeeping\) {#organization_affiliation_international}
 
@@ -321,23 +248,11 @@ Peacekeeping missions are often referred to informally. Find the formal name on 
 If there is a specific unit designation given to the peacekeeping force - for example ```NIBATT 12``` or ```Nigerian Battalion 12``` - we would use that as the International affiliation.
 We would enter ```Nigerian Battalion 12``` as its own organization and make its parent unit the peacekeeping mission \(which would also be entered as its own organization\).
 
-### Source: International affiliation \(like UN Peacekeeping\)
-
-### Confidence: International affiliation \(like UN Peacekeeping\)
-
 ## Date of first citation for international affiliation \(MM/DD/YYYY\) {#organization_affiliation_international_date_first_cited}
 
 Follow the rules for parent units, Sites, AOOs and so on that have been laid out above.
 
-### Source: Date of first citation for international affiliation
-
-### Confidence: Date of first citation for international affiliation
-
 ## Date of last citation for international affiliation \(MM/DD/YYYY\) {#organization_affiliation_international_date_last_cited}
-
-### Source: Date of last citation for international affiliation
-
-### Confidence: Date of last citation for international affiliation
 
 ## Notes {#organization_notes}
 
