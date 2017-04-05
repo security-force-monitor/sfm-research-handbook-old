@@ -13,9 +13,9 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Role | The role the person serves in the organization |  |
 | Title \(official title\) | The title \(if any\) of the person |  |
 | Rank | The rank \(if any\) of the person |  |
-| First citation |  |  |
+| First citation | First source, by date, evidencing a relationship |  |
 | Start date? \(Y/N\) |  |  |
-| Last citation |  |  |
+| Last citation | Last source, by date, evidencing a relationship |  |
 | End date? \(Y/N\) |  |  |
 | Notes |  |  |
 
