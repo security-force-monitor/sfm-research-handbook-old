@@ -1,6 +1,19 @@
 # Persons
 
-Persons are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time. 
+Persons are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time.
+
+## Summary of person fields
+
+| Name of Field | Description | Example of Use |
+| :--- | :--- | :--- |
+| ID | Unique identifier for the person | a848de4e-ebeb-49d6-9099-7e68ca3b57fc |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 ## ID {#person_id}
 
