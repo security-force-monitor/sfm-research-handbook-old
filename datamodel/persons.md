@@ -17,7 +17,7 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Start date? \(Y/N\) | Is the first citation the date this person begun their affiliation with the organization? |  |
 | Last citation | Last source, by date, evidencing a relationship |  |
 | End date? \(Y/N\) | Is the last citation the date this person ceased to have an affiliation with the organization? |  |
-| Notes |  |  |
+| Notes | Anything else relevant about this person that is not covered above |  |
 
 ## ID {#person_id}
 
