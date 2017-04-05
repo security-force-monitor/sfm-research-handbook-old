@@ -182,11 +182,15 @@ Geoname data will be shared with you and we will do a separate training on it. Y
 
 This is tied to the matching OpenStreetMaps entry.
 
-## ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname {#organization_admin_level_1_geonames_name}
+## Highest level subnational boundary OpenStreetMaps {#organization_admin_level_1_geonames_name}
 
-As a unit can be based in multiple cities, that means it can be based in cities in different ADMIN1 as well. Make sure the ADMIN1 matches the city on the row it is on.
+The Monitor always selects the highest level subnational boundary in OpenStreetMaps - you can find a list here: [http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative\#Super-national\_administrations](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations)
 
-## ADMIN1 \(state, province, governorate, or other largest administrative unit\) GeonameID {#organization_admin_level_1_geonames_id}
+For example Mexico has both municipios \(admin level 6 in OSM\) and states \(admin level 4\). The state \(admin level 4\) would be the appriopriate entry for an organization based in Mexico.
+
+## Highest level subnational boundary OpenStreetMaps ID {#organization_admin_level_1_geonames_id}
+
+This would be the ID attached to the OSM entry from above.
 
 ## Site: division\_id {#organization_site_division_id}
 
