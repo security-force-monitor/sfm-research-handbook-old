@@ -15,7 +15,7 @@ While considerable technological and methodological advances have improved the d
 
 There is a great deal of publicly available data on security forces, but it is unstructured and scattered amongst a wide variety of sources, making it prohibitively costly for those engaged in public interest work to understand the security forces of a particular country. The Security Force Monitor – a project of the [Columbia Law School Human Rights Institute](http://web.law.columbia.edu/human-rights-institute) – aims to solve this problem by structuring public data on security forces to empower and inform journalism, human rights reporting and other public interest work.
 
-The Monitor will compile data from government sources, local and international news media, civil society reporting and other sources, assign a confidence level, and provide. This data will be published online using open source technologies and data visualization techniques. Researchers, journalists and other users will be able to explore the data in lots of different ways:
+The Monitor compiles data from government sources, local and international news media, civil society reporting and other sources, assign a confidence level, and provide. This data will be published online using open source technologies and data visualization techniques. Researchers, journalists and other users will be able to explore the data in lots of different ways:
 
 * Charts documenting the organizational and command hierarchies of police, military and security forces
 * Maps of the location and jurisdiction of security forces
