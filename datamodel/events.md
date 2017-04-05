@@ -4,7 +4,7 @@
 
 Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description.
 
-|  |  |  |
+| Name of field | Description | Example of use |
 | :--- | :--- | :--- |
 | ID |  |  |
 | Start Date |  |  |
@@ -14,6 +14,7 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | City or other Node OpenStreetMaps ID |  |  |
 | Highest level subnational boundary OpenStreetMaps |  |  |
 | Highest level subnational boundary OpenStreetMaps ID |  |  |
+| division\_id |  |  |
 | Violation type |  |  |
 | Description |  |  |
 | Perpetrator name |  |  |
