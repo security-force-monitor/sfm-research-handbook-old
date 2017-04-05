@@ -14,9 +14,9 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Title \(official title\) | The title \(if any\) of the person |  |
 | Rank | The rank \(if any\) of the person |  |
 | First citation | First source, by date, evidencing a relationship |  |
-| Start date? \(Y/N\) |  |  |
+| Start date? \(Y/N\) | Is the first citation the date this person begun their affiliation with the organization? |  |
 | Last citation | Last source, by date, evidencing a relationship |  |
-| End date? \(Y/N\) |  |  |
+| End date? \(Y/N\) | Is the last citation the date this person ceased to have an affiliation with the organization? |  |
 | Notes |  |  |
 
 ## ID {#person_id}
