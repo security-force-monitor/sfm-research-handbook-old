@@ -11,7 +11,7 @@ The Research Handbook is a living document, and is updated during the course of 
 
 ## About Security Force Monitor
 
-The Security Force Monitor aims to increase the transparency and accountability of police, military and other security forces. Security forces are often opaque, making it difficult for human rights researchers, journalists or others engaged in public interest work to find the answers to even simple questions, such as:
+The Security Force Monitor is a project of the [Columbia Law School Human Rights Institute](http://www.law.columbia.edu/human-rights-institute) that aims to increase the transparency and accountability of police, military and other security forces. Security forces are often opaque, making it difficult for human rights researchers, journalists or others engaged in public interest work to find the answers to even simple questions, such as:
 
 * Who is in charge of the specialized anti-riot police unit?
 * What army unit has jurisdiction over what areas?
