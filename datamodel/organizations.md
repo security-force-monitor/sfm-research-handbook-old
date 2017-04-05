@@ -200,12 +200,10 @@ If during the course of research a source ties an Organization ot a City or othe
 
 ## Is this the founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
 
-This field is a simple Y \(for yes\) or N \(for no\) that is tied to the Site \(either the City or other Node Name in OpenStreetMaps or the .  
-This field is for the earliest citation for the unit being located at City or smallest administrative unit GeoName if there is no City or smallest administrative unit then use the earliest citation for ADMIN1.  
-Always default to City or smallest administrative unit when you have that information.  
+This field is a simple Y \(for yes\) or N \(for no\) that is tied to the Site \(either the City or other Node Name in OpenStreetMaps or the Highest level subnational boundary OpenStreetMaps depending\). Always default to City or other Node when you have that information.  
 The main question for this field is - is the date the first time the organization was based in the city \(i.e. was it founded in this city on this date\)? Put another way - did this organization exist in this city before this date?  
 If we don't know we record `N` in this field.  
-If we can answer "yes this organization began being based in this city or ADMIN1 as of this date" we record `Y`.
+If we can answer "yes this organization began being based in this city or highest level subnational boundary as of this date" we record `Y`.
 
 ## Site: Date of last citation \(MM/DD/YYYY\) {#organization_site_date_last_cited}
 
