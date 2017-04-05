@@ -2,7 +2,7 @@
 
 Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, armed forces, navy, air force and other national security bodies. Organizations refer to any any part of the hierarchy of a security force, ranging from a national defence ministry, to a police unit based in a small town. Organizations can also be groupings of organizations that occur, such as operations or peacekeeping missions.
 
-## Summary of organization fields 
+## Summary of organization fields
 
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
@@ -16,18 +16,18 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Date of first citation for parent relationship](#organization_organization_date_first_cited) | First source, by date, evidencing a relationship | _1999-02-01_ |
 | [Date of last citation for parent relationship](#organization_organization_date_last_cited) | The last source, by date, evidencing a relationship | _2016-07-05_ |
 | [Assume parent relationship to current date?](#organization_organization_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Headquarters](#organization_headquarters)| Uniquely named barracks, base, physical asset for this organization | _Tuxtla Gutiérrez_ |
-| [City or smallest administrative unit GeoName](#organization_geonames_name) | City or smallest administrative unit GeoName | _Tuxtla Gutiérrez_ |
-| [City or smallest administrative unit GeoNameID](#organization_geonames_id) | ID number linked to above GeoName | _269911529_ |
-| [ADMIN1 GeoName](#organization_admin_level_1_geonames_name) | GeoName of first-level administrative area | _Chiapas_ |
-| [ADMIN1 GeoName ID](#organization_admin_level_1_geonames_id)| GeoName ID number of first-level administrative area | _2556679_ |
-| [Site: division\_id](#organization_site_division_id)| Country | _mx_ |
+| [Headquarters](#organization_headquarters) | Uniquely named barracks, base, physical asset for this organization | _Tuxtla Gutiérrez_ |
+| [City or ](#organization_geonames_name)other Node in OpenStreetMaps | City or other Node in OpenStreetMaps | _Tuxtla Gutiérrez_ |
+| [City or o](#organization_geonames_id)ther Node in OpenStreetMaps ID | ID number linked to above OpenStreetMap Node | _269911529_ |
+| [H](#organization_admin_level_1_geonames_name)ighest level subnational boundary OpenStreetMaps | Highest level [subnational boundary in OpenStreetMaps](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations) | _Chiapas_ |
+| [Highest level subnational boundary OpenStreetMaps ID](#organization_admin_level_1_geonames_id) | OpenStreetMaps ID number of highest level subnational boundary | _2556679_ |
+| [Site: division\_id](#organization_site_division_id) | Country | _mx_ |
 | [Site: Date of first citation](#organization_site_date_first_cited) | First source, by date, evidencing a site | _2004-02-08_ |
 | [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
 | [Site: Date of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
 | [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Area of Operations: GeoName](#organization_area_geonames_name) | GeoName of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
-| [Area of Operations: GeoNamesId](#organization_area_geonames_id) | GeoName ID of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _2556679_ |
+| [Area of Operations: O](#organization_area_geonames_name)penStreetMaps | OpenStreetMaps name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
+| [Area of Operations: O](#organization_area_geonames_id)penStreetMaps ID | ID for OpenStreetMaps entry from above | _2556679_ |
 | [Area of Operations: Division ID](#organization_area_division_id) | Country of Area of Operations | _mx_ |
 | [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
 | [Area of Operations: Date of last citation](#organization_area_date_last_cited) | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
@@ -39,8 +39,6 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [International affiliation: Date of first citation](#organization_affiliation_international_date_first_cited) | First source, by date, evidencing this affiliation | _2003-05-08_ |
 | [International affiliation: Date of last citation](#organization_affiliation_international_date_last_cited) | Last source, by date, evidencing this affiliation | _2011-03-23_ |
 | [Notes](#organization_notes) | Anything else relevant about this organization that is not covered above | _Organization was trained by US forces in 2010_ |
-
-
 
 ## ID {#organization_id}
 
