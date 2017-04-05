@@ -1,6 +1,6 @@
 # Sources and Confidence
 
-Every piece of data in Security Force Monitor has at least one source. Confidence scores are given to every piece of data from the Monitor's research, however, confidence scores are not given to any data related to alleged Events, as they are republications of the work of other organizations.
+Every piece of data in Security Force Monitor has at least one source. Confidence scores are given to every piece of data from the Monitor's research with the exception of  data related to alleged `events. `This is because they are simply republications of the work of other organizations.
 
 ## Sources
 
@@ -8,7 +8,7 @@ Every piece of data in Security Force Monitor has at least one source. Confidenc
 
 Every data point in Security Force Monitor must have one or more sources associated with it. A source should be recorded in this format:
 
-> Title of article or website page. Name of publishing organization (country of organization). Date. url. Internet Archive link: url
+> Title of article or website page. Name of publishing organization \(country of organization\). Date. url. Internet Archive link: url
 
 For example:
 
@@ -21,10 +21,10 @@ We include the country information because there could be a publication with the
 
 ### Date {#source_date}
 
-When recording the date of a source for use in its citation,  we always use the format ```DAY MONTH YEAR (DD MMMM YYYY)```
+When recording the date of a source for use in its citation,  we always use the format `DAY MONTH YEAR (DD MMMM YYYY)`
 
-> 20 January 2012
-> 7 July 2016
+> 20 January 2012  
+> 7 July 2016  
 > 9 November 1999
 
 ### Which archived URL to use {#source_which_archive_url}
@@ -35,24 +35,25 @@ You may come across a source citation that includes a link that is not available
 
 > Army, Navy Redeploy Senior Officers. This Day \(Nigeria\). 13 February 2014. [http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/](http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/)
 
-If you try to access the link, you'll get nowhere. When you look up the link in the Internet Archive, however, you'll find that it's been saved two times and you are thus able to access it. When you do that, don't forget to update the source citation so others can access the article without searching for it in the following way:
+If you try to access the link, you'll get nowhere. When you look up the link in the Internet Archive, however, you'll find that it's been saved two times and you are thus able to access it. When you do that, don't forget to update the source citation so others can access the article without searching for it. Do it in the following way:
 
 > Army, Navy Redeploy Senior Officers. This Day \(Nigeria\). 13 February 2014. [http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/](http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/) Internet Archive link: [https://web.archive.org/web/20140307081703/http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306](https://web.archive.org/web/20140307081703/http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306)
 
 ## Confidence {#source_confidence}
 
-Each data point \(except those tied to alleged Events\) has a confidence score attached to it. The confidence scores only relate to the specific data point to which they are attached.
+Each data point \(except those tied to alleged `events`\) has a confidence score attached to it. The confidence scores only relate to the specific data point to which they are attached.
 
-For instance, a wide variety of sources could agree on `1 Division` as the name of an organization. A confidence score of `High` could be assigned to this data point. However, if there is only one source for `One Division` as an alias, a confidence score of `Low` would be merited.
+For instance, a wide variety of sources could agree on `1 Division` as the name of an `organization`. A confidence score of `High` could be assigned to this data point. However, if there is only one source for `One Division` as an alias, a confidence score of `Low` would be merited.
 
 Confidence scores are determined first by what is agreed about the overall structure and nature of the security forces by reputable sources \(government, major reports/books and other sources of high quality information\). For example, if we know a police force is divided into Police Divisions and Police Stations and come across a source that references a Police Division, we would accept that with Low confidence as this agrees with what is generally known about the structure of the police. Conversely, if we came across a source that referenced a "Police Command Zone" we would want to do more research first before including it, as this does not fit into what is generally known about the structure of the police.
 
-The Confidence scores assigned to each data point are also influenced by the number of confirming sources and the time frame of those sources. For example, if 50 sources agree that in 2012 the 1 Battalion was based in the New York City, we would have High confidence that 1 Battalion was based in New York City in 2012. However, if we had one additional source that said the 1 Battalion was based in New York in 1961, the entry would change to have the 1 Battalion based in New York City from at least 1961 to at least 2012 and the confidence score should be downgraded to Low, since only one source places the 1 Battalion in New York City in 1961 and the Battalion could have left anytime between 1962 and 2011.
+The Confidence scores assigned to each data point are also influenced by the number of confirming sources and the time frame of those sources. For example, if 50 sources agree that in 2012 the `1 Battalion` was based in the New York City, we would have High confidence that `1 Battalion` was based in New York City in 2012. However, if we had one additional source that said the `1 Battalion` was based in New York in 1961, the entry would change to have the `1 Battalion` based in New York City from at least 1961 to at least 2012 and the confidence score should be downgraded to `Low`, since only one source places `1 Battalion` in New York City in 1961 and the Battalion could have left anytime between 1962 and 2011.
 
 _**Remember there is no source "gold standard"**_. All types of sources can get geography wrong, make spelling errors, contain conflicting information, etc. Also, just because a source makes a mistake does not make it a "bad" or "unreliable" source! Every time you are looking at a source you should be asking yourself:
 
- * "Does this make sense with what we already know?"
- * "Is it possible this source is correct and contradictory information is wrong?"
- * "Do I have enough information to accept or reject what this source says?"
+* "Does this make sense with what we already know?"
+* "Is it possible this source is correct and contradictory information is wrong?"
+* "Do I have enough information to accept or reject what this source says?"
 
 All data points begin with a confidence score of `Low` until a confluence of sources merit the designation of `Medium`. The gap between upgrading the confidence score of a data point from `Low` to `Medium` is smaller than  when moving from `Medium to High`.
+
