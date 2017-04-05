@@ -10,7 +10,7 @@ Use your mouse wheel - or -
 
 Click the "+" or "-" buttons at the bottom of the map
 
-![](/assets/Screenshot of zoom buttons.jpg)
+![](/userguide/assets/Screenshot of zoom buttons.jpg)
 
 To move the map around you can click and drag your mouse cusor
 
@@ -22,11 +22,11 @@ To move the map around you can click and drag your mouse cusor
 
 #### **Legend**
 
-![](/assets/Screenshot legend_country.jpg)
+![](/userguide/assets/Screenshot legend_country.jpg)
 
 Clicking Legend displays three selections: _Events_, _Installations_ and _Area of Operations_. To learn more about what each of those terms mean, visit our **Glossary of Terms**.
 
-![](/assets/Screenshot legend selected_country.jpg)
+![](/userguide/assets/Screenshot legend selected_country.jpg)
 
 Clicking any of the selections will make the Map only display data tied to that selection. For example, clicking on Events will remove all other data from the Map and only show data on Events. You can choose to only display one selection, only two, or all three.
 
@@ -40,11 +40,11 @@ Clicking any of the selections will make the Map only display data tied to that 
 
 At the bottom of the screen you'll see the _Timeline_.
 
-![](/assets/screenshot of timeline.jpg)
+![](/userguide/assets/screenshot of timeline.jpg)
 
 The timeline allows you to see what the data the Security Force Monitor has at different points in time. The goal is to make it easy for you to move through time and see how the map of the security forces area of operations and installations change. When you first come to a country the date selected is the current date. You can see the selected date in the small box in the left hand corner of your screen.
 
-![](/assets/screenshot of date selection.jpg)
+![](/userguide/assets/screenshot of date selection.jpg)
 
 **You can change the selected date by clicking on the timeline.** To move further backwards in time click and drag the timeline. It will stop moving when you release your mouse. If you go too far back, you can always click and drag the timeline forward.
 
@@ -70,9 +70,9 @@ Clicking on an Installation, Event or Area of Operations will bring up a mini-do
 
 1. _Click View Dossier_ - This will take you to the full dossier which you can learn more about in the **Dossier section of this guide**.
 
-![](/assets/screenshot of View Dossier.jpg)
+![](/userguide/assets/screenshot of View Dossier.jpg)
 
 1. _Click Chart_ - Clicking this will take you to the Chart, which you can learn more about in the **Chart section of this guide**.
 
-![](/assets/screenshot of Chart.jpg)
+![](/userguide/assets/screenshot of Chart.jpg)
 
