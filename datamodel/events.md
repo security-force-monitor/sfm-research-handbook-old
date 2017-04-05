@@ -10,7 +10,7 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | Start Date |  |  |
 | End Date |  |  |
 | Location |  |  |
-|  |  |  |
+| City or other Node Name in OpenStreetMaps |  |  |
 |  |  |  |
 |  |  |  |
 
@@ -72,7 +72,7 @@ Often a person is arrested and, for example, beaten at a specific site \(and the
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one `event` and abuses committed or otherwise tied to site of detention a separate `event`.
 
-## City or smallest administrative unit GeoName {#event_geonames_name}
+## City or other Node Name in OpenStreetMaps {#event_geonames_name}
 
 The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city or an LGA if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported. Note that often the location mentioned could be either a city or the LGA in which the city is based. In such cases, list the LGA and the associated GeoName.
 
