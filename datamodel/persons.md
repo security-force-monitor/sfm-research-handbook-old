@@ -63,15 +63,21 @@ This column record the rank of the individual, as a style issue the Monitor remo
 
 This field is for the earliest source the Monitor has showing an affiliation between this person and the organization. If the person's role, title or rank changes a new entry will need to created to document that change and a new first or last citation created to mark the change.
 
-Role, Titles and Ranks are assumed until a source indicates a change. 
+Role, Titles and Ranks are assumed until a source indicates a change.
 
-Example - If a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the revelevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10, however, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10.
+> For example - If a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the revelevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10, however, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10
 
 ## Start date? \(Y/N\) {#person_date_first_cited_is_start}
 
+If the date of first citation is first 
+
 ## Last citation {#person_date_last_cited}
 
+##  {#person_date_last_cited_is_end}
+
 ## End date? \(Y/N\) {#person_date_last_cited_is_end}
+
+##  {#person_notes}
 
 ## Notes {#person_notes}
 
