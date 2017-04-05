@@ -10,5 +10,5 @@ Once you’ve selected your country a country summary screen will come up on the
 
 The prototype has four main features to aid your research: **the map**, **the dossier**, **the chart**, and **the search**.
 
-When you are ready to continue click on the screen to bring up the first tool, **the Map**.
+When you are ready to continue click on the screen to bring up the first tool, [**the Map**](//userguide/map.md).
 

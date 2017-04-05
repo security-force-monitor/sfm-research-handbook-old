@@ -62,6 +62,7 @@ Clicking on an Installation, Event or Area of Operations will bring up a mini-do
 
 ![Security Force Monitor prototype - screenshot of view dossier](/userguide/assets/screenshot of View Dossier.jpg)
 
-1. _Click Chart_ - Clicking this will take you to the Chart, which you can learn more about in the **Chart section of this guide**.
+1. _Click Chart_ - Clicking this will take you to the Chart, which you can learn more about in the [**Chart section of this guide**.](//userguide/chart.md)
 
 ![Security Force Monitor prototype - screenshot of chart](/userguide/assets/screenshot of Chart.jpg)
+
