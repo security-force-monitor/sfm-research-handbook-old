@@ -255,11 +255,11 @@ The division\_id enables the system to identify which country the area of operat
 > For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
 > You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
-## Date of first citation for area of operations \(MM/DD/YYYY\) {#organization_area_date_first_cited}
+## Date of first citation for area of operations {#organization_area_date_first_cited}
 
 For `Source: Date of first citation for area of operations` follow the rules for date of first citation of parent units and sites outlined above. Only put the earliest date here unless the only citation you have is for the end of an AOO in which case put it in the Date of last citation for area of operations.
 
-## Date of last citation for area of operations \(MM/DD/YYYY\) {#organization_area_date_last_cited}
+## Date of last citation for area of operations {#organization_area_date_last_cited}
 
 ## Assume Area of Operations to Current Date? \(Y/N\) {#organization_area_date_late_cited_assume_to_current}
 
