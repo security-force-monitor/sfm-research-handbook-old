@@ -73,7 +73,7 @@ If the date of first citation is start of this person's affiliation with the org
 
 ## Last citation {#person_date_last_cited}
 
-##  {#person_date_last_cited_is_end}
+This field is for the latest source the Monitor has showing an affiliation between this person and the organization. If the person's role, title or rank changes a new entry will need to created to document that change and a new first or last citation created to mark the change.
 
 ## End date? \(Y/N\) {#person_date_last_cited_is_end}
 
