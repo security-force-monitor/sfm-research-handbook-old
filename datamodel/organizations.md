@@ -32,12 +32,12 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
 | [Area of Operations: Date of last citation](#organization_area_date_last_cited) | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
 | [Area of Operations: Assume to current date?](#organization_area_date_last_cited_assume_to_current) | Do we have evidence to say this Area of Responsibility continues after the last source date? | _Y_ |
-| [Other affiliation](#organization_affiliation) | Memberships or attachments to internal/national joint operations, operations, or other multi-unit efforts. | _Operation Pulo Shield_ |
+| [Other affiliation](#organization_affiliation) | Memberships or attachments to internal/national joint operations, peacekeeping operations, or other multi-unit efforts. | _Operation Pulo Shield_ |
 | [Other affiliation: Date of first citation](#organization_affiliation_date_first_cited) | First source, by date, evidencing this affiliation | _2003-02-02_ |
 | [Other affiliation: Date of last citation](#organization_affiliation_date_last_cited) | Last source, by date, evidencing this affiliation | _2005-03-09_ |
-| [International affiliation](#organization_affiliation_international) | memberships or attachments to internal operations like UN Peacekeeping | _UNAMSIL_ |
-| [International affiliation: Date of first citation](#organization_affiliation_international_date_first_cited) | First source, by date, evidencing this affiliation | _2003-05-08_ |
-| [International affiliation: Date of last citation](#organization_affiliation_international_date_last_cited) | Last source, by date, evidencing this affiliation | _2011-03-23_ |
+| TO DELETE |  |  |
+| TO DELETE |  |  |
+| TO DELETE |  |  |
 | [Notes](#organization_notes) | Anything else relevant about this organization that is not covered above | _Organization was trained by US forces in 2010_ |
 
 ## ID {#organization_id}
