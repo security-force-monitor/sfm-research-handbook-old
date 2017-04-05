@@ -69,7 +69,7 @@ Role, Titles and Ranks are assumed until a source indicates a change.
 
 ## Start date? \(Y/N\) {#person_date_first_cited_is_start}
 
-If the date of first citation is first 
+If the date of first citation is start of this person's affiliation with the organization or the start date of their Role, Title or Rank put Y here. Otherwise, mark N.
 
 ## Last citation {#person_date_last_cited}
 
