@@ -25,7 +25,7 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 
 ## ID {#event_id}
 
-Please use this field to put your name/initials and date on rows you enter data on. In the future this field will be used to create an unique identifier for each `event` in the Monitor’s database.
+Security Force Monitor's data entry tool will automatically create a unique ID for every `person`, `organization` and `event` in the dataset.
 
 ## Start Date {#event_start_date}
 
