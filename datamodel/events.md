@@ -11,6 +11,8 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | End Date |  |  |
 | Location |  |  |
 | City or other Node Name in OpenStreetMaps |  |  |
+| City or other Node OpenStreetMaps ID |  |  |
+|  |  |  |
 |  |  |  |
 |  |  |  |
 
@@ -74,9 +76,9 @@ In such instances, researchers should consider the initial arrest and transporta
 
 ## City or other Node Name in OpenStreetMaps {#event_geonames_name}
 
-The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city or an LGA if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported. Note that often the location mentioned could be either a city or the LGA in which the city is based. In such cases, list the LGA and the associated GeoName.
+The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city, if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported.
 
-## City or smallest administrative unit GeoNameID {#event_geonames_id}
+## City or other Node OpenStreetMaps ID {#event_geonames_id}
 
 ## ADMIN 1 GeoName {#event_geonames_admin_1_geonames_name}
 
