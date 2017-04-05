@@ -76,3 +76,6 @@
  * [Event: Perpetrator Organization](events.md#event_perpetrator_organization)
  * [Event: Perpetrator Classification](events.md#event_perpetrator_classification)
 
+### User guide
+
+* [Introduction](userguide/README.md)
