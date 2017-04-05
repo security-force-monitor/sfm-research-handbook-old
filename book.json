@@ -1,0 +1,9 @@
+{
+    "plugins": ["anchorjs"],
+    "pluginsConfig": {
+        "anchorjs": {
+            "placement": "left",
+            "visible": "always"
+        }
+    }
+}
