@@ -7,13 +7,17 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Name of Field | Description | Example of Use |
 | :--- | :--- | :--- |
 | ID | Unique identifier for the person | a848de4e-ebeb-49d6-9099-7e68ca3b57fc |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Name | Person's Name |  |
+| Aliases or alternative spellings |  |  |
+| Organization | The organization that the individual is affiliated with |  |
+| Role |  |  |
+| Title \(official title\) |  |  |
+| Rank |  |  |
+| First citation |  |  |
+| Start date? \(Y/N\) |  |  |
+| Last citation |  |  |
+| End date? \(Y/N\) |  |  |
+| Notes |  |  |
 
 ## ID {#person_id}
 
@@ -29,11 +33,11 @@ If an individual has held multiple positions within the security forces each pos
 
 The full CMS will make this easy to do - while it's being built as a temporary fix place a \(1\) after their name so the system knows that John Smith is promoted from Major to General --- or that John Smith serves with the 21 Battalion until 2011 when he was transferred to the 22 Brigade.
 
-## Aliases or alternative spellings \(semicolon separated\) {#person_other_names}
+## Aliases or alternative spellings {#person_other_names}
 
 ## Organization {#person_organization}
 
-The organization that the individual is affiliated with. This organization must have an entry in an Organizations sheet.
+The organization that the individual is affiliated with. This organization must exist as an entry in the Monitor.
 
 ## Role {#person_role}
 
@@ -60,21 +64,13 @@ This column is to record titles that individuals have that are separate from the
 
 This column record the rank of the individual, as a style issue the Monitor removes dashes in ranks e.g. record an individual as Brigadier General rather than Brigadier-General.
 
-## First citation \(MM/DD/YYYY\) {#person_date_first_cited}
+## First citation {#person_date_first_cited}
 
 ## Start date? \(Y/N\) {#person_date_first_cited_is_start}
 
-## Context for start date {#person_date_first_cited_context}
-
-Entries for this column should be kept to one word if possible - entries include appointed or transferred or promoted.
-
-## Last citation \(MM/DD/YYYY\) {#person_date_last_cited}
+## Last citation {#person_date_last_cited}
 
 ## End date? \(Y/N\) {#person_date_last_cited_is_end}
-
-## Context for end date {#person_date_last_cited_context}
-
-Entries for this column should be kept to one word if possible - entries include transferred,  promoted, retired, arrested, or killed.
 
 ## Notes {#person_notes}
 
