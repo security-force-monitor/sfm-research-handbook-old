@@ -221,7 +221,7 @@ For historical basing or for instances where the longevity of a unit being based
 
 ## Area of Operations: OpenStreetMaps Name {#organization_area_geonames_name}
 
-Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner - for all organizations.
+Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner.
 
 AOOs are tied to the smallest formal geographic area possible. The areas generally follow the geographic sub-divisions of a country. This often means that the AOO is somewhat generalized because countries often do not have that many sub-divisions.
 
@@ -229,10 +229,11 @@ Organizations can have multiple AOOs at the same time - create a separate row fo
 
 If the boundaries of their AOO is unclear the researcher should choose the highest level geographic area as the AOO.
 
-> Example: a unit is described as operating “throughout California”. Here, use the entire State of California as the AOO and rate the entry with Low confidence. Or a unit operates “along the border” of two provinces - choose both provinces \(creating two separate records\) for each province.
+> Example: a unit is described as operating “throughout California”. Here, use the entire State of California as the AOO and rate the entry with Low confidence. Or a unit operates “along the border” of two provinces - choose both provinces \(creating two separate records\) for each province. 
+>
+> The researcher should put a note in the Notes field indicating that AOO was only given as “throughout California” or “along the border” of two provinces.
 
-The should put a note in the Notes field indicating that AOO was only given as “throughout California” or “along the border” of two provinces.  
-If a unit conducts an operation in a city - ie “police raided a home in Ciudad Juarez” - use the ADMIN2 \(county, municipio, local government area, etc\) that Ciudad Juarez is located in.
+If a unit conducts an operation in a city - ie “police raided a home in Ciudad Juarez” the researcher should use the smallest subnational bounary that contains Ciudad Juarez.
 
 This will require some research - an analyst will need to familiarize themselves with the geographic divisions of the country they are researching as they will be returning to these again and again.
 
