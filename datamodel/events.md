@@ -2,7 +2,7 @@
 
 `Events` are publicly-documented actions by security force personnel that constitute human rights violations. These include extrajudicial killings, rape, torture and other forms of violence.
 
-Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description, separated by a semicolon.
+Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description.
 
 ## ID {#event_id}
 
@@ -60,7 +60,7 @@ In such instances, researchers should consider the initial arrest and transporta
 
 ## City or smallest administrative unit GeoName {#event_geonames_name}
 
-The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city or an LGA if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event `reporting, only to transcribe what other groups have reported. Note that often the location mentioned could be either a city or the LGA in which the city is based. In such cases, list the LGA and the associated GeoName.
+The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city or an LGA if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported. Note that often the location mentioned could be either a city or the LGA in which the city is based. In such cases, list the LGA and the associated GeoName.
 
 ## City or smallest administrative unit GeoNameID {#event_geonames_id}
 
@@ -76,7 +76,7 @@ In this field, the Monitor uses entries from a HURIDOCS controlled vocabulary ca
 
 ## Description {#event_description}
 
-This is a direct quotation from the civil society, governmental or other source about the abusive event. When an `event` has more than one report tied to it, start the quotation as below: 
+This is a direct quotation from the civil society, governmental or other source about the abusive event. When an `event` has more than one report tied to it, start the quotation as below:
 
 > According to X organization, “Description of event”. According to Y organization, “Description of event”.
 
