@@ -9,9 +9,9 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | ID | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
 | Start Date | The date the event started | _2009-07-24_ |
 | End Date | The date the event ended | _2009-07-24_ |
-| Location |  | _Behind Maiduguri University_ |
-| City or other Node Name in OpenStreetMaps |  | _Port Harcourt_ |
-| City or other Node OpenStreetMaps ID |  | _27565065_ |
+| Location | A specific place where the event occured | _Behind Maiduguri University_ |
+| City or other Node Name in OpenStreetMaps | The city or node where the event occured | _Port Harcourt_ |
+| City or other Node OpenStreetMaps ID | The ID for the city or node | _27565065_ |
 | Highest level subnational boundary OpenStreetMaps |  | _Rivers_ |
 | Highest level subnational boundary OpenStreetMaps ID |  | _3720743_ |
 | division\_id |  | _ng_ |
