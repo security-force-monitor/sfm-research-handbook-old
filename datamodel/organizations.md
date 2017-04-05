@@ -267,9 +267,9 @@ If it reasonable, given what is known about the organization, the overall struct
 
 > Example: the `New York State police` would likely maintain an AOO over all of `New York State` even if the last citation you could find is from 2015.
 
-## Other affiliation \(like joint task force\) {#organization_affiliation}
+## Other affiliation {#organization_affiliation}
 
-This field is for any memberships or attachments to internal/national joint operations, operations, or other multi-unit efforts.
+This field is for any memberships or attachments to internal/national joint operations, peacekeeping operations, or other multi-unit efforts.
 
 Generally this means one of two things:
 
@@ -279,30 +279,15 @@ Generally this means one of two things:
 
 > Example: soldiers from `1 Division` are deployed to the northeast of Nigeria to operate under `Operation BOYANA`. `1 Division` has a commander, but the soldiers as part of `Operation BOYANA` likely report to and take orders from the commander of `Operation BOYANA`. When the soldiers are done with their rotation, after several months, they return to their “home unit” `1 Division`. So while `Operation BOYANA` commands some soldiers who are part of `1 Division` it doesn’t technically command all of the soldiers of `1 Division` \(otherwise it would be the parent unit\) These operations - joint task forces, and so on - should have their own distinct `Organization` entries.
 
+Taskforces, Operations, Peacekeeping missions and other entries here should be entered as their own organization. Enter their information as a separate `Organization` record. Peacekeeping missions are often referred to informally. Find the formal name on the relevant UN peacekeeping website. If there is a specific unit designation given to the peacekeeping force - for example `NIBATT 12` or `Nigerian Battalion 12` - we would use that as the International affiliation. We would enter `Nigerian Battalion 12` as its own organization and make its parent unit the peacekeeping mission \(which would also be entered as its own organization\).
+
 ## Date of first citation for affiliation \(MM/DD/YYYY\) {#organization_affiliation_date_first_cited}
 
 Follow the rules for parent units, sites, AOOs for the dates/citations.
 
 ## Date of last citation for affiliation \(MM/DD/YYYY\) {#organization_affiliation_date_last_cited}
 
-## International affiliation \(like UN peacekeeping\) {#organization_affiliation_international}
-
-This field should only be used for international peacekeeping affiliations. In the future it could also be used to record participation in international military exercises.
-
-Peacekeeping missions should be entered as their own organization. Enter their information as a separate `Organization` record.
-
-Peacekeeping missions are often referred to informally. Find the formal name on the relevant UN peacekeeping website.
-
-If there is a specific unit designation given to the peacekeeping force - for example `NIBATT 12` or `Nigerian Battalion 12` - we would use that as the International affiliation.  
-We would enter `Nigerian Battalion 12` as its own organization and make its parent unit the peacekeeping mission \(which would also be entered as its own organization\).
-
-## Date of first citation for international affiliation \(MM/DD/YYYY\) {#organization_affiliation_international_date_first_cited}
-
-Follow the rules for parent units, Sites, AOOs and so on that have been laid out above.
-
-## Date of last citation for international affiliation \(MM/DD/YYYY\) {#organization_affiliation_international_date_last_cited}
-
-## Notes {#organization_notes}
+## Notes {#organization_affiliation_international}
 
 Use this section for any interesting information about the organization that does not fit anywhere else - please always include the citation!
 
