@@ -6,7 +6,7 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
-| ID |  | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| ID | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
 | Start Date |  | _2009-07-24_ |
 | End Date |  | _2009-07-24_ |
 | Location |  | _Elimgbu_ |
