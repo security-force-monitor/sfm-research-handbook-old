@@ -1,6 +1,6 @@
 # Organizations
 
-Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, armed forces, navy, air force and other national security bodies. Organizations refer to any any part of the hierarchy of a security force, ranging from a national defence ministry, to a police unit based in a small town. Organizations can also be groupings of organizations that occur, such as operations or peacekeeping missions.
+Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any any part of the hierarchy of a security force, ranging from a national defence ministry, to a police unit based in a small town. Organizations can also be groupings of organizations that occur, such as operations or peacekeeping missions.
 
 ## Summary of organization fields
 
@@ -106,8 +106,6 @@ Classification are created with several criteria in mind:
 By necessity classifications vary slightly country to country - again the Monitor always tries to create as few classifications as possible.
 
 > Example - Human rights reporting regularly refers to units and members of the `Nigeria Police Force` as “police”. Even though there are over a thousand different units in the police force, and at different levels of command authority, classifying all of them as `Police` would make sense in order to tag reports of abuses and the units themselves.
-
-
 
 ## Parent Organization: The superior affiliated organization {#organization_organization_name}
 
