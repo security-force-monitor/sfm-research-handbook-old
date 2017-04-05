@@ -2,7 +2,8 @@
     "plugins": ["anchorjs"],
     "pluginsConfig": {
         "anchorjs": {
-            "placement": "left",
+            "icon": "#",
+	    "placement": "left",
             "visible": "always"
         }
     }
