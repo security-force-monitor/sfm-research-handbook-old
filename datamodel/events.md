@@ -12,8 +12,10 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | Location |  |  |
 | City or other Node Name in OpenStreetMaps |  |  |
 | City or other Node OpenStreetMaps ID |  |  |
-|  |  |  |
-|  |  |  |
+| Highest level subnational boundary OpenStreetMaps |  |  |
+| Highest level subnational boundary OpenStreetMaps ID |  |  |
+| Violation type |  |  |
+| Description |  |  |
 |  |  |  |
 
 ##  {#event_id}
@@ -80,11 +82,11 @@ The same reasoning and rules for data entry in this field as applies to fields i
 
 ## City or other Node OpenStreetMaps ID {#event_geonames_id}
 
-## ADMIN 1 GeoName {#event_geonames_admin_1_geonames_name}
+## Highest level subnational boundary OpenStreetMaps {#event_geonames_admin_1_geonames_name}
 
 Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that
 
-## ADMIN 1 GeonameID {#event_geonames_admin_1_geonames_id}
+## Highest level subnational boundary OpenStreetMaps ID {#event_geonames_admin_1_geonames_id}
 
 ## Violation type {#event_violation_type}
 
