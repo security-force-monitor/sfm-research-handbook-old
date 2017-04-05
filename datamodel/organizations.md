@@ -205,7 +205,7 @@ The main question for this field is - is the date the first time the organizatio
 If we don't know we record `N` in this field.  
 If we can answer "yes this organization began being based in this city or highest level subnational boundary as of this date" we record `Y`.
 
-## Site: Date of last citation \(MM/DD/YYYY\) {#organization_site_date_last_cited}
+## Site: Date of last citation {#organization_site_date_last_cited}
 
 Follow the same rules as Site: Date of first citation.
 
