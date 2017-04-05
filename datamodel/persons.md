@@ -10,9 +10,9 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Name | Person's Name |  |
 | Aliases or alternative spellings |  |  |
 | Organization | The organization that the individual is affiliated with |  |
-| Role |  |  |
-| Title \(official title\) |  |  |
-| Rank |  |  |
+| Role | The role the person serves in the organization |  |
+| Title \(official title\) | The title \(if any\) of the person |  |
+| Rank | The rank \(if any\) of the person |  |
 | First citation |  |  |
 | Start date? \(Y/N\) |  |  |
 | Last citation |  |  |
