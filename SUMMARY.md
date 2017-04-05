@@ -2,10 +2,11 @@
 
 ### Introduction
 
-* [About the Research Handbook](/datamodel/README.md)
+* [About the Research Handbook](/README.md)
 
-### Data structure
+### Data model
 
+* [What data does the Monitor collect?](/datamodel/README.md)
 * [Sources and Confidence](/datamodel/sources_confidence.md)
  * [Citation format](/datamodel/sources_confidence.md#source_citation_format)
  * [Country Information](/datamodel/sources_confidence.md#source_country_information)

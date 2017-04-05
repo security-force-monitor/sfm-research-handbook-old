@@ -1,12 +1,13 @@
 # Research Handbook for Security Force Monitor
 
-## About this Handbook
+## About this Research Handbook
 
-This handbook explains the data structure of the Security Force Monitor and the process of entering data into it. 
+This Research Handbook contains information about the data and tools used by Security Force Monitor. Currently, it has two main sections:
 
-This is a first cut and should not be considered complete – please add comments on areas that could be improved upon, identify needed additions, suggest deletions or other edits.
+ * [Data Model](/getstarted/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use (```persons```,```organizations``` and ```events```, and details how each field is used. 
+ * [Prototype User Guide]/userguide/README.md): Security Force Monitor has developed a prototype web application to publish and visualize its complex data. This user guide provides basic information about the main features of the prototype, including its maps, charts, dossiers and search capabilities.
 
-The guide will explain each column in the spreadsheet from left to right as well as the various tabs as well.
+The Research Handbook is a living document, and is updated during the course of the work of Security Force Monitor. When reading it, we are sure you will find things that can be improved - please let us know what needs to be done, either by [emailing us](mailto:info@securityforcemonitor.org) or [filing a issue on Github](https://github.com/security-force-monitor/sfm-research-handbook/issues). 
 
 ## About Security Force Monitor
 
@@ -21,5 +22,6 @@ The Monitor will compile data from government sources, local and international n
 * Dossiers on commanders and units
 * Maps and dossiers of documented human rights abuses committed by security forces as reported by civil society organizations, the United Nations and other sources
 
+[More information about the Monitor](https://securityforcemonitor.org) can be found on our website.  
 
 
