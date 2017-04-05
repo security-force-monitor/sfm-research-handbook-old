@@ -6,38 +6,39 @@ Organizations are official state or state-sanctioned organizations responsible f
 
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
-| [ID](#organization_id) | Unique identifier for the organization | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| Name | Name of the organization | _VII Región Militar_ |
-| Aliases | Other names for the organization | _Séptima Región Militar_ |
-| Division ID | Country | _mx_ |
-| Classification | Type of organization | _Ejército ; Militar_ |
-| Parent organization | Superior affiliated organization | _Estado Mayor de la Defensa Nacional_ |
-| Parent relationship | Type of relationship | _Command_ |
-| Date of first citation for parent relationship | First source, by date, evidencing a relationship | _1999-02-01_ |
-| Date of last citation for parent relationship | The last source, by date, evidencing a relationship | _2016-07-05_ |
-| Assume parent relationship to current date? | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| Headquarters | Uniquely named barracks, base, physical asset for this organization | _Tuxtla Gutiérrez_ |
-| City or smallest administrative unit GeoName | City or smallest administrative unit GeoName | _Tuxtla Gutiérrez_ |
-| City or smallest administrative unit GeoNameID | ID number linked to above GeoName | _269911529_ |
-| ADMIN1 GeoName | GeoName of first-level administrative area | _Chiapas_ |
-| ADMIN1 GeoName ID | GeoName ID number of first-level administrative area | _2556679_ |
-| Site: division\_id | Country | _mx_ |
-| Site: Date of first citation | First source, by date, evidencing a site | 2004-02-08 |
-| Is this the Founding Date? | Was the site's date of first citation the date the organization was founded? | _N_ |
-| Assume site to current date? | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| Area of Operations: GeoName | GeoName of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
-| Area of Operations: GeoNamesId | GeoName ID of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _2556679_ |
-| Area of Operations: Division ID | Country of Area of Operations | _mx_ |
-| Area of Operations: Date of first citation | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
-| Area of Operations: Date of last citation | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
-| Area of Operations: Assume to current date? | Do we have evidence to say this Area of Responsibility continues after the last source date? | _Y_ |
-| Other affiliation | Memberships or attachments to internal/national joint operations, operations, or other multi-unit efforts. | _Operation Pulo Shield_ |
-| Other affiliation: Date of first citation | First source, by date, evidencing this affiliation | _2003-02-02_ |
-| Other affiliation: Date of last citation | Last source, by date, evidencing this affiliation | _2005-03-09_ |
-| International affiliation | memberships or attachments to internal operations like UN Peacekeeping | _UNAMSIL_ |
-| International affiliation: Date of first citation | First source, by date, evidencing this affiliation | _2003-05-08_ |
-| International affiliation: Date of last citation | Last source, by date, evidencing this affiliation | _2011-03-23_ |
-| Notes | Anything else relevant about this organization that is not covered above | _Organization was trained by US forces in 2010_ |
+| [[ID](#organization_id) | Unique identifier for the organization | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| [Name](#organization_name) | Name of the organization | _VII Región Militar_ |
+| [Aliases](#organization_other_names) | Other names for the organization | _Séptima Región Militar_ |
+| [Division ID](#organization_division_id) | Country | _mx_ |
+| [Classification](#organization_classification) | Type of organization | _Ejército ; Militar_ |
+| [Parent organization](#organization_organization_name) | Superior affiliated organization | _Estado Mayor de la Defensa Nacional_ |
+| [Parent relationship](#organization_organization_classification) | Type of relationship | _Command_ |
+| [Date of first citation for parent relationship](#organization_organization_date_first_cited) | First source, by date, evidencing a relationship | _1999-02-01_ |
+| [Date of last citation for parent relationship](#organization_organization_date_last_cited) | The last source, by date, evidencing a relationship | _2016-07-05_ |
+| [Assume parent relationship to current date?](#organization_organization_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
+| [Headquarters](#organization_headquarters)| Uniquely named barracks, base, physical asset for this organization | _Tuxtla Gutiérrez_ |
+| [City or smallest administrative unit GeoName](#organization_geonames_name) | City or smallest administrative unit GeoName | _Tuxtla Gutiérrez_ |
+| [City or smallest administrative unit GeoNameID](#organization_geonames_id) | ID number linked to above GeoName | _269911529_ |
+| [ADMIN1 GeoName](#organization_admin_level_1_geonames_name) | GeoName of first-level administrative area | _Chiapas_ |
+| [ADMIN1 GeoName ID](#organization_admin_level_1_geonames_id)| GeoName ID number of first-level administrative area | _2556679_ |
+| [Site: division\_id](#organization_site_division_id)| Country | _mx_ |
+| [Site: Date of first citation](#organization_site_date_first_cited) | First source, by date, evidencing a site | _2004-02-08_ |
+| [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
+[ [Site: DAte of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
+| [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
+| [Area of Operations: GeoName](#organization_area_geonames_name) | GeoName of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
+| [Area of Operations: GeoNamesId](#organization_area_geonames_id) | GeoName ID of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _2556679_ |
+| [Area of Operations: Division ID](#organization_area_division_id) | Country of Area of Operations | _mx_ |
+| [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
+| [Area of Operations: Date of last citation](#organization_area_date_last_cited) | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
+| [Area of Operations: Assume to current date?](#organization_area_date_last_cited_assume_to_current) | Do we have evidence to say this Area of Responsibility continues after the last source date? | _Y_ |
+| [Other affiliation](#organization_affiliation) | Memberships or attachments to internal/national joint operations, operations, or other multi-unit efforts. | _Operation Pulo Shield_ |
+| [Other affiliation: Date of first citation](#organization_affiliation_date_first_cited) | First source, by date, evidencing this affiliation | _2003-02-02_ |
+| [Other affiliation: Date of last citation](#organization_affiliation_date_last_cited) | Last source, by date, evidencing this affiliation | _2005-03-09_ |
+| [International affiliation](#organization_affiliation_international) | memberships or attachments to internal operations like UN Peacekeeping | _UNAMSIL_ |
+| [International affiliation: Date of first citation](#organization_affiliation_international_date_first_cited) | First source, by date, evidencing this affiliation | _2003-05-08_ |
+| [International affiliation: Date of last citation](#organization_affiliation_international_date_last_cited) | Last source, by date, evidencing this affiliation | _2011-03-23_ |
+| [Notes](#organization_notes) | Anything else relevant about this organization that is not covered above | _Organization was trained by US forces in 2010_ |
 
 
 
