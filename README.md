@@ -4,7 +4,7 @@
 
 This Research Handbook contains information about the data and tools used by Security Force Monitor. Currently, it has two main sections:
 
- * [Data Model](/getstarted/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use (```persons```,```organizations``` and ```events```, and details how each field is used. 
+ * [Data Model](/datamodel/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use (```persons```,```organizations``` and ```events```, and details how each field is used. 
  * [Prototype User Guide](/userguide/README.md): Security Force Monitor has developed a prototype web application to publish and visualize its complex data. This user guide provides basic information about the main features of the prototype, including its maps, charts, dossiers and search capabilities.
 
 The Research Handbook is a living document, and is updated during the course of the work of Security Force Monitor. When reading it, we are sure you will find things that can be improved - please let us know what needs to be done, either by [emailing us](mailto:info@securityforcemonitor.org) or [filing a issue on Github](https://github.com/security-force-monitor/sfm-research-handbook/issues). 
