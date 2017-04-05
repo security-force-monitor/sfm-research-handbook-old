@@ -16,7 +16,9 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | Highest level subnational boundary OpenStreetMaps ID |  |  |
 | Violation type |  |  |
 | Description |  |  |
-|  |  |  |
+| Perpetrator name |  |  |
+| Perpetrator organization |  |  |
+| Perpetrator Classification |  |  |
 
 ##  {#event_id}
 
@@ -100,7 +102,7 @@ This is a direct quotation from the civil society, governmental or other source 
 
 ## Perpetrator name {#event_perpetrator_name}
 
-If an individual perpetrator is named in the source report, record it in the `perptrator name`field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
+If a person or persons are named in the source report, record it in the `perptrator name`field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
 
 > "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
 
