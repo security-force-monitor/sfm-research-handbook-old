@@ -160,11 +160,11 @@ This field is used to record data about units that have a uniquely named buildin
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## City or smallest administrative unit GeoName {#organization_geonames_name}
+## City or other Node in OpenStreetMaps {#organization_geonames_name}
 
-The Geoname data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
+The OpenStreetMaps data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
 
-This field is for the city or smallest administrative unit that a unit is based in. For example a unit could be based in the city of New York or the county of King’s County.
+This field is for the city, village or other Node that a unit is based in.
 
 However this field should not be used if the only information about a unit’s base is the state of New York \(which the ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname field should be used\).
 
@@ -178,9 +178,9 @@ Organizations can be based in multiple cities, in which case a new row should be
 
 Geoname data will be shared with you and we will do a separate training on it. You can find more information about Geonames here: [http://www.geonames.org/](http://www.geonames.org/)
 
-## City or smallest administrative unit GeonameID {#organization_geonames_id}
+## City or other Node in OpenStreetMaps ID {#organization_geonames_id}
 
-This is tied to the matching GeoName.
+This is tied to the matching OpenStreetMaps entry.
 
 ## ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname {#organization_admin_level_1_geonames_name}
 
