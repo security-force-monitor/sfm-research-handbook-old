@@ -26,7 +26,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
 | [Site: Date of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
 | [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Area of Operations: O](#organization_area_geonames_name)penStreetMaps | OpenStreetMaps name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
+| [Area of Operations: O](#organization_area_geonames_name)penStreetMaps Name | OpenStreetMaps name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
 | [Area of Operations: O](#organization_area_geonames_id)penStreetMaps ID | ID for OpenStreetMaps entry from above | _2556679_ |
 | [Area of Operations: Division ID](#organization_area_division_id) | Country of Area of Operations | _mx_ |
 | [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
@@ -219,7 +219,7 @@ For marking `Y` \(Y=yes, assume site to current date, so the site will displayed
 
 For historical basing or for instances where the longevity of a unit being based in a Site is unclear, use `N`.
 
-## Area of Operations: Geoname Name {#organization_area_geonames_name}
+## Area of Operations: OpenStreetMaps Name {#organization_area_geonames_name}
 
 Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner - for all organizations.
 
