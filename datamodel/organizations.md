@@ -16,7 +16,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Date of first citation for parent relationship](#organization_organization_date_first_cited) | First source, by date, evidencing a relationship | _1999-02-01_ |
 | [Date of last citation for parent relationship](#organization_organization_date_last_cited) | The last source, by date, evidencing a relationship | _2016-07-05_ |
 | [Assume parent relationship to current date?](#organization_organization_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Headquarters](#organization_headquarters) | Uniquely named barracks, base, physical asset for this organization | _Tuxtla Gutiérrez_ |
+| [Headquarters](#organization_headquarters) | Uniquely named barracks, base, physical asset for this organization | _Campo Militar 1A_ |
 | [City or ](#organization_geonames_name)other Node in OpenStreetMaps | City or other Node in OpenStreetMaps | _Tuxtla Gutiérrez_ |
 | [City or o](#organization_geonames_id)ther Node in OpenStreetMaps ID | ID number linked to above OpenStreetMap Node | _269911529_ |
 | [H](#organization_admin_level_1_geonames_name)ighest level subnational boundary OpenStreetMaps | Highest level [subnational boundary in OpenStreetMaps](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations) | _Chiapas_ |
@@ -69,12 +69,12 @@ Use the name in the local language \(official\) of the country where appropriate
 
 > Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\). See the section on Aliases of alternative spellings for more information on what to do with English language translations of names.
 
-## Aliases or alternative spellings \(semicolon separated\) {#organization_other_names}
+## Aliases or alternative spellings {#organization_other_names}
 
 Use this field for all other names for the organization  
 If the country being researched is non-English speaking, use this field for English language translations as well.
 
-> Example: We’d put the English translation of `10 Regimiento de Caballería Motorizado`, `10 Motorized Cavalry Regiment`, here. In addition we’d put the Spanish name of the unit with an Ordinal indicator \(`10/o. Regimiento de Caballería Motorizado`\) in this field as well.
+> Example: The `10 Regimiento de Caballería Motorizado`, may have a source with an Ordinal indicator \(`10/o. Regimiento de Caballería Motorizado`\) which would go in this field.
 
 ## Organization division\_id {#organization_division_id}
 
@@ -106,8 +106,8 @@ Classification are created with several criteria in mind:
 By necessity classifications vary slightly country to country - again the Monitor always tries to create as few classifications as possible.
 
 > Example - Human rights reporting regularly refers to units and members of the `Nigeria Police Force` as “police”. Even though there are over a thousand different units in the police force, and at different levels of command authority, classifying all of them as `Police` would make sense in order to tag reports of abuses and the units themselves.
->
-> Example - The `Central Security Forces \(CSF\)` in Egypt are generally deployed during riots and other civil disturbances. They are commonly referred to as the "riot police". However, “regular” police are also deployed when riots occur. Using a generic classification of `riot police` for `CSF` units could be confusing to experts, but creating a specific classification for `CSF` units could be confusing for non-experts. The Monitor splits the difference by classifying `CSF` units as `Central Security Forces \(riot police\)`.
+
+
 
 ## Parent Organization: The superior affiliated organization {#organization_organization_name}
 
@@ -166,7 +166,7 @@ The OpenStreetMaps data standard is used for all geographic entries. This way we
 
 This field is for the city, village or other Node that a unit is based in.
 
-However this field should not be used if the only information about a unit’s base is the state of New York \(which the ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname field should be used\).
+However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMaps field should be used instead\).
 
 > Tricky Example: "At the weekend when our reporter visited Ikot Akpan Udo, there was a heavy security presence at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas."
 
@@ -174,9 +174,7 @@ In this example - a report visits a specific place \(Ikot Akpan Udo\) and sees a
 
 The place \(Ikot Akpan Udo\) would be the Area of Operations \(see relevant section below\), however, the article also states that the “heavy security presence” was “at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas.” - This implies that there are multiple Organizations - in this case Police Divisions in the Nigeria Police Force - that are based in the cities or “areas” of “ Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno”.
 
-Organizations can be based in multiple cities, in which case a new row should be created for every city the unit is based in.
-
-Geoname data will be shared with you and we will do a separate training on it. You can find more information about Geonames here: [http://www.geonames.org/](http://www.geonames.org/)
+Organizations can be based in multiple cities, in which case a new entry should be created for every city the unit is based in.
 
 ## City or other Node in OpenStreetMaps ID {#organization_geonames_id}
 
