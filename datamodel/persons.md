@@ -77,7 +77,7 @@ If the date of first citation is start of this person's affiliation with the org
 
 ## End date? \(Y/N\) {#person_date_last_cited_is_end}
 
-##  {#person_notes}
+If the date of last citation is end of this person's affiliation with the organization or the end date of their Role, Title or Rank put Y here. Otherwise, mark N.
 
 ## Notes {#person_notes}
 
