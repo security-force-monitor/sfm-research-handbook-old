@@ -1,12 +1,6 @@
 # **Getting started - Country Selection**
 
-<<<<<<< HEAD
-After launching the prototype, the first screen you’ll come to is the country selection screen. The prototype currently has comprehensive data on Mexico and Nigeria, with some additional research tied to Nigerian units that performed peacekeeping duties in Sudan, Liberia, Sierra Leone and the Democratic Republic of the Congo.
-![Selecting a country to get started](/userguide/assets/coutnryselection.jpg)
-Click on the country name or on the country in the map to get started.
-=======
 After launching the prototype, the first screen you’ll come to is the country selection screen. The prototype currently has comprehensive data on Mexico and Nigeria, with some additional research tied to Nigerian units that performed peacekeeping duties in Sudan, Liberia, Sierra Leone and the Democratic Republic of the Congo. ![](/userguide/assets/coutnryselection.jpg)Click on the country name or on the country in the map to get started.
->>>>>>> 1259d1bba374987e64f6f54b6280b70ddc440d1a
 
 ---
 
