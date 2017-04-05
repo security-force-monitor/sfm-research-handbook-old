@@ -1,6 +1,6 @@
 # Events
 
-`Events` are publicly-documented actions by security force personnel that constitute human rights violations. These include extrajudicial killings, rape, torture and other forms of violence.
+`Events` are publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. The Monitor does not make allegations itself, but rather complies allegations made by governmental bodies, human rights organizations and other civil society actors. For each Event, the Monitor includes a description, date\(s\), specific location\(s\), its perpetrators and the type of human rights violation.
 
 Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description.
 
