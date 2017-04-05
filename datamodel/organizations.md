@@ -244,7 +244,9 @@ Often we can infer the AOO of police units based on a crime being reported to th
 
 Note that `Source: Area of Operations` covers all citations for `Area of Operations` fields.
 
-## Area of Operations: GeonameID {#organization_area_geonames_id}
+## Area of Operations: OpenStreetMaps ID {#organization_area_geonames_id}
+
+The OpenStreetMaps ID tied to the entry above.
 
 ## Area of Operations: division\_id {#organization_area_division_id}
 
