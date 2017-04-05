@@ -6,7 +6,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
-| [[ID](#organization_id) | Unique identifier for the organization | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| [ID](#organization_id) | Unique identifier for the organization | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
 | [Name](#organization_name) | Name of the organization | _VII Región Militar_ |
 | [Aliases](#organization_other_names) | Other names for the organization | _Séptima Región Militar_ |
 | [Division ID](#organization_division_id) | Country | _mx_ |
@@ -24,7 +24,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Site: division\_id](#organization_site_division_id)| Country | _mx_ |
 | [Site: Date of first citation](#organization_site_date_first_cited) | First source, by date, evidencing a site | _2004-02-08_ |
 | [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
-[ [Site: DAte of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
+| [Site: Date of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
 | [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
 | [Area of Operations: GeoName](#organization_area_geonames_name) | GeoName of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
 | [Area of Operations: GeoNamesId](#organization_area_geonames_id) | GeoName ID of an area that this organisation is responsible for, conducted operations in, or has jurisdiction over | _2556679_ |
