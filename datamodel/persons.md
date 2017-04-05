@@ -6,18 +6,18 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 
 | Name of Field | Description | Example of Use |
 | :--- | :--- | :--- |
-| ID | Unique identifier for the person | a848de4e-ebeb-49d6-9099-7e68ca3b57fc |
-| Name | Name of person |  |
-| Aliases or alternative spellings | Other names for a person |  |
-| Organization | The organization that the individual is affiliated with |  |
-| Role | The role the person serves in the organization |  |
-| Title \(official title\) | The title \(if any\) of the person |  |
-| Rank | The rank \(if any\) of the person |  |
-| First citation | First source, by date, evidencing a relationship |  |
-| Start date? \(Y/N\) | Is the first citation the date this person begun their affiliation with the organization? |  |
-| Last citation | Last source, by date, evidencing a relationship |  |
-| End date? \(Y/N\) | Is the last citation the date this person ceased to have an affiliation with the organization? |  |
-| Notes | Anything else relevant about this person that is not covered above |  |
+| ID | Unique identifier for the person | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| Name | Name of person | _Sunday Jimmi Ayorinde Ilori_ |
+| Aliases or alternative spellings | Other names for a person | _Sunday Ilori_ |
+| Organization | The organization that the individual is affiliated with | _1 Battalion_ |
+| Role | The role the person serves in the organization | _Commander_ |
+| Title \(official title\) | The title \(if any\) of the person | _General Officer Commanding_ |
+| Rank | The rank \(if any\) of the person | _Lieutenant Colonel_ |
+| First citation | First source, by date, evidencing a relationship | _2007-09-31_ |
+| Start date? \(Y/N\) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
+| Last citation | Last source, by date, evidencing a relationship | _2009-02-20_ |
+| End date? \(Y/N\) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
+| Notes | Anything else relevant about this person that is not covered above | _Referred to as "new" as of 1 July 2012_ |
 
 ## ID {#person_id}
 
