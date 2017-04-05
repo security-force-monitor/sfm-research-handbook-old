@@ -134,7 +134,7 @@ Organizations can have multiple parent relationships at the same time.
 
 Note that in `Source: Date of first citation for parent organization \(MM/DD/YYYY\)` only put the citation for the earliest date. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
 
-## Date of last citation for parent organization \(MM/DD/YYYY\) {#organization_organization_date_last_cited}
+## Date of last citation for parent organization {#organization_organization_date_last_cited}
 
 If there is only one citation for a relationship, and the citation is not for the end of that relationship, leave this field blank and only put the date in the Date of first citation for parent organization.
 
