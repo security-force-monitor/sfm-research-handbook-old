@@ -7,8 +7,8 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
 | ID |  |  |
-| Start Date |  |  |
-| End Date |  |  |
+| Start Date |  | 2009-07-24 |
+| End Date |  | 2009-07-24 |
 | Location |  |  |
 | City or other Node Name in OpenStreetMaps |  |  |
 | City or other Node OpenStreetMaps ID |  |  |
