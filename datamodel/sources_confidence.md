@@ -8,7 +8,7 @@ Every piece of data in Security Force Monitor has at least one source. Confidenc
 
 Every data point in Security Force Monitor must have one or more sources associated with it. A source should be recorded in this format:
 
-> Title of article or website page. Name of publishing organization \(country of organization\). Date. url. Internet Archive link: url
+> Title of article or website page. Name of publishing organization (country of organization). Date. url. Internet Archive link: url
 
 For example:
 
@@ -17,11 +17,15 @@ For example:
 
 ### Country information {#source_country_information}
 
-We include the country information because there could be a publication with the same name based in another country - for example there is a publication based in Nigeria named [The Guardian](https://guardian.ng/) as well as a publication based in the United Kingdom named [The Guardian](https://www.theguardian.com/uk).
+We include the country information because there could be a publication with the same name based in another country - for example there is [a publication based in Nigeria named The Guardian](https://guardian.ng/) as well as [a publication based in the United Kingdom named The Guardian](https://www.theguardian.com/uk).
 
 ### Date {#source_date}
 
-For the date we always use the ISO standard which means DAY MONTH YEAR
+When recording the date of a source for use in its citation,  we always use the format ```DAY MONTH YEAR (DD MMMM YYYY)```
+
+> 20 January 2012
+> 7 July 2016
+> 9 November 1999
 
 ### Which archived URL to use {#source_which_archive_url}
 
@@ -35,8 +39,6 @@ If you try to access the link, you'll get nowhere. When you look up the link in 
 
 > Army, Navy Redeploy Senior Officers. This Day \(Nigeria\). 13 February 2014. [http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/](http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/) Internet Archive link: [https://web.archive.org/web/20140307081703/http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306](https://web.archive.org/web/20140307081703/http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306)
 
-
-
 ## Confidence {#source_confidence}
 
 Each data point \(except those tied to alleged Events\) has a confidence score attached to it. The confidence scores only relate to the specific data point to which they are attached.
@@ -49,11 +51,8 @@ The Confidence scores assigned to each data point are also influenced by the num
 
 _**Remember there is no source "gold standard"**_. All types of sources can get geography wrong, make spelling errors, contain conflicting information, etc. Also, just because a source makes a mistake does not make it a "bad" or "unreliable" source! Every time you are looking at a source you should be asking yourself:
 
-"does this make sense with what we already know?"
-
-"is it possible this source is correct and contradictory information is wrong?"
-
-"do I have enough information to accept or reject what this source says?"
+ * "Does this make sense with what we already know?"
+ * "Is it possible this source is correct and contradictory information is wrong?"
+ * "Do I have enough information to accept or reject what this source says?"
 
 All data points begin with a confidence score of `Low` until a confluence of sources merit the designation of `Medium`. The gap between upgrading the confidence score of a data point from `Low` to `Medium` is smaller than  when moving from `Medium to High`.
-
