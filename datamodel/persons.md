@@ -31,8 +31,6 @@ Use the name with the most characters, for example `Magaji Musa Majia'a` instead
 
 If an individual has held multiple positions within the security forces each position will require them to have a separate entry.
 
-The full CMS will make this easy to do - while it's being built as a temporary fix place a \(1\) after their name so the system knows that John Smith is promoted from Major to General --- or that John Smith serves with the 21 Battalion until 2011 when he was transferred to the 22 Brigade.
-
 ## Aliases or alternative spellings {#person_other_names}
 
 ## Organization {#person_organization}
