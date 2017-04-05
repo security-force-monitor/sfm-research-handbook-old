@@ -17,8 +17,8 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Date of last citation for parent relationship](#organization_organization_date_last_cited) | The last source, by date, evidencing a relationship | _2016-07-05_ |
 | [Assume parent relationship to current date?](#organization_organization_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
 | [Headquarters](#organization_headquarters) | Uniquely named barracks, base, physical asset for this organization | _Campo Militar 1A_ |
-| [City or ](#organization_geonames_name)other Node in OpenStreetMaps | City or other Node in OpenStreetMaps | _Tuxtla Gutiérrez_ |
-| [City or o](#organization_geonames_id)ther Node in OpenStreetMaps ID | ID number linked to above OpenStreetMap Node | _269911529_ |
+| [City or ](#organization_geonames_name)other Node Name in OpenStreetMaps | Name of the City or other Node in OpenStreetMaps | _Tuxtla Gutiérrez_ |
+| [City or o](#organization_geonames_id)ther Node OpenStreetMaps ID | ID number linked to above OpenStreetMap Node | _269911529_ |
 | [H](#organization_admin_level_1_geonames_name)ighest level subnational boundary OpenStreetMaps | Highest level [subnational boundary in OpenStreetMaps](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations) | _Chiapas_ |
 | [Highest level subnational boundary OpenStreetMaps ID](#organization_admin_level_1_geonames_id) | OpenStreetMaps ID number of highest level subnational boundary | _2556679_ |
 | [Site: division\_id](#organization_site_division_id) | Country | _mx_ |
@@ -158,7 +158,7 @@ This field is used to record data about units that have a uniquely named buildin
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## City or other Node in OpenStreetMaps {#organization_geonames_name}
+## City or other Node Name in OpenStreetMaps {#organization_geonames_name}
 
 The OpenStreetMaps data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
 
@@ -174,7 +174,7 @@ The place \(Ikot Akpan Udo\) would be the Area of Operations \(see relevant sect
 
 Organizations can be based in multiple cities, in which case a new entry should be created for every city the unit is based in.
 
-## City or other Node in OpenStreetMaps ID {#organization_geonames_id}
+## City or other Node OpenStreetMaps ID {#organization_geonames_id}
 
 This is tied to the matching OpenStreetMaps entry.
 
@@ -229,7 +229,7 @@ Organizations can have multiple AOOs at the same time - create a separate row fo
 
 If the boundaries of their AOO is unclear the researcher should choose the highest level geographic area as the AOO.
 
-> Example: a unit is described as operating “throughout California”. Here, use the entire State of California as the AOO and rate the entry with Low confidence. Or a unit operates “along the border” of two provinces - choose both provinces \(creating two separate records\) for each province. 
+> Example: a unit is described as operating “throughout California”. Here, use the entire State of California as the AOO and rate the entry with Low confidence. Or a unit operates “along the border” of two provinces - choose both provinces \(creating two separate records\) for each province.
 >
 > The researcher should put a note in the Notes field indicating that AOO was only given as “throughout California” or “along the border” of two provinces.
 
@@ -247,6 +247,11 @@ Note that `Source: Area of Operations` covers all citations for `Area of Operati
 ## Area of Operations: GeonameID {#organization_area_geonames_id}
 
 ## Area of Operations: division\_id {#organization_area_division_id}
+
+The division\_id enables the system to identify which country the area of operations is located, thus all entries in this field would be a two letter country code.
+
+> For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
+> You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
 ## Date of first citation for area of operations \(MM/DD/YYYY\) {#organization_area_date_first_cited}
 
