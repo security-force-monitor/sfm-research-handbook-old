@@ -166,7 +166,7 @@ The OpenStreetMaps data standard is used for all geographic entries. This way we
 
 This field is for the city, village or other Node that a unit is based in.
 
-However this field should not be used if the only information about a unit’s base is the state of New York \(which the ADMIN1 \(state, province, governorate, or other largest administrative unit\) Geoname field should be used\).
+However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMaps field should be used instead\).
 
 > Tricky Example: "At the weekend when our reporter visited Ikot Akpan Udo, there was a heavy security presence at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas."
 
@@ -174,9 +174,9 @@ In this example - a report visits a specific place \(Ikot Akpan Udo\) and sees a
 
 The place \(Ikot Akpan Udo\) would be the Area of Operations \(see relevant section below\), however, the article also states that the “heavy security presence” was “at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas.” - This implies that there are multiple Organizations - in this case Police Divisions in the Nigeria Police Force - that are based in the cities or “areas” of “ Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno”.
 
-Organizations can be based in multiple cities, in which case a new row should be created for every city the unit is based in.
+Organizations can be based in multiple cities, in which case a new entry should be created for every city the unit is based in.
 
-Geoname data will be shared with you and we will do a separate training on it. You can find more information about Geonames here: [http://www.geonames.org/](http://www.geonames.org/)
+
 
 ## City or other Node in OpenStreetMaps ID {#organization_geonames_id}
 
