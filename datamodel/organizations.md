@@ -195,7 +195,7 @@ The division\_id enables the system to identify which country this organization 
 > For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
 > You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
-## Site: Date of first citation \(MM/DD/YYYY\) {#organization_site_date_first_cited}
+## Site: Date of first citation {#organization_site_date_first_cited}
 
 This field is for the earliest citation for the unit being located at City or other Node Name in OpenStreetMaps if there is no City or other Node Name in OpenStreetMaps then use the earliest citation for Highest level subnational boundary OpenStreetMaps.  
 If during the course of research a source ties an Organization ot a City or other Node then the first and last dates of citation should all be modified to match the date range for the City or other Node \(assuming it is in the same Highest level subnational boundary\).
