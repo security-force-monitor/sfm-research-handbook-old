@@ -39,7 +39,7 @@ The organization that the individual is affiliated with. This organization must 
 
 ## Role {#person_role}
 
-This column is to record the role the individual played in the organization that is usually not evident from their title or rank.
+This field is to record the role the individual played in the organization that is usually not evident from their title or rank.
 
 The main role we record - and that you will come across - is Commander.
 
@@ -47,10 +47,7 @@ There are a variety of other roles a person can have including Second in Command
 
 As a special note, heads of academic or other security force institutions will sometimes be referred to as the Commandant. They should be put in the Title column and they should be recorded as Commander.
 
-If someone is referred to as “the head” of an unit or it’s “chief” or some other variation indicating that they are in charge - they should be regarded as the Commander.  
-If someone is referred to as “Spokesperson” and the source does not state that this person is a “Police Public Relations Officer” then the Role of that person is “Spokesperson”.
-
-_Vice versa_, if in Nigeria for example, someone is listed as Police Public Relations Officer their role is also Police Public Relations Officer.
+If someone is referred to as “the head” of an unit or it’s “chief” or some other variation indicating that they are in charge - they should be regarded as the Commander.
 
 ## Title \(official title\) {#person_title}
 
@@ -63,6 +60,8 @@ This column is to record titles that individuals have that are separate from the
 This column record the rank of the individual, as a style issue the Monitor removes dashes in ranks e.g. record an individual as Brigadier General rather than Brigadier-General.
 
 ## First citation {#person_date_first_cited}
+
+This field is for the earliest source the Monitor has showing an affiliation between this person and the organization. If the person's role, title or rank changes a new entry will need to created to document that change and a new first or last citation created to mark the change.
 
 ## Start date? \(Y/N\) {#person_date_first_cited_is_start}
 
