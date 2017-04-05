@@ -7,8 +7,8 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Name of Field | Description | Example of Use |
 | :--- | :--- | :--- |
 | ID | Unique identifier for the person | a848de4e-ebeb-49d6-9099-7e68ca3b57fc |
-| Name | Person's Name |  |
-| Aliases or alternative spellings |  |  |
+| Name | Name of person |  |
+| Aliases or alternative spellings | Other names for a person |  |
 | Organization | The organization that the individual is affiliated with |  |
 | Role | The role the person serves in the organization |  |
 | Title \(official title\) | The title \(if any\) of the person |  |
