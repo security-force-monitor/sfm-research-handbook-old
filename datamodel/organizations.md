@@ -1,5 +1,7 @@
 # Organizations
 
+Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, armed forces, navy, air force and other national security bodies. Organizations refer to any any part of the hierarchy of a security force, ranging from a national defence ministry, to a police unit based in a small town. Organizations can also be groupings of organizations that occur, such as operations or peacekeeping missions.
+
 ## ID {#organization_id}
 
 The CMS will automatically create a unique ID for every Person, Organization and Event.
