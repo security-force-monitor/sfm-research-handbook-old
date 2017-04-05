@@ -162,9 +162,7 @@ This field should not be used for anything that matches the name or alias of a o
 
 The OpenStreetMaps data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
 
-This field is for the city, village or other Node that a unit is based in.
-
-However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMaps field should be used instead\).
+This field is for the city, village or other Node that a unit is based in. However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMaps field should be used instead\).
 
 > Tricky Example: "At the weekend when our reporter visited Ikot Akpan Udo, there was a heavy security presence at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas."
 
@@ -202,7 +200,7 @@ If during the course of research a source ties an Organization ot a City or othe
 
 ## Is this the founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
 
-This field is a simple Y \(for yes\) or N \(for no\) that is tied to the City or ADMIN1 of an organization.  
+This field is a simple Y \(for yes\) or N \(for no\) that is tied to the City or other Node Name in OpenStreetMaps.  
 This field is for the earliest citation for the unit being located at City or smallest administrative unit GeoName if there is no City or smallest administrative unit then use the earliest citation for ADMIN1.  
 Always default to City or smallest administrative unit when you have that information.  
 The main question for this field is - is the date the first time the organization was based in the city \(i.e. was it founded in this city on this date\)? Put another way - did this organization exist in this city before this date?  
