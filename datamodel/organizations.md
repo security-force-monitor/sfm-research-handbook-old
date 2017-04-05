@@ -281,11 +281,13 @@ Generally this means one of two things:
 
 Taskforces, Operations, Peacekeeping missions and other entries here should be entered as their own organization. Enter their information as a separate `Organization` record. Peacekeeping missions are often referred to informally. Find the formal name on the relevant UN peacekeeping website. If there is a specific unit designation given to the peacekeeping force - for example `NIBATT 12` or `Nigerian Battalion 12` - we would use that as the International affiliation. We would enter `Nigerian Battalion 12` as its own organization and make its parent unit the peacekeeping mission \(which would also be entered as its own organization\).
 
-## Date of first citation for affiliation \(MM/DD/YYYY\) {#organization_affiliation_date_first_cited}
+## Other affiliation: Date of first citation {#organization_affiliation_date_first_cited}
 
 Follow the rules for parent units, sites, AOOs for the dates/citations.
 
-## Date of last citation for affiliation \(MM/DD/YYYY\) {#organization_affiliation_date_last_cited}
+## Other affiliation: Date of last citation {#organization_affiliation_date_last_cited}
+
+Follow the rules for parent units, sites, AOOs for the dates/citations.
 
 ## Notes {#organization_affiliation_international}
 
