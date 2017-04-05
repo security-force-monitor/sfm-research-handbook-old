@@ -4,6 +4,20 @@
 
 Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description.
 
+|  |  |  |
+| :--- | :--- | :--- |
+| ID |  |  |
+| Start Date |  |  |
+| End Date |  |  |
+| Location |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+##  {#event_id}
+
+##  {#event_id}
+
 ## ID {#event_id}
 
 Please use this field to put your name/initials and date on rows you enter data on. In the future this field will be used to create an unique identifier for each `event` in the Monitor’s database.
