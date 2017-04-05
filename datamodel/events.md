@@ -85,11 +85,15 @@ The same reasoning and rules for data entry in this field as applies to fields i
 
 ## City or other Node OpenStreetMaps ID {#event_geonames_id}
 
+This is the OpenStreetMaps ID tied to the entry above.
+
 ## Highest level subnational boundary OpenStreetMaps {#event_geonames_admin_1_geonames_name}
 
 Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that
 
 ## Highest level subnational boundary OpenStreetMaps ID {#event_geonames_admin_1_geonames_id}
+
+This is the OpenStreetMaps ID tied to the entry above.
 
 ## Violation type {#event_violation_type}
 
