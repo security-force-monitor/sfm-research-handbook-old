@@ -213,7 +213,7 @@ If we can answer "yes this organization began being based in this city or ADMIN1
 
 Follow the same rules as Site: Date of first citation.
 
-## Assume Site \(City or smallest administrative unit GeoName and/or AMIN1\) to Current Date? \(Y/N\) {#organization_site_date_last_cited_assume_to_current_date}
+## Assume Site to Current Date? \(Y/N\) {#organization_site_date_last_cited_assume_to_current_date}
 
 For marking `Y` \(Y=yes, assume site to current date, so the site will displayed on the map up to the current date\) an analyst would have to make a determination using a variety of factors including: the history of basing for the unit, the overall structure/nature of the security forces, the frequency of movement of similar units.
 
