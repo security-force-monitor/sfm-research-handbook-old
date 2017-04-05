@@ -9,17 +9,17 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | ID |  |  |
 | Start Date |  | 2009-07-24 |
 | End Date |  | 2009-07-24 |
-| Location |  |  |
-| City or other Node Name in OpenStreetMaps |  |  |
-| City or other Node OpenStreetMaps ID |  |  |
-| Highest level subnational boundary OpenStreetMaps |  |  |
-| Highest level subnational boundary OpenStreetMaps ID |  |  |
-| division\_id |  |  |
-| Violation type |  |  |
-| Description |  |  |
-| Perpetrator name |  |  |
-| Perpetrator organization |  |  |
-| Perpetrator Classification |  |  |
+| Location |  | Elimgbu |
+| City or other Node Name in OpenStreetMaps |  | Port Harcourt |
+| City or other Node OpenStreetMaps ID |  | 27565065 |
+| Highest level subnational boundary OpenStreetMaps |  | Rivers |
+| Highest level subnational boundary OpenStreetMaps ID |  | 3720743 |
+| division\_id |  | ng |
+| Violation type |  | Violations of the right to life |
+| Description |  | According to Amnesty International: "Chibuike Anams, a student aged 23, was sitting with two friends at a guesthouse in Elimgbu, Rivers State, on 24 July 2009. When the police raided the guest house, he attempted to escape and was shot and died on the spot. His friends were arrested and later released. Chibuike Anams’ family reported him missing at the Police Headquarters in Port Harcourt after he failed to come home. They found out about his death almost a week later after they visited several police stations. The family do not know why the police shot Chibuike Anams, or what crime he was suspected of. There has been no investigation into his death. In the meantime, the police have refused to release the body – at the time of writing, it is still lying in the mortuary." |
+| Perpetrator name |  | Friday Iyamabo |
+| Perpetrator organization |  | Joint Task Force, Operation Restore Order I |
+| Perpetrator Classification |  | Police |
 
 ##  {#event_id}
 
