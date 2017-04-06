@@ -7,7 +7,7 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
 | [ID](#event_id) | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| [Start Date](#event_start_date | The date the event started | _2009-07-24_ |
+| [Start Date](#event_start_date) | The date the event started | _2009-07-24_ |
 | [End Date](#event_end_date) | The date the event ended | _2009-07-24_ |
 | [Location](#event_location) | A specific place where the event occured | _Behind Maiduguri University_ |
 | [City or other Node Name in OpenStreetMap](#event_osm_name) | The city or node where the event occured | _Port Harcourt_ |
@@ -19,7 +19,7 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 | [Description](#event_description)| Description of event from source | _According to Amnesty International: "Chibuike Anams, a student aged 23, was sitting with two friends at a guesthouse in Elimgbu, Rivers State, on 24 July 2009. When the police raided the guest house, he attempted to escape and was shot and died on the spot. His friends were arrested and later released. Chibuike Anams’ family reported him missing at the Police Headquarters in Port Harcourt after he failed to come home. They found out about his death almost a week later after they visited several police stations. The family do not know why the police shot Chibuike Anams, or what crime he was suspected of. There has been no investigation into his death. In the meantime, the police have refused to release the body – at the time of writing, it is still lying in the mortuary."_ |
 | [Perpetrator name](#event_perpetrator_name) | Name of individual perpetrator | _Friday Iyamabo_ |
 | [Perpetrator organization](#event_perpetrator_organization) | Name of organization idenfitied as perpetrator | _Joint Task Force, Operation Restore Order I_ |
-| [Perpetrator Classification](#event_classification) | Classification of identified perpetrator organization if not specifically named | _Police_ |
+| [Perpetrator Classification](#event_perpetrator_classification) | Classification of identified perpetrator organization if not specifically named | _Police_ |
 
 ## ID {#event_id}
 
@@ -85,7 +85,7 @@ This is the OpenStreetMap ID tied to the entry above.
 
 ## Highest level subnational boundary OpenStreetMap {#event_osm_admin_1_osm_name}
 
-Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that
+Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that.
 
 ## Highest level subnational boundary OpenStreetMap ID {#event_osm_admin_1_osm_id}
 
