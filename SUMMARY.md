@@ -82,7 +82,7 @@
 
 * [Introduction](/userguide/README.md)
  * [About](/userguide/README.md#userguide_about)
- * [Code and credits](/README.md#userguide_code_credits)    
+ * [Code and credits](/userguide/README.md#userguide_code_credits)    
 * [Getting started](/userguide/getstarted.md)
 * [Map](/userguide/map.md)
 * [Dossier](/userguide/dossier.md)
