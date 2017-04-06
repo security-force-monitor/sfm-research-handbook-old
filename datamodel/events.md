@@ -6,22 +6,20 @@ Fields in `Events` are not sourced individually as in `Organizations` and `Perso
 
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
-| ID | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| Start Date | The date the event started | _2009-07-24_ |
-| End Date | The date the event ended | _2009-07-24_ |
-| Location | A specific place where the event occured | _Behind Maiduguri University_ |
-| City or other Node Name in OpenStreetMaps | The city or node where the event occured | _Port Harcourt_ |
-| City or other Node OpenStreetMaps ID | The ID for the city or node | _27565065_ |
-| Highest level subnational boundary OpenStreetMaps | Highest level subnational boundary in OpenStreetMaps | _Rivers_ |
-| Highest level subnational boundary OpenStreetMaps ID | The ID for the highest subnational boundard | _3720743_ |
-| division\_id | Country code for where event occured | _ng_ |
-| Violation type | Type\(s\) of violation | _Violations of the right to life_ |
-| Description | Description of event from source | _According to Amnesty International: "Chibuike Anams, a student aged 23, was sitting with two friends at a guesthouse in Elimgbu, Rivers State, on 24 July 2009. When the police raided the guest house, he attempted to escape and was shot and died on the spot. His friends were arrested and later released. Chibuike Anams’ family reported him missing at the Police Headquarters in Port Harcourt after he failed to come home. They found out about his death almost a week later after they visited several police stations. The family do not know why the police shot Chibuike Anams, or what crime he was suspected of. There has been no investigation into his death. In the meantime, the police have refused to release the body – at the time of writing, it is still lying in the mortuary."_ |
-| Perpetrator name | Name of individual perpetrator | _Friday Iyamabo_ |
-| Perpetrator organization | Name of organization idenfitied as perpetrator | _Joint Task Force, Operation Restore Order I_ |
-| Perpetrator Classification | Classification of identified perpetrator organization if not specifically named | _Police_ |
-
-##  {#event_id}
+| [ID](#event_id) | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| [Start Date](#event_start_date | The date the event started | _2009-07-24_ |
+| [End Date](#event_end_date) | The date the event ended | _2009-07-24_ |
+| [Location](#event_location) | A specific place where the event occured | _Behind Maiduguri University_ |
+| [City or other Node Name in OpenStreetMap](#event_osm_name) | The city or node where the event occured | _Port Harcourt_ |
+| [City or other Node OpenStreetMap ID](#event_osm_id) | The ID for the city or node | _27565065_ |
+| [Highest level subnational boundary OpenStreetMap](#event_osm_admin_1_osm_name) | Highest level subnational boundary in OpenStreetMap | _Rivers_ |
+| [Highest level subnational boundary OpenStreetMap ID](#event_osm_admin_1_osm_id) | The ID for the highest subnational boundard | _3720743_ |
+| [division\_id](#event_division_id) | Country code for where event occured | _ng_ |
+| [Violation type](#event_violation_type) | Type\(s\) of violation | _Violations of the right to life_ |
+| [Description](#event_description)| Description of event from source | _According to Amnesty International: "Chibuike Anams, a student aged 23, was sitting with two friends at a guesthouse in Elimgbu, Rivers State, on 24 July 2009. When the police raided the guest house, he attempted to escape and was shot and died on the spot. His friends were arrested and later released. Chibuike Anams’ family reported him missing at the Police Headquarters in Port Harcourt after he failed to come home. They found out about his death almost a week later after they visited several police stations. The family do not know why the police shot Chibuike Anams, or what crime he was suspected of. There has been no investigation into his death. In the meantime, the police have refused to release the body – at the time of writing, it is still lying in the mortuary."_ |
+| [Perpetrator name](#event_perpetrator_name) | Name of individual perpetrator | _Friday Iyamabo_ |
+| [Perpetrator organization](#event_perpetrator_organization) | Name of organization idenfitied as perpetrator | _Joint Task Force, Operation Restore Order I_ |
+| [Perpetrator Classification](#event_classification) | Classification of identified perpetrator organization if not specifically named | _Police_ |
 
 ## ID {#event_id}
 
@@ -77,21 +75,21 @@ Often a person is arrested and, for example, beaten at a specific site \(and the
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one `event` and abuses committed or otherwise tied to site of detention a separate `event`.
 
-## City or other Node Name in OpenStreetMaps {#event_geonames_name}
+## City or other Node Name in OpenStreetMap {#event_osm_name}
 
 The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city, if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported.
 
-## City or other Node OpenStreetMaps ID {#event_geonames_id}
+## City or other Node OpenStreetMap ID {#event_osm_id}
 
-This is the OpenStreetMaps ID tied to the entry above.
+This is the OpenStreetMap ID tied to the entry above.
 
-## Highest level subnational boundary OpenStreetMaps {#event_geonames_admin_1_geonames_name}
+## Highest level subnational boundary OpenStreetMap {#event_osm_admin_1_osm_name}
 
 Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that
 
-## Highest level subnational boundary OpenStreetMaps ID {#event_geonames_admin_1_geonames_id}
+## Highest level subnational boundary OpenStreetMap ID {#event_osm_admin_1_osm_id}
 
-This is the OpenStreetMaps ID tied to the entry above.
+This is the OpenStreetMap ID tied to the entry above.
 
 ## Violation type {#event_violation_type}
 
@@ -105,7 +103,7 @@ This is a direct quotation from the civil society, governmental or other source 
 
 ## Perpetrator name {#event_perpetrator_name}
 
-If a person or persons are named in the source report, record it in the `perptrator name`field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
+If a person or persons are named in the source report, record it in the `perptrator name` field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
 
 > "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
 

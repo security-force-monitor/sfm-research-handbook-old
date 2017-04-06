@@ -17,17 +17,17 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Date of last citation for parent relationship](#organization_organization_date_last_cited) | The last source, by date, evidencing a relationship | _2016-07-05_ |
 | [Assume parent relationship to current date?](#organization_organization_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
 | [Headquarters](#organization_headquarters) | Uniquely named barracks, base, physical asset for this organization | _Campo Militar 1A_ |
-| [City or ](#organization_geonames_name)other Node Name in OpenStreetMaps | Name of the City or other Node in OpenStreetMaps | _Tuxtla Gutiérrez_ |
-| [City or o](#organization_geonames_id)ther Node OpenStreetMaps ID | ID number linked to above OpenStreetMap Node | _269911529_ |
-| [H](#organization_admin_level_1_geonames_name)ighest level subnational boundary OpenStreetMaps | Highest level [subnational boundary in OpenStreetMaps](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations) | _Chiapas_ |
-| [Highest level subnational boundary OpenStreetMaps ID](#organization_admin_level_1_geonames_id) | OpenStreetMaps ID number of highest level subnational boundary | _2556679_ |
+| [City or other Node OpenStreetMap Name](#organization_osm_name) | Name of the City or other Node in OpenStreetMap | _Tuxtla Gutiérrez_ |
+| [City or other Node OpenStreetMap ID](#organization_osm_id) | ID number linked to above OpenStreetMap Node | _269911529_ |
+| [Highest level subnational boundary OpenStreetMap](#organization_admin_level_1_osm_name) | Highest level [subnational boundary in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations) | _Chiapas_ |
+| [Highest level subnational boundary OpenStreetMap ID](#organization_admin_level_1_osm_id) | OpenStreetMap ID number of highest level subnational boundary | _2556679_ |
 | [Site: division\_id](#organization_site_division_id) | Country | _mx_ |
 | [Site: Date of first citation](#organization_site_date_first_cited) | First source, by date, evidencing a site | _2004-02-08_ |
 | [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
 | [Site: Date of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
 | [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Area of Operations: OpenStreetMaps Name](#organization_area_geonames_name) | OpenStreetMaps name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
-| [Area of Operations: OpenStreetMaps ID](#organization_area_geonames_id) | ID for OpenStreetMaps entry from above | _2556679_ |
+| [Area of Operations: OpenStreetMap Name](#organization_area_osm_name) | OpenStreetMap name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
+| [Area of Operations: OpenStreetMap ID](#organization_area_osm_id) | ID for OpenStreetMap entry from above | _2556679_ |
 | [Area of Operations: Division ID](#organization_area_division_id) | Country of Area of Operations | _mx_ |
 | [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
 | [Area of Operations: Date of last citation](#organization_area_date_last_cited) | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
@@ -156,11 +156,11 @@ This field is used to record data about units that have a uniquely named buildin
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## City or other Node Name in OpenStreetMaps {#organization_geonames_name}
+## City or other Node Name in OpenStreetMap {#organization_osm_name}
 
-The OpenStreetMaps data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
+The OpenStreetMap data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
 
-This field is for the city, village or other Node that a unit is based in. However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMaps field should be used instead\).
+This field is for the city, village or other Node that a unit is based in. However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMap field should be used instead\).
 
 > Tricky Example: "At the weekend when our reporter visited Ikot Akpan Udo, there was a heavy security presence at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas."
 
@@ -170,17 +170,17 @@ The place \(Ikot Akpan Udo\) would be the Area of Operations \(see relevant sect
 
 Organizations can be based in multiple cities, in which case a new entry should be created for every city the unit is based in.
 
-## City or other Node OpenStreetMaps ID {#organization_geonames_id}
+## City or other Node OpenStreetMap ID {#organization_osm_id}
 
-This is tied to the matching OpenStreetMaps entry.
+This is tied to the matching OpenStreetMap entry.
 
-## Highest level subnational boundary OpenStreetMaps {#organization_admin_level_1_geonames_name}
+## Highest level subnational boundary OpenStreetMap {#organization_admin_level_1_osm_name}
 
-The Monitor always selects the highest level subnational boundary in OpenStreetMaps - you can find a list here: [http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative\#Super-national\_administrations](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations)
+The Monitor always selects the highest level subnational boundary in OpenStreetMap - you can find a list here: [http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative\#Super-national\_administrations](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations)
 
 For example Mexico has both municipios \(admin level 6 in OSM\) and states \(admin level 4\). The state \(admin level 4\) would be the appriopriate entry for an organization based in Mexico.
 
-## Highest level subnational boundary OpenStreetMaps ID {#organization_admin_level_1_geonames_id}
+## Highest level subnational boundary OpenStreetMap ID {#organization_admin_level_1_osm_id}
 
 This would be the ID attached to the OSM entry from above.
 
@@ -193,12 +193,12 @@ The division\_id enables the system to identify which country this organization 
 
 ## Site: Date of first citation {#organization_site_date_first_cited}
 
-This field is for the earliest citation for the unit being located at City or other Node Name in OpenStreetMaps if there is no City or other Node Name in OpenStreetMaps then use the earliest citation for Highest level subnational boundary OpenStreetMaps.  
+This field is for the earliest citation for the unit being located at City or other Node Name in OpenStreetMap if there is no City or other Node Name in OpenStreetMap then use the earliest citation for Highest level subnational boundary OpenStreetMap.  
 If during the course of research a source ties an Organization ot a City or other Node then the first and last dates of citation should all be modified to match the date range for the City or other Node \(assuming it is in the same Highest level subnational boundary\).
 
 ## Is this the founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
 
-This field is a simple Y \(for yes\) or N \(for no\) that is tied to the Site \(either the City or other Node Name in OpenStreetMaps or the Highest level subnational boundary OpenStreetMaps depending\). Always default to City or other Node when you have that information.  
+This field is a simple Y \(for yes\) or N \(for no\) that is tied to the Site \(either the City or other Node Name in OpenStreetMap or the Highest level subnational boundary OpenStreetMap depending\). Always default to City or other Node when you have that information.  
 The main question for this field is - is the date the first time the organization was based in the city \(i.e. was it founded in this city on this date\)? Put another way - did this organization exist in this city before this date?  
 If we don't know we record `N` in this field.  
 If we can answer "yes this organization began being based in this city or highest level subnational boundary as of this date" we record `Y`.
@@ -213,7 +213,7 @@ For marking `Y` \(Y=yes, assume site to current date, so the site will displayed
 
 For historical basing or for instances where the longevity of a unit being based in a Site is unclear, use `N`.
 
-## Area of Operations: OpenStreetMaps Name {#organization_area_geonames_name}
+## Area of Operations: OpenStreetMap Name {#organization_area_osm_name}
 
 Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner.
 
@@ -238,9 +238,9 @@ Often we can infer the AOO of police units based on a crime being reported to th
 
 Note that `Source: Area of Operations` covers all citations for `Area of Operations` fields.
 
-## Area of Operations: OpenStreetMaps ID {#organization_area_geonames_id}
+## Area of Operations: OpenStreetMap ID {#organization_area_osm_id}
 
-The OpenStreetMaps ID tied to the entry above.
+The OpenStreetMap ID tied to the entry above.
 
 ## Area of Operations: division\_id {#organization_area_division_id}
 

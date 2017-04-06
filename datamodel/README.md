@@ -6,7 +6,7 @@ Security Force Monitor researches and creates data about three things \(or _enti
 * [Persons](/datamodel/persons.md) are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time. The Monitor creates a dossier for each person, which includes their name, aliases, rank, title, role and the different organizations which they are affiliated with.
 * [Events](/datamodel/events.md) are publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. The Monitor does not make allegations itself, but rather complies allegations made by governmental bodies, human rights organizations and other civil society actors. For each Event, the Monitor includes a description from the source, date\(s\), specific location\(s\), its perpetrators and the type of human rights violation.
 
-Every piece of data collected by the Monitor is individually sourced and each data point about Persons and/or Organizations are assigned a confidence rating. The Research Handbook [section on sources and confidence](/sources_confidence.md) provides more guidance about this aspect.
+Every piece of data collected by the Monitor is individually sourced and each data point about Persons and/or Organizations are assigned a confidence rating. The Research Handbook [section on sources and confidence](/sources_confidence.md) provides more guidance about this aspect of the data.
 
 Detailed guidance about the fields used by the Monitor to record data about Organizations, Persons and Events is provided in the remainder of this document.
 
