@@ -14,9 +14,9 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | [Title \(official title\)](#person_title) | The title \(if any\) of the person | _General Officer Commanding_ |
 | [Rank](#person_rank) | The rank \(if any\) of the person | _Lieutenant Colonel_ |
 | [First citation](#person_date_first_cited) | First source, by date, evidencing a relationship | _2007-09-31_ |
-| [Start date?](#person_first_cited) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
-| [Last citation](#person_last_cited) | Last source, by date, evidencing a relationship | _2009-02-20_ |
-| [End date?](#person_last_cited_is_end) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
+| [Start date?](#person_date_first_cited_is_start) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
+| [Last citation](#person_date_last_cited) | Last source, by date, evidencing a relationship | _2009-02-20_ |
+| [End date?](#person_date_last_cited_is_end) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
 | [Notes](#person_notes) | Anything else relevant about this person that is not covered above | _Referred to as "new" as of 1 July 2012_ |
 
 ## ID {#person_id}
