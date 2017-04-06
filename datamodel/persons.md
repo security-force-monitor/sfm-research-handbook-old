@@ -1,6 +1,23 @@
 # Persons
 
-Persons are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time. 
+Persons are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time.
+
+## Summary of person fields
+
+| Name of Field | Description | Example of Use |
+| :--- | :--- | :--- |
+| ID | Unique identifier for the person | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| Name | Name of person | _Sunday Jimmi Ayorinde Ilori_ |
+| Aliases or alternative spellings | Other names for a person | _Sunday Ilori_ |
+| Organization | The organization that the individual is affiliated with | _1 Battalion_ |
+| Role | The role the person serves in the organization | _Commander_ |
+| Title \(official title\) | The title \(if any\) of the person | _General Officer Commanding_ |
+| Rank | The rank \(if any\) of the person | _Lieutenant Colonel_ |
+| First citation | First source, by date, evidencing a relationship | _2007-09-31_ |
+| Start date? \(Y/N\) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
+| Last citation | Last source, by date, evidencing a relationship | _2009-02-20_ |
+| End date? \(Y/N\) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
+| Notes | Anything else relevant about this person that is not covered above | _Referred to as "new" as of 1 July 2012_ |
 
 ## ID {#person_id}
 
@@ -14,17 +31,15 @@ Use the name with the most characters, for example `Magaji Musa Majia'a` instead
 
 If an individual has held multiple positions within the security forces each position will require them to have a separate entry.
 
-The full CMS will make this easy to do - while it's being built as a temporary fix place a \(1\) after their name so the system knows that John Smith is promoted from Major to General --- or that John Smith serves with the 21 Battalion until 2011 when he was transferred to the 22 Brigade.
-
-## Aliases or alternative spellings \(semicolon separated\) {#person_other_names}
+## Aliases or alternative spellings {#person_other_names}
 
 ## Organization {#person_organization}
 
-The organization that the individual is affiliated with. This organization must have an entry in an Organizations sheet.
+The organization that the individual is affiliated with. This organization must exist as an entry in the Monitor.
 
 ## Role {#person_role}
 
-This column is to record the role the individual played in the organization that is usually not evident from their title or rank.
+This field is to record the role the individual played in the organization that is usually not evident from their title or rank.
 
 The main role we record - and that you will come across - is Commander.
 
@@ -32,10 +47,7 @@ There are a variety of other roles a person can have including Second in Command
 
 As a special note, heads of academic or other security force institutions will sometimes be referred to as the Commandant. They should be put in the Title column and they should be recorded as Commander.
 
-If someone is referred to as “the head” of an unit or it’s “chief” or some other variation indicating that they are in charge - they should be regarded as the Commander.  
-If someone is referred to as “Spokesperson” and the source does not state that this person is a “Police Public Relations Officer” then the Role of that person is “Spokesperson”.
-
-_Vice versa_, if in Nigeria for example, someone is listed as Police Public Relations Officer their role is also Police Public Relations Officer.
+If someone is referred to as “the head” of an unit or it’s “chief” or some other variation indicating that they are in charge - they should be regarded as the Commander.
 
 ## Title \(official title\) {#person_title}
 
@@ -47,21 +59,25 @@ This column is to record titles that individuals have that are separate from the
 
 This column record the rank of the individual, as a style issue the Monitor removes dashes in ranks e.g. record an individual as Brigadier General rather than Brigadier-General.
 
-## First citation \(MM/DD/YYYY\) {#person_date_first_cited}
+## First citation {#person_date_first_cited}
+
+This field is for the earliest source the Monitor has showing an affiliation between this person and the organization. If the person's role, title or rank changes a new entry will need to created to document that change and a new first or last citation created to mark the change.
+
+Role, Titles and Ranks are assumed until a source indicates a change.
+
+> For example - If a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the revelevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10, however, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10
 
 ## Start date? \(Y/N\) {#person_date_first_cited_is_start}
 
-## Context for start date {#person_date_first_cited_context}
+If the date of first citation is start of this person's affiliation with the organization or the start date of their Role, Title or Rank put Y here. Otherwise, mark N.
 
-Entries for this column should be kept to one word if possible - entries include appointed or transferred or promoted.
+## Last citation {#person_date_last_cited}
 
-## Last citation \(MM/DD/YYYY\) {#person_date_last_cited}
+This field is for the latest source the Monitor has showing an affiliation between this person and the organization. If the person's role, title or rank changes a new entry will need to created to document that change and a new first or last citation created to mark the change.
 
 ## End date? \(Y/N\) {#person_date_last_cited_is_end}
 
-## Context for end date {#person_date_last_cited_context}
-
-Entries for this column should be kept to one word if possible - entries include transferred,  promoted, retired, arrested, or killed.
+If the date of last citation is end of this person's affiliation with the organization or the end date of their Role, Title or Rank put Y here. Otherwise, mark N.
 
 ## Notes {#person_notes}
 

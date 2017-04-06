@@ -1,12 +1,31 @@
 # Events
 
-`Events` are publicly-documented actions by security force personnel that constitute human rights violations. These include extrajudicial killings, rape, torture and other forms of violence.
+`Events` are publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. The Monitor does not make allegations itself, but rather complies allegations made by governmental bodies, human rights organizations and other civil society actors. For each Event, the Monitor includes a description, date\(s\), specific location\(s\), its perpetrators and the type of human rights violation.
 
-Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description, separated by a semicolon.
+Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description.
+
+| Name of field | Description | Example of use |
+| :--- | :--- | :--- |
+| ID | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| Start Date | The date the event started | _2009-07-24_ |
+| End Date | The date the event ended | _2009-07-24_ |
+| Location | A specific place where the event occured | _Behind Maiduguri University_ |
+| City or other Node Name in OpenStreetMaps | The city or node where the event occured | _Port Harcourt_ |
+| City or other Node OpenStreetMaps ID | The ID for the city or node | _27565065_ |
+| Highest level subnational boundary OpenStreetMaps | Highest level subnational boundary in OpenStreetMaps | _Rivers_ |
+| Highest level subnational boundary OpenStreetMaps ID | The ID for the highest subnational boundard | _3720743_ |
+| division\_id | Country code for where event occured | _ng_ |
+| Violation type | Type\(s\) of violation | _Violations of the right to life_ |
+| Description | Description of event from source | _According to Amnesty International: "Chibuike Anams, a student aged 23, was sitting with two friends at a guesthouse in Elimgbu, Rivers State, on 24 July 2009. When the police raided the guest house, he attempted to escape and was shot and died on the spot. His friends were arrested and later released. Chibuike Anams’ family reported him missing at the Police Headquarters in Port Harcourt after he failed to come home. They found out about his death almost a week later after they visited several police stations. The family do not know why the police shot Chibuike Anams, or what crime he was suspected of. There has been no investigation into his death. In the meantime, the police have refused to release the body – at the time of writing, it is still lying in the mortuary."_ |
+| Perpetrator name | Name of individual perpetrator | _Friday Iyamabo_ |
+| Perpetrator organization | Name of organization idenfitied as perpetrator | _Joint Task Force, Operation Restore Order I_ |
+| Perpetrator Classification | Classification of identified perpetrator organization if not specifically named | _Police_ |
+
+##  {#event_id}
 
 ## ID {#event_id}
 
-Please use this field to put your name/initials and date on rows you enter data on. In the future this field will be used to create an unique identifier for each `event` in the Monitor’s database.
+Security Force Monitor's data entry tool will automatically create a unique ID for every `person`, `organization` and `event` in the dataset.
 
 ## Start Date {#event_start_date}
 
@@ -50,7 +69,7 @@ Here's another example of how to use this field:
 
 > "And in yet a third case, Human Rights Watch interviewed three witnesses who saw soldiers shoot five men on the Customs Bridge in Maiduguri. One of the victims survived. He told Human Rights Watch that on the afternoon of July 28 soldiers entered a mosque where he was praying with four other men. The soldiers removed their robes, beat them, and marched them to their commander at the bridge. He described what happened next: The soldiers told us to lie down. Four of the soldiers opened fire on us. The commander was watching. I was lying on my side. They saw that some of us were moving and shot us again. I then lost consciousness. I regained consciousness in the night and dragged myself to an area in the dirt near Dandal Community Bank. I spent the night under a bus. In the morning an achaba \[commercial motorcycle taxi\] man who knew me took me to my house. My family called a doctor…. They removed four bullets from my body. A former Boko Haram member who witnessed the shootings at the Customs Bridge insisted to Human Rights Watch that the five men were not Boko Haram members. According to him, “The old man was holding prayer beads, and Boko Haram members don’t do that. The two youth wore T-shirts and the \[other\] two men wore long pants, not the short pants of Boko Haram.” The soldiers left the corpses on the bridge for three days."
 
-The location would be `the Customs Bridge` - while `Maiduguri` would be the `City or smallest administrative unit Geoname` \(more on that below\)
+The location would be `the Customs Bridge` - while `Maiduguri` would be the `City or other Node Name` \(more on that below\)
 
 A common issue is the separation of specific events contained within a single account of violations based on geography.
 
@@ -58,17 +77,21 @@ Often a person is arrested and, for example, beaten at a specific site \(and the
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one `event` and abuses committed or otherwise tied to site of detention a separate `event`.
 
-## City or smallest administrative unit GeoName {#event_geonames_name}
+## City or other Node Name in OpenStreetMaps {#event_geonames_name}
 
-The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city or an LGA if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event `reporting, only to transcribe what other groups have reported. Note that often the location mentioned could be either a city or the LGA in which the city is based. In such cases, list the LGA and the associated GeoName.
+The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city, if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported.
 
-## City or smallest administrative unit GeoNameID {#event_geonames_id}
+## City or other Node OpenStreetMaps ID {#event_geonames_id}
 
-## ADMIN 1 GeoName {#event_geonames_admin_1_geonames_name}
+This is the OpenStreetMaps ID tied to the entry above.
+
+## Highest level subnational boundary OpenStreetMaps {#event_geonames_admin_1_geonames_name}
 
 Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that
 
-## ADMIN 1 GeonameID {#event_geonames_admin_1_geonames_id}
+## Highest level subnational boundary OpenStreetMaps ID {#event_geonames_admin_1_geonames_id}
+
+This is the OpenStreetMaps ID tied to the entry above.
 
 ## Violation type {#event_violation_type}
 
@@ -76,13 +99,13 @@ In this field, the Monitor uses entries from a HURIDOCS controlled vocabulary ca
 
 ## Description {#event_description}
 
-This is a direct quotation from the civil society, governmental or other source about the abusive event. When an `event` has more than one report tied to it, start the quotation as below: 
+This is a direct quotation from the civil society, governmental or other source about the abusive event. When an `event` has more than one report tied to it, start the quotation as below:
 
 > According to X organization, “Description of event”. According to Y organization, “Description of event”.
 
 ## Perpetrator name {#event_perpetrator_name}
 
-If an individual perpetrator is named in the source report, record it in the `perptrator name`field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
+If a person or persons are named in the source report, record it in the `perptrator name`field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
 
 > "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
 
