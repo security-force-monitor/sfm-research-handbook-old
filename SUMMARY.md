@@ -3,6 +3,8 @@
 ### Introduction
 
 * [About the Research Handbook](/README.md)
+ * [Contributors](/README.md#about_contributors)
+ * [About Security Force Monitor](/README.md#about_sfm)
 
 ### Data model
 
@@ -79,6 +81,8 @@
 ### Prototype user guide
 
 * [Introduction](/userguide/README.md)
+ * [About](/userguide/README.md#userguide_about)
+ * [Code and credits](/README.md#userguide_code_credits)    
 * [Getting started](/userguide/getstarted.md)
 * [Map](/userguide/map.md)
 * [Dossier](/userguide/dossier.md)

@@ -1,6 +1,8 @@
 # User Guide
 
-This user guide provides a walkthrough to using Security Force Monitor's data visualization prototype.
+## About {#userguide_about}
+
+This user guide provides a walk-through to using Security Force Monitor's data visualization prototype.
 
 This prototype visualizes the Security Force Monitor’s data about police, military and other security forces. Its goal is to make it easy to explore and understand the Monitor’s complex data on security forces. For example, below is a chart view showing a command tree from the Mexican armed forces as an "organigram".
 
@@ -10,7 +12,15 @@ By making this information more accessible, the Monitor aims to assist journalis
 
 ![](/assets/prototype_map.jpeg)
 
+## Code and credits {#userguide_code_credits}
 
+The development of this prototype tool has been a collaboration of Security Force Monitor with:
+ * [James McKinney](https://twitter.com/mckinneyjames) (data model design, specification, API)
+ * [FFuction](https://ffctn.com/) (front-end development)
+ * [DataMade](https://datamade.us) (back-end development, API, deployment)
 
+All our source code is hosted on GitHub:
 
-
+ * [User interface for browsing data about security forces](https://github.com/security-force-monitor/sfm-ui)
+ * [Content management system for data capture and management of data sources](https://github.com/security-force-monitor/sfm-cms)
+ * [API / Proxy](https://github.com/security-force-monitor/sfm-proxy) 
