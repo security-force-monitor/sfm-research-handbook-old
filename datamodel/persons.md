@@ -6,18 +6,18 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 
 | Name of Field | Description | Example of Use |
 | :--- | :--- | :--- |
-| ID | Unique identifier for the person | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| Name | Name of person | _Sunday Jimmi Ayorinde Ilori_ |
-| Aliases or alternative spellings | Other names for a person | _Sunday Ilori_ |
-| Organization | The organization that the individual is affiliated with | _1 Battalion_ |
-| Role | The role the person serves in the organization | _Commander_ |
-| Title \(official title\) | The title \(if any\) of the person | _General Officer Commanding_ |
-| Rank | The rank \(if any\) of the person | _Lieutenant Colonel_ |
-| First citation | First source, by date, evidencing a relationship | _2007-09-31_ |
-| Start date? \(Y/N\) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
-| Last citation | Last source, by date, evidencing a relationship | _2009-02-20_ |
-| End date? \(Y/N\) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
-| Notes | Anything else relevant about this person that is not covered above | _Referred to as "new" as of 1 July 2012_ |
+| [ID](#person_id) | Unique identifier for the person | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
+| [Name](#person_name) | Name of person | _Sunday Jimmi Ayorinde Ilori_ |
+| [Aliases or alternative spellings](#person_other_names) | Other names for a person | _Sunday Ilori_ |
+| [Organization](#person_organization) | The organization that the individual is affiliated with | _1 Battalion_ |
+| [Role](#person_role) | The role the person serves in the organization | _Commander_ |
+| [Title \(official title\)](#person_title) | The title \(if any\) of the person | _General Officer Commanding_ |
+| [Rank](#person_rank) | The rank \(if any\) of the person | _Lieutenant Colonel_ |
+| [First citation](#person_date_first_cited) | First source, by date, evidencing a relationship | _2007-09-31_ |
+| [Start date?](#person_first_cited) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
+| [Last citation](#person_last_cited) | Last source, by date, evidencing a relationship | _2009-02-20_ |
+| [End date?](#person_last_cited_is_end) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
+| [Notes](#person_notes) | Anything else relevant about this person that is not covered above | _Referred to as "new" as of 1 July 2012_ |
 
 ## ID {#person_id}
 
