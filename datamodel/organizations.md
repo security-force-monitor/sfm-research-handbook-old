@@ -26,8 +26,8 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
 | [Site: Date of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
 | [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Area of Operations: O](#organization_area_geonames_name)penStreetMaps Name | OpenStreetMaps name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
-| [Area of Operations: O](#organization_area_geonames_id)penStreetMaps ID | ID for OpenStreetMaps entry from above | _2556679_ |
+| [Area of Operations: OpenStreetMaps Name](#organization_area_geonames_name) | OpenStreetMaps name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
+| [Area of Operations: OpenStreetMaps ID](#organization_area_geonames_id) | ID for OpenStreetMaps entry from above | _2556679_ |
 | [Area of Operations: Division ID](#organization_area_division_id) | Country of Area of Operations | _mx_ |
 | [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
 | [Area of Operations: Date of last citation](#organization_area_date_last_cited) | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
@@ -86,9 +86,7 @@ You can search for country codes here: [https://www.iso.org/obp/ui/\#search](htt
 
 ## Classification {#organization_classification}
 
-We will build the classification list for each country covered by the Monitor cover. We will have in-person discussions to decide on a schema but here are some general guidelines and explanation for this field.
-
-Classifications give context to Organizations and will be the filters for Maps and Charts on the Security Force Monitor web products.
+We will build the classification list for each country covered by the Monitor cover. Classifications give context to Organizations and inform the filters for Maps, Charts and other functions on the Security Force Monitor prototype visualization.
 
 Classification are created with several criteria in mind:
 
