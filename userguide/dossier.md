@@ -6,5 +6,5 @@ As a walkthrough to get to the dossier - from the Map we click on an Area of Ope
 
 Both People and Organizations have Dossiers. Visit the [Persons](//datamodel/persons.md) and [Organizations](//datamodel/organizations.md) pages in this Research Handbook to detailed information on what you see in the Dossiers.
 
-To learn more about how the Security Force Monitor does its research and pulls together information contained in those dossiers please visit our Methodology document.
+To learn more about how the Security Force Monitor does its research and pulls together information contained in those dossiers please visit the [Methodology part of this Research Handbook](/methodology/methodology.md).
 

@@ -4,6 +4,7 @@
 
 This Research Handbook contains information about the data and tools used by Security Force Monitor, a project of the Columbia Law School Human Rights Initiative. Currently, it has two main sections:
 
+* [Methodology](/methodology/methodology.md): Security Force Monitor has a four phase approach to researching a country's security forces. This section outlines our process.
 * [Data Model](/datamodel/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use \(`persons`,`organizations` and `events`\) and details how each field is used. 
 * [Prototype User Guide](/userguide/README.md): Security Force Monitor has developed a prototype web application to publish and visualize its complex data. This user guide provides basic information about the main features of the prototype, including its maps, charts, dossiers and search capabilities.
 

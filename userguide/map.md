@@ -20,15 +20,15 @@ To move the map around you can click and drag your mouse cusor
 
 ![Security Force Monitor prototype - screenshot of country legend](/assets/Screenshot legend_country.jpg)
 
-Clicking Legend displays three selections: _Events_, _Installations_ and _Area of Operations_. To learn more about what each of those terms mean, visit our **Glossary of Terms**.
+Clicking Legend displays three selections: _Events_, _Installations_ and _Area of Operations_. To learn more about what each of those terms mean [visit the Data Model part of this handbook](/datamodel/README.md). 
 
 ![Security Force Monitor prototype - screenshot of selected country](/assets/Screenshot legend selected_country.jpg)
 
 Clicking any of the selections will make the Map only display data tied to that selection. For example, clicking on Events will remove all other data from the Map and only show data on Events. You can choose to only display one selection, only two, or all three.
 
-* _Events_: Shows the location of an alleged of a human rights violation by security forces took place. Clicking on an Event node will display more information about the alleged abuse. For more detailed information on Events visit our **Methodology document**.
-* _Installations_: Shows the locations of security forces. Clicking on an Installation node will display its dossier, which is further explained in the **Dossier section**.
-* _Area of Operations_: Shows the geographic areas where the security forces operate. Clicking on a specific area of operations will display the organization's dossier, which is further explained in the **Dossier section**.
+* _Events_: Shows the location of an alleged of a human rights violation by security forces took place. Clicking on an Event node will display more information about the alleged abuse. [Visit the Research Handbook page on Events](/datamode/events.md) for detailed information about their use and contents.
+* _Installations_: Shows the locations of security forces. Clicking on an Installation node will display its dossier.[Dossiers are further explained in the next section](/userguide/dossier.md).
+* _Area of Operations_: Shows the geographic areas where the security forces operate. Clicking on a specific area of operations will display the organization's dossier, which is further explained in the [Dossier section](/userguide/dossier.md).
 
 ### Timeline
 
@@ -48,7 +48,7 @@ The _Installations_ and _Area of Operations_ will update every time you select a
 
 The Timeline also shows the chronology of the alleged human rights violations, which are also displayed on the Map.
 
-Each event has a number according to its place in the timeline, starting from the oldest as number 1 and moving forward until the last event recorded in the Monitor's database. Place your arrow on any event on the timeline to get a glimpse of where the alleged event took place, its date and what type of violations are alleged to have occurred. Clicking on an event in the timeline will bring up the same information as clicking on an event on the Map. Again, for more detailed information on Events visit our **Methodology document**.
+Each event has a number according to its place in the timeline, starting from the oldest as number 1 and moving forward until the last event recorded in the Monitor's database. Place your arrow on any event on the timeline to get a glimpse of where the alleged event took place, its date and what type of violations are alleged to have occurred. Clicking on an event in the timeline will bring up the same information as clicking on an event on the Map. Again, for more detailed information on Events visit the relevant [Research Handbook pages](/datamodel/events.md). 
 
 ### Accessing the other tools: Chart, Dossier and Search
 
@@ -58,11 +58,10 @@ Once you are on the Map you can select Search at any time. You can learn more ab
 
 Clicking on an Installation, Event or Area of Operations will bring up a mini-dossier on the right hand side of the screen. If you've clicked on a security force unit you'll have two options \(Events only have a mini-dossier\) --
 
-1. _Click View Dossier_ - This will take you to the full dossier which you can learn more about in the **Dossier section of this guide**.
+1. _Click View Dossier_ - This will take you to the full dossier which you can learn more about in the [Dossier section of this guide](/userguide/dossier.md).
 
 ![Security Force Monitor prototype - screenshot of view dossier](/assets/screenshot of View Dossier.jpg)
 
 1. _Click Chart_ - Clicking this will take you to the Chart, which you can learn more about in the [**Chart section of this guide**.](//chart.md)
 
 ![Security Force Monitor prototype - screenshot of chart](/assets/screenshot of Chart.jpg)
-
