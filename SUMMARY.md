@@ -6,6 +6,14 @@
  * [Contributors](/README.md#about_contributors)
  * [About Security Force Monitor](/README.md#about_sfm)
 
+### Methodology
+
+* [Research Methodology](/methodology/method.md)
+ * [Scope out sources](/methodology/method.md#phase_1)
+ * [Write a Country Guide](/methodology/method.md#phase_2)
+ * [Conduct detailed research](/methodology/method.md#phase_3)
+ * [Publish data](/methodology/method.md#phase_4)
+
 ### Data model
 
 * [What data does the Monitor collect?](/datamodel/README.md)
