@@ -34,7 +34,7 @@ Examining the administrative geography of a country provides important context f
 
 During this first phase, researchers also identify sources that could be turned into large, high value datasets for the Monitor. These are sources that contain a sufficiently large amount or complex type of data that technical help is necessary to extract it in a timely way; doing the work “by hand” is possible, but would be slow and error prone. These high value data extraction tasks use techniques such as web-scraping, scripted parsing and geospatial analysis. Good examples of this sort of opportunity include:
 
- * The [Kenya Gazette](http://kenyalaw.org/kenya-gazette/), in which are published the officially-designed locations of police installations. 
+ * The [Kenya Gazette](http://www.kenyalaw.org/kenya-gazette/), in which are published the officially-designed locations of police installations. 
  * Over 10 years of Internet Archive snapshots of [various versions of the official Ejército Mexicano webpage](https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html) (and child pages), which outline the top level structures of the Mexican army and its commanding officers. 
  * The [Communications Reports of Special Procedures](http://www.ohchr.org/EN/HRBodies/SP/Pages/CommunicationsreportsSP.aspx) of the United Nations Human Rights Council.
 
@@ -56,9 +56,10 @@ Anything relating to the types of information the Monitor collects is entered in
 Additionally, data from this research is used to update the Country Guide to provide greater granular detail on the security forces of a country or to update sections as needed. New sources and keywords discovered during research are added to the existing guide as well.
 
 As the Monitor builds its database on the security forces of a country, new information is cross-referenced to corroborate data, discover gaps, or identify mistakes. There are three key questions a researcher for the Monitor should be asking themselves as they work:
- *"Does this make sense given what we already know?"
- *"Is it possible this source is correct and contradictory information is wrong?"
- *"Do I have enough information to accept or reject what this source says?"
+
+ * "Does this make sense given what we already know?"
+ * "Is it possible this source is correct and contradictory information is wrong?"
+ * "Do I have enough information to accept or reject what this source says?"
 
 The Country Guide acts as a framework for researchers to understand the security forces and to help a researcher answer these questions.
 Data entered into the Monitor’s databases are progressively updated as new information is found. Throughout, researchers take a number of quality assurance steps to validate the data against the standards set out in the Data Model section. 
