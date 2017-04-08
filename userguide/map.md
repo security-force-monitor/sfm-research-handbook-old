@@ -26,7 +26,7 @@ Clicking Legend displays three selections: _Events_, _Installations_ and _Area o
 
 Clicking any of the selections will make the Map only display data tied to that selection. For example, clicking on Events will remove all other data from the Map and only show data on Events. You can choose to only display one selection, only two, or all three.
 
-* _Events_: Shows the location of an alleged of a human rights violation by security forces took place. Clicking on an Event node will display more information about the alleged abuse. [Visit the Research Handbook page on Events](/datamode/events.md) for detailed information about their use and contents.
+* _Events_: Shows the location of an alleged of a human rights violation by security forces took place. Clicking on an Event node will display more information about the alleged abuse. [Visit the Research Handbook page on Events](/datamodel/events.md) for detailed information about their use and contents.
 * _Installations_: Shows the locations of security forces. Clicking on an Installation node will display its dossier.[Dossiers are further explained in the next section](/userguide/dossier.md).
 * _Area of Operations_: Shows the geographic areas where the security forces operate. Clicking on a specific area of operations will display the organization's dossier, which is further explained in the [Dossier section](/userguide/dossier.md).
 
