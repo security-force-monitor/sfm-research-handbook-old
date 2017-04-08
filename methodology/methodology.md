@@ -34,7 +34,7 @@ Examining the administrative geography of a country provides important context f
 
 During this first phase, researchers also identify sources that could be turned into large, high value datasets for the Monitor. These are sources that contain a sufficiently large amount or complex type of data that technical help is necessary to extract it in a timely way; doing the work “by hand” is possible, but would be slow and error prone. These high value data extraction tasks use techniques such as web-scraping, scripted parsing and geospatial analysis. Good examples of this sort of opportunity include:
 
- * The [Kenya Gazette](http://www.kenyalaw.org/kenya-gazette/), in which are published the officially-designed locations of police installations. 
+ * The [Kenya Gazette](http://www.kenyalaw.org/kenya_gazette/), in which are published the officially-designed locations of police installations. 
  * Over 10 years of Internet Archive snapshots of [various versions of the official Ejército Mexicano webpage](https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html) (and child pages), which outline the top level structures of the Mexican army and its commanding officers. 
  * The [Communications Reports of Special Procedures](http://www.ohchr.org/EN/HRBodies/SP/Pages/CommunicationsreportsSP.aspx) of the United Nations Human Rights Council.
 
