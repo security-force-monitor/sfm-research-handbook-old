@@ -2,7 +2,7 @@
 
 Along with the Map, the prototype also gives you the option to visualize information about security forces in a Chart.
 
-The Chart displays Command, Administrative and Informal hierarchies between units of the security forces. You can learn more about these categories by reading our **Methodology**.
+The Chart displays Command, Administrative and Informal hierarchies between units of the security forces. You can learn more about these categories by [reading our methodology](/methodology/methodology.md).
 
 Once you've clicked "Chart" on the Map screen you'll be brought to the Chart. You will see the organization you were looking at in a chart connected to at least one other organization above or below it.
 
