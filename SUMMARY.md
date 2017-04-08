@@ -8,11 +8,11 @@
 
 ### Methodology
 
-* [Research Methodology](/methodology/method.md)
- * [Scope out sources](/methodology/method.md#phase_1)
- * [Write a Country Guide](/methodology/method.md#phase_2)
- * [Conduct detailed research](/methodology/method.md#phase_3)
- * [Publish data](/methodology/method.md#phase_4)
+* [Research Methodology](/methodology/methodology.md)
+ * [Scope out sources](/methodology/methodology.md#method-phase-1)
+ * [Write a Country Guide](/methodology/methodology.md#method-phase-2)
+ * [Conduct detailed research](/methodology/methodology.md#method-phase-3)
+ * [Publish data](/methodology/methodology.md#method-phase-4)
 
 ### Data model
 
