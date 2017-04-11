@@ -5,6 +5,7 @@
 * [About the Research Handbook](/README.md)
  * [Contributors](/README.md#about_contributors)
  * [About Security Force Monitor](/README.md#about_sfm)
+ * [License](README.md#handbook-license)
 
 ### Methodology
 
