@@ -39,28 +39,46 @@ Organizations are official state or state-sanctioned organizations responsible f
 
 ## ID {#organization_id}
 
-Security Force Monitor's data entry tool will automatically create a unique ID for every `person`, `organization` and `event` in the dataset.
+### Description
+
+A unique code assigned to each organization in the dataset.
+
+### Type of field
+
+VARCHAR (36)
+
+### Example of use
+
+`a407be6a-28e6-4237-b4e9-307f27b1202e`
+
+### Guidance on use
+
+This field is created automatically when data is uploaded into the Monitor's online platform.
 
 ## Name {#organization_name}
 
-Whenever possible the Monitor uses the most complex version of the organization’s name that also matches the general structure of the security forces of a country.
+### Description
 
-> Example: `3 Armoured Division of the Nigerian Army` would be the entry, rather than the more informal `3 Division` \(which may have more citations\).
+Name of the organization
 
-The Monitor attempts to standardize names based on the overall structure of and reporting about the security forces:
+### Type of field
 
-> Example:`Police Divisions` are a class of police units in Nigeria of which there are over 1000 units nationwide.
+Text and numbers
 
-However, each individual `Police Division` may not have a citation for their formal name such as Lagos Police Division, but only have a citation \(or numerous citations\) for the less formal `Lagos Division`.
+### Example of use
 
-The Monitor would list the name of the unit as `Lagos Police Division` with a note about the methodology behind that choice.
+`3 Armoured Division of the Nigerian Army`, `4 Batallón de Infantería`
 
-The less formal `Lagos Division` name would be entered in the Alias field \(more on that below\):
+## Guidance on use
+Different sources will spell an organization's name in different ways, so we choose one of those names to be a canonical version. Wherever possible, we will choose the most complete and complex version of an organization’s name that can be evidenced by a source: 
 
-> Example: Army units of a country may follow a naming convention of a number and then name of unit: e.g. `3 Battalion` or `25 Brigade`. There may be a unit of which we only have citations for a variation on that: e.g. `Fourth Battalion`.
+> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division` \(which may have more citations\).
 
-The Monitor would list the name of the unit as `4 Battalion` with a note about the methodology behind that choice.  
-The Fourth Battalion name variant would be entered in the Alias field \(more on that below\)
+In addition to choosing the most complete and complex version of a organization's name, we also attempt to standardize names based on the overall structure of and reporting about the security forces:
+
+> Example:`Police Divisions` are a class of police units in Nigeria. There are over 1000 units of this type nationwide. However, each individual `Police Division` may not have a citation for their formal name such as Lagos Police Division, but only have a citation \(or numerous citations\) for the less formal `Lagos Division`. The Monitor would list the name of the unit as `Lagos Police Division` with a note about the methodology behind that choice. The less formal `Lagos Division` name would be entered in the `Aliases or alternative spellings` field.
+
+> Example: Army units of a country may follow a naming convention of a number and then name of unit: e.g. `3 Battalion` or `25 Brigade`. There may be a unit of which we only have citations for a variation on that: e.g. `Fourth Battalion`. In this case, the Monitor would list the name of the unit as `4 Battalion` with a note about the methodology behind that choice.  The `Fourth Battalion`  name variant would be entered in the `Aliases or alternative spellings` field
 
 The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization.
 
@@ -76,6 +94,13 @@ If the country being researched is non-English speaking, use this field for Engl
 
 > Example: The `10 Regimiento de Caballería Motorizado`, may have a source with an Ordinal indicator \(`10/o. Regimiento de Caballería Motorizado`\) which would go in this field.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+Different sources will spell an organization's name in different ways,s o
+
 ## Organization division\_id {#organization_division_id}
 
 The `division_id` enables the system to identify which country this organization belongs to. All entries in this field are two letter country codes.
@@ -83,6 +108,11 @@ The `division_id` enables the system to identify which country this organization
 > For example, organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.
 
 You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Classification {#organization_classification}
 
@@ -105,6 +135,39 @@ By necessity classifications vary slightly country to country - again the Monito
 
 > Example - Human rights reporting regularly refers to units and members of the `Nigeria Police Force` as “police”. Even though there are over a thousand different units in the police force, and at different levels of command authority, classifying all of them as `Police` would make sense in order to tag reports of abuses and the units themselves.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Date first cited
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Start date of organization?
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Date last cited
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Open ended?
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Parent Organization: The superior affiliated organization {#organization_organization_name}
 
 The parent must be also entered into the sheet as its own organization.
@@ -113,7 +176,12 @@ Think of an organizational chart - the parent is “above” or distinct and sep
 
 Often when there is an operation or joint task force, it may not have have personnel of its own. Rather, it gets personnel assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart, but “on the same level” as it. These types of relationships are handled in another field Other Affiliation \(like joint task force\).
 
-## Administrative, Command, or Informal parent relationship {#organization_organization_classification}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Parent relationship classification {#organization_organization_classification}
 
 Organizations have a Command relationship when the parent organization can order the organization to perform some action.
 
@@ -128,9 +196,26 @@ Administrative relationships exist where a formal, non-command relationship exis
 
 Organizations can have multiple parent relationships at the same time.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Date of first citation for parent organization {#organization_organization_date_first_cited}
 
 Note that in `Source: Date of first citation for parent organization \(MM/DD/YYYY\)` only put the citation for the earliest date. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Start date of parent relationship?
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Date of last citation for parent organization {#organization_organization_date_last_cited}
 
@@ -138,7 +223,12 @@ If there is only one citation for a relationship, and the citation is not for th
 
 Note that for `Source: Date of last citation for parent organization` only put the citation for the latest date. If there is only one citation put it in the Source: Date of first citation for parent organization field, if appropriate, and leave this field blank.
 
-## Assume Parent Organization and Relationship to Current Date? \(Y/N\) {#organization_organization_assume_to_current_date}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Parent relationship is open ended? {#organization_organization_assume_to_current_date}
 
 In many cases a relationship could be assumed past the last citation date. For example, where a battalion has been reporting to a brigade for years, one could safely assume that this relationship will continue.
 
@@ -148,6 +238,11 @@ There are always assumptions made in the sort of analysis done by the Monitor. F
 
 There are cases where there appears to be a temporary relationship, a historical relationship simply not enough data to base an assumption on. In these cases, the analyst would record an `N` in this field in order to state that there is no assumption this relation continue following the date of last citation.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Headquarters \(Barracks, Base, Physical Asset\) {#organization_headquarters}
 
 This field is used to record data about units that have a uniquely named building or complex for their headquarters.
@@ -155,6 +250,25 @@ This field is used to record data about units that have a uniquely named buildin
 > Example: `3 Battalion` in Nigeria is cited as being based in the `Lubanga Barracks` in `Enugu, Enugu State, Nigeria`.
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Site: Exact Location (Latitude or OSM Node Name)
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Site: Exact Location (Longitude or OSM Node ID)
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## City or other Node Name in OpenStreetMap {#organization_osm_name}
 
@@ -170,19 +284,39 @@ The place \(Ikot Akpan Udo\) would be the Area of Operations \(see relevant sect
 
 Organizations can be based in multiple cities, in which case a new entry should be created for every city the unit is based in.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## City or other Node OpenStreetMap ID {#organization_osm_id}
 
 This is tied to the matching OpenStreetMap entry.
 
-## Highest level subnational boundary OpenStreetMap {#organization_admin_level_1_osm_name}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Highest level subnational boundary in OpenStreetMap (name) {#organization_admin_level_1_osm_name}
 
 The Monitor always selects the highest level subnational boundary in OpenStreetMap - you can find a list here: [http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative\#Super-national\_administrations](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations)
 
 For example Mexico has both municipios \(admin level 6 in OSM\) and states \(admin level 4\). The state \(admin level 4\) would be the appriopriate entry for an organization based in Mexico.
 
-## Highest level subnational boundary OpenStreetMap ID {#organization_admin_level_1_osm_id}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Highest level subnational boundary in OpenStreetMap (ID) {#organization_admin_level_1_osm_id}
 
 This would be the ID attached to the OSM entry from above.
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Site: division\_id {#organization_site_division_id}
 
@@ -191,10 +325,20 @@ The division\_id enables the system to identify which country this organization 
 > For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
 > You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Site: Date of first citation {#organization_site_date_first_cited}
 
 This field is for the earliest citation for the unit being located at City or other Node Name in OpenStreetMap if there is no City or other Node Name in OpenStreetMap then use the earliest citation for Highest level subnational boundary OpenStreetMap.  
 If during the course of research a source ties an Organization ot a City or other Node then the first and last dates of citation should all be modified to match the date range for the City or other Node \(assuming it is in the same Highest level subnational boundary\).
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Is this the founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
 
@@ -203,15 +347,30 @@ The main question for this field is - is the date the first time the organizatio
 If we don't know we record `N` in this field.  
 If we can answer "yes this organization began being based in this city or highest level subnational boundary as of this date" we record `Y`.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Site: Date of last citation {#organization_site_date_last_cited}
 
 Follow the same rules as Site: Date of first citation.
 
-## Assume Site to Current Date? \(Y/N\) {#organization_site_date_last_cited_assume_to_current_date}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Is site open-ended? {#organization_site_date_last_cited_assume_to_current_date}
 
 For marking `Y` \(Y=yes, assume site to current date, so the site will displayed on the map up to the current date\) an analyst would have to make a determination using a variety of factors including: the history of basing for the unit, the overall structure/nature of the security forces, the frequency of movement of similar units.
 
 For historical basing or for instances where the longevity of a unit being based in a Site is unclear, use `N`.
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Area of Operations: OpenStreetMap Name {#organization_area_osm_name}
 
@@ -238,9 +397,19 @@ Often we can infer the AOO of police units based on a crime being reported to th
 
 Note that `Source: Area of Operations` covers all citations for `Area of Operations` fields.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Area of Operations: OpenStreetMap ID {#organization_area_osm_id}
 
 The OpenStreetMap ID tied to the entry above.
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Area of Operations: division\_id {#organization_area_division_id}
 
@@ -249,11 +418,33 @@ The division\_id enables the system to identify which country the area of operat
 > For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
 > You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Date of first citation for area of operations {#organization_area_date_first_cited}
 
 For `Source: Date of first citation for area of operations` follow the rules for date of first citation of parent units and sites outlined above. Only put the earliest date here unless the only citation you have is for the end of an AOO in which case put it in the Date of last citation for area of operations.
 
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Start date of area of operations?
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
 ## Date of last citation for area of operations {#organization_area_date_last_cited}
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Assume Area of Operations to Current Date? \(Y/N\) {#organization_area_date_late_cited_assume_to_current}
 
@@ -261,7 +452,12 @@ If it reasonable, given what is known about the organization, the overall struct
 
 > Example: the `New York State police` would likely maintain an AOO over all of `New York State` even if the last citation you could find is from 2015.
 
-## Other affiliation {#organization_affiliation}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Organization membership {#organization_affiliation}
 
 This field is for any memberships or attachments to internal/national joint operations, peacekeeping operations, or other multi-unit efforts.
 
@@ -275,13 +471,42 @@ Generally this means one of two things:
 
 Taskforces, Operations, Peacekeeping missions and other entries here should be entered as their own organization. Enter their information as a separate `Organization` record. Peacekeeping missions are often referred to informally. Find the formal name on the relevant UN peacekeeping website. If there is a specific unit designation given to the peacekeeping force - for example `NIBATT 12` or `Nigerian Battalion 12` - we would use that as the International affiliation. We would enter `Nigerian Battalion 12` as its own organization and make its parent unit the peacekeeping mission \(which would also be entered as its own organization\).
 
-## Other affiliation: Date of first citation {#organization_affiliation_date_first_cited}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Organization membership: Date of first citation {#organization_affiliation_date_first_cited}
 
 Follow the rules for parent units, sites, AOOs for the dates/citations.
 
-## Other affiliation: Date of last citation {#organization_affiliation_date_last_cited}
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Is start date?
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## Organization membership: Date of last citation {#organization_affiliation_date_last_cited}
 
 Follow the rules for parent units, sites, AOOs for the dates/citations.
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
+
+## End date of organization membership?
+
+### Description
+### Type of field
+### Example of use
+### Guidance on use
 
 ## Notes {#organization_affiliation_international}
 
