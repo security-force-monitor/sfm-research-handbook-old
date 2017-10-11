@@ -6,7 +6,7 @@ This Research Handbook contains information about the data and tools used by Sec
 
 * [Methodology](/methodology/methodology.md): Security Force Monitor has a four phase approach to researching a country's security forces. This section outlines our process.
 * [Data Model](/datamodel/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use \(`persons`,`organizations` and `events`\) and details how each field is used. 
-* [Prototype User Guide](/userguide/README.md): Security Force Monitor has developed a prototype web application to publish and visualize its complex data. This user guide provides basic information about the main features of the prototype, including its maps, charts, dossiers and search capabilities.
+
 
 The Research Handbook is a work-in-progress, and is updated during the course of the work of Security Force Monitor. 
 
@@ -14,7 +14,7 @@ The Research Handbook is a work-in-progress, and is updated during the course of
 
 Tony Wilson, Tom Longley and Michel Manzur from [Security Force Monitor](https://securityforcemonitor.org) wrote the first version of this Research Handbook.
 [James McKinney](https://twitter.com/mckinneyjames) -  at the time with [OpenNorth](http://opennorth.ca) - was a major contributor to the development of Monitor's  data model, adapting Popolo (an international open government data standard) and developing the specifications for the Monitor's research tool.
-The prototype visualisation tool was created and developed by [FFunction](https://ffctn.com/). The development of research support tools and backend data service has been by [DataMade](https://datamade.us).
+
 
 ### How to contribute
 

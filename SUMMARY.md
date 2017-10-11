@@ -87,14 +87,6 @@
  * [Event: Perpetrator Organization](/datamodel/events.md#event_perpetrator_organization)
  * [Event: Perpetrator Classification](/datamodel/events.md#event_perpetrator_classification)
 
-### Prototype user guide
+### WhoWasInCommand User Guide 
 
 * [Introduction](/userguide/README.md)
- * [About](/userguide/README.md#userguide_about)
- * [Giving feedback](/userguide/README.md#userguide_feedback)    
- * [Code and credits](/userguide/README.md#userguide_code_credits)    
-* [Getting started](/userguide/getstarted.md)
-* [Map](/userguide/map.md)
-* [Dossier](/userguide/dossier.md)
-* [Chart](/userguide/chart.md)
-* [Search](/userguide/search.md)
