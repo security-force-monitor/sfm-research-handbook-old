@@ -105,29 +105,31 @@ If 3 Compañía de Infantería No Encuadrada is used as the canonical `name` of 
 
 ### Guidance on use
 
-Different sources will spell an organization's name in different ways. We choose and record a canonical version of a organization's name in the `Name` field. All other spellings that we have found are treated as aliases and stored in this field. Where the country being researched is non-English speaking, use this field to record English language translations of an organization's name. 
+Different sources will spell an organization's name in different ways. We choose and record a canonical version of a organization's name in the `Name` field. All other spellings that we have found are treated as aliases and stored in this field. Where the country being researched is non-English speaking, use this field to record English language translations of an organization's name.
 
-Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical name we choose for an organization, where a source uses an Ordinal we record it as an alias. 
+Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical name we choose for an organization, where a source uses an Ordinal we record it as an alias.
 
 > Example: We find a version of the organization name `10 Regimiento de Caballería Motorizado` that has an Ordinal indicator: `10/o. Regimiento de Caballería Motorizado.` We would record this in the `Aliases` field.
 
-
-
 ## Organization division\_id
-
-The `division_id` enables the system to identify which country this organization belongs to. All entries in this field are two letter country codes.
-
-> For example, organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.
-
-You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
 
 ### Description
 
+The country in which an organziation originates
+
 ### Type of field
+
+Two letter country code
 
 ### Example of use
 
+`mx`, `ug`, `ng`
+
 ### Guidance on use
+
+The `division_id` field identifies the country this organization comes from. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
+
+> For example, an organization based in Nigeria would have the code `ng` and an organization based in Brazil would have the code `br`
 
 ## Classification {#organization_classification}
 
