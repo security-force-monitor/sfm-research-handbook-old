@@ -147,13 +147,13 @@ Text and numbers
 
 ### Guidance on use
 
-We use classifications to describe the basic nature of a specific organization: is it a police unit? Is it a military unit? Is it part of a joint operation? `Classification` values are useful supplements to `parent` and `membership` data we use to connect different units together. 
+We use classifications to describe the basic nature of a specific organization: is it a police unit? Is it a military unit? Is it part of a joint operation? `Classification` values are useful supplements to `parent` and `membership` data we use to connect different units together.
 
-The `Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches. 
+The `Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches.
 
 > For example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Classification` field.
 
- When applying a classification to an organization, we try to be as specific as the source allows.
+When applying a classification to an organization, we try to be as specific as the source allows.
 
 > For example: In Mexico \(which has federal level, state level and municipal level police forces, all independent of one another\) a municipal police force in Mexico is given two classifications: `Municipal Police ; Police`. A state police unit is given two classifications: `State Police ; Police`. So when human rights reporting is specific in saying municipal police officers committed an abuse nearby where this unit is located, we tag it. When there is more vague reporting of just “police” committing abuses both units that have a Police classification and are located near where the abuse occurred are tagged.
 
@@ -163,11 +163,19 @@ In choosing terms to include in the `Classification` field we try to include ter
 
 ### Description
 
+The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication
+
 ### Type of field
+
+Date \(YYYY-MM-DD\)
 
 ### Example of use
 
+`2012-11-23`
+
 ### Guidance on use
+
+Along with `Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed. 
 
 ## Start date of organization?
 
@@ -178,6 +186,8 @@ In choosing terms to include in the `Classification` field we try to include ter
 ### Example of use
 
 ### Guidance on use
+
+## 
 
 ## Date last cited
 
