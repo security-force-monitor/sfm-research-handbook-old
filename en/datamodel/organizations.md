@@ -115,7 +115,7 @@ Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical 
 
 ### Description
 
-The country in which an organziation originates
+The country in which an organziation originates.
 
 ### Type of field
 
@@ -133,32 +133,31 @@ The `division_id` field identifies the country this organization comes from. All
 
 ## Classification {#organization_classification}
 
-We will build the classification list for each country covered by the Monitor cover. Classifications give context to Organizations and inform the filters for Maps, Charts and other functions on the Security Force Monitor prototype visualization.
-
-Classification are created with several criteria in mind:
-
-1\) Classifications would allow analysts to create meaningful links between human rights reporting and the Monitor’s data on security forces:
-
-> Example - The Monitor classifies Army units as `Army` and police units as `Police`. This allows a user to click on a police unit and see all of the nearby human rights reporting on abuses committed by police, but does not connect any abuses committed by soldiers from the army to the police unit \(because the police unit is only tagged as Police\).  
-> Example - In Mexico \(which has federal level, state level and municipal level police forces, all independent of one another\) a municipal police force in Mexico is given two classifications: `Municipal Police ; Police`. A state police unit is given two classifications: `State Police ; Police`. So when human rights reporting is specific in saying municipal police officers committed an abuse nearby where this unit is located, it is tagged. When there is more vague reporting of just “police” committing abuses both units that have a Police classification and are located near where the abuse occurred are tagged.
-
-2\) They would be meaningful to experts on a country’s security forces
-
-3\) They would be meaningful to non-experts
-
-4\) They are as comprehensive as possible, while being as few in number as possible
-
-By necessity classifications vary slightly country to country - again the Monitor always tries to create as few classifications as possible.
-
-> Example - Human rights reporting regularly refers to units and members of the `Nigeria Police Force` as “police”. Even though there are over a thousand different units in the police force, and at different levels of command authority, classifying all of them as `Police` would make sense in order to tag reports of abuses and the units themselves.
-
 ### Description
+
+General branch or tier of security force that an organization a part of.
 
 ### Type of field
 
+Text and numbers
+
 ### Example of use
 
+`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`
+
 ### Guidance on use
+
+We use classifications to describe the basic nature of a specific organization: is it a police unit? Is it a military unit? Is it part of a joint operation? `Classification` values are useful supplements to `parent` and `membership` data we use to connect different units together. 
+
+The `Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches. 
+
+> For example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Classification` field.
+
+ When applying a classification to an organization, we try to be as specific as the source allows.
+
+> For example: In Mexico \(which has federal level, state level and municipal level police forces, all independent of one another\) a municipal police force in Mexico is given two classifications: `Municipal Police ; Police`. A state police unit is given two classifications: `State Police ; Police`. So when human rights reporting is specific in saying municipal police officers committed an abuse nearby where this unit is located, we tag it. When there is more vague reporting of just “police” committing abuses both units that have a Police classification and are located near where the abuse occurred are tagged.
+
+In choosing terms to include in the `Classification` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible.
 
 ## Date first cited
 
