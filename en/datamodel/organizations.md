@@ -163,7 +163,7 @@ In choosing terms to include in the `Classification` field we try to include ter
 
 ### Description
 
-The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication
+The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
@@ -175,7 +175,7 @@ Date \(YYYY-MM-DD\)
 
 ### Guidance on use
 
-Along with `Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed. 
+Along with `Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed.
 
 ## Start date of organization?
 
