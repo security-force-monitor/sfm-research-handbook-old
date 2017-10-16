@@ -175,7 +175,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields`Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed. 
+Along with the fields`Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed.
 
 The `Date first cited` field contains a date that is either:
 
@@ -184,7 +184,9 @@ The `Date first cited` field contains a date that is either:
 
 > For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January 2012 as the `Date first cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 June 2011, we will use 30 June 2011 as the `Date first cited`.
 
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date first cited` .
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date first cited` . 
+
+This field is clarified by the field `Start date of organization?` which indicates whether the date included here is the actual date on which an organization was founded.
 
 ## Start date of organization?
 
@@ -202,27 +204,58 @@ Boolean \(Yes, No\)
 
 ### Guidance on use
 
-This is a clarifying field for `Date first cited`. Where a source references an organization and specifies the date that organization was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.   
+This is a clarifying field for `Date first cited`. Where a source references an organization and specifies the date that organization was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
 ## Date last cited
 
 ### Description
 
+The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication.
+
 ### Type of field
+
+Date \(YYYY-MM-DD\), fuzy
 
 ### Example of use
 
+`2013`,`2013-12`, `2013-12-28`
+
 ### Guidance on use
+
+Along with the fields `Date first cited`, `Start date of organization?`and `Open ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
+
+The `Date last cited` field contains a date that is either:
+
+* The latest date found in a source that specifically references an organization; or,
+* The latest date of publication of sources that make reference to an organization.
+
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 March 2012 as the `Date last cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 15 February  2012, we will use 15 February 2012 as the `Date last cited`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date last cited` .
+
+This field is clarified by `Open ended?`, which indicates whether the date in `Date last cited` is the date an organization was disbanded.
 
 ## Open ended?
 
 ### Description
 
+Is the value in  `Date last cited`  the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist
+
 ### Type of field
+
+Single choice \(Y, N, E\)
 
 ### Example of use
 
+`Y`,`N`,`E`
+
 ### Guidance on use
+
+We use this field to clarify the meaning of the date entered in `Date last cited`. One of the below values should be chosen:
+
+* `E` indicates the exact date this organization was disbanded, or ceases to exist.
+* `Y` indicates that we assume this organization continues to exist.
+* `N` indicates we do not assume that this organization continues to exist, but we do not have an exact end date.
 
 ## Parent Organization: The superior affiliated organization {#organization_organization_name}
 
