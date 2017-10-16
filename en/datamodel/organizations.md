@@ -257,7 +257,7 @@ We use this field to clarify the meaning of the date entered in `Date last cited
 * `Y` indicates that we assume this organization continues to exist.
 * `N` indicates we do not assume that this organization continues to exist, but we do not have an exact end date.
 
-## Parent  {#organization_organization_name}
+## Parent {#organization_organization_name}
 
 ### Description
 
@@ -273,11 +273,11 @@ Text and numbers
 
 ### Guidance on use
 
-`Parent` describes a hierarchical, time bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\). 
+`Parent` describes a hierarchical, time bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
 
 > For example, in Mexico `8 Zona Militar` is a parent of `19 Regimiento de Caballería Motorizada` between 15 May 1999 and 20 November 2006.
 
-Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an  organization has detachments of personnel seconded to other different organizations at the same time. 
+Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an  organization has detachments of personnel seconded to other different organizations at the same time.
 
 In our data model`Parent` relationships are different from `Organization memberships`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather,  personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization memberships`, which is documented below.
 
@@ -307,9 +307,36 @@ Organizations have a `Command` relationship when the parent organization can ord
 
 > For example: the `Minister of Defence` in Nigeria is by law in charge providing administrative support to the `Nigerian Army`, establishing an administrative relationship.  The `Standards Department` of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Ministry, but describing this as Administrative is more helpful, the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
-## Date of first citation for parent organization
+## Parent relationship date first cited
 
-Note that in `Source: Date of first citation for parent organization \(MM/DD/YYYY\)` only put the citation for the earliest date. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
+### Description
+
+The earliest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication.
+
+### Type of field
+
+Date \(YYYY-MM-DD\), fuzzy
+
+### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
+
+### Guidance on use
+
+Along with the fields the fields `Parent relationship start date?`, `Parent relationships date last cited` and `Parent relationship is open ended?`, `Parent organization date first cited` provides data on the time period we can say one organization is the parent of another .
+
+The `Parent organization date first cited` field contains a date that is either:
+
+* The earliest date found in a source that specifically references a parent relationship; or,
+* The earliest date of publication of sources that make reference to a parent relationship.
+
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will  enter 1 January 2012 in`Parent relationship date first cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the `Parent relationship date first cited`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship date first cited` .
+
+This field is clarified by the field `Parent relationship start date?` which indicates whether the date included here is the actual date on which an organization became the parent of another.
+
+## Parent relationship start date?
 
 ### Description
 
@@ -319,17 +346,7 @@ Note that in `Source: Date of first citation for parent organization \(MM/DD/YYY
 
 ### Guidance on use
 
-## Start date of parent relationship?
-
-### Description
-
-### Type of field
-
-### Example of use
-
-### Guidance on use
-
-## Date of last citation for parent organization {#organization_organization_date_last_cited}
+## Parent organization date last cited {#organization_organization_date_last_cited}
 
 If there is only one citation for a relationship, and the citation is not for the end of that relationship, leave this field blank and only put the date in the Date of first citation for parent organization.
 
