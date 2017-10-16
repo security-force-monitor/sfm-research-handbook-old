@@ -380,39 +380,73 @@ We use this field to clarify the meaning of the date entered in `Parent relation
 
 ## Headquarters \(Barracks, Base, Physical Asset\) {#organization_headquarters}
 
-This field is used to record data about units that have a uniquely named building or complex for their headquarters.
-
-> Example: `3 Battalion` in Nigeria is cited as being based in the `Lubanga Barracks` in `Enugu, Enugu State, Nigeria`.
-
-This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
 ### Description
 
+A uniquely named building or complex - like a barracks or camp -  that is long established as the primary command site of an organization.
+
 ### Type of field
 
+Text and numbers
+
 ### Example of use
+`Campo Militar Número 5-C`
 
 ### Guidance on use
+
+This field is used to record data about units that have a uniquely named building or complex for their headquarters.
+
+> For example, `3 Battalion` in Nigeria is cited as being based in the `Lubanga Barracks` in `Enugu, Enugu State, Nigeria`.
+
+This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
 ## Site: Exact Location \(Latitude or OSM Node Name\)
 
 ### Description
 
+The most precise location of a site associated with this organization. 
+
 ### Type of field
+
+First value of a latitude/longitude pair (EPSG:3857), or an OSM Node Name
 
 ### Example of use
 
+If used to record an OSM Node Name: `Masr Al-Gedida`
+If used to record a latitude: `30.09716`
+
 ### Guidance on use
+
+We identify `sites` with a number of different levels of geographical precision. 
+
+`Site: Exact Location (Latitude or OSM Node Name)` is the first of a pair of values with `Site: Exact Location (Longitude or OSM Node ID)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates 
+
+* Where an node for the exact site is present on Open Street Map we will enter its name in this field.
+* Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
 ## Site: Exact Location \(Longitude or OSM Node ID\)
 
 ### Description
 
+The most precise location of a site associated with this organization. 
+
 ### Type of field
+
+Second value of a latitude/longitude pair (EPSG:3857), or an OSM Node ID number.
 
 ### Example of use
 
+If used to record an OSM Node ID number: `452377264 `
+If used to record a longitude: `31.3280332`
+
 ### Guidance on use
+
+We identify `sites` with a number of different levels of geographical precision. 
+
+`Site: Exact Location (Latitude or OSM Node Name)` is the first of a pair of values with `Site: Exact Location (Longitude or OSM Node ID)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates 
+
+* Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
+* Where no OSM node exists for the exact site a pair of coordinates will be used, the longitude value recorded in this field.
 
 ## City or other Node Name in OpenStreetMap {#organization_osm_name}
 
