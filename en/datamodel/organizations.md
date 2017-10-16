@@ -6,36 +6,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 
 | Name of field | Description | Example of use |
 | :--- | :--- | :--- |
-| [ID](#organization_id) | Unique identifier for the organization | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| [Name](#organization_name) | Name of the organization | _VII Región Militar_ |
-| [Aliases](#organization_other_names) | Other names for the organization | _Séptima Región Militar_ |
-| Organization Country | Country | _mx_ |
-| [Classification](#organization_classification) | Type of organization | _Ejército ; Militar_ |
-| [Parent organization](#organization_organization_name) | Superior affiliated organization | _Estado Mayor de la Defensa Nacional_ |
-| [Parent relationship](#organization_organization_classification) | Type of relationship | _Command_ |
-| [Date of first citation for parent relationship](#organization_organization_date_first_cited) | First source, by date, evidencing a relationship | _1999-02-01_ |
-| [Date of last citation for parent relationship](#organization_organization_date_last_cited) | The last source, by date, evidencing a relationship | _2016-07-05_ |
-| [Assume parent relationship to current date?](#organization_organization_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Headquarters](#organization_headquarters) | Uniquely named barracks, base, physical asset for this organization | _Campo Militar 1A_ |
-| [City or other Node OpenStreetMap Name](#organization_osm_name) | Name of the City or other Node in OpenStreetMap | _Tuxtla Gutiérrez_ |
-| [City or other Node OpenStreetMap ID](#organization_osm_id) | ID number linked to above OpenStreetMap Node | _269911529_ |
-| [Highest level subnational boundary OpenStreetMap](#organization_admin_level_1_osm_name) | Highest level [subnational boundary in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations) | _Chiapas_ |
-| [Highest level subnational boundary OpenStreetMap ID](#organization_admin_level_1_osm_id) | OpenStreetMap ID number of highest level subnational boundary | _2556679_ |
-| [Site: division\_id](#organization_site_division_id) | Country | _mx_ |
-| [Site: Date of first citation](#organization_site_date_first_cited) | First source, by date, evidencing a site | _2004-02-08_ |
-| [Is this the Founding Date?](#organization_site_date_first_cited_founding) | Was the site's date of first citation the date the organization was founded? | _N_ |
-| [Site: Date of last citation](#organization_site_date_last_cited) | Last source, by date, evidencing a site | _2005-06-04_ |
-| [Assume site to current date?](#organization_site_assume_to_current_date) | Do we have evidence to think the relationship continues after the last source? | _Y_ |
-| [Area of Operations: OpenStreetMap Name](#organization_area_osm_name) | OpenStreetMap name of an area \(relation in OSM\) that this organisation is responsible for, conducted operations in, or has jurisdiction over | _Chiapas_ |
-| [Area of Operations: OpenStreetMap ID](#organization_area_osm_id) | ID for OpenStreetMap entry from above | _2556679_ |
-| [Area of Operations: Division ID](#organization_area_division_id) | Country of Area of Operations | _mx_ |
-| [Area of Operations: Date of first citation](#organization_area_date_first_cited) | First source, by date, evidencing this Area of Operations | _1999-02-01_ |
-| [Area of Operations: Date of last citation](#organization_area_date_last_cited) | Last source, by date, evidencing this Area of Operations | _2016-07-05_ |
-| [Area of Operations: Assume to current date?](#organization_area_date_last_cited_assume_to_current) | Do we have evidence to say this Area of Responsibility continues after the last source date? | _Y_ |
-| [Other affiliation](#organization_affiliation) | Memberships or attachments to internal/national joint operations, peacekeeping operations, or other multi-unit efforts. | _Operation Pulo Shield_ |
-| [Other affiliation: Date of first citation](#organization_affiliation_date_first_cited) | First source, by date, evidencing this affiliation | _2003-02-02_ |
-| [Other affiliation: Date of last citation](#organization_affiliation_date_last_cited) | Last source, by date, evidencing this affiliation | _2005-03-09_ |
-| [Notes](#organization_notes) | Anything else relevant about this organization that is not covered above | _Organization was trained by US forces in 2010_ |
+| to do| to do| to do|
 
 ## ID {#organization_id}
 
@@ -273,11 +244,11 @@ Text and numbers
 
 ### Guidance on use
 
-`Parent` describes a hierarchical, time bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
+`Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
 
 > For example, in Mexico `8 Zona Militar` is a parent of `19 Regimiento de Caballería Motorizada` between 15 May 1999 and 20 November 2006.
 
-Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an  organization has detachments of personnel seconded to other different organizations at the same time.
+Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an organization has detachments of personnel seconded to other different organizations at the same time.
 
 In our data model`Parent` relationships are different from `Organization memberships`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather,  personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization memberships`, which is documented below.
 
@@ -340,43 +311,72 @@ This field is clarified by the field `Parent relationship start date?` which ind
 
 ### Description
 
+Is the value in `Parent relationship date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?
+
 ### Type of field
+
+Boolean \(Yes, No\)
 
 ### Example of use
 
+`Y`,`N`
+
 ### Guidance on use
+
+This is a clarifying field for `Parent relationship date first cited`. Where a source references the parent relationship and specifies the date that the relationship was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
 ## Parent organization date last cited {#organization_organization_date_last_cited}
 
-If there is only one citation for a relationship, and the citation is not for the end of that relationship, leave this field blank and only put the date in the Date of first citation for parent organization.
-
-Note that for `Source: Date of last citation for parent organization` only put the citation for the latest date. If there is only one citation put it in the Source: Date of first citation for parent organization field, if appropriate, and leave this field blank.
-
 ### Description
+
+The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
+Date \(YYYY-MM-DD\), fuzzy
+
 ### Example of use
 
+`2012`,`2012-11`, `2012-11-23`
+
 ### Guidance on use
+
+Along with the fields the fields `Parent relationship date first cited, `Parent relationship start date?` and `Parent relationship is open ended?` the field `Parent organization date last cited` provides data on the time period we can say one organization is the parent of another .
+
+The `Parent organization date last cited` field contains a date that is either:
+
+* The latest date found in a source that specifically references a parent relationship; or,
+* The latest date of publication of sources that make reference to a parent relationship.
+
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will  enter 1 March 2012 in `Parent relationship date last cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 15 February 2012, we will use 15 February 2012 as the `Parent relationship date last cited`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship date last cited` .
+
+This field is clarified by the field `Parent relationship is open ended?` which indicates whether the date included here is the actual date on which an organization stopped being the parent of another.
+
 
 ## Parent relationship is open ended? {#organization_organization_assume_to_current_date}
 
-In many cases a relationship could be assumed past the last citation date. For example, where a battalion has been reporting to a brigade for years, one could safely assume that this relationship will continue.
-
-This field exists because if the Monitor only displays data up to the last citation any Map and Chart showing the data would quickly be blank. Not every unit is reported on every day so it's impossible to keep things truly “up-to-date”.
-
-There are always assumptions made in the sort of analysis done by the Monitor. For example, a parent relationship established between two units in the military sourced from a press briefing released at 09:00 AM might be changed by a second press briefing at 09:01 AM the same day. Having this field forces us to be more thoughtful about what we assume and why.
-
-There are cases where there appears to be a temporary relationship, a historical relationship simply not enough data to base an assumption on. In these cases, the analyst would record an `N` in this field in order to state that there is no assumption this relation continue following the date of last citation.
-
 ### Description
+
+Is the value in  `Parent relationship date last cited`  the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?
 
 ### Type of field
 
+Single choice \(Y, N, E\)
+
 ### Example of use
 
+`Y`,`N`,`E`
+
 ### Guidance on use
+
+We use this field to clarify the meaning of the date entered in `Parent relationship date last cited`. One of the below values should be chosen:
+
+* `E` indicates the exact date one organization stopped being the parent of another.
+* `Y` indicates that we assume this parent relationship continues to exist.
+* `N` indicates we do not assume that this parent relationship continues to exist, but we do not have an exact end date.
+
 
 ## Headquarters \(Barracks, Base, Physical Asset\) {#organization_headquarters}
 
