@@ -167,27 +167,42 @@ The earliest date that a source shows an organization exists, either through dir
 
 ### Type of field
 
-Date \(YYYY-MM-DD\)
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012-11-23`
+`2012`,`2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-Along with `Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed.
+Along with the fields`Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed. 
+
+The `Date first cited` field contains a date that is either:
+
+* The earliest date found in a source that specifically references an organization; or,
+* The earliest date of publication of sources that make reference to an organization.
+
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January 2012 as the `Date first cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 June 2011, we will use 30 June 2011 as the `Date first cited`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date first cited` .
 
 ## Start date of organization?
 
 ### Description
 
+Is the value in  `Date first cited`  the actual date on which an organization was founded, or the earliest date a source has referred to an organization?
+
 ### Type of field
+
+Boolean \(Yes, No\)
 
 ### Example of use
 
+`Y`,`N`
+
 ### Guidance on use
 
-## 
+This is a clarifying field for `Date first cited`. Where a source references an organization and specifies the date that organization was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.   
 
 ## Date last cited
 
