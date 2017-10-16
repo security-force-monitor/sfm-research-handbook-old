@@ -9,7 +9,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 | [ID](#organization_id) | Unique identifier for the organization | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
 | [Name](#organization_name) | Name of the organization | _VII Región Militar_ |
 | [Aliases](#organization_other_names) | Other names for the organization | _Séptima Región Militar_ |
-| [Division ID](#organization_division_id) | Country | _mx_ |
+| Organization Country | Country | _mx_ |
 | [Classification](#organization_classification) | Type of organization | _Ejército ; Militar_ |
 | [Parent organization](#organization_organization_name) | Superior affiliated organization | _Estado Mayor de la Defensa Nacional_ |
 | [Parent relationship](#organization_organization_classification) | Type of relationship | _Command_ |
@@ -111,7 +111,7 @@ Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical 
 
 > Example: We find a version of the organization name `10 Regimiento de Caballería Motorizado` that has an Ordinal indicator: `10/o. Regimiento de Caballería Motorizado.` We would record this in the `Aliases` field.
 
-## Organization division\_id
+## Organization Country
 
 ### Description
 
@@ -127,7 +127,7 @@ Two letter country code
 
 ### Guidance on use
 
-The `division_id` field identifies the country this organization comes from. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
+The `Country` field identifies the country this organization comes from. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
 
 > For example, an organization based in Nigeria would have the code `ng` and an organization based in Brazil would have the code `br`
 
@@ -184,7 +184,7 @@ The `Date first cited` field contains a date that is either:
 
 > For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January 2012 as the `Date first cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 June 2011, we will use 30 June 2011 as the `Date first cited`.
 
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date first cited` . 
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date first cited` .
 
 This field is clarified by the field `Start date of organization?` which indicates whether the date included here is the actual date on which an organization was founded.
 
@@ -257,46 +257,57 @@ We use this field to clarify the meaning of the date entered in `Date last cited
 * `Y` indicates that we assume this organization continues to exist.
 * `N` indicates we do not assume that this organization continues to exist, but we do not have an exact end date.
 
-## Parent Organization: The superior affiliated organization {#organization_organization_name}
-
-The parent must be also entered into the sheet as its own organization.
-
-Think of an organizational chart - the parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
-
-Often when there is an operation or joint task force, it may not have have personnel of its own. Rather, it gets personnel assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart, but “on the same level” as it. These types of relationships are handled in another field Other Affiliation \(like joint task force\).
+## Parent  {#organization_organization_name}
 
 ### Description
 
+The immediate superior organization in the command chain.
+
 ### Type of field
+
+Text and numbers
 
 ### Example of use
 
+`1 Región Naval`
+
 ### Guidance on use
+
+`Parent` describes a hierarchical, time bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\). 
+
+> For example, in Mexico `8 Zona Militar` is a parent of `19 Regimiento de Caballería Motorizada` between 15 May 1999 and 20 November 2006.
+
+Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an  organization has detachments of personnel seconded to other different organizations at the same time. 
+
+In our data model`Parent` relationships are different from `Organization memberships`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather,  personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization memberships`, which is documented below.
 
 ## Parent relationship classification {#organization_organization_classification}
 
-Organizations have a Command relationship when the parent organization can order the organization to perform some action.
-
-Informal relationships occur where no legal or formal relationship exists, but there is a relationship where parent organization could exert some form of influence on the organization.
-
-> Example: Lagos state in Nigeria has a security council which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own organization. The governor has no legal authority to command the military or police forces, but the security council membership establishes a relationship between the organizations and meetings often result in new approaches to security being taken, such as different deployments of police. An analyst could make the determination that an informal relationship exists between the security council and the police and military organizations.
-
-Administrative relationships exist where a formal, non-command relationship exists between organizations, or where an administrative description is more accurate of the relationship between two organizations.
-
-> Example - the `Minister of Defence` in Nigeria is by law in charge providing administrative support to the `Nigerian Army`, establishing an administrative relationship.  
-> Example - the `Standards Department` of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Ministry, but describing this as Administrative is more helpful, the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
-
-Organizations can have multiple parent relationships at the same time.
-
 ### Description
+
+Type of relationships that exists between two organizations
 
 ### Type of field
 
+Controlled vocabulary, single choice
+
 ### Example of use
+
+`Command`
 
 ### Guidance on use
 
-## Date of first citation for parent organization {#organization_organization_date_first_cited}
+Organizations have a `Command` relationship when the parent organization can order the organization to perform some operational activity.
+
+`Informal` relationships occur where no legal or formal relationship exists, but there is a relationship where parent organization could exert some form of influence on the organization.
+
+> Example: Lagos state in Nigeria has a `security council` which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own organization. The governor has no legal authority to command the military or police forces, but the security council membership establishes a relationship between the organizations and meetings often result in new approaches to security being taken, such as different deployments of police. An analyst could make the determination that an informal relationship exists between the security council and the police and military organizations.
+
+`Administrative` relationships exist where a formal, non-command relationship exists between organizations, or where an administrative description is more accurate of the relationship between two organizations.
+
+> For example: the `Minister of Defence` in Nigeria is by law in charge providing administrative support to the `Nigerian Army`, establishing an administrative relationship.  The `Standards Department` of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Ministry, but describing this as Administrative is more helpful, the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+
+## Date of first citation for parent organization
 
 Note that in `Source: Date of first citation for parent organization \(MM/DD/YYYY\)` only put the citation for the earliest date. If there is only one citation, and it establishes the end date for a relationship, leave this field blank and enter that date and citation in the Date of last citation for parent organization and Source: Date of last citation for parent organization fields.
 
