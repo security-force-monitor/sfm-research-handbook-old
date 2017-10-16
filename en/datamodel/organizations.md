@@ -448,95 +448,130 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the longitude value recorded in this field.
 
-## City or other Node Name in OpenStreetMap {#organization_osm_name}
-
-The OpenStreetMap data standard is used for all geographic entries. This way we don’t end up calling the same geographic area different names.
-
-This field is for the city, village or other Node that a unit is based in. However this field should not be used if the only information about a unit’s base is in an administrative area \(which Highest level subnational boundary OpenStreetMap field should be used instead\).
-
-> Tricky Example: "At the weekend when our reporter visited Ikot Akpan Udo, there was a heavy security presence at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas."
-
-In this example - a report visits a specific place \(Ikot Akpan Udo\) and sees a “heavy security presence” which we can assume to mean a lot of police officers
-
-The place \(Ikot Akpan Udo\) would be the Area of Operations \(see relevant section below\), however, the article also states that the “heavy security presence” was “at all the police divisions from Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno areas.” - This implies that there are multiple Organizations - in this case Police Divisions in the Nigeria Police Force - that are based in the cities or “areas” of “ Ikot-Abasi, Mkpat Enin, Eket, Esit Eket, Onna and Ibeno”.
-
-Organizations can be based in multiple cities, in which case a new entry should be created for every city the unit is based in.
+## Site: Settlement (OSM Node Name {#organization_osm_name}
 
 ### Description
 
+The city, town or village in which an organization site is based.
+
 ### Type of field
+
+Text, OSM node name, first in a pair of values
 
 ### Example of use
 
+`Tampico`, `Francisco Escarcega`, `Abu al Matamir`
+
 ### Guidance on use
 
-## City or other Node OpenStreetMap ID {#organization_osm_id}
+We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Node Name)` we record the name of the OSM node that identifies a settlement in which there is an organization site. It could be a city, town or village  or other OSM node that denotes a settlement. 
 
-This is tied to the matching OpenStreetMap entry.
+## Site: Settlement (OSM ID) {#organization_osm_id}
 
 ### Description
 
+The city, town or village in which an organization site is based.
+
 ### Type of field
+
+Number, OSM node ID number, second in a pair of values
 
 ### Example of use
 
+`273584290`,`286989920`,`769127625`
+
 ### Guidance on use
 
-## Highest level subnational boundary in OpenStreetMap \(name\) {#organization_admin_level_1_osm_name}
+We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM ID)` field we record the name of the OSM ID number that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM node that denotes a settlement. 
 
-The Monitor always selects the highest level subnational boundary in OpenStreetMap - you can find a list here: [http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative\#Super-national\_administrations](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations)
-
-For example Mexico has both municipios \(admin level 6 in OSM\) and states \(admin level 4\). The state \(admin level 4\) would be the appriopriate entry for an organization based in Mexico.
+## Site: Top Administrative Area (OSM Name) {#organization_admin_level_1_osm_name}
 
 ### Description
 
+The OSM relation name of the highest sub-national administrative area in which an organization site is based.
+
 ### Type of field
+
+Text, OSM relation name, first in a pair of values
 
 ### Example of use
 
+`Michoacán`
+
 ### Guidance on use
 
-## Highest level subnational boundary in OpenStreetMap \(ID\) {#organization_admin_level_1_osm_id}
+We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM Name)` we record the text name of highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
 
-This would be the ID attached to the OSM entry from above.
+> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\) 
+
+## Site: Top Administrative Area \(OSM ID number\) {#organization_admin_level_1_osm_id}
+
+### Description
+The OSM relation ID number of the highest sub-national administrative area in which an organization site is based.
+
+### Type of field
+
+Number, OSM relation ID number, second in a pair of values
+
+### Example of use
+`2340636`
+
+### Guidance on use
+
+We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM ID number)` we record OSM relation ID number of the highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
+
+> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\) 
+
+## Site: Country {#organization_site_division_id}
 
 ### Description
 
-### Type of field
-
-### Example of use
-
-### Guidance on use
-
-## Site: division\_id {#organization_site_division_id}
-
-The division\_id enables the system to identify which country this organization belongs to, thus all entries in this field would be ia two letter country code.
-
-> For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
-> You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
-
-### Description
+The country in which an organziation site is located.
 
 ### Type of field
 
+Two letter country code
+
 ### Example of use
 
+`mx`, `ug`, `ng`
+
 ### Guidance on use
+
+We identify `sites` with a number of different levels of geographical precision.The `Site: Country` field identifies the country in which an organization site is located. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
+
+> For example, an organization site located in Nigeria would have the code `ng` and an organization site located in Brazil would have the code `br`
 
 ## Site: Date of first citation {#organization_site_date_first_cited}
 
-This field is for the earliest citation for the unit being located at City or other Node Name in OpenStreetMap if there is no City or other Node Name in OpenStreetMap then use the earliest citation for Highest level subnational boundary OpenStreetMap.  
-If during the course of research a source ties an Organization ot a City or other Node then the first and last dates of citation should all be modified to match the date range for the City or other Node \(assuming it is in the same Highest level subnational boundary\).
-
 ### Description
+
+This field is for the earliest citation for the location of a site,  either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
+Date \(YYYY-MM-DD\), fuzzy
+
 ### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-## Is this the founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
+Along with the fields `Site: Founding date?`, `Site: Date last cited` and `Site is open ended?` the field `Site: Date first cited` provides data on the time period for which can specify a site's location.
+
+The `Site: Date first cited` field contains a date that is either:
+
+* The earliest date found in any source that references the values contained in the pairs of fields that record `Site: Exact Location`, `Site: Settlement` or `Site: Top Administrative area`.
+* The earliest date of publication of any source that references the values contained in the pairs of fields that record `Site: Exact Location`, `Site: Settlement` or `Site: Top Administrative area`.
+ 
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Site: Date first cited`.
+
+This field is clarified by the field `Site: Founding date?` which indicates whether the date included here is the actual date on which a site was founded.
+
+
+
+## Site: Founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
 
 This field is a simple Y \(for yes\) or N \(for no\) that is tied to the Site \(either the City or other Node Name in OpenStreetMap or the Highest level subnational boundary OpenStreetMap depending\). Always default to City or other Node when you have that information.  
 The main question for this field is - is the date the first time the organization was based in the city \(i.e. was it founded in this city on this date\)? Put another way - did this organization exist in this city before this date?  
