@@ -4,21 +4,21 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 
 ## Summary of person fields
 
-| Name of Field | Description | Example of Use |
+| Name of Field | Description | Examples of Use |
 | :--- | :--- | :--- |
-|[Person: ID](\datamodel\persons.md#person_id)|Description|Example|
-|[Person: Name](\datamodel\persons.md#person_name)|Description|Example|
-|[Person: Aliases](\datamodel\persons.md#person_aliases)|Description|Example|
-|[Person: Country](\datamodel\persons.md#person_country)|Description|Example| 
-|[Person: Organization Name](\datamodel\persons.md#person_organization_name)|Description|Example|
-|[Person: Role](\datamodel\persons.md#person_organization_role)|Description|Example|
-|[Person: Title](\datamodel\persons.md#person_organization_title)|Description|Example|
-|[Person: Rank](\datamodel\persons.md#person_organization_rank)|Description|Example|
-|[Person Membership: Date first cited](\datamodel\persons.md#person_organization_date_first_cited)|Description|Example|
-|[Person Membership: Start date](\datamodel\persons.md#person_date_first_cited_is_start)|Description|Example|
-|[Person Membership: Date last cited](\datamodel\persons.md#person_date_last_cited)|Description|Example|
-|[Person Membership: End date](\datamodel\persons.md#person_date_last_cited_is_end)|Description|Example|
-|[Person: Notes](\datamodel\persons.md#person_notes)|Description|Example|
+|[Person: ID](\datamodel\persons.md#person_id)|A unique number for each person in the dataset|`a848de4e-ebeb-49d6-9099-7e68ca3b57fc`|
+|[Person: Name](\datamodel\persons.md#person_name)|Full name of the person, including given, patronym and surnames|`Magaji Musa Majia'a`|
+|[Person: Aliases](\datamodel\persons.md#person_aliases)|Other names used to identify a person|`Virgilio Daniel Méndez Bazan`, `Virgilio Daniel Mendez Bazán`|
+|[Person: Country](\datamodel\persons.md#person_country)|Country where an organization that a person is a member of is located|`mx`| 
+|[Person: Organization Name](\datamodel\persons.md#person_organization_name)|The organization that the person is a member of|`35 Batallón de Infantería`|
+|[Person: Role](\datamodel\persons.md#person_organization_role)|The role a person plays in the organization that is not evident from entries in `Person: Title` or `Person: Rank`|`Commander`|
+|[Person: Title](\datamodel\persons.md#person_organization_title)|A title held by a person that is separate from their rank or role|`General Officer Commanding`, `Jefe Del Estado Mayor`|
+|[Person: Rank](\datamodel\persons.md#person_organization_rank)|The official position of a person in the hierarchy of a security force|`General de División`, `Teniente Coronel`, `Air Vice Marshal`|
+|[Person Membership: Date first cited](\datamodel\persons.md#person_organization_date_first_cited)|The earliest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication|`2012`,`2012-11`, `2012-11-23`|
+|[Person Membership: Start date](\datamodel\persons.md#person_date_first_cited_is_start)|Indicates whether the value in `Person Membership: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship|`Y`, `N`|
+|[Person Membership: Date last cited](\datamodel\persons.md#person_date_last_cited)|The latest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication|`2012`,`2012-11`, `2012-11-23`|
+|[Person Membership: End date](\datamodel\persons.md#person_date_last_cited_is_end)|Indicates whether we assume the relationship between a person and an orgnization continues after the date in `Person Membership: Date last cited`|`Y`, `N`|
+|[Person: Notes](\datamodel\persons.md#person_notes)|Analysis, commentary and notes about the person that do not fit into the data structure|`Trained in logisitics at Fort Lackland, Texas and the air force base of Wright Patterson, Ohio`|
 
 ## Person: ID {#person_id}
 
@@ -261,23 +261,22 @@ This field is clarified by the field `Person Membership: Open-ended?` which indi
 
 ### Description
 
-Is the value in `Person Membership: Date last cited` the actual date on which the relationship between a person and organization ended, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?
+Indicates whether we assume the relationship between a person and an orgnization continues after the date in `Person Membership: Date last cited`.
 
 ### Type of field
 
-Single choice, (Y, N, E)
+Single choice, (Y, N)
 
 ### Example of use
 
-`Y`,`N`,`E`
+`Y`,`N`
 
 ### Guidance on use
 
 We use this field to clarify the meaning of the date entered in `Person Membership: Date last cited`. One of the below values should be chosen:
 
-* `E` indicates the exact date the relationship between a person and an organization ended.
 * `Y` indicates that we assume the relationships between a person and an organziation continues beyond date specified in `Person Membership: Date last cited`.
-* `N` indicates we do not assume that this relationship continues to exist, but we do not have an exact end date.
+* `N` indicates we do not assume that this relationship continues to exist.
 
 ## Person: Notes {#person_notes}
 

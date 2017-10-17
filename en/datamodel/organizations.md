@@ -30,8 +30,8 @@ Documented in this chapter are a range of different pieces of data about organiz
 |[Parent organization: date last cited](#organization_parent_date_last_cited)|The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
 |[Parent relationship: Open-ended?](#organization_parent_open_ended)|Is the value in `Parent relationship: Date last cited` the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?|`Y`, `N`, `E`|
 |[Headquarters](#organization_headquarters)|A headquarters is a uniquely named building or complex - like a barracks or camp - that is long established as the primary command site of an organization|`Campo Militar Número 5-C`|
-|[Site: Exact Location (Latitude or OSM Node Name)](#organization_site_ex_loc_name)|The latitude or OSM Node name of the most precise location of a site associated with this organization| `30.09716`, `Masr Al-Gedida`|
-|[Site: Exact Location (Longitude or OSM Node ID)](#organization_site_ex_loc_id)|The longitude or OSM node ID number of the most precise location of a site associated with this organization|`30.09716`, `Masr Al-Gedida`|
+|[Site: Exact Location (Longitude or OSM Node Name)](#organization_site_ex_loc_name)|The longitude or OSM Node name of the most precise location of a site associated with this organization| `30.09716`, `Masr Al-Gedida`|
+|[Site: Exact Location (Latitude or OSM Node ID)](#organization_site_ex_loc_id)|The latitude or OSM node ID number of the most precise location of a site associated with this organization|`31.3280332`, `Masr Al-Gedida`|
 |[Site: Settlement (OSM Node Name)](#organization_site_settlement_name)|The OSM node name of the city, town or village in which an organization site is based|`Tampico`, `Francisco Escarcega`, `Abu al Matamir`|
 |[Site: Settlement (OSM ID)](#organization_site_settlement_id)|The OSM node ID number of the city, town or village in which an organization site is based|`273584290`,`286989920`,`769127625`|
 |[Site: Top Administrative Area (OSM Name)](#organization_site_top_admin_name)| description | example |
@@ -52,9 +52,8 @@ Documented in this chapter are a range of different pieces of data about organiz
 |[Membership: Date first cited](#organization_membership_date_first_cited)|This field is for the earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
 |[Membership: Start date?](#organization_membership_is_start)|Is the value in Membership: Date first cited the actual date on which a membership was started, or the earliest date a source has referred to an organization Membership?|`Y`, `N`|
 |[Membership: Date of last citation](#organization_membership_date_last_cited)|This field is for the latest citation of a membership, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Membership: Open-ended?](#organization_membership_open_ended)|Indicates whether the value in Membership: Date last cited is the actual date on which an organization Membership was disbanded, the latest date a source has referred to an organization Membership, and whether can we assume this organization Membership continues to exist|`Y`, `N`, `E`|
+|[Membership: Open-ended?](#organization_membership_open_ended)|Indicates whether we assume the relationship between organizations continues after the date in `Membership: Date last cited`|`Y`, `N`, `E`|
 |[Notes](#organization_notes)|Analysis, commentary and notes about the organization that do not fit into the data structure|`Supported the the Michoacan Attorney General's Office in a raid performed on 13 January 2008` |
-
 
 ## Organization: ID {#organization_id}
 
@@ -215,7 +214,7 @@ Is the value in `Organization: Date first cited` the actual date on which an org
 
 ### Type of field
 
-Boolean \(Yes, No\)
+Boolean
 
 ### Example of use
 
@@ -262,7 +261,7 @@ Is the value in `Organization: Date last cited` the actual date on which an orga
 
 ### Type of field
 
-Single choice \(Y, N, E\)
+Single choice
 
 ### Example of use
 
@@ -447,11 +446,11 @@ This field is used to record data about units that have a uniquely named buildin
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## Site: Exact Location (Latitude or OSM Node Name) {#organization_site_ex_loc_name}
+## Site: Exact Location (Longitude or OSM Node Name) {#organization_site_ex_loc_name}
 
 ### Description
 
-The latitude or OSM Node name of the most precise location of a site associated with this organization.
+The longitude or OSM Node name of the most precise location of a site associated with this organization.
 
 ### Type of field
 
@@ -460,40 +459,40 @@ First value of a latitude/longitude pair (using [EPSG:3857](http://spatialrefere
 ### Example of use
 
 If used to record an OSM Node Name: `Masr Al-Gedida`
-If used to record a latitude: `30.09716`
+If used to record a latitude: `31.3280332`
 
 ### Guidance on use
 
 We identify `sites` with a number of different levels of geographical precision.
 
-`Site: Exact Location (Latitude or OSM Node Name)` is the first of a pair of values with `Site: Exact Location (Longitude or OSM Node ID)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates.
+`Site: Exact Location (Longitude or OSM Node Name)` is the first of a pair of values with `Site: Exact Location (Latitude or OSM Node ID)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates.
 
 * Where an node for the exact site is present on Open Street Map we will enter its name in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Exact Location \(Longitude or OSM Node ID\) {#organization_site_ex_loc_id}
+## Site: Exact Location \(Latitude or OSM Node ID\) {#organization_site_ex_loc_id}
 
 ### Description
 
-The longitude or OSM node ID number of the most precise location of a site associated with this organization.
+The latitude or OSM node ID number of the most precise location of a site associated with this organization.
 
 ### Type of field
 
-Second value of a latitude/longitude pair (EPSG:3857), or an OSM Node ID number.
+Second value of a longitude/latitude pair (using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)), or an OSM Node ID number.
 
 ### Example of use
 
 If used to record an OSM Node ID number: `452377264 `
-If used to record a longitude: `31.3280332`
+If used to record a Longitude: `30.09716`
 
 ### Guidance on use
 
 We identify `sites` with a number of different levels of geographical precision.
 
-`Site: Exact Location (Latitude or OSM Node Name)` is the first of a pair of values with `Site: Exact Location (Longitude or OSM Node ID)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates.
+`Site: Exact Location (Latitude or OSM Node ID)` is the second of a pair of values with `Site: Exact Location (Longitude or OSM Node Name)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates.
 
 * Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
-* Where no OSM node exists for the exact site a pair of coordinates will be used, the longitude value recorded in this field.
+* Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
 ## Site: Settlement (OSM Node Name){#organization_site_settlement_name}
 
@@ -932,7 +931,7 @@ This field is clarified by the field `Membership: Open-ended?` which indicates w
 
 ### Description
 
-Indicates whether the value in `Membership: Date last cited` is the actual date on which an organization Membership was disbanded, the latest date a source has referred to an organization Membership, and whether can we assume this organization Membership continues to exist.
+Indicates whether we assume the relationship between organizations continues after the date in `Membership: Date last cited`
 
 ### Type of field
 
@@ -940,7 +939,7 @@ Single choice \(Y, N, E\)
 
 ### Example of use
 
-`Y`,`N`,`E`
+`Y`,`N`
 
 ### Guidance on use
 
@@ -948,9 +947,8 @@ We use this field to clarify the meaning of the date entered in `Date last cited
 
 The values that can be entered in this field are restricted to the below:
 
-* `E` indicates the exact date this membership was disbanded, or ceases to exist.
 * `Y` indicates that we assume this membership continues to exist.
-* `N` indicates we do not assume that this membership continues to exist, but we do not have an exact end date.
+* `N` indicates we do not assume that this membership continues to exist.
 
 ## Notes {#organization_notes}
 
