@@ -6,21 +6,9 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 
 | Name of Field | Description | Example of Use |
 | :--- | :--- | :--- |
-| [ID](#person_id) | Unique identifier for the person | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| [Name](#person_name) | Name of person | _Sunday Jimmi Ayorinde Ilori_ |
-| [Aliases or alternative spellings](#person_other_names) | Other names for a person | _Sunday Ilori_ |
-| [Division ID](#person_division_id) | Two letter country code denoting a person's place of origin | _mx_ |
-| [Organization](#person_organization) | The organization that the individual is affiliated with | _1 Battalion_ |
-| [Role](#person_role) | The role the person serves in the organization | _Commander_ |
-| [Title \(official title\)](#person_title) | The title \(if any\) of the person | _General Officer Commanding_ |
-| [Rank](#person_rank) | The rank \(if any\) of the person | _Lieutenant Colonel_ |
-| [First citation](#person_date_first_cited) | First source, by date, evidencing a relationship | _2007-09-31_ |
-| [Start date?](#person_date_first_cited_is_start) | Is the first citation the date this person begun their affiliation with the organization? | _Y_ |
-| [Last citation](#person_date_last_cited) | Last source, by date, evidencing a relationship | _2009-02-20_ |
-| [End date?](#person_date_last_cited_is_end) | Is the last citation the date this person ceased to have an affiliation with the organization? | _N_ |
-| [Notes](#person_notes) | Anything else relevant about this person that is not covered above | _Referred to as "new" as of 1 July 2012_ |
+| to do | to do | to do|
 
-## ID {#person_id}
+## Person: ID {#person_id}
 
 ### Description
 
@@ -28,7 +16,7 @@ A unique number for each person in the dataset.
 
 ### Type of field
 
-VARCHAR
+Text and numbers 
 
 ### Example of use
 
@@ -36,9 +24,9 @@ VARCHAR
 
 ### Guidance on use
 
-Use this field to put your name/initials and date on rows you enter data on. In the future this field will be used to create an unique identifier for each person in the Monitor’s database.
+This field contains an automatically-generated unique identifier for each person in the Monitor’s database.
 
-## Name {#person_name}
+## Person: Name {#person_name}
 
 ### Description
 
@@ -46,7 +34,7 @@ Full name of the person, including given, patronym and surnames.
 
 ### Type of field
 
-VARCHAR
+Text and numbers
 
 ### Example of use
 
@@ -54,9 +42,9 @@ VARCHAR
 
 ### Guidance on use
 
-Different sources will spell a person's name in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, this field will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example `Magaji Musa Majia'a` will be used instead of `Magaji Musa Majiaa`. Other names will be placed in the `Aliases or alternative spellings` field.
+Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example `Magaji Musa Majia'a` will be used instead of `Magaji Musa Majiaa`. Other names will be placed in the `Aliases or alternative spellings` field.
 
-## Aliases or alternative spellings {#person_other_names}
+## Person: Aliases {#person_aliases}
 
 ### Description
 
@@ -64,25 +52,25 @@ Other names used to identify a person.
 
 ### Type of field
 
-VARCHAR, free entry
+Text and numbers, free entry
 
 ### Example of use
 
-`Virgilio Daniel Méndez Bazan ; Virgilio Daniel Mendez Bazán`
+`Virgilio Daniel Méndez Bazan`, `Virgilio Daniel Mendez Bazán`
 
 ## Guidance on use
 
-Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the `Name` field. All other spellings that we have found are treated as aliases and stored in this field. This field may contain multiple values, which will be separated by a semi-colon.
+Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the `Person: Name` field. All other spellings that we have found are treated as aliases and stored in this field. This field may contain multiple values, which will be separated by a semi-colon.
 
-## Division ID
+## Person: Country {#person_country} 
 
 ### Description
 
-Country where a unit that a person is a member of is located.
+Country where an organization that a person is a member of is located.
 
 ### Type of field
 
-CHAR(2), controlled vocabulary
+Text, controlled vocabulary
 
 ### Example of use
 
@@ -90,9 +78,9 @@ CHAR(2), controlled vocabulary
 
 ### Guidance on use
 
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes ([on ISO](https://www.iso.org/obp/ui/#search/code/), and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the *unit* will be assigned a `Division ID` of `mx`. Any person who is a member of that organization will be assigned a `Division ID` of `mx` as well.  A person may have multiple `Division ID` entries in the event that they or a unit they are a member of is deployed to another country.
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found ([on the ISO website](https://www.iso.org/obp/ui/#search/code/) and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the organization will be assigned a value of `mx` in the field `Organization: Country`. Any person who is a member of that organization will be assigned a value of `mx` in the field `Person: Country` as well.  A person may have multiple  entries for `Person: Country` where our research shows they or an organization they are a member of is deployed to different countries.
 
-## Organization {#person_organization}
+## Person: Organization Name {#person_organization_name}
 
 ### Description
 
@@ -100,7 +88,7 @@ The organization that the person is a member of.
 
 ### Type of field
 
-VARCHAR, free entry
+Text and numbers, free entry
 
 ### Example of use
 
@@ -108,17 +96,17 @@ VARCHAR, free entry
 
 ### Guidance on use
 
-Values in this field correspond with names of organizations that already exist in the dataset. A person can have multiple memberships of the same organization if there is a change to their `rank`, `title` or `role` with respect to the organization. An example of this is where a person is promoted. Another case where a person can have multiple membership of the same organization is where research indicates there are clear start or end dates to a membership. An example of where this might occur is if a person does multiples "tours" in a particular organization.
+Values in this field correspond with names of organizations that already exist in the dataset (recording in the field `Organization: Name`. A person can have multiple memberships of the same organization if there is a change to their entries for `Person: Rank`, `Person: Title` or `Person: Role` with respect to the organization. An example of this is where a person is promoted. Another case where a person can have multiple membership of the same organization is where research indicates there are clear start or end dates to a membership. An example of where this might occur is if a person does multiples "tours" in a particular organization.
 
-## Role {#person_role}
+## Person: Role {#person_organization_role}
 
 ### Description
 
-The role a person plays in the organization that is usually not evident from their `title` or `rank`.
+The role a person plays in the organization that is usually not evident from their `Person: Title` or `Person: Rank`.
 
 ### Type of field
 
-CHAR(), controlled vocabulary 
+Text and numbers, controlled vocabulary 
 
 ### Example of use
 
@@ -126,15 +114,15 @@ CHAR(), controlled vocabulary
 
 ### Guidance on use
 
-The main role we record is `Commander`.
+The most common value we record in `Person: Role` is `Commander`.
 
 There are a variety of other roles a person can have including `Second in Command`, `Chief of Staff` along with other less common entries. They will vary between countries.
 
 As a special note, heads of academic or other security force institutions will sometimes be referred to as the `Commandant`. In these cases, `Commandant` should be recorded in the `Title` field, and their role should be recorded as `Commander`.
 
-If someone is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the `Commander`.
+If a person is referred to as “the head”, “chief” or some other variation indicating that they are in charge of a unit, they should be regarded as the `Commander`.
 
-## Title \(official title\) {#person_title}
+## Person: Title {#person_organization_title}
 
 ### Description
 
@@ -142,7 +130,7 @@ Titles that persons have that are separate from their rank or role.
 
 ### Type of field
 
-VARCHAR, free entry
+Text and numbers, free entry
 
 ### Example of use
 
@@ -150,17 +138,17 @@ VARCHAR, free entry
 
 ### Guidance on use
 
-The range of titles will vary from country to country. For example, commanders of army divisions in Nigeria, who usually hold the `rank` of `Major General` also hold the `title` of `General Officer Commanding`.
+The range of titles will vary from country to country. For example, commanders of army divisions in Nigeria, who usually hold the rank of `Major General` also hold the title of `General Officer Commanding`.
 
-## Rank {#person_rank}
+## Person: Rank {#person_organization_rank}
 
 ### Description
 
-The official position of a person in the hierarchy of a security force
+The official position of a person in the hierarchy of a security force.
 
 ### Type of field
 
-VARCHAR, free entry
+Text and numbers, free entry
 
 ### Example of use
 
@@ -168,29 +156,43 @@ VARCHAR, free entry
 
 ### Guidance on use
 
-We remove any dashes that are contained in `rank` values. For example, we would enter `Brigadier General` rather than `Brigadier-General`.
+We remove any dashes that are contained in `Person: Rank` values. For example, we would enter `Brigadier General` rather than `Brigadier-General`.
 
-## First citation {#person_date_first_cited}
+## Person Membership: Date first cited {#person_organization_date_first_cited}
 
 ### Description
 
-The date of publication of the earliest source known to the Monitor that evidences the membership of a person in an organization.
+The earliest date that a source shows that a membership relationship between a person and an organization  exists, either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
-Date (YYYY-MM-DD)
+Date (YYYY-MM-DD), fuzzy
 
 ### Example of use
 
-`1999-01-01`
+`2012`,`2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-This field is for the earliest source the Monitor has showing an affiliation between this person and the organization. The `title`, `role` and `rank` held by a person are assumed to continue until a source indicates a change. If the person's role, title or rank changes a new entry will need to be created to document that change and a new `first citation` or `fast citation` created to mark the change.
+Along with the fields `Person membership: Start date?`, `Person Membership: Date last cited` and `Person Membership: Open-ended?` the field `Person Memberships: Date first cited` provides data about the time period over which we can evidence a person's relationships to an organization 
 
-> If a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the revelevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10. However, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10.
+The `Person Membership: Date first cited` field contains a date that is either:
 
-## Start date? \(Y/N\) {#person_date_first_cited_is_start}
+* The earliest date found in a source that specifically references the relationship between a person and an organization; or,
+* The earliest date of publication of sources that makes reference to the relationship between a person and an organization.
+
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to this person as a commander, we will use 1 January 2012 as the value in `Person Membership: Date first cited`. If the source published on 1 March 2012 refers to this person as a commander on the date of 30 June 2011, we will use 30 June 2011 as the value in `Person Membership: Date first cited`.
+
+The values for `Person: Title`, `Person: Role` and `Person: Rank` held by a person are assumed to continue until a source indicates a change in any of those values. If the person's role, title or rank changes a new entry will need to be created to document that change. This new entry will have updated values for `Person Membership: Date first cited` and related date fields.
+
+> For example, if a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the revelevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10. However, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Person Membership: Date first cited`.
+
+This field is clarified by the field `Person Membership: Start date?` which indicates whether the date included here is the actual date on which the relationship between a person and an organization started.
+
+
+## Person Membership: Start date? \(Y/N\) {#person_date_first_cited_is_start}
 
 ### Description
 
@@ -252,7 +254,7 @@ Further information about this person that is relevant and interesting to the Mo
 
 ### Type of field
 
-VARCHAR
+Text and numbers
 
 ### Example of use
 
