@@ -6,33 +6,34 @@ For each event, we includes data about what happened and when, the  location\(s\
 
 Fields in events are not sourced and rated for confidence individually as in Organizations and `Persons`. We provide a single source for the entire event, cited in the standard form used by the Monitor. 
 
-We use the term `incident` interchangably with `event`.
+We use the term `incident` interchangably with the term `event`.
 
 ## Summary of fields
 
 |Name of field|Description|Examples of use|
 | :--- | :--- | :--- |
-|[Event: ID](\datamodel\events.md#event_id)|Description|Example|
-|[Event: Start date](\datamodel\events.md#event_start_date)|Description|Example|
-|[Event: End date](\datamodel\events.md#event_end_date)|Description|Example|
-|[Event: Date of publication](\datamodel\events.md#event_publication_date)|Description|Example|
-|[Event: Date of last update](\datamodel\events.md#event_date_last_update)|Description|Example|
-|[Event: Status as of last update](\datamodel\events.md#event_status)|Description|Example|
-|[Event: Location](\datamodel\events.md#event_location)|Description|Example|
+|[Event: ID](\datamodel\events.md#event_id)|A unique code assigned to each event in the dataset|`a407be6a-28e6-4237-b4e9-307f27b1202e`|
+|[Event: Start date](\datamodel\events.md#event_start_date)|The date on which an event started|`2012`,`2012-11`, `2012-11-23`|
+|[Event: End date](\datamodel\events.md#event_end_date)|The date on which an event ended|`2012`,`2012-11`, `2012-11-23`|
+|[Event: Date of publication](\datamodel\events.md#event_publication_date)|The date of publication of the source used to evidence the event|`2012`,`2012-11`, `2012-11-23`|
+|[Event: Date of last update](\datamodel\events.md#event_date_last_update)|The date of most recent update about the event|`2012`,`2012-11`, `2012-11-23`|
+|[Event: Status as of last update](\datamodel\events.md#event_status)|Most recently available status of the event|Field is not yet implemented|
+|[Event: Location](\datamodel\events.md#event_location)|A description of the where the event occured|`Giwa Barracks`, `Rikkos neighborhood`, `Campo Militar Número 6-B`|
 |[Event: Exact location (Longitude or OSM Node Name)](\datamodel\events.md#event_exact_location_longitude_name)|Description|Example|
 |[Event: Exact location (Latitude or OSM Node ID number)](\datamodel\events.md#event_exact_location_latitude_id)|Description|Example|
-|[Event: Settlement (OSM object Name)](\datamodel\events.md#event_settlement_name)|Description|Example|
-|[Event: Settlement (OSM object ID Number)](\datamodel\events.md#event_settlement_id)|Description|Example|
-|[Event: Top Adminstrative Area (OSM relation name)](\datamodel\events.md#event_top_admin_name)|Description|Example|
-|[Event: Top Administrative Area (OSM object ID number)](\datamodel\events.md#event_top_admin_id)|Description|Example|
-|[Event: Country](\datamodel\events.md#event_country)|Description|Example|
-|[Event: Violation type](\datamodel\events.md#event_violation_type)|Description|Example|
-|[Event: Description](\datamodel\events.md#event_description)|Description|Example|
-|[Event: Perpetrator name](\datamodel\events.md#event_perpetrator_name)|Description|Example|
-|[Event: Perpetrator organization](\datamodel\events.md#event_perpetrator_organization)|Description|Example|
-|[Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification)|Description|Example|
-|[Event: Source](\datamodel\events.md#event_source)|Description|Example|
-|[Event: Publication organization](\datamodel\events.md#event_publication_org)|Description|Example|
+|[Event: Settlement (OSM object Name)](\datamodel\events.md#event_settlement_name)|The city, town or village in which an event occured|`Monclova`|
+|[Event: Settlement (OSM object ID Number)](\datamodel\events.md#event_settlement_id)|The city, town or village in which an event occured|`747101009`|
+|[Event: Top Adminstrative Area (OSM relation name)](\datamodel\events.md#event_top_admin_name)|The OSM relation name of the highest sub-national administrative area in which an organization site is based|`Michoacán`|
+|[Event: Top Administrative Area (OSM object ID number)](\datamodel\events.md#event_top_admin_id)|The OSM relation ID number of the highest sub-national administrative area in which an organization site is based|`2340636`|
+|[Event: Country](\datamodel\events.md#event_country)|The country in which an event occurred|`mx`, `ug`, `ng`|
+|[Event: Violation type](\datamodel\events.md#event_violation_type)|Type of alleged violation of human rights committed during the event|`Torture`, `Violations of the Right to Life`|
+|[Event: Description](\datamodel\events.md#event_description)|A description of the event|`According to Human Rights Watch: "Human Rights Watch found sufficient evidence to conclude that the individuals were victims of “disappearances.” Cases in which we collected compelling evidence that the disappearance was carried out with the direct or indirect participation of state agents are marked as “enforced disappearances”." Human Rights Watch's list states that Roberto González Mosso was a victim of an enforced disappearence.`|
+|[Event: Perpetrator name](\datamodel\events.md#event_perpetrator_name)|The name of the person alleged to have committed the human rights violation(s) in the event|`Friday Iyamabo`|
+|[Event: Perpetrator organization](\datamodel\events.md#event_perpetrator_organization)|The organization(s) alleged to have committed the human rights violation(s) in the event|`2 Batallón de Fuerzas Especiales`|
+|[Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification)|General branch or tier of security force that an organization is a part of|
+`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`|
+|[Event: Source](\datamodel\events.md#event_source)|The source of information about the event|`"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf`|
+|[Event: Publication organization](\datamodel\events.md#event_publication_org)|Name of the organization that published the source of information about the event|`Comisión Nacional de los Derechos Humanos (Mexico)`|
 
 ## Event: ID {#event_id}
 
@@ -114,7 +115,7 @@ In keeping with all date fields we include in this dataset, where our research c
 
 ### Description
 
-The date of publication of the source used to eveidence the event.
+The date of publication of the source used to evidence the event.
 
 ### Type of field
 
