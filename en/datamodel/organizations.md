@@ -77,7 +77,7 @@ This field is created automatically when data is uploaded into the Monitor's onl
 
 ### Description
 
-Name of the organization
+Name of the organization.
 
 ### Type of field
 
@@ -153,7 +153,7 @@ The `Organization: Country` field identifies the country this organization comes
 
 ### Description
 
-General branch or tier of security force that an organization a part of.
+General branch or tier of security force that an organization is a part of.
 
 ### Type of field
 
@@ -423,7 +423,6 @@ We use this field to clarify the meaning of the date entered in `Parent relation
 * `E` indicates the exact date one organization stopped being the parent of another.
 * `Y` indicates that we assume this parent relationship continues to exist.
 * `N` indicates we do not assume that this parent relationship continues to exist, but we do not have an exact end date.
-
 
 ## Headquarters {#organization_headquarters}
 

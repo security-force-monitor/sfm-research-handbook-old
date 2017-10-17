@@ -1,61 +1,186 @@
 # Events
 
-`Events` are publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. The Monitor does not make allegations itself, but rather complies allegations made by governmental bodies, human rights organizations and other civil society actors. For each Event, the Monitor includes a description, date\(s\), specific location\(s\), its perpetrators and the type of human rights violation.
+Events describe publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors. 
 
-Fields in `Events` are not sourced individually as in `Organizations` and `Persons`. Provide a single source for the entire event, in the standard form used by the Monitor. If multiple sources for the same event list them in order of the description.
+For each event, we includes data about what happened and when, the  location\(s\) it occurred at, the alleged perpetrators and the type of human rights violation.
 
-| Name of field | Description | Example of use |
+Fields in events are not sourced and rated for confidence individually as in Organizations and `Persons`. We provide a single source for the entire event, cited in the standard form used by the Monitor. 
+
+We use the term `incident` interchangably with `event`.
+
+## Summary of fields
+
+|Name of field|Description|Examples of use|
 | :--- | :--- | :--- |
-| [ID](#event_id) | Unique identifier for the event | _a848de4e-ebeb-49d6-9099-7e68ca3b57fc_ |
-| [Start Date](#event_start_date) | The date the event started | _2009-07-24_ |
-| [End Date](#event_end_date) | The date the event ended | _2009-07-24_ |
-| [Location](#event_location) | A specific place where the event occured | _Behind Maiduguri University_ |
-| [City or other Node Name in OpenStreetMap](#event_osm_name) | The city or node where the event occured | _Port Harcourt_ |
-| [City or other Node OpenStreetMap ID](#event_osm_id) | The ID for the city or node | _27565065_ |
-| [Highest level subnational boundary OpenStreetMap](#event_osm_admin_1_osm_name) | Highest level subnational boundary in OpenStreetMap | _Rivers_ |
-| [Highest level subnational boundary OpenStreetMap ID](#event_osm_admin_1_osm_id) | The ID for the highest subnational boundard | _3720743_ |
-| [division\_id](#event_division_id) | Country code for where event occured | _ng_ |
-| [Violation type](#event_violation_type) | Type\(s\) of violation | _Violations of the right to life_ |
-| [Description](#event_description)| Description of event from source | _According to Amnesty International: "Chibuike Anams, a student aged 23, was sitting with two friends at a guesthouse in Elimgbu, Rivers State, on 24 July 2009. When the police raided the guest house, he attempted to escape and was shot and died on the spot. His friends were arrested and later released. Chibuike Anams’ family reported him missing at the Police Headquarters in Port Harcourt after he failed to come home. They found out about his death almost a week later after they visited several police stations. The family do not know why the police shot Chibuike Anams, or what crime he was suspected of. There has been no investigation into his death. In the meantime, the police have refused to release the body – at the time of writing, it is still lying in the mortuary."_ |
-| [Perpetrator name](#event_perpetrator_name) | Name of individual perpetrator | _Friday Iyamabo_ |
-| [Perpetrator organization](#event_perpetrator_organization) | Name of organization idenfitied as perpetrator | _Joint Task Force, Operation Restore Order I_ |
-| [Perpetrator Classification](#event_perpetrator_classification) | Classification of identified perpetrator organization if not specifically named | _Police_ |
+|[Event: ID](\datamodel\events.md#event_id)|Description|Example|
+|[Event: Start date](\datamodel\events.md#event_start_date)|Description|Example|
+|[Event: End date](\datamodel\events.md#event_end_date)|Description|Example|
+|[Event: Date of publication](\datamodel\events.md#event_publication_date)|Description|Example|
+|[Event: Date of last update](\datamodel\events.md#event_date_last_update)|Description|Example|
+|[Event: Status as of last update](\datamodel\events.md#event_status)|Description|Example|
+|[Event: Location](\datamodel\events.md#event_location)|Description|Example|
+|[Event: Exact location (Longitude or OSM Node Name)](\datamodel\events.md#event_exact_location_longitude_name)|Description|Example|
+|[Event: Exact location (Latitude or OSM Node ID number)](\datamodel\events.md#event_exact_location_latitude_id)|Description|Example|
+|[Event: Settlement (OSM object Name)](\datamodel\events.md#event_settlement_name)|Description|Example|
+|[Event: Settlement (OSM object ID Number)](\datamodel\events.md#event_settlement_id)|Description|Example|
+|[Event: Top Adminstrative Area (OSM relation name)](\datamodel\events.md#event_top_admin_name)|Description|Example|
+|[Event: Top Administrative Area (OSM object ID number)](\datamodel\events.md#event_top_admin_id)|Description|Example|
+|[Event: Country](\datamodel\events.md#event_country)|Description|Example|
+|[Event: Violation type](\datamodel\events.md#event_violation_type)|Description|Example|
+|[Event: Description](\datamodel\events.md#event_description)|Description|Example|
+|[Event: Perpetrator name](\datamodel\events.md#event_perpetrator_name)|Description|Example|
+|[Event: Perpetrator organization](\datamodel\events.md#event_perpetrator_organization)|Description|Example|
+|[Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification)|Description|Example|
+|[Event: Source](\datamodel\events.md#event_source)|Description|Example|
+|[Event: Publication organization](\datamodel\events.md#event_publication_org)|Description|Example|
 
-## ID {#event_id}
+## Event: ID {#event_id}
 
-Security Force Monitor's data entry tool will automatically create a unique ID for every `person`, `organization` and `event` in the dataset.
+### Description
 
-## Start Date {#event_start_date}
+A unique code assigned to each event in the dataset.
 
-## End Date {#event_end_date}
+### Type of field
 
-If an `event` occurred within a single day - the start and end date should be the same.
+Text and numbers
 
-Events that occur some point during a range:
+### Example of use
 
-> Example: “On or about August 9, 2006, personnel of the NPF paraded 12 alleged armed robbers—including a 12-year-old—before the media at the Central Police Station in Umuahia, capital of Abia State. They claimed to have arrested the suspects after an exchange of gunfire with the police. Some of those in custody had gunshot wounds, and four others were killed during the incident at Olokobe-Ndume community in Umuahia North Local Government Area of Abia State. Following the parade, the police summarily executed the suspects and deposited their bodies at the premises of the Federal Medical Centre in Umuahia. They claimed that the executed victims signed confessional statements before they were killed. On August 17, 2006, the authorities of the Federal Medical Centre arranged a mass burial for the decomposing bodies of the victims. There were no autopsies or inquests. The police later organized a press conference at which they announced the executions.”
+`a407be6a-28e6-4237-b4e9-307f27b1202e`
 
-The `start date` would be `9 August 2006` and the `end date` would be `17 August 2006`. We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the  killing occurred is not clear; it could have happened at any point during that time frame.
+### Guidance for use
 
-If the end date is unclear - there are several ways to determine what should be used.
+This field is created automatically when data is uploaded into the Monitor's online platform.
 
-Use the date of interview with victim as end date: We can assume that the violation\(s\) ended at least the month/day of the interview - or that we at least know they occurred up to that date. For example:
+## Event: Start date {#event_start_date}
 
-> "Abu Bakr, a former detainee in Giwa Barracks told Amnesty International that he had been forced to share a confined area with up to 400 other people \[...\] Abu Bakr who was held in Giwa barracks told Amnesty International in July 2014: “There was no toilet. To toilet you use a black plastic bag and when you go out you throw it… or if someone used his maybe he will give you.” He also explained: 'We had rice for breakfast. A small amount, they put it in your hand. You give your hand, they will put the rice, you swallow it, you go back to the cell. Later in the day they give you water once. It is in a jug and you drink and pass it to another inside the cell. In the evening it is rice and stew, small. They give it in a nylon bag. There is no washing, no showers. No sleep. You just sit down only, the place is very tight, just sit on your bottom. You can only pray in the cell where you are sitting.'"
+### Description
 
-So in this example the end date would be `July 2014` - because we know that at some time in July he talked to Amnesty.
+The date on which an event started.
+
+### Type of field
+
+Date (YYYY-MM-DD), fuzzy
+
+### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
+
+### Guidance for use
+
+If an event occurred within a single day, `Event: Start date` and `Event: End date` should be the same.
+
+Events may occur at some point during a range:
+
+> For example: “On or about August 9, 2006, personnel of the NPF paraded 12 alleged armed robbers—including a 12-year-old—before the media at the Central Police Station in Umuahia, capital of Abia State. They claimed to have arrested the suspects after an exchange of gunfire with the police. Some of those in custody had gunshot wounds, and four others were killed during the incident at Olokobe-Ndume community in Umuahia North Local Government Area of Abia State. Following the parade, the police summarily executed the suspects and deposited their bodies at the premises of the Federal Medical Centre in Umuahia. They claimed that the executed victims signed confessional statements before they were killed. On August 17, 2006, the authorities of the Federal Medical Centre arranged a mass burial for the decomposing bodies of the victims. There were no autopsies or inquests. The police later organized a press conference at which they announced the executions.”
+
+We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the  killing occurred is not clear; it could have happened at any point during that time frame. To accomodate this,  we would record `2006-08-09` in `Event: Start date` and `2006-08-17` in `Event: End date`. 
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Event: Start date` .
+
+## Event: End date {#event_end_date}
+
+### Description
+
+The date on which an event ended.
+
+### Type of field
+
+Date (YYYY-MM-DD), fuzzy
+
+### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
+
+### Guidance for use
+
+If `Event: End date` is unclear there are several ways to determine what should be used.
+
+One option is to record the date of interview with victim as `Event: End date`. We can assume that the violation\(s\) ended at least the month/day of the interview - or that we at least know they occurred up to that date. 
+
+> For example: "Abu Bakr, a former detainee in Giwa Barracks told Amnesty International that he had been forced to share a confined area with up to 400 other people \[...\] Abu Bakr who was held in Giwa barracks told Amnesty International in July 2014: “There was no toilet. To toilet you use a black plastic bag and when you go out you throw it… or if someone used his maybe he will give you.” He also explained: 'We had rice for breakfast. A small amount, they put it in your hand. You give your hand, they will put the rice, you swallow it, you go back to the cell. Later in the day they give you water once. It is in a jug and you drink and pass it to another inside the cell. In the evening it is rice and stew, small. They give it in a nylon bag. There is no washing, no showers. No sleep. You just sit down only, the place is very tight, just sit on your bottom. You can only pray in the cell where you are sitting.'"
+
+In this example we could record `2014-07` in `Event: End date` because we know that at some time in July he talked to Amnesty International.
 
 Here's another example:
 
 > “Melvin, a 23-year-old sex worker in Port Harcourt, said she was raped twice by the police. She said: “I was arrested twice. Last month they took all of us to Mile 1 police station. We were six that day, we see different people. They put us in different places \[in the police station\]. We just have to allow them have sex with us. We were detained for three days. We were asked to pay N3,500 each. The one that will bail you will sleep with you. After that you can go.”
 
-Look at the footnotes - they often will give the date of when the victim was interviewed in this case both footnotes read: “Amnesty International interview in Port Harcourt, October 2011.” - so “last month” would be `September 2011` - that would be the `start date`. While they were detained for three days - it's unclear if it all occurred in September - since Amnesty interviewed this person in October 2011 we’d use that as the end date as they could have been arrested on September 29 and then released on October 1
+In this case, we can look at the footnotes. They often will give the date of when the victim was interviewed. In this case, both footnotes read: “Amnesty International interview in Port Harcourt, October 2011.” - so “last month” would be `September 2011` and we would record this as `2011-09` in  `Event: Start date`. While they were detained for three days it is unclear if the complete event occurred in September because Amnesty interviewed this person in October 2011.  Accordingly, we could record `2011-10` in `Event: End date` as they could have been arrested on September 29 and then released on 1 October 2011.
 
-Researcher hack: If you are working a spreadsheet \(like Google Sheets\) and the source only mentions a month and no specific date within that month, you can enter that information by adding an apostrophe in front of the name of the month, e.g. `‘July 2013`, which in the field will display as `July 2013`. This way you avoid the spreadsheet auto-correcting your entry to the first day of given month \(in this instance, without the apostrophe, the spread sheet would have altered the entry to read `7/1/2013`\).
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Event: End date`.
 
-## Location {#event_location}
+## Event: Date of publication {#event_publication_date}
 
-A specific location of an `event`.
+### Description
+
+The date of publication of the source used to eveidence the event.
+
+### Type of field
+
+Date (YYYY-MM-DD), fuzzy
+
+### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
+
+### Guidance for use
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Event: Date of publication`.
+
+## Event: Date of last update {#event_date_last_update}
+
+### Description
+
+The date of most recent update about the event 
+
+### Type of field
+
+Date (YYYY-MM-DD), fuzzy
+
+### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
+
+### Guidance for use
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Event: Date of last update`.
+
+## Event: Status as of last update {#event_status}
+
+### Description
+
+Most recently available status of the event
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+Field is not yet implemented.
+
+### Guidance for use
+
+Field is not yet implemented.
+
+## Event: Location {#event_location}
+
+### Description
+
+A description of the where the event occured.
+
+### Type of field
+
+Text and numbers
+
+### Example of use
+
+`Giwa Barracks`, `Rikkos neighborhood`, `Campo Militar Número 6-B`
+
+### Guidance for use
+
+We use this field to record the location of an event.
 
 Example:
 
@@ -75,49 +200,259 @@ Often a person is arrested and, for example, beaten at a specific site \(and the
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one `event` and abuses committed or otherwise tied to site of detention a separate `event`.
 
-## City or other Node Name in OpenStreetMap {#event_osm_name}
+## Event: Exact location (Longitude or OSM Node Name) {#event_exact_location_longitude_name}
 
-The same reasoning and rules for data entry in this field as applies to fields in `organization` records --- please note that often `event` information does not list a city, if so, leave blank, even if by the description it seems to indicate a particular place. Our job is not to add to `event`reporting, only to transcribe what other groups have reported.
+### Description
+### Type of field
+### Example of use
+### Guidance for use
 
-## City or other Node OpenStreetMap ID {#event_osm_id}
+## Event: Exact location (Latitude or OSM Node ID number) {#event_exact_location_latitude_id}
 
-This is the OpenStreetMap ID tied to the entry above.
+### Description
+### Type of field
+### Example of use
+### Guidance for use
 
-## Highest level subnational boundary OpenStreetMap {#event_osm_admin_1_osm_name}
+## Event: Settlement (OSM object Name) {#event_settlement_name}
 
-Same reasoning and rules for data entry in this field as applies to the `organization` records --- please note that often abuse reporting is done on a large scale “widespread abuses by police” for instance. Often a researcher will just have to put the country name here as there is no clear indication of a smaller administrative unit than that.
+### Description
 
-## Highest level subnational boundary OpenStreetMap ID {#event_osm_admin_1_osm_id}
+The city, town or village in which an event occured.
 
-This is the OpenStreetMap ID tied to the entry above.
+### Type of field
 
-## Violation type {#event_violation_type}
+Text, OSM object name, first in a pair of values
 
-In this field, the Monitor uses entries from a HURIDOCS controlled vocabulary called [Types of Acts](https://www.huridocs.org/resource/micro-thesauri/).
+### Example of use
 
-## Description {#event_description}
+`Monclova`
 
-This is a direct quotation from the civil society, governmental or other source about the abusive event. When an `event` has more than one report tied to it, start the quotation as below:
+### Guidance for use
+
+Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.
+
+## Event: Settlement (OSM object ID Number) {#event_settlement_id}
+
+### Description
+
+The city, town or village in which an event occured.
+
+### Type of field
+
+Number, OSM object ID number, second in a pair of values
+
+### Example of use
+
+`747101009`
+
+### Guidance for use
+
+Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.
+
+## Event: Top Adminstrative Area (OSM relation name) {#event_top_admin_name}
+
+### Description
+
+The OSM relation name of the highest sub-national administrative area in which an organization site is based.
+
+### Type of field
+
+Text, OSM relation name, first in a pair of values
+
+### Example of use
+
+`Michoacán`
+
+### Guidance for use
+
+We identify `Events` with a number of different levels of geographical precision. In `Event: Top Administrative Area (OSM relation name)` we record the text name of highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
+
+> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Event: Top Administrative Area (OSM relation name)` the name the "state" \(admin level 4\).
+
+## Event: Top Administrative Area (OSM object ID number) {#event_top_admin_id}
+
+### Description
+
+The OSM relation ID number of the highest sub-national administrative area in which an organization site is based.
+
+### Type of field
+
+Text, OSM relation ID number, second in a pair of values
+
+### Example of use
+
+`2340636`
+
+### Guidance for use
+
+We identify `Events` with a number of different levels of geographical precision. In `Event: Top Administrative Area (OSM relation ID number)` we record the text name of highest level subnational boundary for the country in which the event occurred, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
+
+> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For an event that occurred in Mexico, we would record in `Event: Top Administrative Area (OSM relation ID number)` the name the "state" \(admin level 4\).
+
+## Event: Country {#event_country}
+
+### Description
+
+The country in which an event occurred.
+
+### Type of field
+
+Two letter country code
+
+### Example of use
+
+`mx`, `ug`, `ng`
+
+### Guidance for use
+
+We identify the location of events with a number of different levels of geographical precision. The `Event: Country` field identifies the country in which an event occurred. All entries in this field are two letter country codes taken from [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
+
+> For example, an event that occurred in Nigeria would have the code `ng` and an event that occurred in Brazil would have the code `br`.
+
+## Event: Violation type {#event_violation_type}
+
+### Description
+
+Type of alleged violation of human rights committed during the event.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Torture`, `Violations of the Right to Life`
+
+### Guidance for use
+
+In `Event: Violation type`, values are chosen from the HURIDOCS controlled vocabulary called [Types of Acts](https://www.huridocs.org/resource/micro-thesauri/).
+
+## Event: Description {#event_description}
+
+### Description
+
+A description of the event.
+
+### Type of field
+
+Text and numbers
+
+### Example of use
+
+`According to Human Rights Watch: "Human Rights Watch found sufficient evidence to conclude that the individuals were victims of “disappearances.” Cases in which we collected compelling evidence that the disappearance was carried out with the direct or indirect participation of state agents are marked as “enforced disappearances”." Human Rights Watch's list states that Roberto González Mosso was a victim of an enforced disappearence.`
+
+### Guidance for use
+
+In this field we record a direct quotation from the civil society, governmental or other source about the event. When an event has more than one report tied to it, start the quotation as below:
 
 > According to X organization, “Description of event”. According to Y organization, “Description of event”.
+ 
+## Event: Perpetrator name {#event_perpetrator_name}
 
-## Perpetrator name {#event_perpetrator_name}
+### Description
 
-If a person or persons are named in the source report, record it in the `perptrator name` field.  Make sure to create a corresponding `person` record. Here is an example of the use of this field:
+The name of the person alleged to have committed the human rights violation(s) in the event.
 
-> "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
+### Type of field
 
-## Perpetrator organization {#event_perpetrator_organization}
+Text and numbers, taken from `Person: Name`
 
-If a specific `organization` is named in the reporting include it here. Make sure to create a corresponding `organization` entry. Here is an example of the user of this field:
+### Example of use
+
+`Friday Iyamabo`
+
+### Guidance for use
+
+If a person or persons are named in the sources for the event, we will record it in the `Event: Perpetrator name` field. The value in `Event: Perpetrator name` will correspond to a value in `Person: Name`.
+
+> For example: "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
+
+In this case, the alleged perpetrator is named in the source report. We would record the name `Friday Iyamabo` in the field `Event: Perpetrator name`. 
+
+## Event: Perpetrator organization {#event_perpetrator_organization}
+
+### Description
+
+The organization(s) alleged to have committed the human rights violation(s) in the event.
+
+### Type of field
+
+Text and numbers, multiple entry, taken from `Organization: Name`
+
+### Example of use
+
+`2 Batallón de Fuerzas Especiales`
+
+### Guidance for use
+
+If the sources  that specific organizations committed the alleged human rights violations described in the event, we include these names in `Event: Perpetrator name`.  The value in `Event: Perpetrator organization` will correspond to a value in `Organization: Name`.
+
+Here is an example of source material that contains information that would be included in `Event: Perpetrator name`:
 
 > "Amnesty International gathered 15 testimonies, including from five former detainees, on 23 Armoured Brigade confirming the daily deaths of detainees. In the early hours on 2 December 2014, nine soldiers arrested Bashiru Usman \(not his real name\), a 27-year-old business man, in his house. The soldiers beat him, told him he was a Boko Haram member and took him to their barracks. Several officers interrogated him that morning: “The officer threatened to shoot me for not cooperating. He told me if I cooperate, I will be released, if not, they will shoot me and that is the end of the story. They were slapping me on my head, back, stomach and face. They used a \[water\] hose to beat me seriously on the back. The interrogation and beating went on for two hours.” Bashiru said that there was not enough space for all detainees to lie down in his cell. Many people in his cell were very sick and died: “Every morning there were two to three dead bodies, likewise in the evenings two people would have died. Not less than five people died per day.” He did not know the exact cause of death but did mention they were only given water once a day and a very small amount of food. He said that at times, the detainees even drank their own urine. After three days Bashiru was released, thanks to the intervention of his lawyer."
 
-## Perpetrator Classification {#event_perpetrator_classification}
+## Event: Perpetrator classification {#event_perpetrator_classification}
 
-Sometimes a source will report that the perpetrators are a generic security force such as  “soldiers”, “police” or some other formulation. In that case, use this field to record a classification in the same way as in an `organization` record. For example:
+### Description
+
+General branch or tier of security force that an organization is a part of.
+
+### Type of field
+
+Text and numbers, controlled vocabulary, taken from `Organization: Classification`
+
+### Example of use
+
+`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`
+
+### Guidance for use
+
+Sometimes a source will report that the alleged perpetrators of a human rights violation are from a generic security force such as  “soldiers”, “police” or some other formulation. In this case, use this field to record a classification in the same way as for `Organization: Classification`. For example:
 
 > "Shete Obusoh and Chijioke Olemeforo were arrested by police officers from the Special Anti-Robbery Squad on 4 October and spent 17 days in police detention before being taken to court and remanded in prison on 21 October. They said that during this time they were hung from the ceiling in the police station and beaten with gun butts and machetes."
 
-This person was arrested by a specific unit - or type of unit - but then the abuses occurred during their detention at a police station. The `Special Anti-Robbery Squad` that arrested could have been doing the abuses - but they easily could have not been. So we’d code this as `Police`, which is the most generic label. This is because since all we know the is that the abuses occurred while under police detention.
+This person was arrested by a specific unit - or type of unit - but then the alleged abuses occurred during their detention at a police station. The `Special Anti-Robbery Squad` that arrested could have been doing the abuses - but they easily could have not been. So we’d code this as `Police`, which is the most generic label. This is because since all we know the is that the abuses occurred while under police detention.
+
+## Event: Source {#event_source}
+
+### Description
+
+The source of information about the event.
+
+### Type of field
+
+Text and numbers
+
+### Example of use
+
+`"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf`
+
+### Guidance for use
+
+The values we enter here should follow the general citation format used by Security Force monitor, as set out in this Research Handbook:
+
+> Title of article or website page. Name of publishing organization \(country of organization\). Date. URL. Internet Archive link: URL
+
+Where there are multiple sources about the same event, they are listed in the order of the description.
+
+## Event: Publication organization {#event_publication_org}
+
+### Description
+
+Name of the organization that published the source of information about the event.
+
+### Type of field
+
+Text and numbers
+
+### Example of use
+
+`Comisión Nacional de los Derechos Humanos (Mexico)`
+
+### Guidance for use
+
+Values in `Event: Publication organization` use the below format:
+
+> Name of publishing organization (Country)
 
