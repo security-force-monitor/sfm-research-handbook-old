@@ -12,9 +12,51 @@ Documented in this chapter are a range of different pieces of data about organiz
 
 ## Summary of organization fields
 
-| Name of field | Description | Example of use |
+| Name of field | Description | Examples of use |
 | :--- | :--- | :--- |
-| to do| to do| to do|
+|[Organization: ID](#organization_id)|A unique code assigned to each organization in the dataset|`a407be6a-28e6-4237-b4e9-307f27b1202e` |
+|[Organization: Name](#organization_name)|Name of the organization|`3 Compañía de Infantería No Encuadrada`|
+|[Organization: Aliases](#organization_aliases)|Other names for an organization, including aliaes, alternative spellings and abbreviations|`Tercera Compañía de Infantería No Encuadrada`, `3/a. Compañía de Infantería No Encuadrad`|
+|[Organization: Country](#organization_country)|The country in which an organziation originates|`mx`|
+|[Organization: Classification](#organization_classification)|General branch or tier of security force that an organization a part of|`Army`,`Ejército`|
+|[Organization: Date first cited](#organization_date_first_cited)|The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
+|[Organization: Start date?](#organization_date_first_cited_is_start)| Is the value in  `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization?|`Y`,`N`|
+|[Organization: Date last cited](#organization_date_last_cited)|The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
+|[Organization: Open-ended?](#organization_date_last_cited_open_ended)|Is the value in  `Organization: Date last cited`  the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist?|`Y`, `N`, `E`|
+|[Organization: Parent](#organization_parent_name)|The immediate superior organization in the command chain|`1 Región Naval`|
+|[Parent relationship: Classification](#organization_parent_classification)|Type of relationships that exists between two organizations| `Command`|
+|[Parent relationship: Date first cited](#organization_parent_date_first_cited)|The earliest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
+|[Parent relationship: start date?](#organization_parent_date_first_cited_is_start)|Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?|`Y`, `N`|
+|[Parent organization: date last cited](#organization_parent_date_last_cited)|The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
+|[Parent relationship: Open-ended?](#organization_parent_open_ended)|Is the value in  `Parent relationship: Date last cited`  the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?|`Y`, `N`, `E`|
+|[Headquarters](#organization_headquarters)|A headquarters is a uniquely named building or complex - like a barracks or camp -  that is long established as the primary command site of an organization|`Campo Militar Número 5-C`|
+|[Site: Exact Location (Latitude or OSM Node Name)](#organization_site_ex_loc_name)|The latitude or OSM Node name of the most precise location of a site associated with this organization| `30.09716`, `Masr Al-Gedida`|
+|[Site: Exact Location (Longitude or OSM Node ID)](#organization_site_ex_loc_id)|The longitude or OSM node ID number of the most precise location of a site associated with this organization|`30.09716`, `Masr Al-Gedida`|
+|[Site: Settlement (OSM Node Name)](#organization_site_settlement_name)|The OSM node name of the city, town or village in which an organization site is based|`Tampico`, `Francisco Escarcega`, `Abu al Matamir`|
+|[Site: Settlement (OSM ID)](#organization_site_settlement_id)|The OSM node ID number of the city, town or village in which an organization site is based|`273584290`,`286989920`,`769127625`|
+|[Site: Top Administrative Area (OSM Name)](#organization_site_top_admin_name)| description | example |
+|[Site: Top Administrative Area (OSM ID number)](#organization_site_top_admin_id)| description | example |
+|[Site: Country](#organization_site_country)| description | example |
+|[Site: Date of first citation](#organization_site_date_first_cited)| description | example |
+|[Site: Founding date?](#organization_site_date_first_cited_founding)| description | example |
+|[Site: Date last cited](#organization_site_date_last_cited)| description | example |
+|[Site: open-ended?](#organization_site_date_last_cited_open_ended)| description | example |
+|[Area of Operations: OSM object name](#organization_aoo_osm_name)| description | example |
+|[Area of Operations: OSM object ID number](#organization_aoo_osm_id)| description | example |
+|[Area of Operations: Country](#organization_aoo_country)| description | example |
+|[Area of Operations: Date first cited](#organization_aoo_date_first_cited)| description | example |
+|[Area of Operations: Start date?](#organization_aoo_date_last_cited_is_start)| description | example |
+|[Area of Operations: Date last cited](#organization_aoo_date_last_cited)| description | example |
+|[Area of Operations: Open-ended?](#organization_aoo_open_ended)| description | example |
+|[Organization Membership](#organization_membership)| description | example |
+|[Membership: Date first cited](#organization_membership_date_first_cited)| description | example |
+|[Membership: Start date?](#organization_membership_is_start)| description | example |
+|[Membership: Date of last citation](#organization_membership_date_last_cited)| description | example |
+|[Membership: Open-ended?](#organization_membership_open_ended)| description | example |
+|[Notes](#organization_notes)| description | example |
+
+
+
 
 ## Organization: ID {#organization_id}
 
@@ -46,9 +88,9 @@ Text and numbers
 
 ### Example of use
 
-`3 Armoured Division of the Nigerian Army`, `V Zona Militar`, `4 Batallón de Infantería`
+`3 Armoured Division of the Nigerian Army`, `3 Compañía de Infantería No Encuadrada`, `4 Batallón de Infantería`
 
-## Guidance on use
+### Guidance on use
 
 Different sources will spell an organization's name in different ways, so we choose one of those names to be a canonical version. Wherever possible, we will choose the most complete and complex version of an organization’s name that can be evidenced by a source:
 
@@ -80,7 +122,7 @@ Text and numbers
 
 ### Example of use
 
-If 3 Compañía de Infantería No Encuadrada is used as the canonical `Organization: Name` of an organization, entries in the `Organization: Aliases` field may include `Tercera Compañía de Infantería No Encuadrada`  and `3/a. Compañía de Infantería No Encuadrad`.
+If `3 Compañía de Infantería No Encuadrada` is used as the canonical `Organization: Name` of an organization, entries in the `Organization: Aliases` field may include `Tercera Compañía de Infantería No Encuadrada`  and `3/a. Compañía de Infantería No Encuadrad`.
 
 ### Guidance on use
 
@@ -218,7 +260,7 @@ This field is clarified by `Organization: Open-ended?`, which indicates whether 
 
 ### Description
 
-Is the value in  `Organization: Date last cited`  the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist
+Is the value in  `Organization: Date last cited`  the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist?
 
 ### Type of field
 
@@ -264,7 +306,7 @@ In our data model `Organization: Parent` relationships are different from `Organ
 
 ### Description
 
-Type of relationships that exists between two organizations
+Type of relationships that exists between two organizations.
 
 ### Type of field
 
@@ -407,15 +449,15 @@ This field is used to record data about units that have a uniquely named buildin
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## Site: Exact Location \(Latitude or OSM Node Name\) {#organization_site_ex_loc_name}
+## Site: Exact Location (Latitude or OSM Node Name) {#organization_site_ex_loc_name}
 
 ### Description
 
-The most precise location of a site associated with this organization. 
+The latitude or OSM Node name of the most precise location of a site associated with this organization  
 
 ### Type of field
 
-First value of a latitude/longitude pair (EPSG:3857), or an OSM Node Name
+First value of a latitude/longitude pair (using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)), or an OSM Node Name.
 
 ### Example of use
 
@@ -435,7 +477,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 ### Description
 
-The most precise location of a site associated with this organization. 
+The longitude or OSM node ID number of the most precise location of a site associated with this organization. 
 
 ### Type of field
 
@@ -455,7 +497,7 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the longitude value recorded in this field.
 
-## Site: Settlement (OSM Node Name {#organization_site_settlement_name}
+## Site: Settlement (OSM Node Name){#organization_site_settlement_name}
 
 ### Description
 
