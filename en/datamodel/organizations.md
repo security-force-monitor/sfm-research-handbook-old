@@ -1,6 +1,14 @@
 # Organizations
 
-Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any any part of the hierarchy of a security force, ranging from a national defence ministry, to a police unit based in a small town. Organizations can also be groupings of organizations that occur, such as operations or peacekeeping missions.
+Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any part of the hierarchy of a security force, ranging from a national defence ministry to a police post in a small town. We use the term "Unit" interchangably with "Organization". Organizations can also be groupings of organizations, including joint operations, task forces or peacekeeping missions.
+
+Documented in this chapter are a range of different pieces of data about organizations, including:
+
+* their existence and identity;
+* their place in the structure of a security force;
+* locations of physical infrastructure like post, bases and camps;
+* their areas of operations; and,
+* joint operations or missions they have been a member of.
 
 ## Summary of organization fields
 
@@ -8,7 +16,7 @@ Organizations are official state or state-sanctioned organizations responsible f
 | :--- | :--- | :--- |
 | to do| to do| to do|
 
-## ID {#organization_id}
+## Organization: ID {#organization_id}
 
 ### Description
 
@@ -26,13 +34,13 @@ Text and numbers
 
 This field is created automatically when data is uploaded into the Monitor's online platform.
 
-## Name {#organization_name}
+## Organization: Name {#organization_name}
 
 ### Description
 
 Name of the organization
 
-Type of field
+### Type of field
 
 Text and numbers
 
@@ -52,7 +60,7 @@ In addition to choosing the most complete and complex version of a organization'
 >
 > Example: Army units of a country may follow a naming convention of a number and then name of unit: e.g. `3 Battalion` or `25 Brigade`. There may be a unit of which we only have citations for a variation on that: e.g. `Fourth Battalion`. In this case, the Monitor would list the name of the unit as `4 Battalion` with a note about the methodology behind that choice.  The `Fourth Battalion`  name variant would be entered in the `Aliases or alternative spellings` field
 
-The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `Aliases` field \(see below\).
+The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `ORganization: Aliases` field \(see below\).
 
 Use the name in the local language \(official\) of the country where appropriate.
 
@@ -60,11 +68,11 @@ Use the name in the local language \(official\) of the country where appropriate
 
 Where the name of an organization contains Roman numerals like `V` or `XI` these should not be turned into commonly used numbers like `5` or `11` respectively.
 
-## Aliases {#organization_other_names}
+## Organization: Aliases {#organization_aliases}
 
 ### Description
 
-Other names for an organization, including alternative spellings and abbreviations.
+Other names for an organization, including aliaes, alternative spellings and abbreviations.
 
 ### Type of field
 
@@ -72,17 +80,17 @@ Text and numbers
 
 ### Example of use
 
-If 3 Compañía de Infantería No Encuadrada is used as the canonical `name` of an organization, entries in the `Aliases` field may include `Tercera Compañía de Infantería No Encuadrada`  and `3/a. Compañía de Infantería No Encuadrad`.
+If 3 Compañía de Infantería No Encuadrada is used as the canonical `Organization: Name` of an organization, entries in the `Organization: Aliases` field may include `Tercera Compañía de Infantería No Encuadrada`  and `3/a. Compañía de Infantería No Encuadrad`.
 
 ### Guidance on use
 
-Different sources will spell an organization's name in different ways. We choose and record a canonical version of a organization's name in the `Name` field. All other spellings that we have found are treated as aliases and stored in this field. Where the country being researched is non-English speaking, use this field to record English language translations of an organization's name.
+Different sources will spell an organization's name in different ways. We choose and record a canonical version of a organization's name in the `Organization: Name` field. All other spellings that we have found are treated as aliases and stored in this field. Where the country being researched is non-English speaking, use this field to record English language translations of an organization's name.
 
 Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical name we choose for an organization, where a source uses an Ordinal we record it as an alias.
 
 > Example: We find a version of the organization name `10 Regimiento de Caballería Motorizado` that has an Ordinal indicator: `10/o. Regimiento de Caballería Motorizado.` We would record this in the `Aliases` field.
 
-## Organization Country
+## Organization: Country {#organization_country}
 
 ### Description
 
@@ -98,11 +106,11 @@ Two letter country code
 
 ### Guidance on use
 
-The `Country` field identifies the country this organization comes from. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
+The `Organization: Country` field identifies the country this organization comes from. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
 
 > For example, an organization based in Nigeria would have the code `ng` and an organization based in Brazil would have the code `br`
 
-## Classification {#organization_classification}
+## Organization: Classification {#organization_classification}
 
 ### Description
 
@@ -118,19 +126,19 @@ Text and numbers
 
 ### Guidance on use
 
-We use classifications to describe the basic nature of a specific organization: is it a police unit? Is it a military unit? Is it part of a joint operation? `Classification` values are useful supplements to `parent` and `membership` data we use to connect different units together.
+We use classifications to describe the basic nature of a specific organization: is it a police unit? Is it a military unit? Is it part of a joint operation? `Organization: Classification` values are useful supplements to `Organization: Parent` and `Organization: Membership` data we use to connect different units together.
 
-The `Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches.
+The `Organization: Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches.
 
-> For example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Classification` field.
+> For example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Organization: Classification` field.
 
 When applying a classification to an organization, we try to be as specific as the source allows.
 
 > For example: In Mexico \(which has federal level, state level and municipal level police forces, all independent of one another\) a municipal police force in Mexico is given two classifications: `Municipal Police ; Police`. A state police unit is given two classifications: `State Police ; Police`. So when human rights reporting is specific in saying municipal police officers committed an abuse nearby where this unit is located, we tag it. When there is more vague reporting of just “police” committing abuses both units that have a Police classification and are located near where the abuse occurred are tagged.
 
-In choosing terms to include in the `Classification` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible.
+In choosing terms to include in the `Organization: Classification` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible.
 
-## Date first cited
+## Organization: Date first cited {#organization_date_first_cited}
 
 ### Description
 
@@ -146,24 +154,24 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields`Start date of organization?`, `Date last cited` and `Open ended?` the field `Date first cited` provides data on the time period we can say an organization has existed.
+Along with the fields`Organization: Start date?`, `Organization: Date last cited` and `Organization: Open-ended?` the field `Organization: Date first cited` provides data about the time period we can evidence an organization has existed.
 
-The `Date first cited` field contains a date that is either:
+The `Organization: Date first cited` field contains a date that is either:
 
 * The earliest date found in a source that specifically references an organization; or,
 * The earliest date of publication of sources that make reference to an organization.
 
-> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January 2012 as the `Date first cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 June 2011, we will use 30 June 2011 as the `Date first cited`.
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 January 2012 as the `Organization: Date first cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 30 June 2011, we will use 30 June 2011 as the `Organization: Date first cited`.
 
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date first cited` .
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Organization: Date first cited` .
 
-This field is clarified by the field `Start date of organization?` which indicates whether the date included here is the actual date on which an organization was founded.
+This field is clarified by the field `Organization: Start date?` which indicates whether the date included here is the actual date on which an organization was founded.
 
-## Start date of organization?
+## Organization: Start date? {#organization_date_first_cited_is_start}
 
 ### Description
 
-Is the value in  `Date first cited`  the actual date on which an organization was founded, or the earliest date a source has referred to an organization?
+Is the value in  `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization?
 
 ### Type of field
 
@@ -175,9 +183,9 @@ Boolean \(Yes, No\)
 
 ### Guidance on use
 
-This is a clarifying field for `Date first cited`. Where a source references an organization and specifies the date that organization was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
+This is a clarifying field for `Organization: Date first cited`. Where a source references an organization and specifies the date that organization was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
-## Date last cited
+## Organization: Date last cited {#organization_date_last_cited}
 
 ### Description
 
@@ -193,24 +201,24 @@ Date \(YYYY-MM-DD\), fuzy
 
 ### Guidance on use
 
-Along with the fields `Date first cited`, `Start date of organization?`and `Open ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
+Along with the fields `Organization: Date first cited`, `Organization: Start date?`and `Organization: Open-ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
 
-The `Date last cited` field contains a date that is either:
+The `Organization: Date last cited` field contains a date that is either:
 
 * The latest date found in a source that specifically references an organization; or,
 * The latest date of publication of sources that make reference to an organization.
 
-> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 March 2012 as the `Date last cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 15 February  2012, we will use 15 February 2012 as the `Date last cited`.
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to 1 Motorized Brigade, we will use 1 March 2012 as the `Organization: Date last cited`. If the source published on 1 March 2012 refers to activity of 1 Motorized Brigade that occurred on 15 February  2012, we will use 15 February 2012 as the value in `Organization: Date last cited`.
 
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Date last cited` .
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Organization: Date last cited` .
 
-This field is clarified by `Open ended?`, which indicates whether the date in `Date last cited` is the date an organization was disbanded.
+This field is clarified by `Organization: Open-ended?`, which indicates whether the date in `Organization: Date last cited` is the date an organization was disbanded.
 
-## Open ended?
+## Organization: Open-ended? {#organization_date_last_cited_open_ended}
 
 ### Description
 
-Is the value in  `Date last cited`  the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist
+Is the value in  `Organization: Date last cited`  the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist
 
 ### Type of field
 
@@ -222,13 +230,13 @@ Single choice \(Y, N, E\)
 
 ### Guidance on use
 
-We use this field to clarify the meaning of the date entered in `Date last cited`. One of the below values should be chosen:
+We use this field to clarify the meaning of the date entered in `Organization: Date last cited`. One of the below values should be chosen:
 
 * `E` indicates the exact date this organization was disbanded, or ceases to exist.
 * `Y` indicates that we assume this organization continues to exist.
 * `N` indicates we do not assume that this organization continues to exist, but we do not have an exact end date.
 
-## Parent {#organization_organization_name}
+## Organization: Parent {#organization_parent_name}
 
 ### Description
 
@@ -244,15 +252,15 @@ Text and numbers
 
 ### Guidance on use
 
-`Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
+`Organization: Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
 
 > For example, in Mexico `8 Zona Militar` is a parent of `19 Regimiento de Caballería Motorizada` between 15 May 1999 and 20 November 2006.
 
 Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an organization has detachments of personnel seconded to other different organizations at the same time.
 
-In our data model`Parent` relationships are different from `Organization memberships`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather,  personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization memberships`, which is documented below.
+In our data model `Organization: Parent` relationships are different from `Organization: Membership`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather,  personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization: Membership`, which is documented below.
 
-## Parent relationship classification {#organization_organization_classification}
+## Parent relationship: Classification {#organization_parent_classification}
 
 ### Description
 
@@ -278,7 +286,7 @@ Organizations have a `Command` relationship when the parent organization can ord
 
 > For example: the `Minister of Defence` in Nigeria is by law in charge providing administrative support to the `Nigerian Army`, establishing an administrative relationship.  The `Standards Department` of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Ministry, but describing this as Administrative is more helpful, the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
-## Parent relationship date first cited
+## Parent relationship: Date first cited {#organization_parent_date_first_cited}
 
 ### Description
 
@@ -294,24 +302,24 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields the fields `Parent relationship start date?`, `Parent relationships date last cited` and `Parent relationship: open ended?`, `Parent organization date first cited` provides data on the time period we can say one organization is the parent of another .
+Along with the fields the fields `Parent relationship: Start date?`, `Parent relationship: Sate last cited` and `Parent relationship: Open-ended?` the field `Parent organization: Date first cited` provides data on the time period we can say one organization is the parent of another .
 
-The `Parent organization date first cited` field contains a date that is either:
+The `Parent organization: Date first cited` field contains a date that is either:
 
 * The earliest date found in a source that specifically references a parent relationship; or,
 * The earliest date of publication of sources that make reference to a parent relationship.
 
-> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will  enter 1 January 2012 in`Parent relationship date first cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the `Parent relationship date first cited`.
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will  enter 1 January 2012 in`Parent relationship: date first cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the `Parent relationship: date first cited`.
 
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship date first cited` .
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship: Date first cited` .
 
-This field is clarified by the field `Parent relationship start date?` which indicates whether the date included here is the actual date on which an organization became the parent of another.
+This field is clarified by the field `Parent relationship: Start date?` which indicates whether the date included here is the actual date on which an organization became the parent of another.
 
-## Parent relationship start date?
+## Parent relationship: start date? {#organization_parent_date_first_cited_is_start}
 
 ### Description
 
-Is the value in `Parent relationship date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?
+Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?
 
 ### Type of field
 
@@ -323,9 +331,9 @@ Boolean \(Yes, No\)
 
 ### Guidance on use
 
-This is a clarifying field for `Parent relationship date first cited`. Where a source references the parent relationship and specifies the date that the relationship was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
+This is a clarifying field for `Parent relationship: Date first cited`. Where a source references the parent relationship and specifies the date that the relationship was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
-## Parent organization date last cited {#organization_organization_date_last_cited}
+## Parent organization: date last cited {#organization_parent_date_last_cited}
 
 ### Description
 
@@ -341,25 +349,25 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields the fields `Parent relationship date first cited`, `Parent relationship start date?` and `Parent relationship: open ended?` the field `Parent organization date last cited` provides data on the time period we can say one organization is the parent of another .
+Along with the fields the fields `Parent relationship: Date first cited`, `Parent relationship: Start date?` and `Parent relationship: Open-ended?` the field `Parent organization: Date last cited` provides data on the time period we can evidence that one organization is the parent of another.
 
-The `Parent organization date last cited` field contains a date that is either:
+The `Parent organization: Date last cited` field contains a date that is either:
 
 * The latest date found in a source that specifically references a parent relationship; or,
 * The latest date of publication of sources that make reference to a parent relationship.
 
-> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will  enter 1 March 2012 in `Parent relationship date last cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 15 February 2012, we will use 15 February 2012 as the `Parent relationship date last cited`.
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will  enter 1 March 2012 in `Parent relationship: Date last cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 15 February 2012, we will use 15 February 2012 as the `Parent relationship: Date last cited`.
 
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship date last cited` .
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship: Date last cited` .
 
-This field is clarified by the field `Parent relationship is open ended?` which indicates whether the date included here is the actual date on which an organization stopped being the parent of another.
+This field is clarified by the field `Parent relationship: Open-ended?` which indicates whether the date included here is the actual date on which an organization stopped being the parent of another.
 
 
-## Parent relationship: open ended? {#organization_organization_assume_to_current_date}
+## Parent relationship: Open-ended? {#organization_parent_open_ended}
 
 ### Description
 
-Is the value in  `Parent relationship date last cited`  the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?
+Is the value in  `Parent relationship: Date last cited`  the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?
 
 ### Type of field
 
@@ -371,19 +379,18 @@ Single choice \(Y, N, E\)
 
 ### Guidance on use
 
-We use this field to clarify the meaning of the date entered in `Parent relationship date last cited`. One of the below values should be chosen:
+We use this field to clarify the meaning of the date entered in `Parent relationship: Date last cited`. One of the below values should be chosen:
 
 * `E` indicates the exact date one organization stopped being the parent of another.
 * `Y` indicates that we assume this parent relationship continues to exist.
 * `N` indicates we do not assume that this parent relationship continues to exist, but we do not have an exact end date.
 
 
-## Headquarters \(Barracks, Base, Physical Asset\) {#organization_headquarters}
-
+## Headquarters {#organization_headquarters}
 
 ### Description
 
-A uniquely named building or complex - like a barracks or camp -  that is long established as the primary command site of an organization.
+A headquarters is a uniquely named building or complex - like a barracks or camp -  that is long established as the primary command site of an organization.
 
 ### Type of field
 
@@ -400,7 +407,7 @@ This field is used to record data about units that have a uniquely named buildin
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## Site: Exact Location \(Latitude or OSM Node Name\)
+## Site: Exact Location \(Latitude or OSM Node Name\) {#organization_site_ex_loc_name}
 
 ### Description
 
@@ -424,7 +431,7 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an node for the exact site is present on Open Street Map we will enter its name in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Exact Location \(Longitude or OSM Node ID\)
+## Site: Exact Location \(Longitude or OSM Node ID\) {#organization_site_ex_loc_id}
 
 ### Description
 
@@ -448,7 +455,7 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the longitude value recorded in this field.
 
-## Site: Settlement (OSM Node Name {#organization_osm_name}
+## Site: Settlement (OSM Node Name {#organization_site_settlement_name}
 
 ### Description
 
@@ -466,7 +473,7 @@ Text, OSM node name, first in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Node Name)` we record the name of the OSM node that identifies a settlement in which there is an organization site. It could be a city, town or village  or other OSM node that denotes a settlement. 
 
-## Site: Settlement (OSM ID) {#organization_osm_id}
+## Site: Settlement (OSM ID) {#organization_site_settlement_id}
 
 ### Description
 
@@ -484,7 +491,7 @@ Number, OSM node ID number, second in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM ID)` field we record the name of the OSM ID number that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM node that denotes a settlement. 
 
-## Site: Top Administrative Area (OSM Name) {#organization_admin_level_1_osm_name}
+## Site: Top Administrative Area (OSM Name) {#organization_site_top_admin_name}
 
 ### Description
 
@@ -504,7 +511,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 > For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\) 
 
-## Site: Top Administrative Area \(OSM ID number\) {#organization_admin_level_1_osm_id}
+## Site: Top Administrative Area \(OSM ID number\) {#organization_site_top_admin_id}
 
 ### Description
 The OSM relation ID number of the highest sub-national administrative area in which an organization site is based.
@@ -522,7 +529,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 > For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\) 
 
-## Site: Country {#organization_site_division_id}
+## Site: Country {#organization_site_country}
 
 ### Description
 
@@ -540,7 +547,7 @@ Two letter country code
 
 We identify `sites` with a number of different levels of geographical precision.The `Site: Country` field identifies the country in which an organization site is located. All entries in this field are two letter country codes taken from  [ISO 3166 which can be searched here](https://www.iso.org/obp/ui/#search).
 
-> For example, an organization site located in Nigeria would have the code `ng` and an organization site located in Brazil would have the code `br`
+> For example, an organization site located in Nigeria would have the code `ng` and an organization site located in Brazil would have the code `br`.
 
 ## Site: Date of first citation {#organization_site_date_first_cited}
 
@@ -558,7 +565,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Site: Founding date?`, `Site: Date last cited` and `Site is open ended?` the field `Site: Date first cited` provides data on the time period for which can specify a site's location.
+Along with the fields `Site: Founding date?`, `Site: Date last cited` and `Site: Open-ended?` the field `Site: Date first cited` provides data on the time period for which can specify a site's location.
 
 The `Site: Date first cited` field contains a date that is either:
 
@@ -588,7 +595,7 @@ Boolean \(Yes, No\)
 
 This is a clarifying field for `Site: Date first cited`. Where a source references an organization site and specifies the date that organization site was founded we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
-## Site: Date of last citation {#organization_site_date_last_cited}
+## Site: Date last cited {#organization_site_date_last_cited}
 
 ### Description
 
@@ -604,7 +611,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Site: Date first cited`, `Site: Founding date?` and `Site is open ended?` the field `Site: Date last cited` provides data on the time period for which can specify a site's location.
+Along with the fields `Site: Date first cited`, `Site: Founding date?` and `Site is Open-ended?` the field `Site: Date last cited` provides data on the time period for which can specify a site's location.
 
 The `Site: Date last cited` field contains a date that is either:
 
@@ -613,9 +620,9 @@ The `Site: Date last cited` field contains a date that is either:
  
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Site: Date last cited`.
 
-This field is clarified by the field `Site: open ended?` which indicates whether the date included here is the actual date on which an organization site was terminated.
+This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization site was terminated.
 
-## Site: open-ended? {#organization_site_date_last_cited_assume_to_current_date}
+## Site: open-ended? {#organization_site_date_last_cited_open_ended}
 
 ### Description
 
@@ -639,7 +646,7 @@ The values that can be entered in this field are restricted to the below:
 * `Y` indicates that we assume this organization site continues to exist.
 * `N` indicates we do not assume that this organization site continues to exist, but we do not have an exact end date.
 
-## Area of Operations: OSM object name {#organization_area_osm_name}
+## Area of Operations: OSM object name {#organization_aoo_osm_name}
 
 ### Description
 A geographical area in which an organization exercises jurisdiction or has operated in any manner
@@ -654,7 +661,7 @@ Text and numbers, OSM object name, first in a pair of fields
 
 The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the Open Street Map name for the lowest-level formal geographical area that best describes where an organization has operated in some manner.
 
-## Area of Operations: OSM object ID number {#organization_area_osm_id}
+## Area of Operations: OSM object ID number {#organization_aoo_osm_id}
 
 ### Description
 A geographical area in which an organization exercises jurisdiction or has operated in any manner
@@ -669,7 +676,7 @@ Numbers, OSM object ID number, second in a pair of fields
 
 The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the OpenStreetMap object ID number for the lowest-level formal geographical area that best describes where an organization has operated in some manner. 
 
-## Area of Operations: Country {#organization_area_division_id}
+## Area of Operations: Country {#organization_aoo_country}
 ### Description
 
 The country in which an Area of Operation is located.
@@ -686,7 +693,7 @@ Two letter country code
 
 We identify `Area of Operations` with two different levels of geographical precision.The `Area of Operations: Country` field identifies the country in which an organization has operated in some manner. All entries in this field are two letter country codes taken from  [ISO 3166, which can be searched here](https://www.iso.org/obp/ui/#search).
 
-## Area of Operations: date first cited {#organization_area_date_first_cited}
+## Area of Operations: Date first cited {#organization_aoo_date_first_cited}
 
 ### Description
 
@@ -702,7 +709,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Area of Operations: Founding date?`, `Area of Operations: Date last cited` and `Area of Operations: open ended?` the field `Area of Operations: Date first cited` provides data on the time period for which can specify an organization's Area of operations.
+Along with the fields `Area of Operations: Founding date?`, `Area of Operations: Date last cited` and `Area of Operations: Open-ended?` the field `Area of Operations: Date first cited` provides data on the time period for which can specify an organization's Area of operations.
 
 The `Area of Operations: Date first cited` field contains a date that is either:
 
@@ -713,7 +720,7 @@ In keeping with all date fields we include in this dataset, where our research c
 
 This field is clarified by the field `Area of Operations: start date?` which indicates whether the date included here is the actual date on which an Area of Operations started.
 
-## Areas of Operations: start date?
+## Area of Operations: Start date? {#organization_aoo_date_last_cited_is_start}
 
 ### Description
 
@@ -731,7 +738,7 @@ Boolean \(Yes, No\)
 
 This is a clarifying field for `Area of Operations: Date first cited`. Where a source references an organization site and specifies the date that organization Area of Operations was started we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
-## Area of Operations: Date last cited {#organization_area_date_last_cited}
+## Area of Operations: Date last cited {#organization_aoo_date_last_cited}
 
 ### Description
 
@@ -747,7 +754,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Area of Operations: Date first cited`, `Area of Operations: start date?` and `Area of Operations: open ended?` the field `Site: Date last cited` provides data on the time period for which can specify an Area of Operations location.
+Along with the fields `Area of Operations: Date first cited`, `Area of Operations: start date?` and `Area of Operations: Open-ended?` the field `Site: Date last cited` provides data on the time period for which can specify an Area of Operations location.
 
 The `Area of Operations: Date last cited` field contains a date that is either:
 
@@ -756,9 +763,9 @@ The `Area of Operations: Date last cited` field contains a date that is either:
  
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Site: Date last cited`.
 
-This field is clarified by the field `Site: open ended?` which indicates whether the date included here is the actual date on which an organization site was ended, or whether we have reason to assume its continued existence beyond that date.
+This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization site was ended, or whether we have reason to assume its continued existence beyond that date.
 
-## Area of Operations: open ended? {#organization_area_date_late_cited_assume_to_current}
+## Area of Operations: Open-ended? {#organization_aoo_open_ended}
 
 ### Description
 
@@ -766,7 +773,7 @@ Indicates whether the value in  `Area of Operations: Date last cited`  is the ac
 
 ### Type of field
 
-Single choice \(Y, N, E\)
+Single choice from selection
 
 ### Example of use
 
@@ -785,73 +792,127 @@ The values that can be entered in this field are restricted to the below:
 * `N` indicates we do not assume that this organization  will continue to operate in the specified area, but we do not have an exact end date for this.
 
 
-## Organization membership {#organization_affiliation}
+## Organization Membership {#organization_membership}
 
-This field is for any memberships or attachments to internal/national joint operations, peacekeeping operations, or other multi-unit efforts.
+### Description
+Internal/national joint operations, international peacekeeping operations, or other multi-unit efforts that this organization is a part of
 
-Generally this means one of two things:
+### Type of field
+Text and numbers, 
 
-1\) Multiple units operate as part of an “operation” focused on a specific mission - eg `Operation Chihuahua` focused on narcotics cartels operating in Chihuahua state. Staffing and personnel were not affected, the operation generally existed in name only as a signifier for intensified efforts of police and military units already stationed in Chihuahua State. It is useful to capture which police and military units were part of this operation - as any abuses tied to “soldiers” or “police” during raids as part of the operation could be narrowed down quickly to a handful of potential units as responsible.
+### Example of use
+`Operación Conjunta Chihuahua`, `Operation BOYONA`
 
-2\) Multiple units “lend” or otherwise deploy personnel who operate under the command of a Joint Task Force or Operation, usually which has a commander of its own.
+### Guidance on use
+
+This field indicates whether an organization has had any memberships or attachments to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. Generally this means one of two things:
+
+1\) Multiple units operate as part of an “operation” focused on a specific mission. 
+2\) Multiple units “lend” or otherwise deploy personnel who operate under the command of a force composition like a "Joint Task Force" or "Operation", which usually has a commander of its own.
 
 > Example: soldiers from `1 Division` are deployed to the northeast of Nigeria to operate under `Operation BOYANA`. `1 Division` has a commander, but the soldiers as part of `Operation BOYANA` likely report to and take orders from the commander of `Operation BOYANA`. When the soldiers are done with their rotation, after several months, they return to their “home unit” `1 Division`. So while `Operation BOYANA` commands some soldiers who are part of `1 Division` it doesn’t technically command all of the soldiers of `1 Division` \(otherwise it would be the parent unit\) These operations - joint task forces, and so on - should have their own distinct `Organization` entries.
 
-Taskforces, Operations, Peacekeeping missions and other entries here should be entered as their own organization. Enter their information as a separate `Organization` record. Peacekeeping missions are often referred to informally. Find the formal name on the relevant UN peacekeeping website. If there is a specific unit designation given to the peacekeeping force - for example `NIBATT 12` or `Nigerian Battalion 12` - we would use that as the International affiliation. We would enter `Nigerian Battalion 12` as its own organization and make its parent unit the peacekeeping mission \(which would also be entered as its own organization\).
+We treat task forces, operations, peace keeping missions that are constitued via a membership of other organizations as distinct organizations.
+
+
+## Membership: Date first cited {#organization_membership_date_first_cited}
 
 ### Description
 
+This field is for the earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication.
+
 ### Type of field
+
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
+`2012`,`2012-11`, `2012-11-23`
+
 ### Guidance on use
 
-## Organization membership: Date of first citation {#organization_affiliation_date_first_cited}
+Along with the fields `Membership: Start date?`, `Membership: Date last cited` and `Membership: Open-ended?` the field `Membership: Date first cited` provides data on the duration of one organization's membership in another.
 
-Follow the rules for parent units, sites, AOOs for the dates/citations.
+The `Membership: Date first cited` field contains a date that is either:
+
+* The earliest date found in any source that references the values contained in the pairs of fields that record `Membership`
+* The earliest date of publication of any source that references the values contained in the pairs of fields that record `Membership`.
+ 
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Membership: Date first cited`.
+
+This field is clarified by the field `Membership: Founding date?` which indicates whether the date included here is the actual date on which an organization membership was founded.
+
+
+## Membership: Start date? {#organization_membership_is_start}
 
 ### Description
 
+Is the value in `Membership: Date first cited` the actual date on which a membership was started, or the earliest date a source has referred to an organization Membership?
+
 ### Type of field
+
+Boolean \(Yes, No\)
 
 ### Example of use
 
+`Y`,`N`
+
 ### Guidance on use
 
-## Is start date?
+This is a clarifying field for `Membership: Date first cited`. Where a source references a membership and specifies the exact date the relationship was established we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
+
+## Membership: Date of last citation {#organization_membership_date_last_cited}
 
 ### Description
 
+This field is for the latest citation of a membership, either through direct reference in the source or by the date of its publication.
+
 ### Type of field
+
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
+`2012`,`2012-11`, `2012-11-23`
+
 ### Guidance on use
 
-## Organization membership: Date of last citation {#organization_affiliation_date_last_cited}
+Along with the fields `Membership: Date first cited`, `Membership: Start date?` and `Membership: Open-ended?` the field `Membership: Date last cited` provides data on duration of a membership.
 
-Follow the rules for parent units, sites, AOOs for the dates/citations.
+The `Membership: Date last cited` field contains a date that is either:
+
+* The latest date found in any source that references the values contained in the pairs of fields that record `Membership`; or,
+* The latest date of publication of any source that references the values contained in the pairs of fields that record `Membership`.
+ 
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Membership: Date last cited`.
+
+This field is clarified by the field `Membership: Open-ended?` which indicates whether the date included here is the actual date on which an organization Membership was terminated.
+
+## Membership: Open-ended? {#organization_membership_open_ended}
 
 ### Description
 
-### Type of field
-
-### Example of use
-
-### Guidance on use
-
-## End date of organization membership?
-
-### Description
+Indicates whether the value in `Membership: Date last cited` is the actual date on which an organization Membership was disbanded, the latest date a source has referred to an organization Membership, and whether can we assume this organization Membership continues to exist.
 
 ### Type of field
 
+Single choice \(Y, N, E\)
+
 ### Example of use
+
+`Y`,`N`,`E`
 
 ### Guidance on use
 
-## Notes {#organization_affiliation_international}
+We use this field to clarify the meaning of the date entered in `Date last cited`. In entering a value for this field we use a variety of factors including: the history of basing for the unit, the overall structure and nature of the security forces, and the frequency of movement of similar units.
 
-Use this section for any interesting information about the organization that does not fit anywhere else - please always include the citation!
+The values that can be entered in this field are restricted to the below:
+
+* `E` indicates the exact date this membership was disbanded, or ceases to exist.
+* `Y` indicates that we assume this membership continues to exist.
+* `N` indicates we do not assume that this membership continues to exist, but we do not have an exact end date.
+
+## Notes {#organization_notes}
+
+We use this field to record interesting information about the organization that does not fit anywhere else.
 
