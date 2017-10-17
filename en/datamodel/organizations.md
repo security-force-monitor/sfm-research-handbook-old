@@ -639,113 +639,151 @@ The values that can be entered in this field are restricted to the below:
 * `Y` indicates that we assume this organization site continues to exist.
 * `N` indicates we do not assume that this organization site continues to exist, but we do not have an exact end date.
 
-## Area of Operations: OSM Name {#organization_area_osm_name}
+## Area of Operations: OSM object name {#organization_area_osm_name}
 
 ### Description
-The most 
+A geographical area in which an organization exercises jurisdiction or has operated in any manner
 
 ### Type of field
+Text and numbers, OSM object name, first in a pair of fields
 
 ### Example of use
+`Baja California Sur`, `Kafr el-Sheikh Governorate`
 
 ### Guidance on use
 
-Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner.
+The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the Open Street Map name for the lowest-level formal geographical area that best describes where an organization has operated in some manner.
 
-AOOs are tied to the smallest formal geographic area possible. The areas generally follow the geographic sub-divisions of a country. This often means that the AOO is somewhat generalized because countries often do not have that many sub-divisions.
-
-Organizations can have multiple AOOs at the same time - create a separate row for each AOO.
-
-If the boundaries of their AOO is unclear the researcher should choose the highest level geographic area as the AOO.
-
-> Example: a unit is described as operating “throughout California”. Here, use the entire State of California as the AOO and rate the entry with Low confidence. Or a unit operates “along the border” of two provinces - choose both provinces \(creating two separate records\) for each province.
->
-> The researcher should put a note in the Notes field indicating that AOO was only given as “throughout California” or “along the border” of two provinces.
-
-If a unit conducts an operation in a city - ie “police raided a home in Ciudad Juarez” the researcher should use the smallest subnational bounary that contains Ciudad Juarez.
-
-This will require some research - an analyst will need to familiarize themselves with the geographic divisions of the country they are researching as they will be returning to these again and again.
-
-Often we can infer the AOO of police units based on a crime being reported to them - as we assume the crime would be reported to the unit that has jurisdiction over where the crime occurred.
-
-> Example: It is stated in an article that “The Rivers State Police Command yesterday confirmed the death of a clergyman, Pastor Geoffrey Ogagaghene at Ohalia-Elu town in Ogba/Egbema/Ndoni local government area of the State. The clergyman was reportedly killed by suspected herdsmen who were on a reprisal attack over the alleged stealing of their cattle. Media reports had it that more than six persons were killed. The Rivers State Police Command Public Relations Officer, Ahmad Muhammad said in a press statement in Port Harcourt yesterday that only one person was killed. He said assailants suspected to be herdsmen struck in Ohali-Elu and killed one Pastor, that the crisis was heightened because unspecified number of cows were allegedly stolen. He said, "The Command found it instructive to state that on Thursday 30/03/2016 about 5:30 am the police in Egi Division received a report that on Wednesday 29/03/2016, about 10:00 pm unidentified assailants suspected to be herdsmen struck in Ohali-Elu town leaving one pastor, Geoffrey Ogagaghene with severe cutlass cuts that later led to his death.”  
-> In this case  the organization would be `Egi Division`, and it would have an `AOO` of `Ogba/Egbema/Ndoni` local government area with a first citation date of `29 March 2016`.
-
-Note that `Source: Area of Operations` covers all citations for `Area of Operations` fields.
-
-
-## Area of Operations: OSM ID number {#organization_area_osm_id}
-
-The OpenStreetMap ID tied to the entry above.
+## Area of Operations: OSM object ID number {#organization_area_osm_id}
 
 ### Description
+A geographical area in which an organization exercises jurisdiction or has operated in any manner
 
 ### Type of field
+Numbers, OSM object ID number, second in a pair of fields
 
 ### Example of use
+`2589611`, `4103405`
 
 ### Guidance on use
+
+The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the OpenStreetMap object ID number for the lowest-level formal geographical area that best describes where an organization has operated in some manner. 
 
 ## Area of Operations: Country {#organization_area_division_id}
-
-The division\_id enables the system to identify which country the area of operations is located, thus all entries in this field would be a two letter country code.
-
-> For example organizations based in Nigeria would have the code `ng` and an organization based in Brazil would the code `br`.  
-> You can search for country codes here: [https://www.iso.org/obp/ui/\#search](https://www.iso.org/obp/ui/#search)
-
 ### Description
+
+The country in which an Area of Operation is located.
 
 ### Type of field
 
+Two letter country code
+
 ### Example of use
 
+`mx`, `ug`, `ng`
+
 ### Guidance on use
+
+We identify `Area of Operations` with two different levels of geographical precision.The `Area of Operations: Country` field identifies the country in which an organization has operated in some manner. All entries in this field are two letter country codes taken from  [ISO 3166, which can be searched here](https://www.iso.org/obp/ui/#search).
 
 ## Area of Operations: date first cited {#organization_area_date_first_cited}
 
-For `Source: Date of first citation for area of operations` follow the rules for date of first citation of parent units and sites outlined above. Only put the earliest date here unless the only citation you have is for the end of an AOO in which case put it in the Date of last citation for area of operations.
-
 ### Description
+
+This field is for the earliest citation for an organizations `Area of Operations`,  either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
+Date \(YYYY-MM-DD\), fuzzy
+
 ### Example of use
 
+`2012`,`2012-11`, `2012-11-23`
+
 ### Guidance on use
+
+Along with the fields `Area of Operations: Founding date?`, `Area of Operations: Date last cited` and `Area of Operations: open ended?` the field `Area of Operations: Date first cited` provides data on the time period for which can specify an organization's Area of operations.
+
+The `Area of Operations: Date first cited` field contains a date that is either:
+
+* The earliest date found in any source that references the values contained in the pairs of fields that record `Area of Operations`.
+* The earliest date of publication for any source that references the values contained in the pairs of fields that record `Area of Operations`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Area of Operations: Date first cited`.
+
+This field is clarified by the field `Area of Operations: start date?` which indicates whether the date included here is the actual date on which an Area of Operations started.
 
 ## Areas of Operations: start date?
 
 ### Description
 
+Is the value in `Area of Operations: Date first cited` the actual date on which an organization's Area of Operations started, or the earliest date a source has referred to an organization's Area of Operations?
+
 ### Type of field
+
+Boolean \(Yes, No\)
 
 ### Example of use
 
+`Y`,`N`
+
 ### Guidance on use
+
+This is a clarifying field for `Area of Operations: Date first cited`. Where a source references an organization site and specifies the date that organization Area of Operations was started we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
 ## Area of Operations: Date last cited {#organization_area_date_last_cited}
 
 ### Description
 
+This field is for the latest citation for an Area of Operations,  either through direct reference in the source or by the date of its publication.
+
 ### Type of field
+
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
+`2012`,`2012-11`, `2012-11-23`
+
 ### Guidance on use
+
+Along with the fields `Area of Operations: Date first cited`, `Area of Operations: start date?` and `Area of Operations: open ended?` the field `Site: Date last cited` provides data on the time period for which can specify an Area of Operations location.
+
+The `Area of Operations: Date last cited` field contains a date that is either:
+
+* The latest date found in any source that references the values contained in the pairs of fields that record `Area of Operations`.
+* The latest date of publication for any source that references the values contained in the pairs of fields that record `Area of Operations`.
+ 
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Site: Date last cited`.
+
+This field is clarified by the field `Site: open ended?` which indicates whether the date included here is the actual date on which an organization site was ended, or whether we have reason to assume its continued existence beyond that date.
 
 ## Area of Operations: open ended? {#organization_area_date_late_cited_assume_to_current}
 
-If it reasonable, given what is known about the organization, the overall structure/nature of the security forces - that the organization likely maintains responsibility over this area in some way after the date of the last citation the analyst should mark this `Y`.
-
-> Example: the `New York State police` would likely maintain an AOO over all of `New York State` even if the last citation you could find is from 2015.
-
 ### Description
+
+Indicates whether the value in  `Area of Operations: Date last cited`  is the actual date on which an organization ended operatiosn in the specified area, the latest date a source has referred to this Area of Operations, and whether can we assume an organization will continue to operate in an area beyond the date of last citation.
 
 ### Type of field
 
+Single choice \(Y, N, E\)
+
 ### Example of use
 
+`Y`,`N`,`E`
+
 ### Guidance on use
+
+We use this field to clarify the meaning of the date entered in `Area of Operations: Date last cited`. In entering a value for this field we use a variety of factors to assess whether an organization continues to operation in any manner in this area beyond the date of the last citation. These include: the history of operations of the organization, the overall structure and nature of the security forces, and the frequency of movement of similar units.
+
+> For Example, the `New York State police` would likely maintain an AOO over all of `New York State` even if the last citation available to us was from 2015.
+
+The values that can be entered in this field are restricted to the below:
+
+* `E` indicates the exact date an organization stops operating in the specified area.
+* `Y` indicates that we assume this organization continues to operation in the specified area.
+* `N` indicates we do not assume that this organization  will continue to operate in the specified area, but we do not have an exact end date for this.
+
 
 ## Organization membership {#organization_affiliation}
 
