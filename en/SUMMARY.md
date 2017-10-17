@@ -25,7 +25,7 @@
  * [Archive URL](/datamodel/sources_confidence.md#source_which_archive_url)
  * [Confidence](/datamodel/sources_confidence.md#source_confidence)
 * [Organizations](/datamodel/organizations.md)
- * [Organization: ID](\datamode\organizations.md#organization_id)
+ * [Organization: ID](\datamodel\organizations.md#organization_id)
  * [Organization: Name](\datamodel\organizations.md#organization_name)
  * [Organization: Aliases](\datamodel\organizations.md#organization_aliases)
  * [Organization: Country](\datamodel\organizations.md#organization_country)
