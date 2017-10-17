@@ -6,7 +6,19 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 
 | Name of Field | Description | Example of Use |
 | :--- | :--- | :--- |
-| to do | to do | to do|
+|[Person: ID](\datamodel\persons.md#person_id)|Description|Example|
+|[Person: Name](\datamodel\persons.md#person_name)|Description|Example|
+|[Person: Aliases](\datamodel\persons.md#person_aliases)|Description|Example|
+|[Person: Country](\datamodel\persons.md#person_country)|Description|Example| 
+|[Person: Organization Name](\datamodel\persons.md#person_organization_name)|Description|Example|
+|[Person: Role](\datamodel\persons.md#person_organization_role)|Description|Example|
+|[Person: Title](\datamodel\persons.md#person_organization_title)|Description|Example|
+|[Person: Rank](\datamodel\persons.md#person_organization_rank)|Description|Example|
+|[Person Membership: Date first cited](\datamodel\persons.md#person_organization_date_first_cited)|Description|Example|
+|[Person Membership: Start date](\datamodel\persons.md#person_date_first_cited_is_start)|Description|Example|
+|[Person Membership: Date last cited](\datamodel\persons.md#person_date_last_cited)|Description|Example|
+|[Person Membership: End date](\datamodel\persons.md#person_date_last_cited_is_end)|Description|Example|
+|[Person: Notes](\datamodel\persons.md#person_notes)|Description|Example|
 
 ## Person: ID {#person_id}
 
@@ -42,7 +54,7 @@ Text and numbers
 
 ### Guidance on use
 
-Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example `Magaji Musa Majia'a` will be used instead of `Magaji Musa Majiaa`. Other names will be placed in the `Aliases or alternative spellings` field.
+Different sources will spell the name of a person in different ways, so we choose a name to be a canonical entry for that person. Whenever possible, the canonical entry will contain the most complicated or complete version of a person's name, even if it has the smallest number of citations. For example `Magaji Musa Majia'a` will be used instead of `Magaji Musa Majiaa`. Other names will be placed in the `Person: Aliases` field (documented below).
 
 ## Person: Aliases {#person_aliases}
 
@@ -58,7 +70,7 @@ Text and numbers, free entry
 
 `Virgilio Daniel Méndez Bazan`, `Virgilio Daniel Mendez Bazán`
 
-## Guidance on use
+### Guidance on use
 
 Different sources will spell a person's name in different ways. We choose and record a canonical version of a person's name in the `Person: Name` field. All other spellings that we have found are treated as aliases and stored in this field. This field may contain multiple values, which will be separated by a semi-colon.
 
@@ -102,7 +114,7 @@ Values in this field correspond with names of organizations that already exist i
 
 ### Description
 
-The role a person plays in the organization that is usually not evident from their `Person: Title` or `Person: Rank`.
+The role a person plays in the organization that is not evident from entries in `Person: Title` or `Person: Rank`.
 
 ### Type of field
 
@@ -126,7 +138,7 @@ If a person is referred to as “the head”, “chief” or some other variatio
 
 ### Description
 
-Titles that persons have that are separate from their rank or role.
+A title held by a person that is separate from their rank or role.
 
 ### Type of field
 
@@ -156,13 +168,15 @@ Text and numbers, free entry
 
 ### Guidance on use
 
-We remove any dashes that are contained in `Person: Rank` values. For example, we would enter `Brigadier General` rather than `Brigadier-General`.
+We remove any dashes that are contained in `Person: Rank` values. 
+
+> For example, we would enter `Brigadier General` rather than `Brigadier-General`.
 
 ## Person Membership: Date first cited {#person_organization_date_first_cited}
 
 ### Description
 
-The earliest date that a source shows that a membership relationship between a person and an organization  exists, either through direct reference in the source or by the date of its publication.
+The earliest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
@@ -178,7 +192,7 @@ Along with the fields `Person membership: Start date?`, `Person Membership: Date
 
 The `Person Membership: Date first cited` field contains a date that is either:
 
-* The earliest date found in a source that specifically references the relationship between a person and an organization; or,
+* The earliest date found in the content of a source that specifically references the relationship between a person and an organization; or,
 * The earliest date of publication of sources that makes reference to the relationship between a person and an organization.
 
 > For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to this person as a commander, we will use 1 January 2012 as the value in `Person Membership: Date first cited`. If the source published on 1 March 2012 refers to this person as a commander on the date of 30 June 2011, we will use 30 June 2011 as the value in `Person Membership: Date first cited`.
@@ -192,11 +206,11 @@ In keeping with all date fields we include in this dataset, where our research c
 This field is clarified by the field `Person Membership: Start date?` which indicates whether the date included here is the actual date on which the relationship between a person and an organization started.
 
 
-## Person Membership: Start date? \(Y/N\) {#person_date_first_cited_is_start}
+## Person Membership: Start date {#person_date_first_cited_is_start}
 
 ### Description
 
-Indicates that the date recorded in `first citation` is the actual start date of a person's membership in an organization.
+Indicates whethre the value in `Person Membership: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship
 
 ### Type of field
 
@@ -208,49 +222,68 @@ Boolean, Y/N
 
 ### Guidance on use
 
-Some sources specify an exact start for a person's membership in an organization. This should be used instead of the publication date of the earlier source evidencing a person's membership in an organization. For example, a person's _curriculum vitae_ may contain the exact date that a person joined a security force, and specify the unit. A `Y` value in this field indicates a hard start for a person's `role`, `title` and `rank` as well. A value of `N` is applied in all other cases.
+This is a clarifying field for `Person Membership: Date first cited`.
 
-## Last citation {#person_date_last_cited}
+Where the content of the source has indicated the exact date that a  relationship between a person and an organization began we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
+
+## Person Membership: Date last cited {#person_date_last_cited}
 
 ### Description
 
-The date of publication of the most recent source known to the Monitor that evidences the membership of a person in an organization.
+The latest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
-Date (YYYY-MM-DD)
+Date (YYYY-MM-DD), fuzzy
 
 ### Example of use
 
-`2014-08-22`
+`2012`,`2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-This field is for the latest source the Monitor has showing a membership of a person and an organization. If the person's `role`, `title` or `rank` changes a new entry will need to created to document that change and a new `first citation` or `last citation` created to mark the change.
+Along with the fields `Person Membership: Date first cited`, `Person Membership: Start date?` and `Person Membership: Open-ended?` the field `Person Memberships: Date last cited` provides data about the time period over which we can evidence a person's relationships to an organization 
 
-## End date? \(Y/N\) {#person_date_last_cited_is_end}
+The `Person Membership: Date last cited` field contains a date that is either:
+
+* The latest date found in the content of a source that specifically references the relationship between a person and an organization; or,
+* The latest date of publication of sources that makes reference to the relationship between a person and an organization.
+
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all refer to this person as a commander, we will use 1 March 2012 as the value in `Person Membership: Date last cited`. If the source published on 1 March 2012 refers to this person as a commander on the date of 14 February 2011, we will use 14 February 2011 as the value in `Person Membership: Date last cited`.
+
+The values for `Person: Title`, `Person: Role` and `Person: Rank` held by a person are assumed to continue until a source indicates a change in any of those values. If the person's role, title or rank changes a new entry will need to be created to document that change. This new entry will have updated values for `Person Membership: Date last cited` and related date fields.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Person Membership: Date last cited` .
+
+This field is clarified by the field `Person Membership: Open-ended?` which indicates whether the date included here is the actual date on which the relationship between a person and an organization ended.
+
+## Person Membership: End date {#person_date_last_cited_is_end}
 
 ### Description
 
-Indicates that the date recorded in `last citation` is the actual end date of a person's membership in an organization.
+Is the value in `Person Membership: Date last cited` the actual date on which the relationship between a person and organization ended, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?
 
 ### Type of field
 
-Boolean, Y/N
+Single choice, (Y, N, E)
 
 ### Example of use
 
-`N`
+`Y`,`N`,`E`
 
 ### Guidance on use
 
-If the date of last citation is end of this person's affiliation with the organization or the end date of their Role, Title or Rank, a `Y` value will be present. In all other cases, this value will be `N`.
+We use this field to clarify the meaning of the date entered in `Person Membership: Date last cited`. One of the below values should be chosen:
 
-## Notes {#person_notes}
+* `E` indicates the exact date the relationship between a person and an organization ended.
+* `Y` indicates that we assume the relationships between a person and an organziation continues beyond date specified in `Person Membership: Date last cited`.
+* `N` indicates we do not assume that this relationship continues to exist, but we do not have an exact end date.
+
+## Person: Notes {#person_notes}
 
 ### Description
 
-Further information about this person that is relevant and interesting to the Monitor, but is not appropriate for other fields.
+Analysis, commentary and notes about the person that do not fit into the data structure.
 
 ### Type of field
 
@@ -258,8 +291,8 @@ Text and numbers
 
 ### Example of use
 
-`Created by bulk processing of SEDENA website snapshots made by Internet Archive.`
+`Trained in logisitics at Fort Lackland, Texas and the air force base of Wright Patterson, Ohio.`
 
 ### Guidance on use
 
-This field may be used to record observations made by the Monitor Staff Analyst relating to the sources, content or context of the record.
+We use this field to record information about the organization that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be included inside the field.
