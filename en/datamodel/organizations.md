@@ -294,7 +294,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields the fields `Parent relationship start date?`, `Parent relationships date last cited` and `Parent relationship is open ended?`, `Parent organization date first cited` provides data on the time period we can say one organization is the parent of another .
+Along with the fields the fields `Parent relationship start date?`, `Parent relationships date last cited` and `Parent relationship: open ended?`, `Parent organization date first cited` provides data on the time period we can say one organization is the parent of another .
 
 The `Parent organization date first cited` field contains a date that is either:
 
@@ -341,7 +341,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields the fields `Parent relationship date first cited, `Parent relationship start date?` and `Parent relationship is open ended?` the field `Parent organization date last cited` provides data on the time period we can say one organization is the parent of another .
+Along with the fields the fields `Parent relationship date first cited`, `Parent relationship start date?` and `Parent relationship: open ended?` the field `Parent organization date last cited` provides data on the time period we can say one organization is the parent of another .
 
 The `Parent organization date last cited` field contains a date that is either:
 
@@ -355,7 +355,7 @@ In keeping with all date fields we include in this dataset, where our research c
 This field is clarified by the field `Parent relationship is open ended?` which indicates whether the date included here is the actual date on which an organization stopped being the parent of another.
 
 
-## Parent relationship is open ended? {#organization_organization_assume_to_current_date}
+## Parent relationship: open ended? {#organization_organization_assume_to_current_date}
 
 ### Description
 
@@ -562,57 +562,93 @@ Along with the fields `Site: Founding date?`, `Site: Date last cited` and `Site 
 
 The `Site: Date first cited` field contains a date that is either:
 
-* The earliest date found in any source that references the values contained in the pairs of fields that record `Site: Exact Location`, `Site: Settlement` or `Site: Top Administrative area`.
-* The earliest date of publication of any source that references the values contained in the pairs of fields that record `Site: Exact Location`, `Site: Settlement` or `Site: Top Administrative area`.
+* The earliest date found in any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that,  `Site: Top Administrative area`.
+* The earliest date of publication of any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
  
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Site: Date first cited`.
 
-This field is clarified by the field `Site: Founding date?` which indicates whether the date included here is the actual date on which a site was founded.
+This field is clarified by the field `Site: Founding date?` which indicates whether the date included here is the actual date on which an organization site was founded.
 
 
-
-## Site: Founding date? \(Y/N\) {#organization_site_date_first_cited_founding}
-
-This field is a simple Y \(for yes\) or N \(for no\) that is tied to the Site \(either the City or other Node Name in OpenStreetMap or the Highest level subnational boundary OpenStreetMap depending\). Always default to City or other Node when you have that information.  
-The main question for this field is - is the date the first time the organization was based in the city \(i.e. was it founded in this city on this date\)? Put another way - did this organization exist in this city before this date?  
-If we don't know we record `N` in this field.  
-If we can answer "yes this organization began being based in this city or highest level subnational boundary as of this date" we record `Y`.
+## Site: Founding date? {#organization_site_date_first_cited_founding}
 
 ### Description
 
+Is the value in `Site: Date first cited` the actual date on which an organization site was founded, or the earliest date a source has referred to an organization site?
+
 ### Type of field
+
+Boolean \(Yes, No\)
 
 ### Example of use
 
+`Y`,`N`
+
 ### Guidance on use
+
+This is a clarifying field for `Site: Date first cited`. Where a source references an organization site and specifies the date that organization site was founded we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
 ## Site: Date of last citation {#organization_site_date_last_cited}
 
-Follow the same rules as Site: Date of first citation.
+### Description
+
+This field is for the latest citation for the location of a site,  either through direct reference in the source or by the date of its publication.
+
+### Type of field
+
+Date \(YYYY-MM-DD\), fuzzy
+
+### Example of use
+
+`2012`,`2012-11`, `2012-11-23`
+
+### Guidance on use
+
+Along with the fields `Site: Date first cited`, `Site: Founding date?` and `Site is open ended?` the field `Site: Date last cited` provides data on the time period for which can specify a site's location.
+
+The `Site: Date last cited` field contains a date that is either:
+
+* The latest date found in any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
+* The latest date of publication of any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
+ 
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in  `Site: Date last cited`.
+
+This field is clarified by the field `Site: open ended?` which indicates whether the date included here is the actual date on which an organization site was terminated.
+
+## Site: open-ended? {#organization_site_date_last_cited_assume_to_current_date}
 
 ### Description
+
+Indicates whether the value in  `Site: Date last cited`  is the actual date on which an organization site was disbanded, the latest date a source has referred to an organization site, and whether can we assume this organization site continues to exist.
+
+### Type of field
+
+Single choice \(Y, N, E\)
+
+### Example of use
+
+`Y`,`N`,`E`
+
+### Guidance on use
+
+We use this field to clarify the meaning of the date entered in `Date last cited`. In entering a value for this field we use a variety of factors including: the history of basing for the unit, the overall structure and nature of the security forces, and the frequency of movement of similar units.
+
+The values that can be entered in this field are restricted to the below:
+
+* `E` indicates the exact date this organization site was disbanded, or ceases to exist.
+* `Y` indicates that we assume this organization site continues to exist.
+* `N` indicates we do not assume that this organization site continues to exist, but we do not have an exact end date.
+
+## Area of Operations: OSM Name {#organization_area_osm_name}
+
+### Description
+The most 
 
 ### Type of field
 
 ### Example of use
 
 ### Guidance on use
-
-## Is site open-ended? {#organization_site_date_last_cited_assume_to_current_date}
-
-For marking `Y` \(Y=yes, assume site to current date, so the site will displayed on the map up to the current date\) an analyst would have to make a determination using a variety of factors including: the history of basing for the unit, the overall structure/nature of the security forces, the frequency of movement of similar units.
-
-For historical basing or for instances where the longevity of a unit being based in a Site is unclear, use `N`.
-
-### Description
-
-### Type of field
-
-### Example of use
-
-### Guidance on use
-
-## Area of Operations: OpenStreetMap Name {#organization_area_osm_name}
 
 Organizations can have multiple areas that they are responsible for, are conducting operations in, or have jurisdiction over. The terms “area of responsibility”, “jurisdiction” and other variations have different levels of meaning depending on national or international law, and may not be used correctly by sources themselves. The Monitor uses the lowest common denominator of Area of Operations \(AOO\) - meaning this is an area in which the organization has operated in some manner.
 
@@ -637,15 +673,8 @@ Often we can infer the AOO of police units based on a crime being reported to th
 
 Note that `Source: Area of Operations` covers all citations for `Area of Operations` fields.
 
-### Description
 
-### Type of field
-
-### Example of use
-
-### Guidance on use
-
-## Area of Operations: OpenStreetMap ID {#organization_area_osm_id}
+## Area of Operations: OSM ID number {#organization_area_osm_id}
 
 The OpenStreetMap ID tied to the entry above.
 
@@ -657,7 +686,7 @@ The OpenStreetMap ID tied to the entry above.
 
 ### Guidance on use
 
-## Area of Operations: division\_id {#organization_area_division_id}
+## Area of Operations: Country {#organization_area_division_id}
 
 The division\_id enables the system to identify which country the area of operations is located, thus all entries in this field would be a two letter country code.
 
@@ -672,7 +701,7 @@ The division\_id enables the system to identify which country the area of operat
 
 ### Guidance on use
 
-## Date of first citation for area of operations {#organization_area_date_first_cited}
+## Area of Operations: date first cited {#organization_area_date_first_cited}
 
 For `Source: Date of first citation for area of operations` follow the rules for date of first citation of parent units and sites outlined above. Only put the earliest date here unless the only citation you have is for the end of an AOO in which case put it in the Date of last citation for area of operations.
 
@@ -684,7 +713,7 @@ For `Source: Date of first citation for area of operations` follow the rules for
 
 ### Guidance on use
 
-## Start date of area of operations?
+## Areas of Operations: start date?
 
 ### Description
 
@@ -694,7 +723,7 @@ For `Source: Date of first citation for area of operations` follow the rules for
 
 ### Guidance on use
 
-## Date of last citation for area of operations {#organization_area_date_last_cited}
+## Area of Operations: Date last cited {#organization_area_date_last_cited}
 
 ### Description
 
@@ -704,7 +733,7 @@ For `Source: Date of first citation for area of operations` follow the rules for
 
 ### Guidance on use
 
-## Assume Area of Operations to Current Date? \(Y/N\) {#organization_area_date_late_cited_assume_to_current}
+## Area of Operations: open ended? {#organization_area_date_late_cited_assume_to_current}
 
 If it reasonable, given what is known about the organization, the overall structure/nature of the security forces - that the organization likely maintains responsibility over this area in some way after the date of the last citation the analyst should mark this `Y`.
 
