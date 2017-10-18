@@ -15,7 +15,7 @@ The quickest way to do this is:
  * Then, on this search results page open "General Filters", choose "Country" and select from that list
  * The results will then be filtered for that country.
 
-![](/assets/wwic_country_filter.gif)
+![](../assets/wwic_country_filter.gif)
 
 ## How do I get all the sources used in a record?
 
