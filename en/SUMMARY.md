@@ -105,6 +105,6 @@
 ### WhoWasInCommand User Guide 
 
 * [Frequently Asked Questions](/whowasincommand/generalfunctions.md)
-* [Organization record overview](/whowasincommand/orgrecord.md)
+* [Organization record overview](/whowasincommand/orgrec.md)
 
 
