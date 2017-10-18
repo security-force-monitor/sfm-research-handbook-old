@@ -102,9 +102,6 @@
  * [Event: Source](\datamodel\events.md#event_source)
  * [Event: Publication organization](\datamodel\events.md#event_publication_org)
 
-
-
-
 ### WhoWasInCommand User Guide 
 
-* [Introduction](/userguide/README.md)
+* [Frequently Asked Questions](/whowasincommand/generalfunctions.md)
