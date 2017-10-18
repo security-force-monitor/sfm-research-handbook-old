@@ -105,3 +105,4 @@
 ### WhoWasInCommand User Guide 
 
 * [Frequently Asked Questions](/whowasincommand/generalfunctions.md)
+* [What's in an organization record?](/whowasincommand/org_record.md)
