@@ -6,7 +6,7 @@
 
 ## Content sidebar
 
-![](/en/assets/org_record_anatomy_content_sidebar.png)
+![](/assets/org_record_anatomy_content_sidebar.png)
 
 ## Areas of Operation
 
