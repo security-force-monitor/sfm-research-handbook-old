@@ -2,7 +2,7 @@
 
 ## Title area
 
-![](/en/assets/org_record_anatomy_titlearea.png)
+![](/assets/org_record_anatomy_titlearea.png)
 
 ## Content sidebar
 
@@ -10,29 +10,28 @@
 
 ## Areas of Operation
 
-![](/en/assets/org_record_anatomy_areas_of_operation.png)
-![](/en/assets/org_record_anatomy_areas_of_operation.png)
+![](/assets/org_record_anatomy_areas_of_operation.png)
 
 ## Sites
 
-![](/en/assets/org_record_anatomy_sites.png)
+![](/assets/org_record_anatomy_sites.png)
 
 ## Memberships
 
-![](/en/assets/org_record_anatomy_memberships.png)
+![](/assets/org_record_anatomy_memberships.png)
 
 ## Parents
 
-![](/en/assets/org_record_anatomy_parents.png)
+![](/assets/org_record_anatomy_parents.png)
 
 ## Subsidiaries
 
-![](/en/assets/org_record_anatomy_subsidiaries.png)
+![](/assets/org_record_anatomy_subsidiaries.png)
 
 ## Personnel
 
-![](/en/assets/org_record_anatomy_personnel.png)
+![](/assets/org_record_anatomy_personnel.png)
 
 ## Changelog
 
-![](/en/assets/org_record_anatomy_changelog.png)
+![](/assets/org_record_anatomy_changelog.png)
