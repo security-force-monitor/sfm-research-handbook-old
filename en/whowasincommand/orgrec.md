@@ -11,6 +11,7 @@
 ## Areas of Operation
 
 ![](/en/assets/org_record_anatomy_areas_of_operation.png)
+![](/en/assets/org_record_anatomy_areas_of_operation.png)
 
 ## Sites
 
