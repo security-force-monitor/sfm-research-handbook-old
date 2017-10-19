@@ -1,10 +1,11 @@
 # Events
+Events describe publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors.
 
-Events describe publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors. 
+The Security Force Monitor focuses its research on the structure, personnel and operations of security forces. As such we treat all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. The Security Force Monitor does not make allegations against security forces and the data that we publish does not attempt to demonstrate involvement of individuals or units human rights abuses outside of what other organizations have alleged.
 
-For each event, we includes data about what happened and when, the  location\(s\) it occurred at, the alleged perpetrators and the type of human rights violation.
+For each event, we includes data about what happened and when, the location(s) it occurred at, the alleged perpetrators and the type of human rights violation.
 
-Fields in events are not sourced and rated for confidence individually as in Organizations and `Persons`. We provide a single source for the entire event, cited in the standard form used by the Monitor. 
+Fields in events are not sourced and rated for confidence individually as in the data we create about  organizations and persons. We provide a single source for the entire event, cited in our standard format.
 
 We use the term `incident` interchangably with the term `event`.
 
@@ -27,10 +28,10 @@ We use the term `incident` interchangably with the term `event`.
 |[Event: Top Administrative Area (OSM object ID number)](\datamodel\events.md#event_top_admin_id)|The OSM relation ID number of the highest sub-national administrative area in which an organization site is based|`2340636`|
 |[Event: Country](\datamodel\events.md#event_country)|The country in which an event occurred|`mx`, `ug`, `ng`|
 |[Event: Violation type](\datamodel\events.md#event_violation_type)|Type of alleged violation of human rights committed during the event|`Torture`, `Violations of the Right to Life`|
-|[Event: Description](\datamodel\events.md#event_description)|A description of the event|`According to Human Rights Watch: "Human Rights Watch found sufficient evidence to conclude that the individuals were victims of “disappearances.” Cases in which we collected compelling evidence that the disappearance was carried out with the direct or indirect participation of state agents are marked as “enforced disappearances”." Human Rights Watch's list states that Roberto González Mosso was a victim of an enforced disappearence.`|
+|[Event: Description](\datamodel\events.md#event_description)|A description of the event|`According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack [...]`|
 |[Event: Perpetrator name](\datamodel\events.md#event_perpetrator_name)|The name of the person alleged to have committed the human rights violation(s) in the event|`Friday Iyamabo`|
 |[Event: Perpetrator organization](\datamodel\events.md#event_perpetrator_organization)|The organization(s) alleged to have committed the human rights violation(s) in the event|`2 Batallón de Fuerzas Especiales`|
-|[Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification)|General branch or tier of security force that an organization is a part of|`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`|
+|[Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification)|General branch or tier of the security force alleged to have committed the human rights violation(s)|`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`|
 |[Event: Source](\datamodel\events.md#event_source)|The source of information about the event|`"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf`|
 |[Event: Publication organization](\datamodel\events.md#event_publication_org)|Name of the organization that published the source of information about the event|`Comisión Nacional de los Derechos Humanos (Mexico)`|
 
@@ -340,7 +341,7 @@ Text and numbers
 
 ### Example of use
 
-`According to Human Rights Watch: "Human Rights Watch found sufficient evidence to conclude that the individuals were victims of “disappearances.” Cases in which we collected compelling evidence that the disappearance was carried out with the direct or indirect participation of state agents are marked as “enforced disappearances”." Human Rights Watch's list states that Roberto González Mosso was a victim of an enforced disappearence.`
+>According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody."
 
 ### Guidance for use
 
@@ -390,13 +391,13 @@ If the sources  that specific organizations committed the alleged human rights v
 
 Here is an example of source material that contains information that would be included in `Event: Perpetrator name`:
 
-> "Amnesty International gathered 15 testimonies, including from five former detainees, on 23 Armoured Brigade confirming the daily deaths of detainees. In the early hours on 2 December 2014, nine soldiers arrested Bashiru Usman \(not his real name\), a 27-year-old business man, in his house. The soldiers beat him, told him he was a Boko Haram member and took him to their barracks. Several officers interrogated him that morning: “The officer threatened to shoot me for not cooperating. He told me if I cooperate, I will be released, if not, they will shoot me and that is the end of the story. They were slapping me on my head, back, stomach and face. They used a \[water\] hose to beat me seriously on the back. The interrogation and beating went on for two hours.” Bashiru said that there was not enough space for all detainees to lie down in his cell. Many people in his cell were very sick and died: “Every morning there were two to three dead bodies, likewise in the evenings two people would have died. Not less than five people died per day.” He did not know the exact cause of death but did mention they were only given water once a day and a very small amount of food. He said that at times, the detainees even drank their own urine. After three days Bashiru was released, thanks to the intervention of his lawyer."
+>According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: "On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted."
 
 ## Event: Perpetrator classification {#event_perpetrator_classification}
 
 ### Description
 
-General branch or tier of security force that an organization is a part of.
+General branch or tier of the security force alleged to have commited the human rights violation(s).
 
 ### Type of field
 
@@ -408,11 +409,11 @@ Text and numbers, controlled vocabulary, taken from `Organization: Classificatio
 
 ### Guidance for use
 
-Sometimes a source will report that the alleged perpetrators of a human rights violation are from a generic security force such as  “soldiers”, “police” or some other formulation. In this case, use this field to record a classification in the same way as for `Organization: Classification`. For example:
+Sometimes a source will report that the alleged perpetrators of a human rights violation are from a generic security force such as “soldiers”, “police” or some other formulation. In this case, use this field to record a classification in the same way as for `Organization: Classification`. For example:
 
-> "Shete Obusoh and Chijioke Olemeforo were arrested by police officers from the Special Anti-Robbery Squad on 4 October and spent 17 days in police detention before being taken to court and remanded in prison on 21 October. They said that during this time they were hung from the ceiling in the police station and beaten with gun butts and machetes."
+>According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
 
-This person was arrested by a specific unit - or type of unit - but then the alleged abuses occurred during their detention at a police station. The `Special Anti-Robbery Squad` that arrested could have been doing the abuses - but they easily could have not been. So we’d code this as `Police`, which is the most generic label. This is because since all we know the is that the abuses occurred while under police detention.
+The only alleged perpetrators described in this alleged event are "soldiers". The most appropriate term to enter in `Event: Perpetrator classification` to match this description which would be `Military` because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
 
 ## Event: Source {#event_source}
 
@@ -435,24 +436,3 @@ The values we enter here should follow the general citation format used by Secur
 > Title of article or website page. Name of publishing organization \(country of organization\). Date. URL. Internet Archive link: URL
 
 Where there are multiple sources about the same event, they are listed in the order of the description.
-
-## Event: Publication organization {#event_publication_org}
-
-### Description
-
-Name of the organization that published the source of information about the event.
-
-### Type of field
-
-Text and numbers
-
-### Example of use
-
-`Comisión Nacional de los Derechos Humanos (Mexico)`
-
-### Guidance for use
-
-Values in `Event: Publication organization` use the below format:
-
-> Name of publishing organization (Country)
-

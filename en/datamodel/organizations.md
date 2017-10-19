@@ -23,13 +23,13 @@ Documented in this chapter are a range of different pieces of data about organiz
 |[Organization: Start date?](#organization_date_first_cited_is_start)| Is the value in `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization?|`Y`,`N`|
 |[Organization: Date last cited](#organization_date_last_cited)|The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
 |[Organization: Open-ended?](#organization_date_last_cited_open_ended)|Is the value in `Organization: Date last cited` the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist?|`Y`, `N`, `E`|
-|[Organization: Parent](#organization_parent_name)|The immediate superior organization in the command chain|`1 Región Naval`|
+|[Organization: Parent](#organization_parent_name)|The immediate superior organization in the overall hierarchy|`1 Región Naval`|
 |[Parent relationship: Classification](#organization_parent_classification)|Type of relationships that exists between two organizations| `Command`|
 |[Parent relationship: Date first cited](#organization_parent_date_first_cited)|The earliest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
 |[Parent relationship: start date?](#organization_parent_date_first_cited_is_start)|Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?|`Y`, `N`|
 |[Parent organization: date last cited](#organization_parent_date_last_cited)|The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
 |[Parent relationship: Open-ended?](#organization_parent_open_ended)|Is the value in `Parent relationship: Date last cited` the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?|`Y`, `N`, `E`|
-|[Headquarters](#organization_headquarters)|A headquarters is a uniquely named building or complex - like a barracks or camp - that is long established as the primary command site of an organization|`Campo Militar Número 5-C`|
+|[Headquarters](#organization_headquarters)|A headquarters is a uniquely named building or complex - like a barracks or camp - where the organization is located|`Campo Militar Número 5-C`|
 |[Site: Exact Location (Longitude or OSM Node Name)](#organization_site_ex_loc_name)|The longitude or OSM Node name of the most precise location of a site associated with this organization| `30.09716`, `Masr Al-Gedida`|
 |[Site: Exact Location (Latitude or OSM Node ID)](#organization_site_ex_loc_id)|The latitude or OSM node ID number of the most precise location of a site associated with this organization|`31.3280332`, `Masr Al-Gedida`|
 |[Site: Settlement (OSM Node Name)](#organization_site_settlement_name)|The OSM node name of the city, town or village in which an organization site is based|`Tampico`, `Francisco Escarcega`, `Abu al Matamir`|
@@ -99,7 +99,7 @@ In addition to choosing the most complete and complex version of a organization'
 >
 > Example: Army units of a country may follow a naming convention of a number and then name of unit: e.g. `3 Battalion` or `25 Brigade`. There may be a unit of which we only have citations for a variation on that: e.g. `Fourth Battalion`. In this case, the Monitor would list the name of the unit as `4 Battalion` with a note about the methodology behind that choice. The `Fourth Battalion` name variant would be entered in the `Aliases or alternative spellings` field
 
-The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `ORganization: Aliases` field \(see below\).
+The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `Organization: Aliases` field \(see below\).
 
 Use the name in the local language \(official\) of the country where appropriate.
 
@@ -123,7 +123,7 @@ If `3 Compañía de Infantería No Encuadrada` is used as the canonical `Organiz
 
 ### Guidance on use
 
-Different sources will spell an organization's name in different ways. We choose and record a canonical version of a organization's name in the `Organization: Name` field. All other spellings that we have found are treated as aliases and stored in this field. Where the country being researched is non-English speaking, use this field to record English language translations of an organization's name.
+Different sources will spell an organization's name in different ways. We choose and record a canonical version of a organization's name in the `Organization: Name` field. All other spellings that we have found are treated as aliases and stored in this field.
 
 Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical name we choose for an organization, where a source uses an Ordinal we record it as an alias.
 
@@ -279,7 +279,7 @@ We use this field to clarify the meaning of the date entered in `Organization: D
 
 ### Description
 
-The immediate superior organization in the command chain.
+The immediate superior organization in the overall hierarchy. 
 
 ### Type of field
 
@@ -295,7 +295,7 @@ Text and numbers
 
 > For example, in Mexico `8 Zona Militar` is a parent of `19 Regimiento de Caballería Motorizada` between 15 May 1999 and 20 November 2006.
 
-Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an organization has detachments of personnel seconded to other different organizations at the same time.
+Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an organization has a formal legal parent unit while at the same time a new security body established by decree can also directly order the organization to carry out operations, establishing a second parent relationship.
 
 In our data model `Organization: Parent` relationships are different from `Organization: Membership`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather, personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization: Membership`, which is documented below.
 
@@ -319,11 +319,15 @@ Organizations have a `Command` relationship when the parent organization can ord
 
 `Informal` relationships occur where no legal or formal relationship exists, but there is a relationship where parent organization could exert some form of influence on the organization.
 
-> Example: Lagos state in Nigeria has a `security council` which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own organization. The governor has no legal authority to command the military or police forces, but the security council membership establishes a relationship between the organizations and meetings often result in new approaches to security being taken, such as different deployments of police. An analyst could make the determination that an informal relationship exists between the security council and the police and military organizations.
+> Example: Lagos state in Nigeria has a security council. This is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own organization. By law a governor of a state is not in the chain of command for the military or police forces, but the security council membership establishes a relationship between the organizations and meetings often result in new approaches to security being taken, such as different deployments of police. In this case, we could make the determination that an informal relationship exists between the security council and the police and military organizations.
 
 `Administrative` relationships exist where a formal, non-command relationship exists between organizations, or where an administrative description is more accurate of the relationship between two organizations.
 
-> For example: the `Minister of Defence` in Nigeria is by law in charge providing administrative support to the `Nigerian Army`, establishing an administrative relationship. The `Standards Department` of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Ministry, but describing this as Administrative is more helpful, the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+> For example: the Minister of Defence in Nigeria is by law in charge providing administrative support to the Nigerian Army, establishing a relationship we could classify as `administrative`. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Headquarters, but describing this relationship as `administrative` is more helpful because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+
+
+
+
 
 ## Parent relationship: Date first cited {#organization_parent_date_first_cited}
 
@@ -428,7 +432,7 @@ We use this field to clarify the meaning of the date entered in `Parent relation
 
 ### Description
 
-A headquarters is a uniquely named building or complex - like a barracks or camp - that is long established as the primary command site of an organization.
+A headquarters is a uniquely named building or complex - like a barracks or camp - where the organization is located. 
 
 ### Type of field
 
