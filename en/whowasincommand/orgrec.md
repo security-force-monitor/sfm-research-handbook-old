@@ -1,39 +1,39 @@
-# Anatomy of a Unit record
+# Unit Records on WhoWasInCommand
 
-This page gives an overview of the data you will find in a unit record on WhoWasInCommand. This includes descriptions of different sections of the unit page, the data fields used to create it and links to each field's documentation in this Research Handbook.
+This page gives an overview of the data you will find in a unit record on WhoWasInCommand. This includes descriptions of different sections of the unit page, the data fields used to create it and links to more information about each field.
 
-## Title area
+## Title area {#anatomy_unit_record_title}
 
 ![](/assets/org_record_anatomy_titlearea.png)
 
 This section contains key information about the identity of the unit. It also contains links to download and print actions for the displayed record. Hover over any value in the Title area to display a little coloured circle; clicking on this will display the sources and confidence rating for each value. 
 
-### Fields used in the Title area 
+### Fields used in the Title area
 
 The following fields are used in the Title Area:
 
 * [Organization: Name](/datamodel/organizations.md#organization_name)
 * [Organization: Aliases](/datamodel/organizations.md#organization_alias)
 * [Organization: Classifcation](/datamodel/organizations.md#organization_classification)
-* [Organization: Country](/datamodel/organizatios.md#organization_country)
+* [Organization: Country](/datamodel/organizations.md#organization_country)
 
 When a field is empty, it will not be displayed in the Title area. 
 
-## Content sidebar
+## Content sidebar {#anatomy_unit_record_sidebar}
 
-The content sidebar is a navigation aid. It provides quick links to different parts of the page. The items inside the content sidebar indicate what sort of data is available about this unit. For exmaple, if there is no item for "Incidents", then there is no data available about incidents involving this unit.
+The content sidebar is a navigation aid. It provides quick links to different parts of the page. The items inside the content sidebar indicate what sort of data is available about this unit. For example if "Incidents" is not listed in the content sidebar, then there is no data available about incidents involving this unit.
 
 ![](/assets/org_record_anatomy_content_sidebar.png)
 
-## Areas of Operation
+## Areas of Operation {#anatomy_unit_record_area_of_operation}
 
-The areas of operation sections contains a map and table that describe where an organization has operated in some manner. Clicking on the highlighted areas of the map will display the name of an area of operation. Grab the map to drag/pan it around. Swipe or use the `+` and `-` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value. 
+The areas of operation section contains a map and table that describe where an organization has operated in some manner. Click on the highlighted areas of the map to display the name of an area of operation. Grab the map to drag/pan it around. Swipe or use the `+` and `-` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating we have assigned to that value. 
 
 ![](/assets/org_record_anatomy_areas_of_operation.png)
 
-### Fields used in the Areas of Operations section
+### Fields used in the areas of operations section
 
-The following fields are used in the Area of Operations section:
+The following fields are used in the areas of operation section:
 
 * [Area of Operations: OSM object name](/datamodel/organizations.md#organization_aoo_osm_name)
 * [Area of Operations: OSM object ID number](/datamodel/organizations.md#organization_aoo_osm_id)
@@ -44,7 +44,7 @@ The following fields are used in the Area of Operations section:
 
 The Areas of Operation section will display where there is a valid Area of Operations record that contains values for `Area of Operations: OSM object name` and `Area of Operations: OSM object ID number`. Otherwise, the section will not display.
 
-## Sites
+## Sites {#anatomy_unit_record_sites}
 
 This section contains a map and a table that describe sites associated with the organization. Clicking on the pins plotted on the map will display the name of the site. Grab the map to drag/pan it around. Swipe or use the `+` and `-` controls on the map to zoom in or zoom out. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value.
 
@@ -52,7 +52,7 @@ This section contains a map and a table that describe sites associated with the 
 
 ### Fields used in the Sites section
 
-The following fields are used in the Site sections:
+The following fields are used in the Site section:
 
 * [Site: Exact Location (Latitude or OSM Node Name)](/datamodel/organizations.md#organization_site_ex_loc_name)
 * [Site: Exact Location (Longitude or OSM Node ID)](/datamodel/organizations.md#organization_site_ex_loc_id)
@@ -67,7 +67,7 @@ The following fields are used in the Site sections:
 
 The Sites section will display where there is a valid Site record. Otherwise, the section will not display on the unit record.
 
-## Memberships
+## Memberships {#anatomy_unit_record_memberships}
 
 This section contains a table indicating whether the organization has been a member of internal/national joint operations, international peacekeeping missions, or other multi-unit deployments. Hover over any value in the table and a little coloured circle will appear. Click on this to view the sources and confidence rating for that value.
 
@@ -85,7 +85,7 @@ The following fields are used in the memberships section:
 
 Where a unit has no memberships attached to it, the memberships section will not display on the unit record.
 
-## Parent Units
+## Parent Units {#anatomy_unit_record_parents}
 
 The parent units section displays an interactive chart. This shows the links between all units known to be above the present one in the overall organizational hierarchy of that security force, right up to the Commander in Chief or equivalent. The chart is drawn using parent relationships that are classified as `command` (rather than `informal` or `administrative`). They are drawn at the last cited or end date of the parent relationship. This date is displayed at the bottom of the chart. Where a unit has different parents at different times, a chart is drawn for each relationship: swiping left or right, or using the arrows at each side, displays these.
 
@@ -93,7 +93,7 @@ The parent units section displays an interactive chart. This shows the links bet
 
 ### Fields used in the Parent Units section
 
-The following fields are using the parent units sections:
+The following fields are used in the parent units sections:
 
 * [Organization: Name](/datamodel/organizations.md#organization_name)
 * [Organization: Parent](/datamodel/organizations.md#organization_parent_name)
@@ -105,7 +105,7 @@ The following fields are using the parent units sections:
 
 Where a unit does not have a parent relationship, this section will not be displayed in the unit record.
 
-## Subsidiaries
+## Subsidiaries {#anatomy_unit_record_subsidiaries}
 
 The subsidiaries section contains a table describing all units known to have been immediately below the current unit in the overall organizational hierarchy of that security force. Hover over any value in tables to display a little coloured circle; clicking on this will display the sources and confidence rating for each value. 
 
@@ -127,13 +127,13 @@ The following fields are used in the subsidiaries section:
 
 Where a unit has no subsidaires, this section will not be displayed in the unit record.
 
-## Personnel
+## Personnel {#anatomy_unit_record_personnel}
 
 The personnel section displays a table showing all persons affiliated to this unit at any time in command, administrative and other roles. Hover over any value in the table to display a little coloured circle; clicking on this will display the sources and confidence rating for each value. 
 
 ![](/assets/org_record_anatomy_personnel.png)
 
-### Fields used in the Personnel section
+### Fields used in the personnel section
 
 The following fields are used in the personnel section:
 
@@ -150,15 +150,15 @@ The following fields are used in the personnel section:
 
 Where no persons in the dataset are members of a unit, this section will not be displayed in the unit record.
 
-## Incidents
+## Incidents {#anatomy_unit_record_incidents}
 
-The incidents section displays a list of incidents of alleged human rights violations that sources allege the unit has committed. However over either the date or the incident description to display a little coloured circle that when clicked will show the sources and confidence rating for this data.
+The incidents section displays a list of incidents of alleged human rights violations that sources allege the unit has committed. Hover over either the date or the incident description to display a little coloured circle that when clicked will show the sources and confidence rating we have assigned to this data.
 
 ![](/assets/org_record_anatomy_incidents.png)
 
-### Fields used in the Incident section
+### Fields used in the incidents section
 
-The following fields are used in the incident section:
+The following fields are used in the incidents section:
 
 * [Event: Start date](/datamodel/events.md#event_start_date)
 * [Event: End date](/datamodel/events.md#event_end_date)
@@ -167,7 +167,7 @@ The following fields are used in the incident section:
 
 If a source has not made an allegation against a unit, this section will not be displayed in the unit record.
 
-## Changelog
+## Changelog {#anatomy_unit_record_changelog}
 
 The changelog section shows when the data include in this record were first added and subsequently updated. This data is generated by the software that powers WhoWasInCommand whenever a new data import is run.
 

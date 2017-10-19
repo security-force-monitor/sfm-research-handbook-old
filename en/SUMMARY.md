@@ -105,6 +105,16 @@
 ### WhoWasInCommand User Guide 
 
 * [Frequently Asked Questions](/whowasincommand/generalfunctions.md)
-* [Organization record overview](/whowasincommand/orgrec.md)
+* [Unit records on WhoWasInCommand](/whowasincommand/orgrec.md)
+ * [Title area](/whowasincommand/orgrec.md#anatomy_unit_record_title)
+ * [Content sidebar](/whowasincommand/orgrec.md#anatomy_unit_record_sidebar)
+ * [Areas of Operation](/whowasincommand/orgrec.md#anatomy_unit_record_area_of_operation)
+ * [Sites](/whowasincommand/orgrec.md#anatomy_unit_record_sites)
+ * [Memberships](/whowasincommand/orgrec.md#anatomy_unit_record_memberships)
+ * [Parent Units](/whowasincommand/orgrec.md#anatomy_unit_record_parents)
+ * [Subsidiaries](/whowasincommand/orgrec.md#anatomy_unit_record_subsidiaries)
+ * [Personnel](/whowasincommand/orgrec.md#anatomy_unit_record_personnel)
+ * [Incidents](/whowasincommand/orgrec.md#anatomy_unit_record_incidents)
+ * [Changelog](/whowasincommand/orgrec.md#anatomy_unit_record_changelog)
 
 
