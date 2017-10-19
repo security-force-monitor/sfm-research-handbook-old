@@ -272,8 +272,6 @@ Single choice, (Y, N)
 
 ### Guidance on use
 
-
-
 This is a clarifying field for `Person Membership: Date last cited`. One of the below values should be chosen:
 
 * `Y` indicates that the content of the source is the exact date that a relationship between a person and an organization ended.
