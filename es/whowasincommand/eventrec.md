@@ -2,7 +2,7 @@
 
 This page contains an overview of the data that visitors to WhoWasInCommand will find in an incident record. 
 
-This includes the different sections of the incident record, the data fields that are used to creat it and links to more information about each field. 
+This includes the different sections of the incident record, the data fields that are used to create it and links to more information about each field. 
 
 ## Title area {#incident_record_anatomy_title_area}
 
