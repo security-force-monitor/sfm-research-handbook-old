@@ -66,4 +66,4 @@ Data entered into the Monitor’s databases are progressively updated as new inf
 
 ## Phase 4: Publish data {#method-phase-4}
 
-Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. As at April 2017, the Monitor has released in draft for comment and feedback datasets on Mexico and Nigeria. In collaboration with users of its data, the Monitor will explore different modes and methods of publication options, including in raw form, in specialised reports, and to a regular release cycle. 
+Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. In April 2017, the Monitor released in draft for comment and feedback datasets on Mexico and Nigeria. The data was published on a prototype data visualization platform. Based on user feedback, Security Force Monitor released [WhoWasInCommand.com](https://whowasincommand.com),  a substantially updated version of is web plaform.
