@@ -2,11 +2,11 @@
 
 This page contains an overview of the data that visitors to WhoWasInCommand will find in a person record. 
 
-This includes the different sections of the person record, the data fields used to create it and links to more information about each field.
+This includes the different sections of the person record, the data fields that are used to create it and links to more information about each field.
 
 ## Title area {#person_record_anatomy_titlearea}
 
-![Image showing the title area of a person record on WhoWasInCommand.com](/assets/person_record__anatomy_titlearea.png)
+![Image showing the title area of a person record on WhoWasInCommand.com](/assets/person_record_anatomy_title_area.png)
 
 This section contains key information about the identity of the person. It also contains links to download and print actions for the displayed record. Hover your mouse or tap any value in the title area and a little coloured circle will appear: click this to display the sources and confidence rating that we have assigned to that datapoint.
 

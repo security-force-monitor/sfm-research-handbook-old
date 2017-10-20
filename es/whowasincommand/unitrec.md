@@ -2,7 +2,7 @@
 
 This page gives an overview of the data that visitors to WhoWasInCommand will find in a unit record.
 
-This includes descriptions of different sections of the unit page, the data fields used to create it and links to more information about each field.
+This includes descriptions of different sections of the unit page, the data fields that are used to create it and links to more information about each field.
 
 ## Title area {#anatomy_unit_record_title}
 
