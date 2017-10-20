@@ -40,7 +40,7 @@
  * [Parent relationship: start date?](/datamodel/organizations.md#organization_parent_date_first_cited_is_start)
  * [Parent organization: date last cited](/datamodel/organizations.md#organization_parent_date_last_cited)
  * [Parent relationship: Open-ended?](/datamodel/organizations.md#organization_parent_open_ended)
- * [Headquarters](/datamodel/organizations.md#organization_headquarters)
+ * [Base](/datamodel/organizations.md#organization_base)
  * [Site: Exact Location (Latitude or OSM Node Name)](/datamodel/organizations.md#organization_site_ex_loc_name)
  * [Site: Exact Location (Longitude or OSM Node ID)](/datamodel/organizations.md#organization_site_ex_loc_id)
  * [Site: Settlement (OSM Node Name](/datamodel/organizations.md#organization_site_settlement_name)
