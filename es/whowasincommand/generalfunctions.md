@@ -1,11 +1,32 @@
 # Frequently Asked Questions about WhoWasInCommand
 
+## What is WhoWasInCommand?
+
+In short: a search engine about security forces, their structures, personnel, areas of operation and connections to allegations of human rights abuses.
+
+Longer version:
+
+WhoWasInCommand answers key questions about the structure, behaviour and people in charge of security forces like the police and army:
+
+ * Who is in charge of the specialized anti-riot police unit?
+ * What army unit has jurisdiction over what areas and for how long?
+ * Where did this commander previously serve, and where did they go next?
+ * When was a particular police unit based in a specific city?
+ * What allegations have civil society groups made against a unit or commander?
+
+WhoWasinCommand presents data from thousands of public sources to help human rights researchers, investigative journalists and anyone who wants security forces to be more accountable.
 
 ## How do I find what I'm looking for?
 
- * Type in some of terms that best describe the thing you're looking for
- * When you have some search results, use the filters to refine them
- * Use our "Countries" page as a jump-off point. It has direct links to all the units, person and incidents for a partiucular country, along with some "collections" we have added.
+Got this page?
+
+![](/assets/wwic_no_results.png)
+
+When you enter a search term into WhoWasInCommand, it will search across 28 different fields that contain text to attempt to find a match for your term. Where it can't find a match, it will alert you. If find a term that is a bit like the term you area searching, WhoWasInCommand may make a suggestion to you.
+
+Use a combination of search terms and different filters to see what sets of results appear, and gradually refine it until you find what you are looking for.
+
+You can also use our "Countries" page as a jump-off point. It has direct links to all the units, person and incidents for a partiucular country, along with some "collections" we have added.
 
 ## How can I see all the units for a particular country?
 
@@ -15,7 +36,13 @@ The quickest way to do this is:
  * Then, on this search results page open "General Filters", choose "Country" and select from that list
  * The results will then be filtered for that country.
 
-![](../assets/wwic_country_filter.gif)
+![](/assets/wwic_country_filter.gif)
+
+## Why does WhoWasInCommand make suggestions to me?
+
+It's trying to be helpful. When you enter a search term and WhoWasInCommand does not make an exact match, it may present words that have some degree of similarity, or sound similar. For example, searching with the term `operat` causes WhoWasInCommand to suggestion that you might be searching for an `operation`:
+
+![](/assets/wwic_suggestions.png)
 
 ## How do I get all the sources used in a record?
 
@@ -56,10 +83,3 @@ The little numbered circles indicate two things:
 If there is a dotted line under a date, this means that we think this is an exact start date or exact end date. This means that a source has been very specific about the date when, for example, a unit was created or started operating in an area. 
 
 If there is no dotted line under a date, this indicates that it is just the earlist reference we have for the creation of a unit, or the commencement of an operation.
-
-
-
-
-
-
-

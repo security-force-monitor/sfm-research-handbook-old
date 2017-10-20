@@ -29,7 +29,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 |[Parent relationship: start date?](#organization_parent_date_first_cited_is_start)|Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?|`Y`, `N`|
 |[Parent organization: date last cited](#organization_parent_date_last_cited)|The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
 |[Parent relationship: Open-ended?](#organization_parent_open_ended)|Is the value in `Parent relationship: Date last cited` the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?|`Y`, `N`, `E`|
-|[Headquarters](#organization_headquarters)|A headquarters is a uniquely named building or complex - like a barracks or camp - where the organization is located|`Campo Militar Número 5-C`|
+|[Base](#organization_base)|A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located|`Campo Militar Número 5-C`|
 |[Site: Exact Location (Longitude or OSM Node Name)](#organization_site_ex_loc_name)|The longitude or OSM Node name of the most precise location of a site associated with this organization| `30.09716`, `Masr Al-Gedida`|
 |[Site: Exact Location (Latitude or OSM Node ID)](#organization_site_ex_loc_id)|The latitude or OSM node ID number of the most precise location of a site associated with this organization|`31.3280332`, `Masr Al-Gedida`|
 |[Site: Settlement (OSM Node Name)](#organization_site_settlement_name)|The OSM node name of the city, town or village in which an organization site is based|`Tampico`, `Francisco Escarcega`, `Abu al Matamir`|
@@ -325,10 +325,6 @@ Organizations have a `Command` relationship when the parent organization can ord
 
 > For example: the Minister of Defence in Nigeria is by law in charge providing administrative support to the Nigerian Army, establishing a relationship we could classify as `administrative`. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Headquarters, but describing this relationship as `administrative` is more helpful because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
-
-
-
-
 ## Parent relationship: Date first cited {#organization_parent_date_first_cited}
 
 ### Description
@@ -428,11 +424,11 @@ We use this field to clarify the meaning of the date entered in `Parent relation
 * `Y` indicates that we assume this parent relationship continues to exist.
 * `N` indicates we do not assume that this parent relationship continues to exist, but we do not have an exact end date.
 
-## Headquarters {#organization_headquarters}
+## Base {#organization_base}
 
 ### Description
 
-A headquarters is a uniquely named building or complex - like a barracks or camp - where the organization is located. 
+A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located. 
 
 ### Type of field
 
@@ -443,7 +439,7 @@ Text and numbers
 
 ### Guidance on use
 
-This field is used to record data about units that have a uniquely named building or complex for their headquarters.
+The `Base` field adds detail about a site. This field is used to record data about organizations that are located in a distinctively-named building or complex.
 
 > For example, `3 Battalion` in Nigeria is cited as being based in the `Lubanga Barracks` in `Enugu, Enugu State, Nigeria`.
 
