@@ -27,17 +27,7 @@ When recording the date of a source for use in its citation,  we always use the 
 > 7 July 2016  
 > 9 November 1999
 
-### Which archived URL to use {#source_which_archive_url}
-
-If the website you are using has been archived previously, use the oldest archive date url. For example, if the url was saved two times, once in 2011 and once in 2013, use the url from 2011.
-
-You may come across a source citation that includes a link that is not available online anymore and there is no link for the Internet Archive. In this case, you can still try to look up the link in the Archive as someone could have saved it. For example, see the following citation:
-
-> Army, Navy Redeploy Senior Officers. This Day \(Nigeria\). 13 February 2014. [http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/](http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/)
-
-If you try to access the link, you'll get nowhere. When you look up the link in the Internet Archive, however, you'll find that it's been saved two times and you are thus able to access it. When you do that, don't forget to update the source citation so others can access the article without searching for it. Do it in the following way:
-
-> Army, Navy Redeploy Senior Officers. This Day \(Nigeria\). 13 February 2014. [http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/](http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306/) Internet Archive link: [https://web.archive.org/web/20140307081703/http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306](https://web.archive.org/web/20140307081703/http://www.thisdaylive.com/articles/army-navy-redeploy-senior-officers/171306)
+###  {#source_which_archive_url}
 
 ## Confidence {#source_confidence}
 
