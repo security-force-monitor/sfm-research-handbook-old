@@ -7,4 +7,12 @@
             "visible": "always"
         }
     }
+},
+{
+    "plugins": [ "versions" ],
+    "pluginsConfig": {
+        "versions": {
+            "type": "languages"
+        }
+    }
 }
