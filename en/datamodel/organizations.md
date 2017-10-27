@@ -52,7 +52,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Membership: Date first cited](#organization_membership_date_first_cited) | This field is for the earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Membership: Start date?](#organization_membership_is_start) | Is the value in Membership: Date first cited the actual date on which a membership was started, or the earliest date a source has referred to an organization Membership? | `Y`, `N` |
 | [Membership: Date of last citation](#organization_membership_date_last_cited) | This field is for the latest citation of a membership, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
-| [Membership: End date?](#organization_membership_open_ended) | Is the value in `Membership: Date last cited `the actual date on which the membership ended, or the latest date a source has referred to an organizational Membership?`   ` | `Y`, `N` |
+| [Membership: End date?](#organization_membership_open_ended) | Is the value in `Membership: Date last cited`the actual date on which the membership ended, or the latest date a source has referred to an organizational Membership?` ` | `Y`, `N` |
 | [Notes](#organization_notes) | Analysis, commentary and notes about the organization that do not fit into the data structure | `Supported the the Michoacan Attorney General's Office in a raid performed on 13 January 2008` |
 
 ## Organization: ID {#organization_id}
@@ -85,13 +85,13 @@ Text and numbers
 
 ### Example of use
 
-`3 Armoured Division of the Nigerian Army`, `3 Compañía de Infantería No Encuadrada`, `4 Batallón de Infantería`
+`3 Armoured Division`, `3 Compañía de Infantería No Encuadrada`, `4 Batallón de Infantería`
 
 ### Guidance on use
 
 Different sources will spell an organization's name in different ways, so we choose one of those names to be a canonical version. Wherever possible, we will choose the most complete and complex version of an organization’s name that can be evidenced by a source:
 
-> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division` \(which may have more citations\).
+> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division`  \(which may have more citations\).
 
 In addition to choosing the most complete and complex version of a organization's name, we also attempt to standardize names based on the overall structure of and reporting about the security forces:
 
@@ -101,11 +101,11 @@ In addition to choosing the most complete and complex version of a organization'
 
 The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `Organization: Aliases` field \(see below\).
 
-Use the name in the local language \(official\) of the country where appropriate.
+The Monitor uses the name in the official \(local\) language of the country where appropriate and/or possible.
 
-> Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\). See the section on Aliases of alternative spellings for more information on what to do with English language translations of names.
+> Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\).
 
-Where the name of an organization contains Roman numerals like `V` or `XI` these should not be turned into commonly used numbers like `5` or `11` respectively.
+Where warranted by sources the Monitor will use Roman numerals like `V` or `XI` rather than commonly used numbers like `5` or `11` respectively.
 
 ## Organization: Aliases {#organization_aliases}
 
