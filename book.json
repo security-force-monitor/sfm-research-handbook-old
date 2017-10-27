@@ -1,18 +1,13 @@
 {
-	"plugins": ["anchorjs"],
+	"plugins": ["anchorjs", "versions"],
     "pluginsConfig": {
         "anchorjs": {
             "icon": "#",
             "placement": "right",
             "visible": "always"
-        }
-    }
-},
-{
-    "plugins": [ "versions" ],
-    "pluginsConfig": {
-        "versions": {
-            "type": "languages"
-        }
+        },
+	 "versions": {
+		 "type": "languages"
+	}    
     }
 }
