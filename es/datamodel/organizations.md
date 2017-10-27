@@ -1,5 +1,7 @@
 # Organizations
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any part of the hierarchy of a security force, ranging from a national defence ministry to a police post in a small town. We use the term "Unit" interchangably with "Organization". Organizations can also be groupings of organizations, including joint operations, task forces or peacekeeping missions.
 
 Documented in this chapter are a range of different pieces of data about organizations, including:

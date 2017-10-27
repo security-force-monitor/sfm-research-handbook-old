@@ -1,5 +1,7 @@
 # Frequently Asked Questions about WhoWasInCommand
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 ## What is WhoWasInCommand?
 
 In short: a search engine about security forces, their structures, personnel, areas of operation and connections to allegations of human rights abuses.

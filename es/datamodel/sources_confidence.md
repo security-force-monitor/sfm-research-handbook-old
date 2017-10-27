@@ -1,5 +1,7 @@
 # Sources and Confidence
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 Every piece of data in Security Force Monitor has at least one source. Confidence scores are given to every piece of data from the Monitor's research with the exception of data related to alleged `events.`This is because they are simply republications of the work of other organizations.
 
 ## Sources

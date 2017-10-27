@@ -1,5 +1,7 @@
 # What data does the Monitor collect?
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 Security Force Monitor researches and creates data about three things \(or _entities_\) related to security forces around the world:
 
 * [Organizations](/datamodel/organizations.md) are official state  or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other security bodies. Organizations refer to any any part of the hierarchy of a security force, ranging from a national defence ministry, to a police unit based in a small town. Organizations can also be groupings of organizations that occur, such as operations or peacekeeping missions. The Monitor collects data about an organization's name, aliases, location, geographical areas of operation and relationships with other organizations.

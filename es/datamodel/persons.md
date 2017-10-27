@@ -1,5 +1,7 @@
 # Persons
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 Persons are natural persons who are affiliated with, or hold positions of command over a specific organization at a particular point in time.
 
 ## Summary of person fields

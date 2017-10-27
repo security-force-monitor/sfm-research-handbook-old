@@ -1,4 +1,7 @@
 # Events
+
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 Events describe publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors.
 
 The Security Force Monitor focuses its research on the structure, personnel and operations of security forces. As such we treat all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. The Security Force Monitor does not make allegations against security forces and the data that we publish does not attempt to demonstrate involvement of individuals or units human rights abuses outside of what other organizations have alleged.
