@@ -12,48 +12,48 @@ Documented in this chapter are a range of different pieces of data about organiz
 
 ## Summary of organization fields
 
-|Name of field|Description|Examples of use |
+| Name of field | Description | Examples of use |
 | :--- | :--- | :--- |
-|[Organization: ID](#organization_id)|A unique code assigned to each organization in the dataset|`a407be6a-28e6-4237-b4e9-307f27b1202e` |
-|[Organization: Name](#organization_name)|Name of the organization|`3 Compañía de Infantería No Encuadrada`|
-|[Organization: Aliases](#organization_aliases)|Other names for an organization, including aliaes, alternative spellings and abbreviations|`Tercera Compañía de Infantería No Encuadrada`, `3/a. Compañía de Infantería No Encuadrad`|
-|[Organization: Country](#organization_country)|The country in which an organziation originates|`mx`|
-|[Organization: Classification](#organization_classification)|General branch or tier of security force that an organization a part of|`Army`,`Ejército`|
-|[Organization: Date first cited](#organization_date_first_cited)|The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Organization: Start date?](#organization_date_first_cited_is_start)| Is the value in `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization?|`Y`,`N`|
-|[Organization: Date last cited](#organization_date_last_cited)|The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Organization: Open-ended?](#organization_date_last_cited_open_ended)|Is the value in `Organization: Date last cited` the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist?|`Y`, `N`, `E`|
-|[Organization: Parent](#organization_parent_name)|The immediate superior organization in the overall hierarchy|`1 Región Naval`|
-|[Parent relationship: Classification](#organization_parent_classification)|Type of relationships that exists between two organizations| `Command`|
-|[Parent relationship: Date first cited](#organization_parent_date_first_cited)|The earliest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Parent relationship: start date?](#organization_parent_date_first_cited_is_start)|Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?|`Y`, `N`|
-|[Parent organization: date last cited](#organization_parent_date_last_cited)|The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Parent relationship: Open-ended?](#organization_parent_open_ended)|Is the value in `Parent relationship: Date last cited` the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?|`Y`, `N`, `E`|
-|[Site: Base](#organization_site_base)|A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located|`Campo Militar Número 5-C`|
-|[Site: Exact Location (Longitude or OSM Node Name)](#organization_site_ex_loc_name)|The longitude or OSM Node name of the most precise location of a site associated with this organization| `30.09716`, `Masr Al-Gedida`|
-|[Site: Exact Location (Latitude or OSM Node ID)](#organization_site_ex_loc_id)|The latitude or OSM node ID number of the most precise location of a site associated with this organization|`31.3280332`, `Masr Al-Gedida`|
-|[Site: Settlement (OSM Node Name)](#organization_site_settlement_name)|The OSM node name of the city, town or village in which an organization site is based|`Tampico`, `Francisco Escarcega`, `Abu al Matamir`|
-|[Site: Settlement (OSM ID)](#organization_site_settlement_id)|The OSM node ID number of the city, town or village in which an organization site is based|`273584290`,`286989920`,`769127625`|
-|[Site: Top Administrative Area (OSM Name)](#organization_site_top_admin_name)| description | example |
-|[Site: Top Administrative Area (OSM ID number)](#organization_site_top_admin_id)| description | example |
-|[Site: Country](#organization_site_country)|The country in which and organization site is location|`mx`, `ug`, `ng`|
-|[Site: Date of first citation](#organization_site_date_first_cited)| This field is for the earliest citation for the location of a site, either through direct reference in the source or by the date of its publication |`2012-11-23`, `2012-11`, `2012`|
-|[Site: Founding date?](#organization_site_date_first_cited_founding)|Is the value in Site: Date first cited the actual date on which an organization site was founded, or the earliest date a source has referred to an organization site?|`Y`, `N`|
-|[Site: Date last cited](#organization_site_date_last_cited)|This field is for the latest citation for the location of a site, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Site: open-ended?](#organization_site_date_last_cited_open_ended)|Indicates whether the value in Site: Date last cited is the actual date on which an organization site was disbanded, the latest date a source has referred to an organization site, and whether can we assume this organization site continues to exist|`Y`, `N`, `E`|
-|[Area of Operations: OSM object name](#organization_aoo_osm_name)|A geographical area in which an organization exercises jurisdiction or has operated in any manner|`Baja California Sur`, `Kafr el-Sheikh Governorate`|
-|[Area of Operations: OSM object ID number](#organization_aoo_osm_id)|A geographical area in which an organization exercises jurisdiction or has operated in any manner|`2589611`, `4103405`|
-|[Area of Operations: Country](#organization_aoo_country)|The country in which an Area of Operation is located|`mx`, `ug`, `ng`|
-|[Area of Operations: Date first cited](#organization_aoo_date_first_cited)|This field is for the earliest citation for an organization's Area of Operations, either through direct reference in the source or by the date of its publication| example |
-|[Area of Operations: Start date?](#organization_aoo_date_last_cited_is_start)|Is the value in Area of Operations: Date first cited the actual date on which an organization's Area of Operations started, or the earliest date a source has referred to an organization's Area of Operations?|`Y`, `N`|
-|[Area of Operations: Date last cited](#organization_aoo_date_last_cited)|This field is for the latest citation for an Area of Operations, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Area of Operations: Open-ended?](#organization_aoo_open_ended)|Indicates whether the value in Area of Operations: Date last cited is the actual date on which an organization ended operatiosn in the specified area, the latest date a source has referred to this Area of Operations, and whether can we assume an organization will continue to operate in an area beyond the date of last citation|`Y`, `N`, `E`|
-|[Organization Membership](#organization_membership)|Internal/national joint operations, international peacekeeping operations, or other multi-unit efforts that this organization is a part of|Operación `Conjunta Chihuahua`, `Operation BOYONA`|
-|[Membership: Date first cited](#organization_membership_date_first_cited)|This field is for the earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Membership: Start date?](#organization_membership_is_start)|Is the value in Membership: Date first cited the actual date on which a membership was started, or the earliest date a source has referred to an organization Membership?|`Y`, `N`|
-|[Membership: Date of last citation](#organization_membership_date_last_cited)|This field is for the latest citation of a membership, either through direct reference in the source or by the date of its publication|`2012-11-23`, `2012-11`, `2012`|
-|[Membership: Open-ended?](#organization_membership_open_ended)|Indicates whether we assume the relationship between organizations continues after the date in `Membership: Date last cited`|`Y`, `N`, `E`|
-|[Notes](#organization_notes)|Analysis, commentary and notes about the organization that do not fit into the data structure|`Supported the the Michoacan Attorney General's Office in a raid performed on 13 January 2008` |
+| [Organization: ID](#organization_id) | A unique code assigned to each organization in the dataset | `a407be6a-28e6-4237-b4e9-307f27b1202e` |
+| [Organization: Name](#organization_name) | Name of the organization | `3 Compañía de Infantería No Encuadrada` |
+| [Organization: Aliases](#organization_aliases) | Other names for an organization, including aliases, alternative spellings and abbreviations | `Tercera Compañía de Infantería No Encuadrada`, `3/a. Compañía de Infantería No Encuadrad` |
+| [Organization: Country](#organization_country) | The country in which an organziation originates | `mx` |
+| [Organization: Classification](#organization_classification) | General branch or tier of security force that an organization a part of | `Army`,`Ejército` |
+| [Organization: Date first cited](#organization_date_first_cited) | The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Organization: Start date?](#organization_date_first_cited_is_start) | Is the value in `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization? | `Y`, `N` |
+| [Organization: Date last cited](#organization_date_last_cited) | The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Organization: Open-ended?](#organization_date_last_cited_open_ended) | Is the value in `Organization: Date last cited` the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist? | `Y`, `N`, `E` |
+| [Organization: Parent](#organization_parent_name) | The immediate superior organization in the overall hierarchy | `1 Región Naval` |
+| [Parent relationship: Classification](#organization_parent_classification) | Type of relationships that exists between two organizations | `Command` |
+| [Parent relationship: Date first cited](#organization_parent_date_first_cited) | The earliest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Parent relationship: start date?](#organization_parent_date_first_cited_is_start) | Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship? | `Y`, `N` |
+| [Parent organization: date last cited](#organization_parent_date_last_cited) | The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Parent relationship: Open-ended?](#organization_parent_open_ended) | Is the value in `Parent relationship: Date last cited` the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist? | `Y`, `N`, `E` |
+| [Site: Base](#organization_site_base) | A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located | `Campo Militar Número 5-C` |
+| [Site: Exact Location \(Longitude or OSM Node Name\)](#organization_site_ex_loc_name) | The longitude or OSM Node name of the most precise location of a site associated with this organization | `30.09716`, `Masr Al-Gedida` |
+| [Site: Exact Location \(Latitude or OSM Node ID\)](#organization_site_ex_loc_id) | The latitude or OSM node ID number of the most precise location of a site associated with this organization | `31.3280332`, `Masr Al-Gedida` |
+| [Site: Settlement \(OSM Node Name\)](#organization_site_settlement_name) | The OSM node name of the city, town or village in which an organization site is based | `Tampico`, `Francisco Escarcega`, `Abu al Matamir` |
+| [Site: Settlement \(OSM ID\)](#organization_site_settlement_id) | The OSM node ID number of the city, town or village in which an organization site is based | `273584290`,`286989920`,`769127625` |
+| [Site: Top Administrative Area \(OSM Name\)](#organization_site_top_admin_name) | The OSM name of the largest, generally used administrative area of a country | California, Baja California |
+| [Site: Top Administrative Area \(OSM ID number\)](#organization_site_top_admin_id) | The OSM ID of the largest, generally used administrative area of a country | 165475, 2589601 |
+| [Site: Country](#organization_site_country) | The country in which and organization site is location | `mx`, `ug`, `ng` |
+| [Site: Date of first citation](#organization_site_date_first_cited) | This field is for the earliest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Site: Founding date?](#organization_site_date_first_cited_founding) | Is the value in Site: Date first cited the actual date on which an organization site was founded, or the earliest date a source has referred to an organization site? | `Y`, `N` |
+| [Site: Date last cited](#organization_site_date_last_cited) | This field is for the latest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Site: open-ended?](#organization_site_date_last_cited_open_ended) | Indicates whether the value in Site: Date last cited is the actual date on which an organization site was disbanded, the latest date a source has referred to an organization site, and whether can we assume this organization site continues to exist | `Y`, `N`, `E` |
+| [Area of Operations: OSM object name](#organization_aoo_osm_name) | A geographical area in which an organization exercises jurisdiction or has operated in any manner | `Baja California Sur`, `Kafr el-Sheikh Governorate` |
+| [Area of Operations: OSM object ID number](#organization_aoo_osm_id) | A geographical area in which an organization exercises jurisdiction or has operated in any manner | `2589611`, `4103405` |
+| [Area of Operations: Country](#organization_aoo_country) | The country in which an Area of Operation is located | `mx`, `ug`, `ng` |
+| [Area of Operations: Date first cited](#organization_aoo_date_first_cited) | This field is for the earliest citation for an organization's Area of Operations, either through direct reference in the source or by the date of its publication | 2012-11-23, 2012-11, 2012 |
+| [Area of Operations: Start date?](#organization_aoo_date_last_cited_is_start) | Is the value in Area of Operations: Date first cited the actual date on which an organization's Area of Operations started, or the earliest date a source has referred to an organization's Area of Operations? | `Y`, `N` |
+| [Area of Operations: Date last cited](#organization_aoo_date_last_cited) | This field is for the latest citation for an Area of Operations, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Area of Operations: Open-ended?](#organization_aoo_open_ended) | Indicates whether the value in Area of Operations: Date last cited is the actual date on which an organization ended operatiosn in the specified area, the latest date a source has referred to this Area of Operations, and whether can we assume an organization will continue to operate in an area beyond the date of last citation | `Y`, `N`, `E` |
+| [Organization Membership](#organization_membership) | Internal/national joint operations, international peacekeeping operations, or other multi-unit efforts that this organization is a part of | `Operacion Cojunta Chihuahua`, `Operation BOYONA` |
+| [Membership: Date first cited](#organization_membership_date_first_cited) | This field is for the earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Membership: Start date?](#organization_membership_is_start) | Is the value in Membership: Date first cited the actual date on which a membership was started, or the earliest date a source has referred to an organization Membership? | `Y`, `N` |
+| [Membership: Date of last citation](#organization_membership_date_last_cited) | This field is for the latest citation of a membership, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Membership: End date?](#organization_membership_open_ended) | Is the value in `Membership: Date last cited`the actual date on which the membership ended, or the latest date a source has referred to an organizational Membership?` ` | `Y`, `N` |
+| [Notes](#organization_notes) | Analysis, commentary and notes about the organization that do not fit into the data structure | `Supported the the Michoacan Attorney General's Office in a raid performed on 13 January 2008` |
 
 ## Organization: ID {#organization_id}
 
@@ -85,13 +85,13 @@ Text and numbers
 
 ### Example of use
 
-`3 Armoured Division of the Nigerian Army`, `3 Compañía de Infantería No Encuadrada`, `4 Batallón de Infantería`
+`3 Armoured Division`, `3 Compañía de Infantería No Encuadrada`, `4 Batallón de Infantería`
 
 ### Guidance on use
 
 Different sources will spell an organization's name in different ways, so we choose one of those names to be a canonical version. Wherever possible, we will choose the most complete and complex version of an organization’s name that can be evidenced by a source:
 
-> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division` \(which may have more citations\).
+> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division`  \(which may have more citations\).
 
 In addition to choosing the most complete and complex version of a organization's name, we also attempt to standardize names based on the overall structure of and reporting about the security forces:
 
@@ -101,11 +101,11 @@ In addition to choosing the most complete and complex version of a organization'
 
 The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `Organization: Aliases` field \(see below\).
 
-Use the name in the local language \(official\) of the country where appropriate.
+The Monitor uses the name in the official \(local\) language of the country where appropriate and/or possible.
 
-> Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\). See the section on Aliases of alternative spellings for more information on what to do with English language translations of names.
+> Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\).
 
-Where the name of an organization contains Roman numerals like `V` or `XI` these should not be turned into commonly used numbers like `5` or `11` respectively.
+Where warranted by sources the Monitor will use Roman numerals like `V` or `XI` rather than commonly used numbers like `5` or `11` respectively.
 
 ## Organization: Aliases {#organization_aliases}
 
@@ -279,7 +279,7 @@ We use this field to clarify the meaning of the date entered in `Organization: D
 
 ### Description
 
-The immediate superior organization in the overall hierarchy. 
+The immediate superior organization in the overall hierarchy.
 
 ### Type of field
 
@@ -401,7 +401,6 @@ In keeping with all date fields we include in this dataset, where our research c
 
 This field is clarified by the field `Parent relationship: Open-ended?` which indicates whether the date included here is the actual date on which an organization stopped being the parent of another.
 
-
 ## Parent relationship: Open-ended? {#organization_parent_open_ended}
 
 ### Description
@@ -428,13 +427,14 @@ We use this field to clarify the meaning of the date entered in `Parent relation
 
 ### Description
 
-A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located. 
+A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located.
 
 ### Type of field
 
 Text and numbers
 
 ### Example of use
+
 `Campo Militar Número 5-C`
 
 ### Guidance on use
@@ -445,7 +445,7 @@ The `Base` field adds detail about a site. This field is used to record data abo
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## Site: Exact Location (Longitude or OSM Node Name) {#organization_site_ex_loc_name}
+## Site: Exact Location \(Longitude or OSM Node Name\) {#organization_site_ex_loc_name}
 
 ### Description
 
@@ -453,11 +453,11 @@ The longitude or OSM Node name of the most precise location of a site associated
 
 ### Type of field
 
-First value of a latitude/longitude pair (using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)), or an OSM Node Name.
+First value of a latitude/longitude pair \(using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)\), or an OSM Node Name.
 
 ### Example of use
 
-If used to record an OSM Node Name: `Masr Al-Gedida`
+If used to record an OSM Node Name: `Masr Al-Gedida`  
 If used to record a latitude: `31.3280332`
 
 ### Guidance on use
@@ -477,11 +477,11 @@ The latitude or OSM node ID number of the most precise location of a site associ
 
 ### Type of field
 
-Second value of a longitude/latitude pair (using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)), or an OSM Node ID number.
+Second value of a longitude/latitude pair \(using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)\), or an OSM Node ID number.
 
 ### Example of use
 
-If used to record an OSM Node ID number: `452377264 `
+If used to record an OSM Node ID number: `452377264`  
 If used to record a Longitude: `30.09716`
 
 ### Guidance on use
@@ -493,7 +493,7 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Settlement (OSM Node Name){#organization_site_settlement_name}
+## Site: Settlement \(OSM Node Name\) {#organization_site_settlement_name}
 
 ### Description
 
@@ -511,7 +511,7 @@ Text, OSM node name, first in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Node Name)` we record the name of the OSM node that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM node that denotes a settlement.
 
-## Site: Settlement (OSM ID) {#organization_site_settlement_id}
+## Site: Settlement \(OSM ID\) {#organization_site_settlement_id}
 
 ### Description
 
@@ -529,7 +529,7 @@ Number, OSM node ID number, second in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM ID)` field we record the name of the OSM ID number that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM node that denotes a settlement.
 
-## Site: Top Administrative Area (OSM Name) {#organization_site_top_admin_name}
+## Site: Top Administrative Area \(OSM Name\) {#organization_site_top_admin_name}
 
 ### Description
 
@@ -547,11 +547,12 @@ Text, OSM relation name, first in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM Name)` we record the text name of highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
 
-> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\).
+> For example Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\).
 
 ## Site: Top Administrative Area \(OSM ID number\) {#organization_site_top_admin_id}
 
 ### Description
+
 The OSM relation ID number of the highest sub-national administrative area in which an organization site is based.
 
 ### Type of field
@@ -559,13 +560,14 @@ The OSM relation ID number of the highest sub-national administrative area in wh
 Number, OSM relation ID number, second in a pair of values
 
 ### Example of use
+
 `2340636`
 
 ### Guidance on use
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM ID number)` we record OSM relation ID number of the highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
 
-> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\).
+> For example Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\).
 
 ## Site: Country {#organization_site_country}
 
@@ -609,11 +611,10 @@ The `Site: Date first cited` field contains a date that is either:
 
 * The earliest date found in any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
 * The earliest date of publication of any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
-.
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date first cited`.
+  .
+  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date first cited`.
 
 This field is clarified by the field `Site: Founding date?` which indicates whether the date included here is the actual date on which an organization site was founded.
-
 
 ## Site: Founding date? {#organization_site_date_first_cited_founding}
 
@@ -655,8 +656,8 @@ The `Site: Date last cited` field contains a date that is either:
 
 * The latest date found in any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
 * The latest date of publication of any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
-.
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
+  .
+  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
 
 This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization site was terminated.
 
@@ -687,12 +688,15 @@ The values that can be entered in this field are restricted to the below:
 ## Area of Operations: OSM object name {#organization_aoo_osm_name}
 
 ### Description
+
 A geographical area in which an organization exercises jurisdiction or has operated in any manner
 
 ### Type of field
+
 Text and numbers, OSM object name, first in a pair of fields
 
 ### Example of use
+
 `Baja California Sur`, `Kafr el-Sheikh Governorate`
 
 ### Guidance on use
@@ -702,12 +706,15 @@ The `Area of Operations` fields document multiple and concurrent areas of operat
 ## Area of Operations: OSM object ID number {#organization_aoo_osm_id}
 
 ### Description
+
 A geographical area in which an organization exercises jurisdiction or has operated in any manner
 
 ### Type of field
+
 Numbers, OSM object ID number, second in a pair of fields
 
 ### Example of use
+
 `2589611`, `4103405`
 
 ### Guidance on use
@@ -715,6 +722,7 @@ Numbers, OSM object ID number, second in a pair of fields
 The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the OpenStreetMap object ID number for the lowest-level formal geographical area that best describes where an organization has operated in some manner.
 
 ## Area of Operations: Country {#organization_aoo_country}
+
 ### Description
 
 The country in which an Area of Operation is located.
@@ -798,8 +806,8 @@ The `Area of Operations: Date last cited` field contains a date that is either:
 
 * The latest date found in any source that references the values contained in the pairs of fields that record `Area of Operations`.
 * The latest date of publication for any source that references the values contained in the pairs of fields that record `Area of Operations`.
-.
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
+  .
+  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
 
 This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization site was ended, or whether we have reason to assume its continued existence beyond that date.
 
@@ -829,29 +837,30 @@ The values that can be entered in this field are restricted to the below:
 * `Y` indicates that we assume this organization continues to operation in the specified area.
 * `N` indicates we do not assume that this organization will continue to operate in the specified area, but we do not have an exact end date for this.
 
-
 ## Organization Membership {#organization_membership}
 
 ### Description
+
 Internal/national joint operations, international peacekeeping operations, or other multi-unit efforts that this organization is a part of
 
 ### Type of field
+
 Text and numbers,.
 
 ### Example of use
+
 `Operación Conjunta Chihuahua`, `Operation BOYONA`
 
 ### Guidance on use
 
 This field indicates whether an organization has had any memberships or attachments to internal/national joint operations, international peacekeeping operations, or other multi-unit efforts. Generally this means one of two things:
 
-1\) Multiple units operate as part of an “operation” focused on a specific mission.
+1\) Multiple units operate as part of an “operation” focused on a specific mission.  
 2\) Multiple units “lend” or otherwise deploy personnel who operate under the command of a force composition like a "Joint Task Force" or "Operation", which usually has a commander of its own.
 
 > Example: soldiers from `1 Division` are deployed to the northeast of Nigeria to operate under `Operation BOYANA`. `1 Division` has a commander, but the soldiers as part of `Operation BOYANA` likely report to and take orders from the commander of `Operation BOYANA`. When the soldiers are done with their rotation, after several months, they return to their “home unit” `1 Division`. So while `Operation BOYANA` commands some soldiers who are part of `1 Division` it doesn’t technically command all of the soldiers of `1 Division` \(otherwise it would be the parent unit\) These operations - joint task forces, and so on - should have their own distinct `Organization` entries.
 
 We treat task forces, operations, peace keeping missions that are constitued via a membership of other organizations as distinct organizations.
-
 
 ## Membership: Date first cited {#organization_membership_date_first_cited}
 
@@ -875,11 +884,10 @@ The `Membership: Date first cited` field contains a date that is either:
 
 * The earliest date found in any source that references the values contained in the pairs of fields that record `Membership`
 * The earliest date of publication of any source that references the values contained in the pairs of fields that record `Membership`.
-.
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Membership: Date first cited`.
+  .
+  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Membership: Date first cited`.
 
 This field is clarified by the field `Membership: Founding date?` which indicates whether the date included here is the actual date on which an organization membership was founded.
-
 
 ## Membership: Start date? {#organization_membership_is_start}
 
@@ -921,8 +929,8 @@ The `Membership: Date last cited` field contains a date that is either:
 
 * The latest date found in any source that references the values contained in the pairs of fields that record `Membership`; or,
 * The latest date of publication of any source that references the values contained in the pairs of fields that record `Membership`.
-.
-In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Membership: Date last cited`.
+  .
+  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Membership: Date last cited`.
 
 This field is clarified by the field `Membership: Open-ended?` which indicates whether the date included here is the actual date on which an organization Membership was terminated.
 
@@ -966,3 +974,4 @@ Text and numbers
 ### Guidance on use
 
 We use this field to record information about the organization that is likely to provide useful context, additional information that does not fit into the data structure, and notes about how decisions were made about which data to include. Any sources used should be included inside the field.
+
