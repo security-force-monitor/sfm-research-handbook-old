@@ -1,5 +1,7 @@
 # Person records in WhoWasInCommand
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 This page contains an overview of the data that visitors to WhoWasInCommand will find in a person record. 
 
 This includes the different sections of the person record, the data fields that are used to create it and links to more information about each field.

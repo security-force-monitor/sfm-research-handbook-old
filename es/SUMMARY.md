@@ -2,10 +2,10 @@
 
 ### Introduction
 
-* [About the Research Handbook](/README.md)
- * [Contributors](/README.md#about_contributors)
- * [About Security Force Monitor](/README.md#about_sfm)
- * [License](/README.md#handbook-license)
+* [Acerca de este Manual de Investigación](/README.md)
+ * [Contribuyentes](/README.md#about_contributors)
+ * [Acerca del Security Force Monitor](/README.md#about_sfm)
+ * [Licencia](/README.md#handbook-license)
 
 ### Methodology
 

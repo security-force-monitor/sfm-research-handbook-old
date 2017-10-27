@@ -1,5 +1,7 @@
 # Research methodology
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
 Security Force Monitor follows a four phase process when researching the security forces of a country.
 
 ## Phase 1: Scope out sources {#method-phase-1}

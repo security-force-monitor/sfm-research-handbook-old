@@ -1,5 +1,8 @@
 # Incident Records on WhoWasInCommand
 
+*Nos encontramos actualmente en vías de traducir el texto completo.*
+
+
 This page contains an overview of the data that visitors to WhoWasInCommand will find in an incident record. 
 
 This includes the different sections of the incident record, the data fields that are used to create it and links to more information about each field. 
