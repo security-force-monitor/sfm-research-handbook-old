@@ -89,6 +89,25 @@ The following fields are used in the memberships section:
 
 Where a unit has no memberships attached to it, the memberships section will not display on the unit record.
 
+## Member units {#anatomy_unit_record_member_units}
+
+![](/assets/org_record_anatomy_member_units.png)
+
+This section contains a table listing the units that comprise the present unit. For example, it will list units that have taken part in a joint operation, international peacekeeping missing or other multi-unit organization. However over any value in the table, and a little coloured circle will appear. Click on this to view the sources and confidnce rating for that value.
+
+### Fields used in the Member Units section
+
+The following fields are used in the member units section:
+
+ * [Organization: Name](/datamodel/organizations.md#organization_name)
+ * [Organization: Aliases](/datamodel/organizations.md#organization_aliases)
+ * [Organization: Classifcation](/datamodel/organizations.md#organization_classification)
+ * [Organization Membership](/datamodel/organizations.md#organization_membership)
+ * [Membership: Date first cited](/datamodel/organizations.md#organization_membership_date_first_cited)
+ * [Membership: Start date?](/datamodel/organizations.md#organization_membership_is_start)
+ * [Membership: Date of last citation](/datamodel/organizations.md#organization_membership_date_last_cited)
+ * [Membership: Open-ended?](/datamodel/organizations.md#organization_membership_open_ended)
+
 ## Parent Units {#anatomy_unit_record_parents}
 
 ![Image showing a table of parent units for an organization on WhoWasInCommand.com](/assets/org_record_anatomy_parents.png)

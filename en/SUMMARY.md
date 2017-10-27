@@ -111,6 +111,7 @@
  * [Areas of Operation](/whowasincommand/unitrec.md#anatomy_unit_record_area_of_operation)
  * [Sites](/whowasincommand/unitrec.md#anatomy_unit_record_sites)
  * [Memberships](/whowasincommand/unitrec.md#anatomy_unit_record_memberships)
+ * [Member Units](/whowasincommand/unitrec.md#anatomy_unit_record_member_units)
  * [Parent Units](/whowasincommand/unitrec.md#anatomy_unit_record_parents)
  * [Subsidiaries](/whowasincommand/unitrec.md#anatomy_unit_record_subsidiaries)
  * [Personnel](/whowasincommand/unitrec.md#anatomy_unit_record_personnel)
