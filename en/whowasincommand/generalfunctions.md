@@ -28,6 +28,22 @@ Use a combination of search terms and different filters to see what sets of resu
 
 You can also use our "Countries" page as a jump-off point. It has direct links to all the units, person and incidents for a partiucular country, along with some "collections" we have added.
 
+## Where can I find help understanding what I'm seeing or how this website works?
+
+On WhoWasInCommand you will see lots of little question marks. Click on them to be taken to a page describing what the data means, or how a particular feature of the website works.
+
+![](/assets/wwic_how_to_find_help.png)
+
+## Where can I find out more about the data on "units", "persons" and "incidents"?
+
+Visit the help pages for that specific type of record:
+
+ * For "units" visit [Unit records on WhoWasInCommand](/whowasincommand/unitrec.html)
+ * For "persons" visit [Person records on WhoWasInCommand](/whowasincommand/personrec.html)
+ * For "incidents" visit [Incident records on WhoWasInCommand](/whowasincommand/eventrec.html)
+
+If these do not answer your question, please write to us at technical@securityforcemonitor.org and we'll help out. 
+
 ## How can I see all the units for a particular country?
 
 The quickest way to do this is:
@@ -83,3 +99,11 @@ The little numbered circles indicate two things:
 If there is a dotted line under a date, this means that we think this is an exact start date or exact end date. This means that a source has been very specific about the date when, for example, a unit was created or started operating in an area. 
 
 If there is no dotted line under a date, this indicates that it is just the earlist reference we have for the creation of a unit, or the commencement of an operation.
+
+## The command chart is taking a looooong time to load. Is there a problem?
+
+Probably not, but if it keeps happening to you report it to us at technical@securityforcemonitor.org. 
+
+There can sometimes be a short delay between loading a page and the appearance of the Chain of Command or Parent Unit chart. When this is happening, we display a "spinner" to let you know. It looks like this:
+
+![](/assets/wwic_command_chart_spinner.png)
