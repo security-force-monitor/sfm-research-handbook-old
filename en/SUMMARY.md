@@ -100,7 +100,6 @@
  * [Event: Perpetrator organization](/datamodel/events.md#event_perpetrator_organization)
  * [Event: Perpetrator classification](/datamodel/events.md#event_perpetrator_classification)
  * [Event: Source](/datamodel/events.md#event_source)
- * [Event: Publication organization](/datamodel/events.md#event_publication_org)
 
 ### WhoWasInCommand User Guide 
 
