@@ -66,8 +66,6 @@ The Country Guide acts as a framework for researchers to understand the security
 
 Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. Data is published online on the Monitor’s innovative platform: [WhoWasInCommand.com](https://whowasincommand.com/).
 
-
-
 ## Connecting data points through time
 
 Answering the question “who was where when?” is central for investigations into allegations of human rights abuse\(s\). Because of this perhaps one of the most defining, and complicaticating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
@@ -95,11 +93,7 @@ Broadly speaking the Security Force Monitor uses agreement among sources to buil
 
 Example: the Monitor comes across Source A published on 1 July 2012 stating that the 1 Battalion is based in Lagos. If Source B published on 3 August 2012 also states that the 1 Battalion is based in Lagos we have a decision point about what claim we should make.
 
-
-
 Utilizing sources A and B we have two options which can be expressed in text:
-
-
 
 Separate claims: “As of 1 July 2012 the 1 Battalion was based in Lagos and as of 3 August 2012 the 1 Battalion was based in Lagos, the Monitor does not know where the battalion was based between those two points in time.”
 
@@ -107,27 +101,16 @@ Contiguity claim: “From at least 1 July 2012 to at least 3 August 2012 the 1 B
 
 Thus, whenever the Monitor gets a new source of information we have to decide whether to make a “separate” or “contiguity” claim. Based on the example of the 1 Battalion above the Monitor would run through a series of questions to determine which claim \(if any\) to make:
 
-
-
-In general, how do other battalions operate, are they sedentary, or highly mobile?
-
-How has the 1 Battalion acted in the past, has it been sedentary or highly mobile?
-
-Are there other sources disputing these claims \(i.e. 1 Battalion being based solely in another city\)?
-
-Are there any sources indicating the 1 Battalion was in Lagos in July and/or August as part of a “special”, “emergency” or otherwise temporary posting?
-
-Are there sources that indicate the 1 Battalion moved in between these two points of time and thus these should be treated as separate deployments to Lagos?
-
-Is there anything related to the 1 Battalion’s parent or child units that may impact where it was based?
-
-Are there any other mitigating sources \(i.e. major restructuring of the military, constitutional changes, etc.\) which may impact the basing of the unit?
-
-Is more research needed before the Monitor can make any claim?
+* In general, how do other battalions operate, are they sedentary, or highly mobile?
+* How has the 1 Battalion acted in the past, has it been sedentary or highly mobile?
+* Are there other sources disputing these claims \(i.e. 1 Battalion being based solely in another city\)?
+* Are there any sources indicating the 1 Battalion was in Lagos in July and/or August as part of a “special”, “emergency” or otherwise temporary posting?
+* Are there sources that indicate the 1 Battalion moved in between these two points of time and thus these should be treated as separate deployments to Lagos?
+* Is there anything related to the 1 Battalion’s parent or child units that may impact where it was based?
+* Are there any other mitigating sources \(i.e. major restructuring of the military, constitutional changes, etc.\) which may impact the basing of the unit?
+* Is more research needed before the Monitor can make any claim?
 
 An argument could be the Monitor should always make “separate claims” as that would be more faithful to the sources. However, the result likely mean an almost incomprehensible amount of detail in the records of people and units, which would obscure when changes really did occur, for instance when a person changed positions or a unit ends operations in an area.
 
 Perhaps the most important point is that it even though data points, like where a unit is based, can be continuous through time, it should never be assumed that those types of features remain consistent between two or more sources. Time is a constant challenge, but given that is a key element in identifying perpetrators of human rights abuses it is necessary to get it right.
-
-
 
