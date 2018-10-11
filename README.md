@@ -24,7 +24,7 @@ Security Force Monitor has partnered with [DataMade](https://datamade.us/) to cr
 
 The [Research Handbook source is hosted on Github](https://github.com/security-force-monitor/sfm-research-handbook), and published here as a Gitbook.
 
-When reading it, we are sure you will find things that can be improved - please let us know what needs to be done by [emailing us](mailto:info@securityforcemonitor.org), [submitting a pull request or filing a issue on Github](https://github.com/security-force-monitor/sfm-research-handbook/issues).
+When reading it, we are sure you will find things that can be improved - please let us know what needs to be done by [emailing us](mailto:info@securityforcemonitor.org), [submitting a pull request, or filing a issue on Github](https://github.com/security-force-monitor/sfm-research-handbook/issues).
 
 ## About Security Force Monitor {#about_sfm}
 
