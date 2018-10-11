@@ -50,7 +50,7 @@ This Country Guide is updated as new details on the security forces are discover
 
 Researchers use the initial keywords and sources to begin a “deep dive” into the security forces.
 
-Anything relating to the types of information the Monitor collects is entered into the Monitor’s database. The Data Model section of this Research Handbook gives detailed guidance to Monitor researchers about the types of data to take from sources and how it should be entered.
+Anything relating to the types of information the Monitor collects is entered into the Monitor’s database. The [Data Model section](/en/datamodel/README.md) of this Research Handbook gives detailed guidance to Monitor researchers about the types of data to take from sources and how it should be entered.
 
 Additionally, data from this research is used to update the Country Guide to provide greater granular detail on the security forces of a country or to update sections as needed. New sources and keywords discovered during research are added to the existing guide as well.
 
