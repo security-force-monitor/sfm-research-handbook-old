@@ -66,7 +66,7 @@ The Country Guide acts as a framework for researchers to understand the security
 
 Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. Data is published online on the Monitor’s innovative platform: [WhoWasInCommand.com](https://whowasincommand.com/).
 
-## Connecting data points through time
+## Timebound Data
 
 Answering the question “who was where when?” is central for investigations into allegations of human rights abuse\(s\). Because of this perhaps one of the most defining, and complicaticating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
 
@@ -83,21 +83,16 @@ While attaching time to data points aids our mission to support human rights inv
 * How the Monitor handles gaps in the public record
 * Questions analysts run through while reviewing time based information
 
-### Fragmentary nature of time in sources
-
-In an ideal world the Monitor would have a source from every day of the year stating where a unit was located or conducting operations. Barring that having multiple sources regularly making statements like “since X date this unit has been based in this city” would be tremendously helpful. Unfortunately, neither scenario currently occurs, or is likely to occur in the near future, making it necessary to develop a robust way of thinking through time.
+In an ideal world the Monitor would have a source from every day of the year stating where a unit was located or conducting operations. Barring that, having multiple sources regularly making statements like “since X date this unit has been based in this city” would be tremendously helpful. Unfortunately, neither scenario currently occurs, or is likely to occur in the near future, making it necessary to develop a robust way of thinking through time.
 
 Broadly speaking the Security Force Monitor uses agreement among sources to build up details on security force units and individuals. Most of the Monitor’s sources, like government press releases and newspaper articles, can be used to link a value, such as the location of a unit, to a specific date \(usually the date of publication\). As we collect more sources we need to determine what agreement among sources means for time based values, like the location of a unit.
 
-### Connecting through time or not
-
-Example: the Monitor comes across Source A published on 1 July 2012 stating that the 1 Battalion is based in Lagos. If Source B published on 3 August 2012 also states that the 1 Battalion is based in Lagos we have a decision point about what claim we should make.
+> Example: the Monitor comes across Source A published on 1 July 2012 stating that the 1 Battalion is based in Lagos. If Source B published on 3 August 2012 also states that the 1 Battalion is based in Lagos we have a decision point about what claim we should make.
 
 Utilizing sources A and B we have two options which can be expressed in text:
 
-Separate claims: “As of 1 July 2012 the 1 Battalion was based in Lagos and as of 3 August 2012 the 1 Battalion was based in Lagos, the Monitor does not know where the battalion was based between those two points in time.”
-
-Contiguity claim: “From at least 1 July 2012 to at least 3 August 2012 the 1 Battalion was based in Lagos.”
+1. Separate claims: “As of 1 July 2012 the 1 Battalion was based in Lagos and as of 3 August 2012 the 1 Battalion was based in Lagos, the Monitor does not know where the battalion was based between those two points in time.”
+2. Contiguity claim: “From at least 1 July 2012 to at least 3 August 2012 the 1 Battalion was based in Lagos.”
 
 Thus, whenever the Monitor gets a new source of information we have to decide whether to make a “separate” or “contiguity” claim. Based on the example of the 1 Battalion above the Monitor would run through a series of questions to determine which claim \(if any\) to make:
 
