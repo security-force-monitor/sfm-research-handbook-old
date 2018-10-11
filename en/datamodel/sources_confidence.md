@@ -39,5 +39,22 @@ All data points begin with a confidence score of `Low` until a confluence of sou
 
 ## Connecting data points through time
 
+Answering the question “who was where when?” is central for investigations into allegations of human rights abuse\(s\). Because of this perhaps one of the most defining, and complicaticating, features of the Security Force Monitor’s data is that almost everything we research is connected to time including:
+
+* Existence of units
+* Parent relationships between units
+* Location of units
+* Areas of operation for units
+* Membership/participation of units of in multi-unit operations
+* Positions held by people
+
+While attaching time to data points aids our mission to support human rights investigations and advocacy, it raises methodological challenges. The Security Force Monitor has developed a methodology to address the issue of time which this blog will lay out in detail including:
+
+Why the Monitor would \(or would not\) connect two bits of data through time
+
+How the Monitor handles gaps in the public record
+
+Questions analysts run through while reviewing time based information
+
 
 
