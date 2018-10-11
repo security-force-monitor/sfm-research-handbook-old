@@ -33,9 +33,7 @@ Examining the administrative geography of a country provides important context f
 
 ### Potential high value datasets {#method-phase-1-datasets}
 
-During this first phase, researchers also identify sources that could be turned into large, high value datasets for the Monitor. These are sources that contain a sufficiently large amount or complex type of data that technical help is necessary to extract it in a timely way; doing the work “by hand” is possible, but would be slow and error prone. These high value data extraction tasks use techniques such as web-scraping, scripted parsing and geospatial analysis. A good examples of this sort of opportunity is:
-
-* Over 10 years of Internet Archive snapshots of [various versions of the official Ejército Mexicano webpage](https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html) \(and child pages\), which outline the top level structures of the Mexican army and its commanding officers. 
+During this first phase, researchers also identify sources that could be turned into large, high value datasets for the Monitor. These are sources that contain a sufficiently large amount or complex type of data that technical help is necessary to extract it in a timely way; doing the work “by hand” is possible, but would be slow and error prone. These high value data extraction tasks use techniques such as web-scraping, scripted parsing and geospatial analysis. An example of these types of sources are the [Internet Archive snapshots the official webpage of the Mexican Army and Air Force](https://web.archive.org/web/20050908175401/http://www.sedena.gob.mx/ejercito/comandancias/index.html) \(and child pages\) going back more than a decade which outline the top level structures of the Mexican army and its commanding officers.
 
 ## Phase 2: Write a Country Guide {#method-phase-2}
 
