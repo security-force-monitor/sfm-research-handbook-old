@@ -4,10 +4,11 @@
 
 **INSERT DATE LAST UPDATED/VERSION \#**
 
-This Research Handbook contains information about the data and tools used by Security Force Monitor, a project of the Columbia Law School Human Rights Initiative. Currently, it has two main sections:
+This Research Handbook contains information about the data and tools used by [Security Force Monitor](https://securityforcemonitor.org/), a project of the [Columbia Law School Human Rights Institute](https://www.law.columbia.edu/human-rights-institute). Currently, it has three main sections:
 
 * [Methodology](/methodology/methodology.md): Security Force Monitor has a four phase approach to researching a country's security forces. This section outlines our process.
-* [Data Model](/datamodel/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use \(`persons`,`organizations` and `events`\) and details how each field is used. 
+* [Data Model](/datamodel/README.md): this section describes the way that Security Force Monitor structures the data it collects, outlines the main entities in use \(`persons`,`organizations` and `events`\) and details how each field is used.
+* WhoWasInCommand.com User Guide: The data created by Security Force Monitor is published online on WhoWasInCommand.com  
 
 The Research Handbook is a work-in-progress, and is updated during the course of the work of Security Force Monitor.
 
