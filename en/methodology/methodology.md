@@ -38,11 +38,13 @@ During this first phase, researchers also identify sources that could be turned 
 ## Phase 2: Write a Country Guide {#method-phase-2}
 
 The sources gathered during our scoping phase are used to write a Country Guide to assist with further research.  
-The Guide begins as a general overview of the structures of security services of a country. It gives researchers a general framework to help organize and prioritise research, by giving an estimate of the scale of the work: number of installations, organizations, persons that need to be researchers in detail.
+The Guide begins as a general overview of the structures of security services of a country. It gives researchers a general framework to help organize and prioritize research, by giving an estimate of the scale of the work: number of installations, organizations, persons that need to be researchers in detail.
 
-For example, from our scoping research on Nigeria we know that by law every state and the federal territory has a Police Command which means since 1996 \(when the last states were created\) there are 37 Police Commands. Statistics from the Nigeria Police Force show that between 2007 and 2012 most Police Commands were in charge of 2 to 3 Police Area Commands \(though some heavily populated states have more, with Lagos having the most at 8\). Further these statistics show that on average each state and the federal capital territory had 30 Police Divisions, which by law are generally under the command of a Police Area Command.
+> For example, the Monitor's scoping research on Nigeria revealed that by law every state and the federal territory has a Police Command. By extension this means since 1996 \(when the last states of Nigeria were created\) there have been 37 Police Commands. Statistics from the Nigeria Police Force show that between 2007 and 2012 most Police Commands were in charge of 2 to 3 Police Area Commands \(though some heavily populated states have more, with Lagos having the most at 8\). These statistics also show that on average each state and the federal capital territory had 30 Police Divisions, which by law are generally under the command of a Police Area Command. Thus, from a few initial sources a Monitor researcher can have a general sense of the structure of the police and a useful metric to compare the Monitor’s dataset against.
 
 Further, a list of keywords and sources is created for researchers as well - these serve as leads for researchers to follow.
+
+This Country Guide is updated as new details on the security forces are discovered through the course of the Monitor's work.
 
 ## Phase 3: Conduct detailed research {#method-phase-3}
 
