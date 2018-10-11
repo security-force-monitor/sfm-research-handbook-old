@@ -1,14 +1,14 @@
 # Organizations
 
-Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any part of the hierarchy of a security force, ranging from a national defense ministry to a police post in a small town. We use the term "Unit" interchangeably with "Organization". Organizations can also be groupings of organizations, including joint operations, task forces or peacekeeping missions.Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any part of the hierarchy of a security force, ranging from a national defense ministry to a police post in a small town. We use the term "Unit" interchangeably with "Organization". Organizations can also be groupings of organizations, including joint operations, task forces or peacekeeping missions.
+Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other security forces, as well as those civilian institutions linked to security forces through the chain of command or other linkages. Organizations refer to any part of the hierarchy of a security force, ranging from a national defense ministry to a police post in a small town. We use the term "Unit" interchangeably with "Organization". Organizations can also be groupings of organizations, including joint operations, task forces or peacekeeping missions.Organizations are official state or state-sanctioned organizations responsible for the internal or external security for a country, including police, army, navy, air force and other national security bodies. Organizations refer to any part of the hierarchy of a security force, ranging from a national defense ministry to a police post in a small town. We use the term "Unit" interchangeably with "Organization". Organizations can also be groupings of organizations, including joint operations, task forces or peacekeeping missions.
 
 Documented in this chapter are a range of different pieces of data about organizations, including:
 
 * their existence and identity;
-* their place in the structure of a security force;
-* locations of physical infrastructure like post, bases and camps;
+* their position in the hierarchy of a security force;
+* locations of physical infrastructure like posts, bases and camps;
 * their areas of operations; and,
-* joint operations or missions they have been a member of.
+* memberships in joint operations or international peacekeeping missions.
 
 ## Summary of organization fields
 
@@ -18,7 +18,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Organization: Name](#organization_name) | Name of the organization | `3 Armoured Division` |
 | [Organization: Aliases](#organization_aliases) | Other names for an organization, including aliases, alternative spellings and abbreviations | `3 Div , 3 Division , Three Division , 3rd Army Division` |
 | [Organization: Country](#organization_country) | The country in which an organization originates | `mx , ng , mm` |
-| [Organization: Classification](#organization_classification) | General branch or tier of security force that an organization a part of | `Army`,`Police , Military , Joint Task Force` |
+| [Organization: Classification](#organization_classification) | General branch of the security services that the organization a part of or general descriptor for the organization | `Army`,`Police , Military , Joint Task Force` |
 | [Organization: Date first cited](#organization_date_first_cited) | The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Organization: Start date?](#organization_date_first_cited_is_start) | Is the value in `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization? | `Y`, `N` |
 | [Organization: Date last cited](#organization_date_last_cited) | The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
