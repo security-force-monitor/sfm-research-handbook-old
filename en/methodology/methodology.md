@@ -6,7 +6,7 @@ Security Force Monitor follows a four phase process when researching the securit
 
 ### General sources {#method-phase-1-general}
 
-Security Force Monitor collects data about the persons and organizations that comprise security forces, along with allegations of human rights abuses committed by security forces. This data is carefully collected from a variety of sources,  generally online. These include:
+Security Force Monitor collects data about the persons and organizations that comprise security forces, along with allegations of human rights abuses made against security forces. This data is carefully collected from a variety of sources, generally online. These include:
 
 * Laws of the country;
 * Official government media;
@@ -16,8 +16,8 @@ Security Force Monitor collects data about the persons and organizations that co
 * Statistics and data agencies;
 * Local government websites;
 * Human rights commissions;
-* United States Government reporting;
-* United Nations reporting;
+* Third country government publications and other documents;
+* United Nations publications and other documents;
 * Local news reportage;
 * Civil society and human rights reporting;
 * Academic research; and,
@@ -27,7 +27,7 @@ The Monitor also identifies non-digital resources such as monographs, scholarly 
 
 ### State administrative structures and geography {#method-phase-2-admin}
 
-Additionally, Monitor researchers familiarize themselves with the country’s governance and administrative structures, gaining understanding about the levels of government \(for example: local, regional, state, national\) and their connection to different security forces. In examining this we also flag where there might be major changes in the structure of government, such as those that may accompany a constitutional referendum or a peace process. These affect how the Monitor will represent data on security forces over time.
+Security Force Monitor researchers familiarize themselves with the country’s governance and administrative structures, gaining understanding about the levels of government \(for example: local, regional, state, national\) and their connection to different security forces. In examining this we also flag where there might be major changes in the structure of government, such as those that may accompany a constitutional referendum or a peace process. These affect how the Monitor will represent data on security forces over time.
 
 Examining the administrative geography of a country provides important context for the structure and operations of the security forces. This part of the scoping process also gives us insight into how much of a country’s administrative geography is represented in online gazetteers \(like [OpenStreetMap](https://nominatim.openstreetmap.org/) or [GeoNames](https://www.geonames.org)\) that the Monitor uses in its analysis.
 
