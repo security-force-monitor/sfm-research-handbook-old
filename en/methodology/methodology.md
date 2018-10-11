@@ -54,15 +54,15 @@ Anything relating to the types of information the Monitor collects is entered in
 
 Additionally, data from this research is used to update the Country Guide to provide greater granular detail on the security forces of a country or to update sections as needed. New sources and keywords discovered during research are added to the existing guide as well.
 
-As the Monitor builds its database on the security forces of a country, new information is cross-referenced to corroborate data, discover gaps, or identify mistakes. There are three key questions Monitor researchers ask themselves as they work:
+As the Monitor builds its database on the security forces of a country, new information is cross-referenced to further evidence data, discover gaps, or identify mistakes. There are three key questions Monitor researchers ask themselves whenever they review information in a source:
 
-* "Does this make sense given our consensus knowledge?"
-* "Is it possible this source is correct and our consensus knowledge is wrong?"
+* "Does this make sense given what is detailed about the security forces from other sources?"
+* "Is it possible this source is correct and our other sources are incorrect?"
 * "Do I have enough information to accept or reject what this source says?"
 
-The Country Guide acts as a framework for researchers to understand the security forces and to help a researcher answer these questions. Data entered into the Monitor’s databases are progressively updated as new information is found. Throughout, researchers take a number of quality assurance steps to validate the data against the standards set out in the Data Model section.
+The Country Guide acts as a framework for researchers to understand the security forces and to help a researcher answer these questions. Data entered into the Monitor’s databases are progressively updated as new information is found. Throughout, researchers take a number of quality assurance steps to validate the data against the standards set out in the [Data Model section](/en/datamodel/README.md).
 
 ## Phase 4: Publish data {#method-phase-4}
 
-Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. In April 2017, the Monitor released in draft for comment and feedback datasets on Mexico and Nigeria. The data was published on a prototype data visualization platform. Based on user feedback, Security Force Monitor released [WhoWasInCommand.com](https://whowasincommand.com),  a substantially updated version of is web plaform.
+Researchers will publish data online when confident that the main branches and overall structure of a country’s security forces are adequately covered. Data is published online on the Monitor’s innovative platform: [WhoWasInCommand.com](https://whowasincommand.com/).
 
