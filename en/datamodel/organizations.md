@@ -17,7 +17,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Organization: ID](#organization_id) | A unique code assigned to each organization in the dataset | `a407be6a-28e6-4237-b4e9-307f27b1202e` |
 | [Organization: Name](#organization_name) | Name of the organization | `3 Armoured Division` |
 | [Organization: Aliases](#organization_aliases) | Other names for an organization, including aliases, alternative spellings and abbreviations | `3 Div , 3 Division , Three Division , 3rd Army Division` |
-| [Organization: Country](#organization_country) | The country in which an organization originates | `mx , ng , mm` |
+| [Organization: Country](#organization_country) | ISO 3166 code for the country in which an organization originates | `mx , ng , mm` |
 | [Organization: Classification](#organization_classification) | General branch of the security services that the organization a part of or general descriptor for the organization | `Army`,`Police , Military , Joint Task Force` |
 | [Organization: Date first cited](#organization_date_first_cited) | The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Organization: Start date?](#organization_date_first_cited_is_start) | Is the value in `Organization: Date first cited` the actual date on which an organization was founded \(Y\), or the earliest date a source has referred to an organization \(N\)? | `Y`, `N` |
@@ -36,8 +36,8 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Site: Settlement \(OSM ID\)](#organization_site_settlement_id) | The OSM node ID number of the city, town or village in which an organization site is based | `273584290`,`286989920`,`769127625` |
 | [Site: Top Administrative Area \(OSM Name\)](#organization_site_top_admin_name) | The OSM name of the largest, generally used administrative area of a country \(usually admin level 4\) | Borno , Rivers , Baja California |
 | [Site: Top Administrative Area \(OSM ID number\)](#organization_site_top_admin_id) | The OSM ID of the largest, generally used administrative area of a country \(usually admin level 4\) | 165475, 2589601 |
-| [Site: Country](#organization_site_country) | ISO Code for the country in which the organization's site is located | `mx`, `ug`, `ng` |
-| [Site: Date of first citation](#organization_site_date_first_cited) | This field is for the earliest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
+| [Site: Country](#organization_site_country) | ISO 3166 code for the country in which the organization's site is located | `mx`, `ug`, `ng` |
+| [Site: Date of first citation](#organization_site_date_first_cited) | The earliest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Site: Founding date?](#organization_site_date_first_cited_founding) | Is the value in Site: Date first cited the actual date on which an organization site was founded, or the earliest date a source has referred to an organization site? | `Y`, `N` |
 | [Site: Date last cited](#organization_site_date_last_cited) | This field is for the latest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Site: open-ended?](#organization_site_date_last_cited_open_ended) | Indicates whether the value in Site: Date last cited is the actual date on which an organization site was disbanded, the latest date a source has referred to an organization site, and whether can we assume this organization site continues to exist | `Y`, `N`, `E` |
