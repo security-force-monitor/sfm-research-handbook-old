@@ -37,5 +37,7 @@ Confidence scores are determined first by agreement amongst sources about the ov
 
 All data points begin with a confidence score of `Low` until a confluence of sources merit the designation of `Medium`. The gap between upgrading the confidence score of a data point from `Low` to `Medium` is smaller than  when moving from `Medium to High`.
 
-The confidence scores assigned to each data point are also influenced by the number of sources that agree on that data point and the time frame of those sources. For example, if fifty sources agree that in 2012 the `1 Battalion`  was based in Lagos, Nigeria, we would have High confidence that `1 Battalion`  was based in Lagos in 2012. However, if we had one additional source that said the `1 Battalion` was based in Lagos in 2008, the Monitor would adjust its claim to say  the `1 Battalion`  was based in Lagos from at least 2008 to at least 2012. The confidence score would be downgraded to `Low`, since only one source places the `1 Battalion`  in Lagos in 2008 and the Monitor lacks sources on the battalion's location between 2009 and 2011.
+## Connecting data points through time
+
+
 
