@@ -15,7 +15,7 @@
  * [Conduct detailed research](/methodology/methodology.md#method-phase-3)
  * [Publish data](/methodology/methodology.md#method-phase-4)
  * [Timebound data](/methodology/methodology.md#timebound-data)
- * [Unknown](/methodology/methodology.md#unknown)
+ * [Organizations Unknown vs. Unnamed](/methodology/methodology.md#organizations-unknown-vs-unnamed)
 
 ### Data model
 
