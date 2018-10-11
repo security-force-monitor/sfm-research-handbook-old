@@ -14,6 +14,7 @@
  * [Write a Country Guide](/methodology/methodology.md#method-phase-2)
  * [Conduct detailed research](/methodology/methodology.md#method-phase-3)
  * [Publish data](/methodology/methodology.md#method-phase-4)
+ * [Timebound-data](/methodology/methodology.md#timebound-data)
 
 ### Data model
 
