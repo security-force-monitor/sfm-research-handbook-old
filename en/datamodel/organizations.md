@@ -18,7 +18,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Organization: Name](#organization_name) | Name of the organization | `3 Armoured Division` |
 | [Organization: Aliases](#organization_aliases) | Other names for an organization, including aliases, alternative spellings and abbreviations | `3 Div , 3 Division , Three Division , 3rd Army Division` |
 | [Organization: Country](#organization_country) | ISO 3166 code for the country in which an organization originates | `mx , ng , mm` |
-| [Organization: Classification](#organization_classification) | General branch of the security services that the organization a part of or general descriptor for the organization | `Army`,`Police , Military , Joint Task Force` |
+| [Organization: Classification](#organization_classification) | Branch of the security services that the organization a part of or general descriptor for the organization | `Army`,`Police , Military , Joint Task Force` |
 | [Organization: Date first cited](#organization_date_first_cited) | The earliest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Organization: Start date?](#organization_date_first_cited_is_start) | Is the value in `Organization: Date first cited` the actual date on which an organization was founded \(Y\), or the earliest date a source has referred to an organization \(N\)? | `Y`, `N` |
 | [Organization: Date last cited](#organization_date_last_cited) | The most recent date for sourcing the organization's existence, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
