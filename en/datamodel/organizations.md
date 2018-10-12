@@ -157,7 +157,7 @@ The `Organization: Country` field identifies the country this organization comes
 
 ### Description
 
-General branch or tier of security force that an organization is a part of.
+Branch of the security services that the organization a part of or general descriptor for the organization.
 
 ### Type of field
 
