@@ -212,7 +212,7 @@ This field is clarified by the field `Organization: Start date?` which indicates
 
 ### Description
 
-Is the value in `Organization: Date first cited` the actual date on which an organization was founded, or the earliest date a source has referred to an organization?
+Is the value in `Organization: Date first cited` the actual date on which an organization was founded \(Y\), or the earliest date a source has referred to an organization \(N\)? 
 
 ### Type of field
 
@@ -230,7 +230,7 @@ This is a clarifying field for `Organization: Date first cited`. Where a source 
 
 ### Description
 
-The latest date that a source shows an organization exists, either through direct reference in the source or by the date of its publication.
+The most recent date for sourcing the organization's existence, either through direct reference in the source or by the date of its publication.
 
 ### Type of field
 
@@ -242,7 +242,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Organization: Date first cited`, `Organization: Start date? `and `Organization: Open-ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
+Along with the fields `Organization: Date first cited`, `Organization: Start date?`and `Organization: Open-ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
 
 The `Organization: Date last cited` field contains a date that is either:
 
