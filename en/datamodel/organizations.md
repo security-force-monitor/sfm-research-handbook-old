@@ -289,17 +289,17 @@ Text and numbers
 
 ### Example of use
 
-`1 Región Naval`
+`301 Artillery Regiment`
 
 ### Guidance on use
 
-`Organization: Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. As a rule of thumb, generally parent organizations control the units that operate in the parent’s Area of Operations \(but not always\).
+`Organization: Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. Over time, an organization may have different parents. 
 
-> For example, in Mexico `8 Zona Militar` is a parent of `19 Regimiento de Caballería Motorizada` between 15 May 1999 and 20 November 2006.
+> Example: In Nigeria the `112 Task Force Battalion` had the parent of  a parent of `7 Division Garrison` between 12 November 2015 and  24 March 2016. The `112 Task Force Battalion` was then under the `22 Task Force Brigade` from 14 March 2017 to 26 October 2017.
 
-Over time, an organization may have different parents. Organizations can have multiple parent relationships at the same time. For example, sources could indicate an organization has a formal legal parent unit while at the same time a new security body established by decree can also directly order the organization to carry out operations, establishing a second parent relationship.
+Organizations can also have multiple parent relationships at the same time. For example, sources could indicate an organization has a formal legal parent unit while at the same time a new security body established by decree can also directly order the organization to carry out operations, establishing a second parent relationship.
 
-In our data model `Organization: Parent` relationships are different from `Organization: Membership`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather, personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. Rather, they are “on the same level” as it. We outline these types of relationships using the field `Organization: Membership`, which is documented below.
+In our data model `Organization: Parent` relationships are different from `Organization: Membership`. Often when there is an "operation" or "joint task force", it may not have have personnel of its own. Rather, personnel from a range of different organizations are assigned to it. Generally, these types of arrangements don’t put the operation “above” the unit in the organizational chart. We outline these types of relationships using the field `Organization: Membership`, which is documented below.
 
 ## Parent relationship: Classification {#organization_parent_classification}
 
@@ -313,7 +313,7 @@ Controlled vocabulary, single choice
 
 ### Example of use
 
-`Command`
+`Command, Administrative, Informal`
 
 ### Guidance on use
 
