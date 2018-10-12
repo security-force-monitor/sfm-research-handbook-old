@@ -339,18 +339,18 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-Along with the fields the fields `Parent relationship: Start date?`, `Parent relationship: Sate last cited` and `Parent relationship: Open-ended?` the field `Parent organization: Date first cited` provides data on the time period we can say one organization is the parent of another .
+Along with the fields `Parent relationship: Start date?`, `Parent relationship: Sate last cited` and `Parent relationship: Open-ended?` the field `Parent organization: Date first cited` provides data on the time period we can say one organization is the parent of another .
 
 The `Parent organization: Date first cited` field contains a date that is either:
 
 * The earliest date found in a source that specifically references a parent relationship; or,
 * The earliest date of publication of sources that make reference to a parent relationship.
 
-> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will enter 1 January 2012 in`Parent relationship: date first cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the `Parent relationship: date first cited`.
+> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will enter 1 January 2012 in `Parent relationship: date first cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 30 June 2011, we will use 30 June 2011 as the `Parent relationship: date first cited`.
 
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship: Date first cited` .
 
@@ -360,7 +360,7 @@ This field is clarified by the field `Parent relationship: Start date?` which in
 
 ### Description
 
-Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship?
+Is the value in `Parent relationship: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relationship?
 
 ### Type of field
 
@@ -368,11 +368,11 @@ Boolean \(Yes, No\)
 
 ### Example of use
 
-`Y`,`N`
+`Y`, `N`
 
 ### Guidance on use
 
-This is a clarifying field for `Parent relationship: Date first cited`. Where a source references the parent relationship and specifies the date that the relationship was created we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
+This is a clarifying field for `Parent relationship: Date first cited`. Where a source references the parent relationship and specifies the date that the relationship began we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
 ## Parent organization: date last cited {#organization_parent_date_last_cited}
 
@@ -386,11 +386,11 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-Along with the fields the fields `Parent relationship: Date first cited`, `Parent relationship: Start date?` and `Parent relationship: Open-ended?` the field `Parent organization: Date last cited` provides data on the time period we can evidence that one organization is the parent of another.
+Along with the fields `Parent relationship: Date first cited`, `Parent relationship: Start date?` and `Parent relationship: Open-ended?` the field `Parent organization: Date last cited` provides data on the time period we can evidence that one organization is the parent of another.
 
 The `Parent organization: Date last cited` field contains a date that is either:
 
