@@ -191,11 +191,11 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-Along with the fields`Organization: Start date?`, `Organization: Date last cited` and `Organization: Open-ended?` the field `Organization: Date first cited` provides data about the time period we can evidence an organization has existed.
+Along with the fields `Organization: Start date?`, `Organization: Date last cited` and `Organization: Open-ended?` the field `Organization: Date first cited` provides data about the time period we can evidence an organization has existed.
 
 The `Organization: Date first cited` field contains a date that is either:
 
@@ -220,7 +220,7 @@ Boolean
 
 ### Example of use
 
-`Y`,`N`
+`Y`, `N`
 
 ### Guidance on use
 
@@ -234,15 +234,15 @@ The latest date that a source shows an organization exists, either through direc
 
 ### Type of field
 
-Date \(YYYY-MM-DD\), fuzy
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2013`,`2013-12`, `2013-12-28`
+`2013`, `2013-12`, `2013-12-28`
 
 ### Guidance on use
 
-Along with the fields `Organization: Date first cited`, `Organization: Start date?`and `Organization: Open-ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
+Along with the fields `Organization: Date first cited`, `Organization: Start date? `and `Organization: Open-ended?` the field `Date last cited` provides data on the time period we can say an organization has existed.
 
 The `Organization: Date last cited` field contains a date that is either:
 
@@ -267,7 +267,7 @@ Single choice
 
 ### Example of use
 
-`Y`,`N`,`E`
+`Y`, `N`, `E`
 
 ### Guidance on use
 
