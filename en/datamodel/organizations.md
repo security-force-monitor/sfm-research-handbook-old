@@ -52,7 +52,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Membership: Date first cited](#organization_membership_date_first_cited) | Earliest citation for the location of a membership, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Membership: Start date?](#organization_membership_is_start) | Is the value in Membership: Date first cited the actual date on which a membership was started \(Y\), or the earliest date a source has referred to an organization Membership \(N\)? | `Y`, `N` |
 | [Membership: Date of last citation](#organization_membership_date_last_cited) | This field is for the latest citation of a membership, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
-| [Membership: End date?](#organization_membership_open_ended) | Is the value in `Membership: Date last cited `the actual date on which the membership ended \(Y\), or the latest date a source has referred to an organizational Membership \(N\)?` ` | `Y`, `N` |
+| [Membership: End date?](#organization_membership_open_ended) | Is the value in `Membership: Date last cited`the actual date on which the membership ended \(Y\), or the latest date a source has referred to an organizational Membership \(N\)?` ` | `Y`, `N` |
 | [Notes](#organization_notes) | Analysis, commentary and notes about the organization that do not fit into the data structure | `In March 1990 the previous Central Regional Military Command based in Taungoo was renamed Southern Regional Military Command, the previous Northwestern Regional Military Command based in Mandalay was renamed as the Central Regional Military Command and a new Northwestern Regional Military Command was created in Monywa` |
 
 ## Organization: ID {#organization_id}
@@ -89,23 +89,27 @@ Text and numbers
 
 ### Guidance on use
 
-Different sources will spell an organization's name in different ways, so we choose one of those names to be a canonical version. Wherever possible, we will choose the most complete and complex version of an organization’s name that can be evidenced by a source:
+As different sources will spell an organization's name in different ways the Security Force Monitor works to create a single  canonical version of an organization's name based on sources and standardized to match the overall structure of and reporting about the security forces:
 
-> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division`  \(which may have more citations\).
-
-In addition to choosing the most complete and complex version of a organization's name, we also attempt to standardize names based on the overall structure of and reporting about the security forces:
-
-> Example:`Police Divisions` are a class of police units in Nigeria. There are over 1000 units of this type nationwide. However, each individual `Police Division` may not have a citation for their formal name such as Lagos Police Division, but only have a citation \(or numerous citations\) for the less formal `Lagos Division`. The Monitor would list the name of the unit as `Lagos Police Division` with a note about the methodology behind that choice. The less formal `Lagos Division` name would be entered in the `Aliases or alternative spellings` field.
+> Example: `Police Divisions` are a class of police units in Nigeria. There are over 1000 units of this type nationwide. However, each individual `Police Division` may not have a citation for their formal name such as Lagos Police Division, but only have a citation \(or numerous citations\) for the less formal `Lagos Division`. The Monitor would list the name of the unit as `Lagos Police Division` with a note about the methodology behind that choice. The less formal `Lagos Division` name would be entered in the `Aliases or alternative spellings` field.
 >
 > Example: Army units of a country may follow a naming convention of a number and then name of unit: e.g. `3 Battalion` or `25 Brigade`. There may be a unit of which we only have citations for a variation on that: e.g. `Fourth Battalion`. In this case, the Monitor would list the name of the unit as `4 Battalion` with a note about the methodology behind that choice. The `Fourth Battalion` name variant would be entered in the `Aliases or alternative spellings` field
 
-The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Enter the name with the ordinal indicator in the `Organization: Aliases` field \(see below\).
+Additionally, wherever possible, we will choose the most complete and complex version of an organization’s name that can be evidenced by a source:
+
+> Example: `3 Armoured Division` would be the entry, rather than the more informal `3 Division`  \(which may have more citations\).
+
+The Monitor does not use ordinal indicators like `1st` or `3rd` in the name of an Organization. Instead these will be listed in the  `Organization: Aliases` field \(see below\).
 
 The Monitor uses the name in the official \(local\) language of the country where appropriate and/or possible.
 
 > Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\).
 
-Where warranted by sources the Monitor will use Roman numerals like `V` or `XI` rather than commonly used numbers like `5` or `11` respectively.
+In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the  `Organization: Name `field. Where warranted by sources the Monitor will use Roman numerals like `V` or `XI` instead of `5` or `11` respectively.
+
+In cases where multiple organizations have the same name the Monitor will distinguish them by adding unique identifying text based on the organization's site or parent.
+
+> Example: There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance `Central Police Station (Awka, Anambra State). `In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: `Central Regional Military Command (post 199)`.
 
 ## Organization: Aliases {#organization_aliases}
 
