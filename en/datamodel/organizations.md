@@ -293,7 +293,7 @@ Text and numbers
 
 ### Guidance on use
 
-`Organization: Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. Over time, an organization may have different parents. 
+`Organization: Parent` describes a hierarchical, time-bound relationship between two organizations that are part of the same branch of a security force. The parent is “above” or distinct and separate from the organization in some way. Over time, an organization may have different parents.
 
 > Example: In Nigeria the `112 Task Force Battalion` had the parent of  a parent of `7 Division Garrison` between 12 November 2015 and  24 March 2016. The `112 Task Force Battalion` was then under the `22 Task Force Brigade` from 14 March 2017 to 26 October 2017.
 
@@ -325,7 +325,7 @@ Organizations have a `Command` relationship when the parent organization can ord
 
 `Administrative` relationships exist where a formal, non-command relationship exists between organizations, or where an administrative description is more accurate of the relationship between two organizations.
 
-> For example: the Minister of Defence in Nigeria is by law in charge providing administrative support to the Nigerian Army, establishing a relationship we could classify as `administrative`. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Headquarters, but describing this relationship as `administrative` is more helpful because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+> Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as `Administrative`. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Headquarters, but describing this relationship as `Administrative` is more helpful because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
 ## Parent relationship: Date first cited {#organization_parent_date_first_cited}
 
