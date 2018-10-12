@@ -169,7 +169,7 @@ Text and numbers
 
 ### Guidance on use
 
-We use classifications to describe the basic nature of a specific organization: is it a police unit? Is it a military unit? Is it part of a joint operation? `Organization: Classification` values are useful supplements to `Organization: Parent` and `Organization: Membership` data we use to connect different units together.
+We use classifications to describe the basic nature of a specific organization and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between organizations, persons and incidents. `Organization: Classification` values are useful supplements to `Organization: Parent` and `Organization: Membership` data we use to connect different units together.
 
 The `Organization: Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches.
 
