@@ -212,7 +212,7 @@ This field is clarified by the field `Organization: Start date?` which indicates
 
 ### Description
 
-Is the value in `Organization: Date first cited` the actual date on which an organization was founded \(Y\), or the earliest date a source has referred to an organization \(N\)? 
+Is the value in `Organization: Date first cited` the actual date on which an organization was founded \(Y\), or the earliest date a source has referred to an organization \(N\)?
 
 ### Type of field
 
@@ -259,7 +259,7 @@ This field is clarified by `Organization: Open-ended?`, which indicates whether 
 
 ### Description
 
-Is the value in `Organization: Date last cited` the actual date on which an organization was disbanded, the latest date a source has referred to an organization, and can we assume this organization will continue to exist?
+Is the value in `Organization: Date last cited` the actual date on which an organization was disbanded \(E\), or can we assume this organization continues to exist after this date to the present \(Y\), or should it not be assumed that the organization continues to exist after `Organization: Date last cited` because of poor sourcing or disbandment at an unclear point in time \(N\)?
 
 ### Type of field
 
