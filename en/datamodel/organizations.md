@@ -397,9 +397,13 @@ The `Parent organization: Date last cited` field contains a date that is either:
 * The latest date found in a source that specifically references a parent relationship; or,
 * The latest date of publication of sources that make reference to a parent relationship.
 
-> For example, if three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all say that 3 Armoured Division became the parent of 1 Motorized Brigade, we will enter 1 March 2012 in `Parent relationship: Date last cited`. If the source published on 1 March 2012 says that 3 Armoured Division became the parent of 1 Motorized Brigade on 15 February 2012, we will use 15 February 2012 as the `Parent relationship: Date last cited`.
+> Example: Three sources published on 1 January 2012, 1 February 2012 and 1 March 2012 all state that the 1 Motorized Brigade is under the 3 Armoured Division \(which evidences a parent relationship\), we will enter 1 March 2012 in `Parent relationship: Date last cited`. 
+>
+> Example: A source published on 23 July 2017 describes actions undertaken by the 1 Motorized Brigade is under the 3 Armoured Division during riots in 2009, and another source published on 8 June 2008 states that the 1 Motorized Brigade is under the 3 Armoured Division, we would enter 2009 in`Parent relationship: Date last cited`.
 
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included `Parent relationship: Date last cited` .
+
+> Example: A source published on 23 July 2017 describes actions undertaken by the 1 Motorized Brigade is under the 3 Armoured Division during riots in 2009, and another source published on 8 June 2008 states that the 1 Motorized Brigade is under the 3 Armoured Division, we would enter 2009 in`Parent relationship: Date last cited`.
 
 This field is clarified by the field `Parent relationship: Open-ended?` which indicates whether the date included here is the actual date on which an organization stopped being the parent of another.
 
@@ -415,7 +419,7 @@ Single choice \(Y, N, E\)
 
 ### Example of use
 
-`Y`,`N`,`E`
+`Y`, `N`, `E`
 
 ### Guidance on use
 
