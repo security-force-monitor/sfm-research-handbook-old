@@ -173,13 +173,11 @@ We use classifications to describe the basic nature of a specific organization a
 
 The `Organization: Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the `Organization: Classification` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible.
 
-> For example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Organization: Classification` field.
+> Example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Organization: Classification` field.
 
-When applying a classification to an organization, we try to be as specific as the source allows.
+Organizations may have more than one classification, usually this will be when an organization can have "generic" and "specific" classifications.
 
-> For example: In Mexico \(which has federal level, state level and municipal level police forces, all independent of one another\) a municipal police force in Mexico is given two classifications: `Municipal Police ; Police`. A state police unit is given two classifications: `State Police ; Police`. So when human rights reporting is specific in saying municipal police officers committed an abuse nearby where this unit is located, we tag it. When there is more vague reporting of just “police” committing abuses both units that have a Police classification and are located near where the abuse occurred are tagged.
-
-
+> Example: Organizations which are part of the army of a country may be coded as having a classification of `Army` as well as a classification of `Military`, whereas organizations which are part of the navy of a country would have classifications of of `Navy` and `Military`. For both the army and navy unit their respective classifications are correct, the army and the navy are part of the military. Critically, this enables the Monitor or users of the Monitor's data to properly analyze allegations against "soldiers" and "members of the army" in the country. In the case of "soldiers" this analysis should include every unit with the classification of `Military` while if there is greater specificity of "members of the army" would mean excluding any organization with the classification of `Navy` and focusing only on those organizations with a classification of `Army.`
 
 ## Organization: Date first cited {#organization_date_first_cited}
 
