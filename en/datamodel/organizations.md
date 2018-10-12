@@ -317,11 +317,11 @@ Controlled vocabulary, single choice
 
 ### Guidance on use
 
-Organizations have a `Command` relationship when the parent organization can order the organization to perform some operational activity.
+Organizations have a `Command` relationship when the parent organization can order the organization to perform some operational activity. These cover both _de jure_ and _de facto_ relationships between organizations.
 
-`Informal` relationships occur where no legal or formal relationship exists, but there is a relationship where parent organization could exert some form of influence on the organization.
+`Informal` relationships occur when there is a relationship outside of the legal or formal structure of security forces and where the exact nature of the relationship is unclear.
 
-> Example: Lagos state in Nigeria has a security council. This is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own organization. By law a governor of a state is not in the chain of command for the military or police forces, but the security council membership establishes a relationship between the organizations and meetings often result in new approaches to security being taken, such as different deployments of police. In this case, we could make the determination that an informal relationship exists between the security council and the police and military organizations.
+> Example: Lagos state in Nigeria has a security council which is a meeting of the governor, and the top commanders of police and military units in the state. The security council should be considered its own organization. By law a governor of a state is not in the chain of command for the military or police forces, but the security council membership establishes a relationship between the organizations and meetings often result in new approaches to security being taken, such as different deployments of police. In this case, we could make the determination that an informal relationship exists between the security council and the police and military organizations.
 
 `Administrative` relationships exist where a formal, non-command relationship exists between organizations, or where an administrative description is more accurate of the relationship between two organizations.
 
