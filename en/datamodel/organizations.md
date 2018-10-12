@@ -171,7 +171,7 @@ Text and numbers
 
 We use classifications to describe the basic nature of a specific organization and to assist investigations of potential linkages between reports of human rights abuses and the Security Force Monitor's dataset. As alleged perpetrators are usually identified in general terms of "soldiers" and "police" this field is important as a first step to understand potential linkages between organizations, persons and incidents. `Organization: Classification` values are useful supplements to `Organization: Parent` and `Organization: Membership` data we use to connect different units together.
 
-The `Organization: Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches.
+The `Organization: Classification` field will contain a mix of standard terms and country-specific terms used to describe security force branches. In choosing terms to include in the `Organization: Classification` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible.
 
 > For example: a standard term we would apply to army units is `Army`. The equivalent in Mexico would be `Ejécito`. We would capture both terms in the `Organization: Classification` field.
 
@@ -179,7 +179,7 @@ When applying a classification to an organization, we try to be as specific as t
 
 > For example: In Mexico \(which has federal level, state level and municipal level police forces, all independent of one another\) a municipal police force in Mexico is given two classifications: `Municipal Police ; Police`. A state police unit is given two classifications: `State Police ; Police`. So when human rights reporting is specific in saying municipal police officers committed an abuse nearby where this unit is located, we tag it. When there is more vague reporting of just “police” committing abuses both units that have a Police classification and are located near where the abuse occurred are tagged.
 
-In choosing terms to include in the `Organization: Classification` field we try to include terms that are used by country experts as well as those that are commons terms. We also try to be economical and create as few, distinct terms as possible.
+
 
 ## Organization: Date first cited {#organization_date_first_cited}
 
