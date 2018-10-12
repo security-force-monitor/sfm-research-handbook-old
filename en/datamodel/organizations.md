@@ -105,11 +105,11 @@ The Monitor uses the name in the official \(local\) language of the country wher
 
 > Example: A unit in the Mexican Army would be called by its name in Spanish \(`10 Regimiento de Caballería Motorizado`\), rather than the English translation \( `10 Motorized Cavalry Regiment`\).
 
-In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the  `Organization: Name `field. Where warranted by sources the Monitor will use Roman numerals like `V` or `XI` instead of `5` or `11` respectively.
+In an effort to standardize names across all countries, the Monitor generally uses Arabic numerals in the  `Organization: Name`field. Where warranted by sources the Monitor will use Roman numerals like `V` or `XI` instead of `5` or `11` respectively.
 
 In cases where multiple organizations have the same name the Monitor will distinguish them by adding unique identifying text based on the organization's site or parent.
 
-> Example: There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance `Central Police Station (Awka, Anambra State). `In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: `Central Regional Military Command (post 199)`.
+> Example: There are multiple "Central Police Station" formations across Nigeria, some based in the same state. To better distinguish these are separate, distinct units the Monitor added information on where the units were located to the name field for instance `Central Police Station (Awka, Anambra State).`In Myanmar there have been different units through time both the name Central Regional Military Command. To distinguish them the Monitor added information on when the unit came into existence to the name: `Central Regional Military Command (post 199)`.
 
 ## Organization: Aliases {#organization_aliases}
 
@@ -123,7 +123,7 @@ Text and numbers
 
 ### Example of use
 
-If `3 Compañía de Infantería No Encuadrada` is used as the canonical `Organization: Name` of an organization, entries in the `Organization: Aliases` field may include `Tercera Compañía de Infantería No Encuadrada` and `3/a. Compañía de Infantería No Encuadrad`.
+If `3 Armoured Division` is used as the canonical `Organization: Name` of an organization, entries in the `Organization: Aliases` field may include `3 Div` and `Three Division`.
 
 ### Guidance on use
 
@@ -131,7 +131,7 @@ Different sources will spell an organization's name in different ways. We choose
 
 Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical name we choose for an organization, where a source uses an Ordinal we record it as an alias.
 
-> Example: We find a version of the organization name `10 Regimiento de Caballería Motorizado` that has an Ordinal indicator: `10/o. Regimiento de Caballería Motorizado.` We would record this in the `Aliases` field.
+> Example: We find a version of the organization name `3 Armoured Division` that has an Ordinal indicator: `10/o. Regimiento de Caballería Motorizado.` We would record this in the `Aliases` field.
 
 ## Organization: Country {#organization_country}
 
