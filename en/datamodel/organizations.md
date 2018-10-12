@@ -115,7 +115,7 @@ In cases where multiple organizations have the same name the Monitor will distin
 
 ### Description
 
-Other names for an organization, including aliaes, alternative spellings and abbreviations.
+Other names for an organization, including aliases, alternative spellings and abbreviations
 
 ### Type of field
 
@@ -137,7 +137,7 @@ Although we do not use ordinal indicators like `2nd` or `10/o` in the canonical 
 
 ### Description
 
-The country in which an organziation originates.
+ISO 3166 code for the country in which an organization originates
 
 ### Type of field
 
