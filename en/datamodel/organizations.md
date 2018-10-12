@@ -165,7 +165,7 @@ Text and numbers
 
 ### Example of use
 
-`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`
+`Army`, `Ejército`, `Police`, `Military`, `Military Police`, `Joint Operation`
 
 ### Guidance on use
 
