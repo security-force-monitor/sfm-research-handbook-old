@@ -325,7 +325,7 @@ Organizations have a `Command` relationship when the parent organization can ord
 
 `Administrative` relationships exist where a formal, non-command relationship exists between organizations, or where an administrative description is more accurate of the relationship between two organizations.
 
-> Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as `Administrative`. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could appoint or fire the head of the Department. So technically the Department is under the “command” of the Headquarters, but describing this relationship as `Administrative` is more helpful because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
+> Example: By law the Ministry of Defence in Nigeria provides administrative support to the Nigerian Army, establishing a relationship we could classify as `Administrative`. The Standards Department of an Army Headquarters might be under the control of the Army Headquarters, meaning the Army Headquarters could order the Department to take some sort of action. This technically means the Department is under the “command” of the Headquarters, but the Monitor would describe this relationship as `Administrative` because the Department is not in the field conducting operations, it's an administrative organ of the Army Headquarters.
 
 ## Parent relationship: Date first cited {#organization_parent_date_first_cited}
 
