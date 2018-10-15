@@ -30,12 +30,12 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Parent organization: date last cited](#organization_parent_date_last_cited) | The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Parent relationship: Open-ended?](#organization_parent_open_ended) | Is the value in `Parent relationship: Date last cited` the actual date on which the parent relationship ended \(E\), or can we assume this relationship continues to exist after this date \(Y\), or can we not assume the relationship continues to exist after this date, but the exact end point is unknown \(N\)? | `Y`, `N`, `E` |
 | [Site: Base](#organization_site_base) | A base is a distinctively named building or complex - like a barracks or camp - where the organization is located | `Leopard Base , Giwa Barracks , Bonny Camp` |
-| [Site: Exact Location \(Longitude or OSM Object Name\)](#organization_site_ex_loc_name) | The longitude or OSM object name of the most precise location of a site associated with this organization | `30.09716`, `Giwa Barracks` |
-| [Site: Exact Location \(Latitude or OSM Object ID\)](#organization_site_ex_loc_id) | The latitude or OSM object ID number of the most precise location of a site associated with this organization | `31.3280332`, `196204935` |
-| [Site: Settlement \(OSM Object Name\)](#organization_site_settlement_name) | The OSM object name of the city, town or village in which an organization site is based | `Maiduguri , Port Harcourt`, `Francisco Escarcega`, `Abu al Matamir` |
-| [Site: Settlement \(OSM Object ID\)](#organization_site_settlement_id) | The OSM object ID number of the city, town or village in which an organization site is based | `273584290`,`286989920`,`769127625` |
-| [Site: Top Administrative Area \(OSM Object Name\)](#organization_site_top_admin_name) | The OSM object name of the largest, generally used administrative area of a country \(usually admin level 4\) | Borno , Rivers , Baja California |
-| [Site: Top Administrative Area \(OSM Object ID number\)](#organization_site_top_admin_id) | The OSM object ID of the largest, generally used administrative area of a country \(usually admin level 4\) | 165475, 2589601 |
+| [Site: Exact Location \(Longitude or OSM object Name\)](#organization_site_ex_loc_name) | The longitude or OSM object name of the most precise location of a site associated with this organization | `30.09716`, `Giwa Barracks` |
+| [Site: Exact Location \(Latitude or OSM object ID\)](#organization_site_ex_loc_id) | The latitude or OSM object ID number of the most precise location of a site associated with this organization | `31.3280332`, `196204935` |
+| [Site: Settlement \(OSM object Name\)](#organization_site_settlement_name) | The OSM object name of the city, town or village in which an organization site is based | `Maiduguri , Port Harcourt`, `Francisco Escarcega`, `Abu al Matamir` |
+| [Site: Settlement \(OSM object ID\)](#organization_site_settlement_id) | The OSM object ID number of the city, town or village in which an organization site is based | `273584290`,`286989920`,`769127625` |
+| [Site: Top Administrative Area \(OSM object Name\)](#organization_site_top_admin_name) | The OSM object name of the largest, generally used administrative area of a country \(usually admin level 4\) | Borno , Rivers , Baja California |
+| [Site: Top Administrative Area \(OSM object ID number\)](#organization_site_top_admin_id) | The OSM object ID of the largest, generally used administrative area of a country \(usually admin level 4\) | 165475, 2589601 |
 | [Site: Country](#organization_site_country) | ISO 3166 code for the country in which the organization's site is located | `mx`, `ug`, `ng` |
 | [Site: Date of first citation](#organization_site_date_first_cited) | The earliest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Site: Founding date?](#organization_site_date_first_cited_founding) | Is the value in Site: Date first cited the actual date on which an organization site was founded \(Y\), or the earliest date a source has referred to an organization site \(N\)? | `Y`, `N` |
@@ -451,7 +451,7 @@ The `Base` field adds detail about a site. This field is used to record data abo
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## Site: Exact Location \(Longitude or OSM Object Name\) {#organization_site_ex_loc_name}
+## Site: Exact Location \(Longitude or OSM object Name\) {#organization_site_ex_loc_name}
 
 ### Description
 
@@ -475,7 +475,7 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an object for the exact site is present on Open Street Map we will enter its name in this field.
 * Where no OSM object exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Exact Location \(Latitude or OSM Object ID\) {#organization_site_ex_loc_id}
+## Site: Exact Location \(Latitude or OSM object ID\) {#organization_site_ex_loc_id}
 
 ### Description
 
@@ -499,7 +499,7 @@ We identify `sites` with a number of different levels of geographical precision.
 * Where an object for the exact site is present on Open Street Map we will enter its ID number in this field.
 * Where no OSM object exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Settlement \(OSM Object Name\) {#organization_site_settlement_name}
+## Site: Settlement \(OSM object Name\) {#organization_site_settlement_name}
 
 ### Description
 
@@ -517,7 +517,7 @@ Text, OSM object name, first in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Object Name)` we record the name of the OSM object \(node, way or relation\) that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM object that denotes a settlement.
 
-## Site: Settlement \(OSM Object ID\) {#organization_site_settlement_id}
+## Site: Settlement \(OSM object ID\) {#organization_site_settlement_id}
 
 ### Description
 
@@ -535,7 +535,7 @@ Number, OSM object ID number, second in a pair of values
 
 We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Object ID)` field we record the name of the OSM object \(node, way or relation\) ID number that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM object that denotes a settlement.
 
-## Site: Top Administrative Area \(OSM Object Name\) {#organization_site_top_admin_name}
+## Site: Top Administrative Area \(OSM object Name\) {#organization_site_top_admin_name}
 
 ### Description
 
@@ -555,7 +555,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 > Example: Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name of the administrative level 4 object or the state.
 
-## Site: Top Administrative Area \(OSM Object ID number\) {#organization_site_top_admin_id}
+## Site: Top Administrative Area \(OSM object ID number\) {#organization_site_top_admin_id}
 
 ### Description
 
