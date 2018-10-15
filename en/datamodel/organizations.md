@@ -411,7 +411,7 @@ This field is clarified by the field `Parent relationship: Open-ended?` which in
 
 ### Description
 
-Is the value in `Parent relationship: Date last cited` the actual date on which an organization stopped being the parent of another, or latest date a source has referred to this relationship, and can we assume this relationship will continue to exist?
+Is the value in `Parent relationship: Date last cited` the actual date on which the parent relationship ended \(E\), or can we assume this relationship continues to exist after this date \(Y\), or can we not assume the relationship continues to exist after this date, but the exact end point is unknown \(N\)?
 
 ### Type of field
 
