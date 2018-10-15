@@ -100,25 +100,7 @@ Text, controlled vocabulary
 
 Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found \([on the ISO website](https://www.iso.org/obp/ui/#search/code/) and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the organization will be assigned a value of `mx` in the field `Organization: Country`. Any person who is a member of that organization will be assigned a value of `mx` in the field `Person: Country` as well.  A person may have multiple  entries for `Person: Country` where our research shows they or an organization they are a member of is deployed to different countries.
 
-## Person: Country {#person_country}
-
-### Description
-
-Country where an organization that a person is a member of is located.
-
-### Type of field
-
-Text, controlled vocabulary
-
-### Example of use
-
-`mx`
-
-### Guidance on use
-
-Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found \([on the ISO website](https://www.iso.org/obp/ui/#search/code/) and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the organization will be assigned a value of `mx` in the field `Organization: Country`. Any person who is a member of that organization will be assigned a value of `mx` in the field `Person: Country` as well.  A person may have multiple  entries for `Person: Country` where our research shows they or an organization they are a member of is deployed to different countries.
-
-## Person: Gender {#person_organization_name}
+## Person: Gender {#person_country}
 
 ### Description
 
@@ -126,7 +108,25 @@ The gender of the person.
 
 ### Type of field
 
-Text and numbers, free entry
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found \([on the ISO website](https://www.iso.org/obp/ui/#search/code/) and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the organization will be assigned a value of `mx` in the field `Organization: Country`. Any person who is a member of that organization will be assigned a value of `mx` in the field `Person: Country` as well.  A person may have multiple  entries for `Person: Country` where our research shows they or an organization they are a member of is deployed to different countries.
+
+## Person: Organization Name {#person_organization_name}
+
+### Description
+
+The organization that the person is a member of.
+
+### Type of field
+
+Text and numbers, controlled vocabulary
 
 ### Example of use
 
@@ -210,7 +210,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
