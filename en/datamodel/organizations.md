@@ -665,7 +665,7 @@ The `Site: Date last cited` field contains a date that is either:
 
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
 
-This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization site was terminated.
+This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization was no longer located at this site.
 
 ## Site: open-ended? {#organization_site_date_last_cited_open_ended}
 
@@ -679,7 +679,7 @@ Single choice \(Y, N, E\)
 
 ### Example of use
 
-`Y`,`N`,`E`
+`Y`, `N`, `E`
 
 ### Guidance on use
 
