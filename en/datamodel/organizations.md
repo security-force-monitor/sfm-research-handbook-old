@@ -497,7 +497,7 @@ We identify `sites` with a number of different levels of geographical precision.
 `Site: Exact Location (Latitude or OSM Entity ID)` is the second of a pair of values with `Site: Exact Location (Longitude or OSM Entity Name)`. It is used to record the most precise location of a site associated with an organization, whether this is entity \(node, way or relation\) on Open Street Map or a pair of geographical coordinates.
 
 * Where an entity for the exact site is present on Open Street Map we will enter its ID number in this field.
-* Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
+* Where no OSM entity exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
 ## Site: Settlement \(OSM Entity Name\) {#organization_site_settlement_name}
 
@@ -515,7 +515,7 @@ Text, OSM entity name, first in a pair of values
 
 ### Guidance on use
 
-We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Node Name)` we record the name of the OSM entity \(node, way or relation\) that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM entity that denotes a settlement.
+We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Entity Name)` we record the name of the OSM entity \(node, way or relation\) that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM entity that denotes a settlement.
 
 ## Site: Settlement \(OSM Entity ID\) {#organization_site_settlement_id}
 
@@ -555,7 +555,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 > Example: Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name of the administrative level 4 entity or the state.
 
-## Site: Top Administrative Area \(OSM ID number\) {#organization_site_top_admin_id}
+## Site: Top Administrative Area \(OSM Entity ID number\) {#organization_site_top_admin_id}
 
 ### Description
 
@@ -571,7 +571,7 @@ Number, OSM relation ID number, second in a pair of values
 
 ### Guidance on use
 
-We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM ID number)` we record OSM relation ID number of the highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
+We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM ID number)` we record OSM relation ID number of the highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations). Generally, these are [relations](https://wiki.openstreetmap.org/wiki/Relation) in the OSM dataset tagged as administrative level 4.
 
 > For example Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\).
 
