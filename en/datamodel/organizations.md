@@ -617,8 +617,8 @@ The `Site: Date first cited` field contains a date that is either:
 
 * The earliest date found in any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
 * The earliest date of publication of any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
-  .
-  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date first cited`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date first cited`.
 
 This field is clarified by the field `Site: Founding date?` which indicates whether the date included here is the actual date on which an organization site was founded.
 
