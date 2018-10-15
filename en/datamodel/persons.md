@@ -10,7 +10,7 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | [Person: Name](\datamodel\persons.md#person_name) | Full name of the person, including given, patronym and surnames | `Magaji Musa Majia'a` |
 | [Person: Aliases](\datamodel\persons.md#person_aliases) | Other names used to identify a person | `Virgilio Daniel Méndez Bazan`, `Virgilio Daniel Mendez Bazán` |
 | [Person: Country](\datamodel\persons.md#person_country) | Country where an organization that a person is a member of is located | `mx` |
-| Person: Gender |  |  |
+| Person: Gender | The gender of the person. | `Female`, `Male` |
 | Person: Date of Birth |  |  |
 | Person: Date of Death |  |  |
 | Person: Deceased? |  |  |
@@ -21,7 +21,7 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | [Person: Title](\datamodel\persons.md#person_organization_title) | A title held by a person that is separate from their rank or role | `General Officer Commanding`, `Jefe Del Estado Mayor` |
 | [Person: Rank](\datamodel\persons.md#person_organization_rank) | The official position of a person in the hierarchy of a security force | `General de División`, `Teniente Coronel`, `Air Vice Marshal` |
 | [Person Membership: Date first cited](\datamodel\persons.md#person_organization_date_first_cited) | The earliest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication | `2012`,`2012-11`, `2012-11-23` |
-| [Person Membership: Start date](\datamodel\persons.md#person_date_first_cited_is_start) | Indicates whether the value in `Person Membership: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relatioship | `Y`, `N` |
+| [Person Membership: Start date](\datamodel\persons.md#person_date_first_cited_is_start) | Indicates whether the value in `Person Membership: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relationship | `Y`, `N` |
 | Person Membership: Context Start date |  |  |
 | [Person Membership: Date last cited](\datamodel\persons.md#person_date_last_cited) | The latest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication | `2012`,`2012-11`, `2012-11-23` |
 | [Person Membership: End date?](\datamodel\persons.md#person_date_last_cited_is_end) | Indicate whether the value in `Person Membership: Date last cited` is the actual end date on which person ceased to be a member of this organization or if it is only the date last cited for that relationship | `Y`, `N` |
@@ -100,11 +100,29 @@ Text, controlled vocabulary
 
 Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found \([on the ISO website](https://www.iso.org/obp/ui/#search/code/) and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the organization will be assigned a value of `mx` in the field `Organization: Country`. Any person who is a member of that organization will be assigned a value of `mx` in the field `Person: Country` as well.  A person may have multiple  entries for `Person: Country` where our research shows they or an organization they are a member of is deployed to different countries.
 
-## Person: Organization Name {#person_organization_name}
+## Person: Country {#person_country}
 
 ### Description
 
-The organization that the person is a member of.
+Country where an organization that a person is a member of is located.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`mx`
+
+### Guidance on use
+
+Values for this field are chosen from the list of ISO 3166-1 alpha-2 codes, which can be found \([on the ISO website](https://www.iso.org/obp/ui/#search/code/) and on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements). This field doe not denote the citizenship or country of origin of a person. Rather, it denotes where a unit they are a member of is located. For example, if `1 Batallón de Infantería` is located in Juarez, Mexico, the organization will be assigned a value of `mx` in the field `Organization: Country`. Any person who is a member of that organization will be assigned a value of `mx` in the field `Person: Country` as well.  A person may have multiple  entries for `Person: Country` where our research shows they or an organization they are a member of is deployed to different countries.
+
+## Person: Gender {#person_organization_name}
+
+### Description
+
+The gender of the person.
 
 ### Type of field
 
