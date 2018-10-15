@@ -31,7 +31,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Parent relationship: Open-ended?](#organization_parent_open_ended) | Is the value in `Parent relationship: Date last cited` the actual date on which the parent relationship ended \(E\), or can we assume this relationship continues to exist after this date \(Y\), or can we not assume the relationship continues to exist after this date, but the exact end point is unknown \(N\)? | `Y`, `N`, `E` |
 | [Site: Base](#organization_site_base) | A base is a distinctively named building or complex - like a barracks or camp - where the organization is located | `Leopard Base , Giwa Barracks , Bonny Camp` |
 | [Site: Exact Location \(Longitude or OSM Node Name\)](#organization_site_ex_loc_name) | The longitude or OSM name of the most precise location of a site associated with this organization | `30.09716`, `Giwa Barracks` |
-| [Site: Exact Location \(Latitude or OSM Node ID\)](#organization_site_ex_loc_id) | The latitude or OSM ID number of the most precise location of a site associated with this organization | `31.3280332`, `196204935` |
+| [Site: Exact Location \(Latitude or OSM Entity ID\)](#organization_site_ex_loc_id) | The latitude or OSM entity ID number of the most precise location of a site associated with this organization | `31.3280332`, `196204935` |
 | [Site: Settlement \(OSM Node Name\)](#organization_site_settlement_name) | The OSM name of the city, town or village in which an organization site is based | `Maiduguri , Port Harcourt`, `Francisco Escarcega`, `Abu al Matamir` |
 | [Site: Settlement \(OSM ID\)](#organization_site_settlement_id) | The OSM ID number of the city, town or village in which an organization site is based | `273584290`,`286989920`,`769127625` |
 | [Site: Top Administrative Area \(OSM Name\)](#organization_site_top_admin_name) | The OSM name of the largest, generally used administrative area of a country \(usually admin level 4\) | Borno , Rivers , Baja California |
@@ -441,7 +441,7 @@ Text and numbers
 
 ### Example of use
 
-`Campo Militar Número 5-C`
+`Leopard Base , Giwa Barracks , Bonny Camp`
 
 ### Guidance on use
 
@@ -451,7 +451,7 @@ The `Base` field adds detail about a site. This field is used to record data abo
 
 This field should not be used for anything that matches the name or alias of a organization. For example, `North Sector Police Station` should not be put in this field if the name of the organization is `North Sector Police Station`.
 
-## Site: Exact Location \(Longitude or OSM Node Name\) {#organization_site_ex_loc_name}
+## Site: Exact Location \(Longitude or OSM Entity Name\) {#organization_site_ex_loc_name}
 
 ### Description
 
