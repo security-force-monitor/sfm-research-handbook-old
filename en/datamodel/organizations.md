@@ -29,7 +29,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Parent relationship: start date?](#organization_parent_date_first_cited_is_start) | Is the value in `Parent relationship: Date first cited` the actual date on which this parent relationship began \(Y\), or the earliest date a source has referred to the relationship \(N\)? | `Y`, `N` |
 | [Parent organization: date last cited](#organization_parent_date_last_cited) | The latest date that a source shows a parent organization relationship exists, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Parent relationship: Open-ended?](#organization_parent_open_ended) | Is the value in `Parent relationship: Date last cited` the actual date on which the parent relationship ended \(E\), or can we assume this relationship continues to exist after this date \(Y\), or can we not assume the relationship continues to exist after this date, but the exact end point is unknown \(N\)? | `Y`, `N`, `E` |
-| [Site: Base](#organization_site_base) | A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located | `Leopard Base , Giwa Barracks , Bonny Camp` |
+| [Site: Base](#organization_site_base) | A base is a distinctively named building or complex - like a barracks or camp - where the organization is located | `Leopard Base , Giwa Barracks , Bonny Camp` |
 | [Site: Exact Location \(Longitude or OSM Node Name\)](#organization_site_ex_loc_name) | The longitude or OSM name of the most precise location of a site associated with this organization | `30.09716`, `Giwa Barracks` |
 | [Site: Exact Location \(Latitude or OSM Node ID\)](#organization_site_ex_loc_id) | The latitude or OSM ID number of the most precise location of a site associated with this organization | `31.3280332`, `196204935` |
 | [Site: Settlement \(OSM Node Name\)](#organization_site_settlement_name) | The OSM name of the city, town or village in which an organization site is based | `Maiduguri , Port Harcourt`, `Francisco Escarcega`, `Abu al Matamir` |
@@ -419,7 +419,7 @@ Single choice \(Y, N, E\)
 
 ### Example of use
 
-`Y`, `N`, `E`
+`Y`, `N`,  `E`
 
 ### Guidance on use
 
@@ -433,7 +433,7 @@ We use this field to clarify the meaning of the date entered in `Parent relation
 
 ### Description
 
-A base is a distinctively-named building or complex - like a barracks or camp - where the organization is located.
+A base is a distinctively named building or complex - like a barracks or camp - where the organization is located.
 
 ### Type of field
 
