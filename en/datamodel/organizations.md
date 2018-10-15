@@ -559,7 +559,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 ### Description
 
-The OSM relation ID number of the highest sub-national administrative area in which an organization site is based.
+The OSM ID of the largest, generally used administrative area of a country \(usually admin level 4\).
 
 ### Type of field
 
@@ -579,7 +579,7 @@ We identify `sites` with a number of different levels of geographical precision.
 
 ### Description
 
-The country in which an organziation site is located.
+ISO 3166 code for the country in which the organization's site is located.
 
 ### Type of field
 
@@ -607,7 +607,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
