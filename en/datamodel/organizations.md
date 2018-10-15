@@ -455,11 +455,11 @@ This field should not be used for anything that matches the name or alias of a o
 
 ### Description
 
-The longitude or OSM Node name of the most precise location of a site associated with this organization.
+The longitude or OSM entity name of the most precise location of a site associated with this organization.
 
 ### Type of field
 
-First value of a latitude/longitude pair \(using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)\), or an OSM Node Name.
+First value of a latitude/longitude pair \(using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)\), or an OSM entity Name.
 
 ### Example of use
 
@@ -470,36 +470,36 @@ If used to record a latitude: `31.3280332`
 
 We identify `sites` with a number of different levels of geographical precision.
 
-`Site: Exact Location (Longitude or OSM Node Name)` is the first of a pair of values with `Site: Exact Location (Latitude or OSM Node ID)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates.
+`Site: Exact Location (Longitude or OSM Entity Name)` is the first of a pair of values with `Site: Exact Location (Latitude or OSM Entity ID)`. It is used to record the most precise location of a site associated with an organization, whether this is an entity \(node, way or relation\) on Open Street Map or a pair of geographical coordinates.
 
-* Where an node for the exact site is present on Open Street Map we will enter its name in this field.
-* Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
+* Where an entity for the exact site is present on Open Street Map we will enter its name in this field.
+* Where no OSM entity exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Exact Location \(Latitude or OSM Node ID\) {#organization_site_ex_loc_id}
+## Site: Exact Location \(Latitude or OSM Entity ID\) {#organization_site_ex_loc_id}
 
 ### Description
 
-The latitude or OSM node ID number of the most precise location of a site associated with this organization.
+The latitude or OSM entity ID number of the most precise location of a site associated with this organization.
 
 ### Type of field
 
-Second value of a longitude/latitude pair \(using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)\), or an OSM Node ID number.
+Second value of a longitude/latitude pair \(using [EPSG:3857](http://spatialreference.org/ref/epsg/wgs-84/)\), or an OSM entity ID number.
 
 ### Example of use
 
-If used to record an OSM Node ID number: `452377264`  
+If used to record an OSM entity ID number: `452377264`  
 If used to record a Longitude: `30.09716`
 
 ### Guidance on use
 
 We identify `sites` with a number of different levels of geographical precision.
 
-`Site: Exact Location (Latitude or OSM Node ID)` is the second of a pair of values with `Site: Exact Location (Longitude or OSM Node Name)`. It is used to record the most precise location of a site associated with an organization, whether this is a node on Open Street Map or a pair of geographical coordinates.
+`Site: Exact Location (Latitude or OSM Entity ID)` is the second of a pair of values with `Site: Exact Location (Longitude or OSM Entity Name)`. It is used to record the most precise location of a site associated with an organization, whether this is entity \(node, way or relation\) on Open Street Map or a pair of geographical coordinates.
 
-* Where an node for the exact site is present on Open Street Map we will enter its ID number in this field.
+* Where an entity for the exact site is present on Open Street Map we will enter its ID number in this field.
 * Where no OSM node exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
-## Site: Settlement \(OSM Node Name\) {#organization_site_settlement_name}
+## Site: Settlement \(OSM Entity Name\) {#organization_site_settlement_name}
 
 ### Description
 
@@ -507,7 +507,7 @@ The city, town or village in which an organization site is based.
 
 ### Type of field
 
-Text, OSM node name, first in a pair of values
+Text, OSM entity name, first in a pair of values
 
 ### Example of use
 
@@ -515,9 +515,9 @@ Text, OSM node name, first in a pair of values
 
 ### Guidance on use
 
-We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Node Name)` we record the name of the OSM node that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM node that denotes a settlement.
+We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Node Name)` we record the name of the OSM entity \(node, way or relation\) that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM entity that denotes a settlement.
 
-## Site: Settlement \(OSM ID\) {#organization_site_settlement_id}
+## Site: Settlement \(OSM Entity ID\) {#organization_site_settlement_id}
 
 ### Description
 
@@ -525,7 +525,7 @@ The city, town or village in which an organization site is based.
 
 ### Type of field
 
-Number, OSM node ID number, second in a pair of values
+Number, OSM entity ID number, second in a pair of values
 
 ### Example of use
 
@@ -533,21 +533,21 @@ Number, OSM node ID number, second in a pair of values
 
 ### Guidance on use
 
-We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM ID)` field we record the name of the OSM ID number that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM node that denotes a settlement.
+We identify `sites` with a number of different levels of geographical precision. In `Site: Settlement (OSM Entity ID)` field we record the name of the OSM entity \(node, way or relation\) ID number that identifies a settlement in which there is an organization site. It could be a city, town or village or other OSM entity that denotes a settlement.
 
-## Site: Top Administrative Area \(OSM Name\) {#organization_site_top_admin_name}
+## Site: Top Administrative Area \(OSM Entity Name\) {#organization_site_top_admin_name}
 
 ### Description
 
-The OSM relation name of the highest sub-national administrative area in which an organization site is based.
+The OSM name of the largest, generally used administrative area of a country \(usually admin level 4\).
 
 ### Type of field
 
-Text, OSM relation name, first in a pair of values
+Text, OSM entity name, first in a pair of values
 
 ### Example of use
 
-`Michoacán`
+`Michoacán, Borno`
 
 ### Guidance on use
 
