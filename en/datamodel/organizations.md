@@ -626,7 +626,7 @@ This field is clarified by the field `Site: Founding date?` which indicates whet
 
 ### Description
 
-Is the value in `Site: Date first cited` the actual date on which an organization site was founded, or the earliest date a source has referred to an organization site?
+Is the value in `Site: Date first cited` the actual date on which an organization site was founded \(Y\), or the earliest date a source has referred to an organization site \(N\)?
 
 ### Type of field
 
@@ -634,7 +634,7 @@ Boolean \(Yes, No\)
 
 ### Example of use
 
-`Y`,`N`
+`Y`, `N`
 
 ### Guidance on use
 
@@ -652,18 +652,18 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
-Along with the fields `Site: Date first cited`, `Site: Founding date?` and `Site is Open-ended?` the field `Site: Date last cited` provides data on the time period for which can specify a site's location.
+Along with the fields `Site: Date first cited`, `Site: Founding date?` and `Site is Open-ended?` the field `Site: Date last cited` provides data on the time period for a site's location.
 
 The `Site: Date last cited` field contains a date that is either:
 
 * The latest date found in any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
 * The latest date of publication of any source that references the values contained in the pairs of fields that record `Site: Settlement`, or failing that, `Site: Top Administrative area`.
-  .
-  In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
+
+In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Site: Date last cited`.
 
 This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization site was terminated.
 
