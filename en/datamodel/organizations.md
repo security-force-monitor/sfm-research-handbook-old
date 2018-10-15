@@ -551,9 +551,9 @@ Text, OSM entity name, first in a pair of values
 
 ### Guidance on use
 
-We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM Name)` we record the text name of highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
+We identify `sites` with a number of different levels of geographical precision. In `Site: Top Administrative Area (OSM Entity Name)` we record the text name of highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations). Generally, these are [relations](https://wiki.openstreetmap.org/wiki/Relation) in the OSM dataset tagged as administrative level 4.
 
-> For example Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name the "state" \(admin level 4\).
+> Example: Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Site: Top Administrative Area (OSM Name)` the name of the administrative level 4 entity or the state.
 
 ## Site: Top Administrative Area \(OSM ID number\) {#organization_site_top_admin_id}
 
