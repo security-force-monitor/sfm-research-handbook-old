@@ -611,7 +611,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Site: Founding date?`, `Site: Date last cited` and `Site: Open-ended?` the field `Site: Date first cited` provides data on the time period for which can specify a site's location.
+Along with the fields `Site: Founding date?`, `Site: Date last cited` and `Site: Open-ended?` the field `Site: Date first cited` provides data on the time period for a site's location.
 
 The `Site: Date first cited` field contains a date that is either:
 
