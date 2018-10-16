@@ -25,7 +25,7 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Person Membership: Context Start date | Indicates the stated reason for the start of the person membership | `Appointed`,`Transferred`, `Promoted` |
 | [Person Membership: Date last cited](\datamodel\persons.md#person_date_last_cited) | The latest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication | `2012`,`2012-11`, `2012-11-23` |
 | [Person Membership: End date?](\datamodel\persons.md#person_date_last_cited_is_end) | Indicate whether the value in `Person Membership: Date last cited` is the actual end date on which person ceased to be a member of this organization or if it is only the date last cited for that relationship | `Y`, `N` |
-| Person Membership: Context End date |  |  |
+| Person Membership: Context End date | Indicates the stated reason for the end of the person membership | `Transferred`, `Promoted , Retired` |
 | [Person: Notes](\datamodel\persons.md#person_notes) | Analysis, commentary and notes about the person that do not fit into the data structure | `Trained in logisitics at Fort Lackland, Texas and the air force base of Wright Patterson, Ohio` |
 
 ## Person: ID {#person_id}
