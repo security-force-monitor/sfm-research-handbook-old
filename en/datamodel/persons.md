@@ -11,11 +11,11 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | [Person: Aliases](\datamodel\persons.md#person_aliases) | Other names used to identify a person | `Virgilio Daniel Méndez Bazan`, `Virgilio Daniel Mendez Bazán` |
 | [Person: Country](\datamodel\persons.md#person_country) | Country where an organization that a person is a member of is located | `mx` |
 | Person: Gender | The gender of the person. | `Female`, `Male` |
-| Person: Date of Birth |  |  |
-| Person: Date of Death |  |  |
-| Person: Deceased? |  |  |
-| Person: Biography |  |  |
-| Person: External Link |  |  |
+| Person: Date of Birth | Date person was born | `2012`,`2012-11`, `2012-11-23` |
+| Person: Date of Death | Date person died | `2012`,`2012-11`, `2012-11-23` |
+| Person: Deceased? | Is the person deceased but the exact date of death is unknown? | field to be implemented |
+| Person: Biography | Details on the person's life, generally outside of the Monitor's data format | field to be implemented |
+| Person: External Link | Links to information on the person from third party sites, such as Wikipedia | https://en.wikipedia.org/wiki/Tukur\_Yusuf\_Buratai |
 | [Person: Organization Name](\datamodel\persons.md#person_organization_name) | The organization that the person is a member of | `35 Batallón de Infantería` |
 | [Person: Role](\datamodel\persons.md#person_organization_role) | The role a person plays in the organization that is not evident from entries in `Person: Title` or `Person: Rank` | `Commander` |
 | [Person: Title](\datamodel\persons.md#person_organization_title) | A title held by a person that is separate from their rank or role | `General Officer Commanding`, `Jefe Del Estado Mayor` |
