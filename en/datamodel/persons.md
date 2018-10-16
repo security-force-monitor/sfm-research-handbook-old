@@ -118,7 +118,97 @@ Text, controlled vocabulary
 
 TO DO
 
-## Person: Organization Name {#person_organization_name}
+## Person: Date of Birth {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
+
+## Person: Date of Death {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
+
+## Person: Deceased {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
+
+## Person: Biography {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
+
+## Person: Gender {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
+
+## Person: External Link {#person_organization_name}
 
 ### Description
 
@@ -251,6 +341,24 @@ This is a clarifying field for `Person Membership: Date first cited`.
 
 Where the content of the source has indicated the exact date that a  relationship between a person and an organization began we will enter `Y` . In all other cases we will enter a value of `N` to indicate that the date is not a start date, but the date of first citation.
 
+## Person Membership: Context Start Date {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
+
 ## Person Membership: Date last cited {#person_date_last_cited}
 
 ### Description
@@ -302,6 +410,24 @@ This is a clarifying field for `Person Membership: Date last cited`. One of the 
 
 * `Y` indicates that the content of the source is the exact date that a relationship between a person and an organization ended.
 * `N` indicates that the date is not an exact end date, but the date of last citation.
+
+## Person Membership: Context End Date {#person_country}
+
+### Description
+
+The gender of the person.
+
+### Type of field
+
+Text, controlled vocabulary
+
+### Example of use
+
+`Female , Male`
+
+### Guidance on use
+
+TO DO
 
 ## Person: Notes {#person_notes}
 
