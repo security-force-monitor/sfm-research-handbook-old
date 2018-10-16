@@ -15,14 +15,14 @@ Persons are natural persons who are affiliated with, or hold positions of comman
 | Person: Date of Death | Date person died | `2012`,`2012-11`, `2012-11-23` |
 | Person: Deceased? | Is the person deceased but the exact date of death is unknown? | field to be implemented |
 | Person: Biography | Details on the person's life, generally outside of the Monitor's data format | field to be implemented |
-| Person: External Link | Links to information on the person from third party sites, such as Wikipedia | https://en.wikipedia.org/wiki/Tukur\_Yusuf\_Buratai |
+| Person: External Link | Links to information on the person from third party sites, such as Wikipedia | [https://en.wikipedia.org/wiki/Tukur\_Yusuf\_Buratai](https://en.wikipedia.org/wiki/Tukur_Yusuf_Buratai) |
 | [Person: Organization Name](\datamodel\persons.md#person_organization_name) | The organization that the person is a member of | `35 Batallón de Infantería` |
 | [Person: Role](\datamodel\persons.md#person_organization_role) | The role a person plays in the organization that is not evident from entries in `Person: Title` or `Person: Rank` | `Commander` |
 | [Person: Title](\datamodel\persons.md#person_organization_title) | A title held by a person that is separate from their rank or role | `General Officer Commanding`, `Jefe Del Estado Mayor` |
 | [Person: Rank](\datamodel\persons.md#person_organization_rank) | The official position of a person in the hierarchy of a security force | `General de División`, `Teniente Coronel`, `Air Vice Marshal` |
 | [Person Membership: Date first cited](\datamodel\persons.md#person_organization_date_first_cited) | The earliest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication | `2012`,`2012-11`, `2012-11-23` |
 | [Person Membership: Start date](\datamodel\persons.md#person_date_first_cited_is_start) | Indicates whether the value in `Person Membership: Date first cited` the actual date on which an organization became the parent of another, or the earliest date a source has referred to the relationship | `Y`, `N` |
-| Person Membership: Context Start date |  |  |
+| Person Membership: Context Start date | Indicates the stated reason for the start of the person membership | `Appointed`,`Transferred`, `Promoted` |
 | [Person Membership: Date last cited](\datamodel\persons.md#person_date_last_cited) | The latest date a source evidences a relationship between a person and an organization, either through direct reference in the source or by the date of its publication | `2012`,`2012-11`, `2012-11-23` |
 | [Person Membership: End date?](\datamodel\persons.md#person_date_last_cited_is_end) | Indicate whether the value in `Person Membership: Date last cited` is the actual end date on which person ceased to be a member of this organization or if it is only the date last cited for that relationship | `Y`, `N` |
 | Person Membership: Context End date |  |  |
