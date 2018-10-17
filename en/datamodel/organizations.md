@@ -802,7 +802,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
@@ -821,7 +821,7 @@ This field is clarified by the field `Site: Open-ended?` which indicates whether
 
 ### Description
 
-Indicates whether the value in `Area of Operations: Date last cited` is the actual date on which an organization ended operatiosn in the specified area, the latest date a source has referred to this Area of Operations, and whether can we assume an organization will continue to operate in an area beyond the date of last citation.
+Indicates whether the value in `Area of Operations: Date last cited` is the actual date on which an organization ended operations in the specified area, the latest date a source has referred to this Area of Operations, and whether can we assume an organization will continue to operate in an area beyond the date of last citation.
 
 ### Type of field
 
