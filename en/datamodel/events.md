@@ -25,7 +25,7 @@ We use the term `incident` interchangeably with the term `event`.
 | [Event: Exact location \(Latitude or OSM object ID number\)](\datamodel\events.md#event_exact_location_latitude_id) | Description | Example |
 | [Event: Settlement \(OSM object Name\)](\datamodel\events.md#event_settlement_name) | The city, town or village in which an event occurred | `Monclova` |
 | [Event: Settlement \(OSM object ID Number\)](\datamodel\events.md#event_settlement_id) | The city, town or village in which an event occurred | `747101009` |
-| [Event: Top Adminstrative Area \(OSM object name\)](\datamodel\events.md#event_top_admin_name) | The OSM object name of the highest sub-national administrative area in which an organization site is based | `Michoacán` |
+| [Event: Top Administrative Area \(OSM object name\)](\datamodel\events.md#event_top_admin_name) | The OSM object name of the highest sub-national administrative area in which an organization site is based | `Michoacán` |
 | [Event: Top Administrative Area \(OSM object ID number\)](\datamodel\events.md#event_top_admin_id) | The OSM object ID number of the highest sub-national administrative area in which an organization site is based | `2340636` |
 | [Event: Country](\datamodel\events.md#event_country) | The country in which an event occurred | `mx`, `ug`, `ng` |
 | [Event: Violation type](\datamodel\events.md#event_violation_type) | Type of alleged violation of human rights committed during the event | `Torture`, `Violations of the Right to Life` |
@@ -76,7 +76,7 @@ Events may occur at some point during a range:
 
 > For example: “On or about August 9, 2006, personnel of the NPF paraded 12 alleged armed robbers—including a 12-year-old—before the media at the Central Police Station in Umuahia, capital of Abia State. They claimed to have arrested the suspects after an exchange of gunfire with the police. Some of those in custody had gunshot wounds, and four others were killed during the incident at Olokobe-Ndume community in Umuahia North Local Government Area of Abia State. Following the parade, the police summarily executed the suspects and deposited their bodies at the premises of the Federal Medical Centre in Umuahia. They claimed that the executed victims signed confessional statements before they were killed. On August 17, 2006, the authorities of the Federal Medical Centre arranged a mass burial for the decomposing bodies of the victims. There were no autopsies or inquests. The police later organized a press conference at which they announced the executions.”
 
-We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the  killing occurred is not clear; it could have happened at any point during that time frame. To accomodate this,  we would record `2006-08-09` in `Event: Start date` and `2006-08-17` in `Event: End date`.
+We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the  killing occurred is not clear; it could have happened at any point during that time frame. To accommodate this,  we would record `2006-08-09` in `Event: Start date` and `2006-08-17` in `Event: End date`.
 
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Event: Start date` .
 
