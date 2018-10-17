@@ -444,3 +444,25 @@ The values we enter here should follow the general citation format used by Secur
 
 Where there are multiple sources about the same event, they are listed in the order of the description.
 
+## Event: Notes {#event_source}
+
+### Description
+
+To DO.
+
+### Type of field
+
+Text and numbers
+
+### Example of use
+
+`"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf`
+
+### Guidance for use
+
+The values we enter here should follow the general citation format used by Security Force monitor, as set out in this Research Handbook:
+
+> Title of article or website page. Name of publishing organization \(country of organization\). Date. URL. Internet Archive link: URL
+
+Where there are multiple sources about the same event, they are listed in the order of the description.
+
