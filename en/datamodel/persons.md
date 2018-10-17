@@ -325,7 +325,7 @@ This field is clarified by the field `Person Membership: Start date?` which indi
 
 ### Description
 
-Indicates whether the value in `Person Membership: Date first cited` is the actual date on which a person became a member of this organization, or the earliest date a source has referred to the relatioship.
+Indicates whether the value in `Person Membership: Date first cited` is the actual date on which a person became a member of this organization, or the earliest date a source has referred to the relationship.
 
 ### Type of field
 
