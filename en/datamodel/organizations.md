@@ -866,7 +866,7 @@ This field indicates whether an organization has had any memberships or attachme
 
 > Example: soldiers from `1 Division` are deployed to the northeast of Nigeria to operate under `Operation BOYANA`. `1 Division` has a commander, but the soldiers as part of `Operation BOYANA` likely report to and take orders from the commander of `Operation BOYANA`. When the soldiers are done with their rotation, after several months, they return to their “home unit” `1 Division`. So while `Operation BOYANA` commands some soldiers who are part of `1 Division` it doesn’t technically command all of the soldiers of `1 Division` \(otherwise it would be the parent unit\) These operations - joint task forces, and so on - should have their own distinct `Organization` entries.
 
-We treat task forces, operations, peace keeping missions that are constitued via a membership of other organizations as distinct organizations.
+We treat task forces, operations, peacekeeping missions that are represented in this field as distinct organizations, meaning they should have their own entry with Organization:Name and the related attributes of an organization.
 
 ## Membership: Date first cited {#organization_membership_date_first_cited}
 
