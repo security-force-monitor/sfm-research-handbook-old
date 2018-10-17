@@ -15,18 +15,18 @@ We use the term `incident` interchangably with the term `event`.
 | Name of field | Description | Examples of use |
 | :--- | :--- | :--- |
 | [Event: ID](\datamodel\events.md#event_id) | A unique code assigned to each event in the dataset | `a407be6a-28e6-4237-b4e9-307f27b1202e` |
-| [Event: Start date](\datamodel\events.md#event_start_date) | The date on which an event started | `2012`,`2012-11`, `2012-11-23` |
-| [Event: End date](\datamodel\events.md#event_end_date) | The date on which an event ended | `2012`,`2012-11`, `2012-11-23` |
-| [Event: Date of publication](\datamodel\events.md#event_publication_date) | The date of publication of the source used to evidence the event | `2012`,`2012-11`, `2012-11-23` |
-| [Event: Date of last update](\datamodel\events.md#event_date_last_update) | The date of most recent update about the event | `2012`,`2012-11`, `2012-11-23` |
+| [Event: Start date](\datamodel\events.md#event_start_date) | The date on which an event started | `2012`, `2012-11`, `2012-11-23` |
+| [Event: End date](\datamodel\events.md#event_end_date) | The date on which an event ended | `2012`, `2012-11`, `2012-11-23` |
+| [Event: Date of publication](\datamodel\events.md#event_publication_date) | The date of publication of the source used to evidence the event | `2012`, `2012-11`, `2012-11-23` |
+| [Event: Date of last update](\datamodel\events.md#event_date_last_update) | The date of most recent update about the event | `2012`, `2012-11`, `2012-11-23` |
 | [Event: Status as of last update](\datamodel\events.md#event_status) | Most recently available status of the event | Field is not yet implemented |
-| [Event: Location](\datamodel\events.md#event_location) | A description of the where the event occured | `Giwa Barracks`, `Rikkos neighborhood`, `Campo Militar Número 6-B` |
-| [Event: Exact location \(Longitude or OSM Node Name\)](\datamodel\events.md#event_exact_location_longitude_name) | Description | Example |
-| [Event: Exact location \(Latitude or OSM Node ID number\)](\datamodel\events.md#event_exact_location_latitude_id) | Description | Example |
-| [Event: Settlement \(OSM object Name\)](\datamodel\events.md#event_settlement_name) | The city, town or village in which an event occured | `Monclova` |
-| [Event: Settlement \(OSM object ID Number\)](\datamodel\events.md#event_settlement_id) | The city, town or village in which an event occured | `747101009` |
-| [Event: Top Adminstrative Area \(OSM relation name\)](\datamodel\events.md#event_top_admin_name) | The OSM relation name of the highest sub-national administrative area in which an organization site is based | `Michoacán` |
-| [Event: Top Administrative Area \(OSM object ID number\)](\datamodel\events.md#event_top_admin_id) | The OSM relation ID number of the highest sub-national administrative area in which an organization site is based | `2340636` |
+| [Event: Location](\datamodel\events.md#event_location) | A description of the where the event occurred | `Giwa Barracks`, `Rikkos neighborhood`, `Campo Militar Número 6-B` |
+| [Event: Exact location \(Longitude or OSM object Name\)](\datamodel\events.md#event_exact_location_longitude_name) | Description | Example |
+| [Event: Exact location \(Latitude or OSM object ID number\)](\datamodel\events.md#event_exact_location_latitude_id) | Description | Example |
+| [Event: Settlement \(OSM object Name\)](\datamodel\events.md#event_settlement_name) | The city, town or village in which an event occurred | `Monclova` |
+| [Event: Settlement \(OSM object ID Number\)](\datamodel\events.md#event_settlement_id) | The city, town or village in which an event occurred | `747101009` |
+| [Event: Top Adminstrative Area \(OSM object name\)](\datamodel\events.md#event_top_admin_name) | The OSM object name of the highest sub-national administrative area in which an organization site is based | `Michoacán` |
+| [Event: Top Administrative Area \(OSM object ID number\)](\datamodel\events.md#event_top_admin_id) | The OSM object ID number of the highest sub-national administrative area in which an organization site is based | `2340636` |
 | [Event: Country](\datamodel\events.md#event_country) | The country in which an event occurred | `mx`, `ug`, `ng` |
 | [Event: Violation type](\datamodel\events.md#event_violation_type) | Type of alleged violation of human rights committed during the event | `Torture`, `Violations of the Right to Life` |
 | [Event: Description](\datamodel\events.md#event_description) | A description of the event | `According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack [...]` |
@@ -66,7 +66,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance for use
 
@@ -92,7 +92,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance for use
 
@@ -170,7 +170,7 @@ Field is not yet implemented.
 
 ### Description
 
-A description of the where the event occured.
+A description of the where the event occurred.
 
 ### Type of field
 
@@ -202,7 +202,7 @@ Often a person is arrested and, for example, beaten at a specific site \(and the
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one `event` and abuses committed or otherwise tied to site of detention a separate `event`.
 
-## Event: Exact location \(Longitude or OSM Node Name\) {#event_exact_location_longitude_name}
+## Event: Exact location \(Longitude or OSM object Name\) {#event_exact_location_longitude_name}
 
 ### Description
 
@@ -212,7 +212,7 @@ In such instances, researchers should consider the initial arrest and transporta
 
 ### Guidance for use
 
-## Event: Exact location \(Latitude or OSM Node ID number\) {#event_exact_location_latitude_id}
+## Event: Exact location \(Latitude or OSM object ID number\) {#event_exact_location_latitude_id}
 
 ### Description
 
@@ -226,7 +226,7 @@ In such instances, researchers should consider the initial arrest and transporta
 
 ### Description
 
-The city, town or village in which an event occured.
+The city, town or village in which an event occurred.
 
 ### Type of field
 
@@ -244,7 +244,7 @@ Often, information about events does not list a settlement by name. If so, we wi
 
 ### Description
 
-The city, town or village in which an event occured.
+The city, town or village in which an event occurred.
 
 ### Type of field
 
@@ -258,11 +258,11 @@ Number, OSM object ID number, second in a pair of values
 
 Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.
 
-## Event: Top Adminstrative Area \(OSM relation name\) {#event_top_admin_name}
+## Event: Top Adminstrative Area \(OSM object name\) {#event_top_admin_name}
 
 ### Description
 
-The OSM relation name of the highest sub-national administrative area in which an organization site is based.
+The OSM object name of the highest sub-national administrative area in which an organization site is based.
 
 ### Type of field
 
@@ -334,7 +334,7 @@ Text, controlled vocabulary
 
 ### Guidance for use
 
-In `Event: Violation type`, values are chosen from the HURIDOCS controlled vocabulary called [Types of Acts](https://www.huridocs.org/resource/micro-thesauri/).
+In `Event: Violation type`, values are taken "as is" from the source.
 
 ## Event: Description {#event_description}
 
@@ -404,7 +404,7 @@ Here is an example of source material that contains information that would be in
 
 ### Description
 
-General branch or tier of the security force alleged to have commited the human rights violation\(s\).
+General branch or tier of the security force alleged to have committed the human rights violation\(s\).
 
 ### Type of field
 
