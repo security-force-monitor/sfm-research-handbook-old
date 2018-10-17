@@ -188,7 +188,7 @@ Example:
 
 > "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
 
-While they were detained at Old GRA dentention centre - the location of their killing is unclear. Its also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the Location field blank.
+While they were detained at Old GRA detention centre - the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the Location field blank.
 
 Here's another example of how to use this field:
 
@@ -258,7 +258,7 @@ Number, OSM object ID number, second in a pair of values
 
 Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.
 
-## Event: Top Adminstrative Area \(OSM object name\) {#event_top_admin_name}
+## Event: Top Administrative Area \(OSM object name\) {#event_top_admin_name}
 
 ### Description
 
