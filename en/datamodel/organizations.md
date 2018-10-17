@@ -880,7 +880,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
@@ -907,7 +907,7 @@ Boolean \(Yes, No\)
 
 ### Example of use
 
-`Y`,`N`
+`Y`, `N`
 
 ### Guidance on use
 
@@ -925,7 +925,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance on use
 
@@ -952,7 +952,7 @@ Single choice \(Y, N, E\)
 
 ### Example of use
 
-`Y`,`N`
+`Y`, `N`
 
 ### Guidance on use
 
