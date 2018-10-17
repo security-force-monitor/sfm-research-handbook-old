@@ -315,7 +315,7 @@ The `Person Membership: Date first cited` field contains a date that is either:
 
 The values for `Person: Title`, `Person: Role` and `Person: Rank` held by a person are assumed to continue until a source indicates a change in any of those values. If the person's role, title or rank changes a new entry will need to be created to document that change. This new entry will have updated values for `Person Membership: Date first cited` and related date fields.
 
-> For example, if a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the revelevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10. However, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10.
+> For example, if a source indicates that Major General Jack Johnson is the commander of 1 Division as of 2007-08-20 all of the relevant fields would be entered based on that source. If another source states that Jack Johnson retired from the 1 Division on 2008-01-10 the last citation for Jack Johnson's affiliation would be 2008-01-10. However, this would also assume that Jack Johnson continued to have the Role of Commander and the Rank of Major General from 2007-08-20 until 2008-01-10.
 
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Person Membership: Date first cited`.
 
