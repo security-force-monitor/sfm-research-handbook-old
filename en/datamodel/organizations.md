@@ -963,7 +963,7 @@ The values that can be entered in this field are restricted to the below:
 * `Y` indicates that we assume this membership continues to exist.
 * `N` indicates we do not assume that this membership continues to exist.
 
-## Notes {#organization_notes}
+## Organization: Notes {#organization_notes}
 
 ### Description
 
@@ -975,7 +975,7 @@ Text and numbers
 
 ### Example of use
 
-`Supported the the Michoacan Attorney General's Office in a raid performed on 13 January 2008`
+`In March 1990 the previous Central Regional Military Command based in Taungoo was renamed Southern Regional Military Command, the previous Northwestern Regional Military Command based in Mandalay was renamed as the Central Regional Military Command and a new Northwestern Regional Military Command was created in Monywa.`
 
 ### Guidance on use
 
