@@ -470,9 +470,9 @@ If used to record a latitude: `31.3280332`
 
 We identify `sites` with a number of different levels of geographical precision.
 
-`Site: Exact Location (Longitude or OSM Object Name)` is the first of a pair of values with `Site: Exact Location (Latitude or OSM Object ID)`. It is used to record the most precise location of a site associated with an organization, whether this is an object \(node, way or relation\) on Open Street Map or a pair of geographical coordinates.
+`Site: Exact Location (Longitude or OSM Object Name)` is the first of a pair of values with `Site: Exact Location (Latitude or OSM Object ID)`. It is used to record the most precise location of a site associated with an organization, whether this is an object \(node, way or relation\) on OpenStreetMap or a pair of geographical coordinates.
 
-* Where an object for the exact site is present on Open Street Map we will enter its name in this field.
+* Where an object for the exact site is present on OpenStreetMap we will enter its name in this field.
 * Where no OSM object exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
 ## Site: Exact Location \(Latitude or OSM object ID\) {#organization_site_ex_loc_id}
@@ -494,9 +494,9 @@ If used to record a Longitude: `30.09716`
 
 We identify `sites` with a number of different levels of geographical precision.
 
-`Site: Exact Location (Latitude or OSM Object ID)` is the second of a pair of values with `Site: Exact Location (Longitude or OSM Object Name)`. It is used to record the most precise location of a site associated with an organization, whether this is an object \(node, way or relation\) on Open Street Map or a pair of geographical coordinates.
+`Site: Exact Location (Latitude or OSM Object ID)` is the second of a pair of values with `Site: Exact Location (Longitude or OSM Object Name)`. It is used to record the most precise location of a site associated with an organization, whether this is an object \(node, way or relation\) on OpenStreetMap or a pair of geographical coordinates.
 
-* Where an object for the exact site is present on Open Street Map we will enter its ID number in this field.
+* Where an object for the exact site is present on OpenStreetMap we will enter its ID number in this field.
 * Where no OSM object exists for the exact site a pair of coordinates will be used, the latitude value recorded in this field.
 
 ## Site: Settlement \(OSM object Name\) {#organization_site_settlement_name}
@@ -707,7 +707,7 @@ Text and numbers, OSM object name, first in a pair of fields
 
 ### Guidance on use
 
-The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the Open Street Map name for the lowest-level formal geographical area that best describes where an organization has operated in some manner.
+The `Area of Operations` fields document multiple and concurrent areas of operation of an organization. The value entered in this field is the OpenStreetMap name for the lowest-level formal geographical area that best describes where an organization has operated in some manner.
 
 ## Area of Operations: OSM object ID number {#organization_aoo_osm_id}
 
