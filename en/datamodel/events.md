@@ -8,7 +8,7 @@ For each event, we includes data about what happened and when, the location\(s\)
 
 Fields in events are not sourced and rated for confidence individually as in the data we create about  organizations and persons. We provide a single source for the entire event, cited in our standard format.
 
-We use the term `incident` interchangably with the term `event`.
+We use the term `incident` interchangeably with the term `event`.
 
 ## Summary of fields
 
