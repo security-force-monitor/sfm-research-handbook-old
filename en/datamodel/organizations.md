@@ -929,7 +929,7 @@ Date \(YYYY-MM-DD\), fuzzy
 
 ### Guidance on use
 
-Along with the fields `Membership: Date first cited`, `Membership: Start date?` and `Membership: Open-ended?` the field `Membership: Date last cited` provides data on duration of a membership.
+Along with the fields `Membership: Date first cited`, `Membership: Start date?` and `Membership: End-date?` the field `Membership: Date last cited` provides data on duration of a membership.
 
 The `Membership: Date last cited` field contains a date that is either:
 
@@ -940,15 +940,15 @@ The `Membership: Date last cited` field contains a date that is either:
 
 This field is clarified by the field `Membership: Open-ended?` which indicates whether the date included here is the actual date on which an organization Membership was terminated.
 
-## Membership: Open-ended? {#organization_membership_open_ended}
+## Membership: End Date? {#organization_membership_open_ended}
 
 ### Description
 
-Indicates whether we assume the relationship between organizations continues after the date in `Membership: Date last cited`
+Is the value in `Membership: Date last cited` the actual date on which the membership ended \(Y\), or the latest date a source has referred to an organizational Membership \(N\)?
 
 ### Type of field
 
-Single choice \(Y, N, E\)
+Single choice \(Y, N\)
 
 ### Example of use
 
@@ -956,12 +956,12 @@ Single choice \(Y, N, E\)
 
 ### Guidance on use
 
-We use this field to clarify the meaning of the date entered in `Date last cited`. In entering a value for this field we use a variety of factors including: the history of basing for the unit, the overall structure and nature of the security forces, and the frequency of movement of similar units.
+We use this field to clarify the meaning of the date entered in `Membership: Date last cited`.
 
 The values that can be entered in this field are restricted to the below:
 
-* `Y` indicates that we assume this membership continues to exist.
-* `N` indicates we do not assume that this membership continues to exist.
+* `Y` indicates that the membership ended on that date.
+* `N` indicates that the date is the date of last citation for the membership.
 
 ## Organization: Notes {#organization_notes}
 
