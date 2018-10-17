@@ -948,7 +948,7 @@ Is the value in `Membership: Date last cited` the actual date on which the membe
 
 ### Type of field
 
-Single choice \(Y, N\)
+Boolean
 
 ### Example of use
 
