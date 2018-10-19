@@ -40,7 +40,7 @@ Documented in this chapter are a range of different pieces of data about organiz
 | [Site: Date of first citation](#organization_site_date_first_cited) | The earliest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
 | [Site: Founding date?](#organization_site_date_first_cited_founding) | Is the value in Site: Date first cited the actual date on which an organization site was founded \(Y\), or the earliest date a source has referred to an organization site \(N\)? | `Y`, `N` |
 | [Site: Date last cited](#organization_site_date_last_cited) | This field is for the latest citation for the location of a site, either through direct reference in the source or by the date of its publication | `2012-11-23`, `2012-11`, `2012` |
-| [Site: open-ended?](#organization_site_date_last_cited_open_ended) | Is the value in Site: Date last cited the actual date on which an organization ceased to be located at a site \(E\), or can we assume the organization continues to be at the site past the date up until the present \(Y\), or is the exact date of departure from a site unclear \(N\)? | `Y`, `N`, `E` |
+| [Site: Open-ended?](#organization_site_date_last_cited_open_ended) | Is the value in Site: Date last cited the actual date on which an organization ceased to be located at a site \(E\), or can we assume the organization continues to be at the site past the date up until the present \(Y\), or is the exact date of departure from a site unclear \(N\)? | `Y`, `N`, `E` |
 | [Area of Operations: OSM object name](#organization_aoo_osm_name) | The OSM name for the geographical area in which an organization exercises jurisdiction or has operated in any manner | `Baja California Sur`, `Egbado South , Thandaunggyi Township` |
 | [Area of Operations: OSM object ID number](#organization_aoo_osm_id) | The OSM ID for the geographical area in which an organization exercises jurisdiction or has operated in any manner | `2589611`, `4103405` |
 | [Area of Operations: Country](#organization_aoo_country) | ISO 3166 code for the country in which an area of operation is located | `mx`, `ug`, `ng` |
@@ -667,7 +667,7 @@ In keeping with all date fields we include in this dataset, where our research c
 
 This field is clarified by the field `Site: Open-ended?` which indicates whether the date included here is the actual date on which an organization was no longer located at this site.
 
-## Site: open-ended? {#organization_site_date_last_cited_open_ended}
+## Site: Open-ended? {#organization_site_date_last_cited_open_ended}
 
 ### Description
 
