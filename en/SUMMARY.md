@@ -14,6 +14,8 @@
  * [Write a Country Guide](/methodology/methodology.md#method-phase-2)
  * [Conduct detailed research](/methodology/methodology.md#method-phase-3)
  * [Publish data](/methodology/methodology.md#method-phase-4)
+ * [Timebound data](/methodology/methodology.md#timebound-data)
+ * [Unknown vs. Unnamed Organizations](/methodology/methodology.md#unknown-vs-unnamed-organizations)
 
 ### Data model
 
@@ -64,20 +66,28 @@
  * [Membership: Start date?](/datamodel/organizations.md#organization_membership_is_start)
  * [Membership: Date of last citation](/datamodel/organizations.md#organization_membership_date_last_cited)
  * [Membership: Open-ended?](/datamodel/organizations.md#organization_membership_open_ended)
- * [Notes](/datamodel/organizations.md#organization_notes)
+ * [Organization: Notes](/datamodel/organizations.md#organization_notes)
 * [Persons](/datamodel/persons.md)
  * [Person: ID](/datamodel/persons.md#person_id)
  * [Person: Name](/datamodel/persons.md#person_name)
  * [Person: Aliases](/datamodel/persons.md#person_aliases)
- * [Person: Country](/datamodel/persons.md#person_country) 
+ * [Person: Country](/datamodel/persons.md#person_country)
+ * [Person: Gender](/datamodel/persons.md#person_gender)
+ * [Person: Date of Birth](/datamodel/persons.md#person_data_of_birth)
+ * [Person: Date of Death](/datamodel/persons.md#person_data_of_death)
+ * [Person: Deceased](/datamodel/persons.md#person_deceased)
+ * [Person: Biography](/datamodel/persons.md#person_biography)
+ * [Person: External Link](/datamodel/persons.md#person_external_link)
  * [Person: Organization Name](/datamodel/persons.md#person_organization_name)
  * [Person: Role](/datamodel/persons.md#person_organization_role)
  * [Person: Title](/datamodel/persons.md#person_organization_title)
  * [Person: Rank](/datamodel/persons.md#person_organization_rank)
  * [Person Membership: Date first cited](/datamodel/persons.md#person_organization_date_first_cited)
  * [Person Membership: Start date](/datamodel/persons.md#person_date_first_cited_is_start)
+ * [Person Membership: Context Start date](/datamodel/persons.md#person_context_start_date) 
  * [Person Membership: Date last cited](/datamodel/persons.md#person_date_last_cited)
  * [Person Membership: End date?](/datamodel/persons.md#person_date_last_cited_is_end)
+ * [Person Membership: Context End date](/datamodel/persons.md#person_context_end_date)
  * [Person: Notes](/datamodel/persons.md#person_notes)
 * [Events](/datamodel/events.md)
  * [Event: ID](/datamodel/events.md#event_id)
@@ -100,6 +110,7 @@
  * [Event: Perpetrator organization](/datamodel/events.md#event_perpetrator_organization)
  * [Event: Perpetrator classification](/datamodel/events.md#event_perpetrator_classification)
  * [Event: Source](/datamodel/events.md#event_source)
+ * [Event: Notes](/datamodel/events.md#event_notes)
 
 ### WhoWasInCommand User Guide 
 

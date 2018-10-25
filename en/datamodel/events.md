@@ -1,39 +1,40 @@
 # Events
+
 Events describe publicly-documented allegations of human rights violations committed by security forces. These include extrajudicial killings, rape, torture and other forms of violence. Security Force Monitor does not make allegations itself, but compiles allegations made by governmental bodies, human rights organizations and other civil society actors.
 
 The Security Force Monitor focuses its research on the structure, personnel and operations of security forces. As such we treat all reports of human rights abuses as “alleged” in our documentation. This simply means these are claims that other organizations have made and which we are repeating without further verification. The Security Force Monitor does not make allegations against security forces and the data that we publish does not attempt to demonstrate involvement of individuals or units human rights abuses outside of what other organizations have alleged.
 
-For each event, we includes data about what happened and when, the location(s) it occurred at, the alleged perpetrators and the type of human rights violation.
+For each event, we includes data about what happened and when, the location\(s\) it occurred at, the alleged perpetrators and the type of human rights violation.
 
 Fields in events are not sourced and rated for confidence individually as in the data we create about  organizations and persons. We provide a single source for the entire event, cited in our standard format.
 
-We use the term `incident` interchangably with the term `event`.
+We use the term `incident` interchangeably with the term `event`.
 
 ## Summary of fields
 
-|Name of field|Description|Examples of use|
+| Name of field | Description | Examples of use |
 | :--- | :--- | :--- |
-|[Event: ID](\datamodel\events.md#event_id)|A unique code assigned to each event in the dataset|`a407be6a-28e6-4237-b4e9-307f27b1202e`|
-|[Event: Start date](\datamodel\events.md#event_start_date)|The date on which an event started|`2012`,`2012-11`, `2012-11-23`|
-|[Event: End date](\datamodel\events.md#event_end_date)|The date on which an event ended|`2012`,`2012-11`, `2012-11-23`|
-|[Event: Date of publication](\datamodel\events.md#event_publication_date)|The date of publication of the source used to evidence the event|`2012`,`2012-11`, `2012-11-23`|
-|[Event: Date of last update](\datamodel\events.md#event_date_last_update)|The date of most recent update about the event|`2012`,`2012-11`, `2012-11-23`|
-|[Event: Status as of last update](\datamodel\events.md#event_status)|Most recently available status of the event|Field is not yet implemented|
-|[Event: Location](\datamodel\events.md#event_location)|A description of the where the event occured|`Giwa Barracks`, `Rikkos neighborhood`, `Campo Militar Número 6-B`|
-|[Event: Exact location (Longitude or OSM Node Name)](\datamodel\events.md#event_exact_location_longitude_name)|Description|Example|
-|[Event: Exact location (Latitude or OSM Node ID number)](\datamodel\events.md#event_exact_location_latitude_id)|Description|Example|
-|[Event: Settlement (OSM object Name)](\datamodel\events.md#event_settlement_name)|The city, town or village in which an event occured|`Monclova`|
-|[Event: Settlement (OSM object ID Number)](\datamodel\events.md#event_settlement_id)|The city, town or village in which an event occured|`747101009`|
-|[Event: Top Adminstrative Area (OSM relation name)](\datamodel\events.md#event_top_admin_name)|The OSM relation name of the highest sub-national administrative area in which an organization site is based|`Michoacán`|
-|[Event: Top Administrative Area (OSM object ID number)](\datamodel\events.md#event_top_admin_id)|The OSM relation ID number of the highest sub-national administrative area in which an organization site is based|`2340636`|
-|[Event: Country](\datamodel\events.md#event_country)|The country in which an event occurred|`mx`, `ug`, `ng`|
-|[Event: Violation type](\datamodel\events.md#event_violation_type)|Type of alleged violation of human rights committed during the event|`Torture`, `Violations of the Right to Life`|
-|[Event: Description](\datamodel\events.md#event_description)|A description of the event|`According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack [...]`|
-|[Event: Perpetrator name](\datamodel\events.md#event_perpetrator_name)|The name of the person alleged to have committed the human rights violation(s) in the event|`Friday Iyamabo`|
-|[Event: Perpetrator organization](\datamodel\events.md#event_perpetrator_organization)|The organization(s) alleged to have committed the human rights violation(s) in the event|`2 Batallón de Fuerzas Especiales`|
-|[Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification)|General branch or tier of the security force alleged to have committed the human rights violation(s)|`Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation`|
-|[Event: Source](\datamodel\events.md#event_source)|The source of information about the event|`"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf`|
-|[Event: Publication organization](\datamodel\events.md#event_publication_org)|Name of the organization that published the source of information about the event|`Comisión Nacional de los Derechos Humanos (Mexico)`|
+| [Event: ID](\datamodel\events.md#event_id) | A unique code assigned to each event in the dataset | `a407be6a-28e6-4237-b4e9-307f27b1202e` |
+| [Event: Start date](\datamodel\events.md#event_start_date) | The date on which an event started | `2012`, `2012-11`, `2012-11-23` |
+| [Event: End date](\datamodel\events.md#event_end_date) | The date on which an event ended | `2012`, `2012-11`, `2012-11-23` |
+| [Event: Date of publication](\datamodel\events.md#event_publication_date) | The date of publication of the source used to evidence the event | `2012`, `2012-11`, `2012-11-23` |
+| [Event: Date of last update](\datamodel\events.md#event_date_last_update) | The date of most recent update about the event | `2012`, `2012-11`, `2012-11-23` |
+| [Event: Status as of last update](\datamodel\events.md#event_status) | Most recently available status of the event | Field is not yet implemented |
+| [Event: Location](\datamodel\events.md#event_location) | A description of the where the event occurred | `Giwa Barracks`, `Rikkos neighborhood`, `Campo Militar Número 6-B` |
+| [Event: Exact location \(Longitude or OSM object Name\)](\datamodel\events.md#event_exact_location_longitude_name) | Description | Example |
+| [Event: Exact location \(Latitude or OSM object ID number\)](\datamodel\events.md#event_exact_location_latitude_id) | Description | Example |
+| [Event: Settlement \(OSM object Name\)](\datamodel\events.md#event_settlement_name) | The city, town or village in which an event occurred | `Monclova` |
+| [Event: Settlement \(OSM object ID Number\)](\datamodel\events.md#event_settlement_id) | The city, town or village in which an event occurred | `747101009` |
+| [Event: Top Administrative Area \(OSM object name\)](\datamodel\events.md#event_top_admin_name) | The OSM object name of the highest sub-national administrative area in which an organization site is based | `Michoacán` |
+| [Event: Top Administrative Area \(OSM object ID number\)](\datamodel\events.md#event_top_admin_id) | The OSM object ID number of the highest sub-national administrative area in which an organization site is based | `2340636` |
+| [Event: Country](\datamodel\events.md#event_country) | The country in which an event occurred | `mx`, `ug`, `ng` |
+| [Event: Violation type](\datamodel\events.md#event_violation_type) | Type of alleged violation of human rights committed during the event | `Torture`, `Violations of the Right to Life` |
+| [Event: Description](\datamodel\events.md#event_description) | A description of the event | `According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack [...]` |
+| [Event: Perpetrator name](\datamodel\events.md#event_perpetrator_name) | The name of the person alleged to have committed the human rights violation\(s\) in the event | `Friday Iyamabo` |
+| [Event: Perpetrator organization](\datamodel\events.md#event_perpetrator_organization) | The organization\(s\) alleged to have committed the human rights violation\(s\) in the event | `2 Batallón de Fuerzas Especiales` |
+| [Event: Perpetrator classification](\datamodel\events.md#event_perpetrator_classification) | General branch or tier of the security force alleged to have committed the human rights violation\(s\) | `Army`, `Ejército`,`Police`, `Military`,`Military Police`,`Joint Operation` |
+| [Event: Source](\datamodel\events.md#event_source) | The source of information about the event | `"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf` |
+| [Event: Publication organization](\datamodel\events.md#event_publication_org) | Name of the organization that published the source of information about the event | `Comisión Nacional de los Derechos Humanos (Mexico)` |
 
 ## Event: ID {#event_id}
 
@@ -61,11 +62,11 @@ The date on which an event started.
 
 ### Type of field
 
-Date (YYYY-MM-DD), fuzzy
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance for use
 
@@ -75,7 +76,7 @@ Events may occur at some point during a range:
 
 > For example: “On or about August 9, 2006, personnel of the NPF paraded 12 alleged armed robbers—including a 12-year-old—before the media at the Central Police Station in Umuahia, capital of Abia State. They claimed to have arrested the suspects after an exchange of gunfire with the police. Some of those in custody had gunshot wounds, and four others were killed during the incident at Olokobe-Ndume community in Umuahia North Local Government Area of Abia State. Following the parade, the police summarily executed the suspects and deposited their bodies at the premises of the Federal Medical Centre in Umuahia. They claimed that the executed victims signed confessional statements before they were killed. On August 17, 2006, the authorities of the Federal Medical Centre arranged a mass burial for the decomposing bodies of the victims. There were no autopsies or inquests. The police later organized a press conference at which they announced the executions.”
 
-We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the  killing occurred is not clear; it could have happened at any point during that time frame. To accomodate this,  we would record `2006-08-09` in `Event: Start date` and `2006-08-17` in `Event: End date`. 
+We know from this source that the victims were alive as of 9 August 2006 and we know they were dead as of 17 August 2006. However the exact time of the  killing occurred is not clear; it could have happened at any point during that time frame. To accommodate this,  we would record `2006-08-09` in `Event: Start date` and `2006-08-17` in `Event: End date`.
 
 In keeping with all date fields we include in this dataset, where our research can only find a year or a year and a month, this can be included in `Event: Start date` .
 
@@ -87,17 +88,17 @@ The date on which an event ended.
 
 ### Type of field
 
-Date (YYYY-MM-DD), fuzzy
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance for use
 
 If `Event: End date` is unclear there are several ways to determine what should be used.
 
-One option is to record the date of interview with victim as `Event: End date`. We can assume that the violation\(s\) ended at least the month/day of the interview - or that we at least know they occurred up to that date. 
+One option is to record the date of interview with victim as `Event: End date`. We can assume that the violation\(s\) ended at least the month/day of the interview - or that we at least know they occurred up to that date.
 
 > For example: "Abu Bakr, a former detainee in Giwa Barracks told Amnesty International that he had been forced to share a confined area with up to 400 other people \[...\] Abu Bakr who was held in Giwa barracks told Amnesty International in July 2014: “There was no toilet. To toilet you use a black plastic bag and when you go out you throw it… or if someone used his maybe he will give you.” He also explained: 'We had rice for breakfast. A small amount, they put it in your hand. You give your hand, they will put the rice, you swallow it, you go back to the cell. Later in the day they give you water once. It is in a jug and you drink and pass it to another inside the cell. In the evening it is rice and stew, small. They give it in a nylon bag. There is no washing, no showers. No sleep. You just sit down only, the place is very tight, just sit on your bottom. You can only pray in the cell where you are sitting.'"
 
@@ -119,11 +120,11 @@ The date of publication of the source used to evidence the event.
 
 ### Type of field
 
-Date (YYYY-MM-DD), fuzzy
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance for use
 
@@ -133,15 +134,15 @@ In keeping with all date fields we include in this dataset, where our research c
 
 ### Description
 
-The date of most recent update about the event 
+The date of most recent update about the event
 
 ### Type of field
 
-Date (YYYY-MM-DD), fuzzy
+Date \(YYYY-MM-DD\), fuzzy
 
 ### Example of use
 
-`2012`,`2012-11`, `2012-11-23`
+`2012`, `2012-11`, `2012-11-23`
 
 ### Guidance for use
 
@@ -169,7 +170,7 @@ Field is not yet implemented.
 
 ### Description
 
-A description of the where the event occured.
+A description of the where the event occurred.
 
 ### Type of field
 
@@ -187,7 +188,7 @@ Example:
 
 > "Stanley Adiele Uwakwe and Faka Tamunotonye Kalio were arrested on 10 May and brought to Old GRA detention centre in Port Harcourt. After several days, they were transferred to another police station, but officers there told relatives that the men were not in detention. Unofficially, relatives were informed that the men had been killed by the police."
 
-While they were detained at Old GRA dentention centre - the location of their killing is unclear. Its also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the Location field blank.
+While they were detained at Old GRA detention centre - the location of their killing is unclear. It is also not clear where they were located before they were disappeared - was it at the Old GRA or at the unnamed police station? Since we don’t know we’d leave the Location field blank.
 
 Here's another example of how to use this field:
 
@@ -201,25 +202,31 @@ Often a person is arrested and, for example, beaten at a specific site \(and the
 
 In such instances, researchers should consider the initial arrest and transportation to the site of detention to be one `event` and abuses committed or otherwise tied to site of detention a separate `event`.
 
-## Event: Exact location (Longitude or OSM Node Name) {#event_exact_location_longitude_name}
+## Event: Exact location \(Longitude or OSM object Name\) {#event_exact_location_longitude_name}
 
 ### Description
+
 ### Type of field
+
 ### Example of use
+
 ### Guidance for use
 
-## Event: Exact location (Latitude or OSM Node ID number) {#event_exact_location_latitude_id}
+## Event: Exact location \(Latitude or OSM object ID number\) {#event_exact_location_latitude_id}
 
 ### Description
+
 ### Type of field
+
 ### Example of use
+
 ### Guidance for use
 
-## Event: Settlement (OSM object Name) {#event_settlement_name}
+## Event: Settlement \(OSM object Name\) {#event_settlement_name}
 
 ### Description
 
-The city, town or village in which an event occured.
+The city, town or village in which an event occurred.
 
 ### Type of field
 
@@ -233,11 +240,11 @@ Text, OSM object name, first in a pair of values
 
 Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.
 
-## Event: Settlement (OSM object ID Number) {#event_settlement_id}
+## Event: Settlement \(OSM object ID Number\) {#event_settlement_id}
 
 ### Description
 
-The city, town or village in which an event occured.
+The city, town or village in which an event occurred.
 
 ### Type of field
 
@@ -251,11 +258,11 @@ Number, OSM object ID number, second in a pair of values
 
 Often, information about events does not list a settlement by name. If so, we will leave this field blank even if by the description it seems to indicate a particular place. This is because we do not add to reporting only to transcribe what other groups have reported.
 
-## Event: Top Adminstrative Area (OSM relation name) {#event_top_admin_name}
+## Event: Top Administrative Area \(OSM object name\) {#event_top_admin_name}
 
 ### Description
 
-The OSM relation name of the highest sub-national administrative area in which an organization site is based.
+The OSM object name of the highest sub-national administrative area in which an organization site is based.
 
 ### Type of field
 
@@ -269,9 +276,9 @@ Text, OSM relation name, first in a pair of values
 
 We identify `Events` with a number of different levels of geographical precision. In `Event: Top Administrative Area (OSM relation name)` we record the text name of highest level subnational boundary for the country in which the site is located, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
 
-> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Event: Top Administrative Area (OSM relation name)` the name the "state" \(admin level 4\).
+> For example Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For a `site` based in Mexico, we would record in `Event: Top Administrative Area (OSM relation name)` the name the "state" \(admin level 4\).
 
-## Event: Top Administrative Area (OSM object ID number) {#event_top_admin_id}
+## Event: Top Administrative Area \(OSM object ID number\) {#event_top_admin_id}
 
 ### Description
 
@@ -289,7 +296,7 @@ Text, OSM relation ID number, second in a pair of values
 
 We identify `Events` with a number of different levels of geographical precision. In `Event: Top Administrative Area (OSM relation ID number)` we record the text name of highest level subnational boundary for the country in which the event occurred, [as found in in OpenStreetMap](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#Super-national_administrations).
 
-> For example Mexico has both *municipios* \(administrative level 6 in OSM\) and states \(administrative level 4\). For an event that occurred in Mexico, we would record in `Event: Top Administrative Area (OSM relation ID number)` the name the "state" \(admin level 4\).
+> For example Mexico has both _municipios_ \(administrative level 6 in OSM\) and states \(administrative level 4\). For an event that occurred in Mexico, we would record in `Event: Top Administrative Area (OSM relation ID number)` the name the "state" \(admin level 4\).
 
 ## Event: Country {#event_country}
 
@@ -327,7 +334,7 @@ Text, controlled vocabulary
 
 ### Guidance for use
 
-In `Event: Violation type`, values are chosen from the HURIDOCS controlled vocabulary called [Types of Acts](https://www.huridocs.org/resource/micro-thesauri/).
+In `Event: Violation type`, values are taken "as is" from the source.
 
 ## Event: Description {#event_description}
 
@@ -341,19 +348,19 @@ Text and numbers
 
 ### Example of use
 
->According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody."
+> According to Amnesty International: "Usman Modu, a 26-year-old scrap metal dealer from Maiduguri, spent almost two and a half years in Giwa barracks. He was arrested in April 2012 in Gwange, Maiduguri, during a screening operation after a Boko Haram attack. All the people who left the mosque were gathered together: the elderly and children were allowed to go home. The men were brought before a “pointer”, who pointed at him and 17 other men. He was first taken to a JTF station called NEPA and then to Giwa Barracks. “One by one we were brought in front of an armoured tank. I never saw anything. People said there was someone inside. When I went up, soldiers said I should go left. They started beating me. One soldier beat me with his gun and I fell down. They tied my hands behind my back and beat me. Then told me to go inside the car. I don't know why I was chosen. I was surprised, I don't know what I have done.” The military released Usman with 41 others in November 2014. The 17 men arrested with Usman all died in military custody."
 
 ### Guidance for use
 
 In this field we record a direct quotation from the civil society, governmental or other source about the event. When an event has more than one report tied to it, start the quotation as below:
 
 > According to X organization, “Description of event”. According to Y organization, “Description of event”.
- 
+
 ## Event: Perpetrator name {#event_perpetrator_name}
 
 ### Description
 
-The name of the person alleged to have committed the human rights violation(s) in the event.
+The name of the person alleged to have committed the human rights violation\(s\) in the event.
 
 ### Type of field
 
@@ -369,13 +376,13 @@ If a person or persons are named in the sources for the event, we will record it
 
 > For example: "Nwanneka narrated to NOPRIN researchers her experience at the SCID in Enugu in May 2002. She was initially arrested with two other females by officers of the Ninth Mile Police Station on the outskirts of Enugu on charges of assisting an armed robbery suspect, before being transferred to the SCID on May 3, 2002. After taking the statements of the female detainees, NPF Inspector Friday Iyamabo ordered them detained in the cells of the SCID. He later reportedly returned to the cell with pepper spray and powdered chili pepper, ordered the female detainees to strip and one after the other applied the mixture of pepper spray and chili to their genitals after severely beating them with batons. The detainees were denied access to medical treatment. Five years after this experience, Nwanneka reported to NOPRIN researchers in April 2007 that, as a result of this experience, she continues to suffer from complications with both her reproductive system and urinary tract."
 
-In this case, the alleged perpetrator is named in the source report. We would record the name `Friday Iyamabo` in the field `Event: Perpetrator name`. 
+In this case, the alleged perpetrator is named in the source report. We would record the name `Friday Iyamabo` in the field `Event: Perpetrator name`.
 
 ## Event: Perpetrator organization {#event_perpetrator_organization}
 
 ### Description
 
-The organization(s) alleged to have committed the human rights violation(s) in the event.
+The organization\(s\) alleged to have committed the human rights violation\(s\) in the event.
 
 ### Type of field
 
@@ -391,13 +398,13 @@ If the sources  that specific organizations committed the alleged human rights v
 
 Here is an example of source material that contains information that would be included in `Event: Perpetrator name`:
 
->According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: "On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted."
+> According to the United States Department of State, Bureau of Democracy, Human Rights and Labor: "On March 24, the JTF reportedly killed four men near Isaka in the Okrika Local Government Area, Rivers State, when they confronted them and other armed men attempting to hijack a barge. There was no investigation conducted."
 
 ## Event: Perpetrator classification {#event_perpetrator_classification}
 
 ### Description
 
-General branch or tier of the security force alleged to have commited the human rights violation(s).
+General branch or tier of the security force alleged to have committed the human rights violation\(s\).
 
 ### Type of field
 
@@ -411,7 +418,7 @@ Text and numbers, controlled vocabulary, taken from `Organization: Classificatio
 
 Sometimes a source will report that the alleged perpetrators of a human rights violation are from a generic security force such as “soldiers”, “police” or some other formulation. In this case, use this field to record a classification in the same way as for `Organization: Classification`. For example:
 
->According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan (not his real name), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
+> According to Amnesty International: "On 1 May 2012, around midnight, Nigerian soldiers arrested 37-year-old Dungus Ladan \(not his real name\), at his home in Maiduguri. Fatima, Dungus’ wife, told Amnesty International that the soldiers promised to just take him for an interrogation that should not last more than a few hours. When her husband did not return, she said, his father went on 3 May to Giwa barracks to check what had happened. Soldiers told him that Dungus had already been released. When he still did not return, the father went back again to the barracks, where soldiers told him that he should come back the next day to bail out his son. The following day, several relatives went together and gave the soldiers “what they could,” and the soldiers again promised to release Dungus that day. His wife said that the soldiers kept asking for money, and the family kept paying, but Dungus was never released. In February 2014, his father saw Dungus in the detention facility; they spoke briefly. Dungus said he had been framed by some people who owed him money and they arranged for him to be arrested and detained. Since then, his family has not seen him again; soldiers at Giwa barracks have told them he is not there."
 
 The only alleged perpetrators described in this alleged event are "soldiers". The most appropriate term to enter in `Event: Perpetrator classification` to match this description which would be `Military` because "soldiers" could refer to personnel of the Army, Navy or other armed services of a country.
 
@@ -436,3 +443,26 @@ The values we enter here should follow the general citation format used by Secur
 > Title of article or website page. Name of publishing organization \(country of organization\). Date. URL. Internet Archive link: URL
 
 Where there are multiple sources about the same event, they are listed in the order of the description.
+
+## Event: Notes {#event_source}
+
+### Description
+
+To DO.
+
+### Type of field
+
+Text and numbers
+
+### Example of use
+
+`"Recomendación No. 49/2011 sobre el caso de retención ilegal y tortura en agravio de V1 en Ciudad Juárez, Chihuahua". Comisión Nacional de los Derechos Humanos (Mexico). 30 August 2011. http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf Internet Archive link: http://www.cndh.org.mx/sites/all/doc/Recomendaciones/2011/Rec_2011_049.pdf`
+
+### Guidance for use
+
+The values we enter here should follow the general citation format used by Security Force monitor, as set out in this Research Handbook:
+
+> Title of article or website page. Name of publishing organization \(country of organization\). Date. URL. Internet Archive link: URL
+
+Where there are multiple sources about the same event, they are listed in the order of the description.
+
