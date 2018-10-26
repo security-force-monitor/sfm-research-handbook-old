@@ -14,7 +14,7 @@ This section contains key information about the identity of the unit. It also co
 
 The following fields are used in the title area:
 
-* [Organization: Name](/datamodel/organizations.md#organization_name)
+* [Organization: Name](/datamodel/organizations#organization_name)
 * [Organization: Aliases](/datamodel/organizations.md#organization_alias)
 * [Organization: Classifcation](/datamodel/organizations.md#organization_classification)
 * [Organization: Country](/datamodel/organizations.md#organization_country)
