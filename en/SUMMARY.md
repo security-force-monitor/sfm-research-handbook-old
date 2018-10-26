@@ -16,7 +16,7 @@
 * [Persons](/datamodel/persons.md)
 * [Events](/datamodel/events.md)
 
-### WhoWasInCommand User Guide 
+### WhoWasInCommand
 
 * [Frequently Asked Questions](/whowasincommand/generalfunctions.md)
 * [Unit records on WhoWasInCommand](/whowasincommand/unitrec.md)
