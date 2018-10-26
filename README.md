@@ -1,5 +1,7 @@
 # Research Handbook for Security Force Monitor
 
+THIS IS IN SPANISH
+
 ## About this Research Handbook
 
 **INSERT DATE LAST UPDATED/VERSION \#**
