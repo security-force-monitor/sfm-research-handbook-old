@@ -1,5 +1,7 @@
 # Research Handbook for Security Force Monitor
 
+THIS IS IN SPANISH
+
 ## About this Research Handbook
 
 This Research Handbook contains information about the data and tools used by Security Force Monitor, a project of the Columbia Law School Human Rights Initiative. Currently, it has three main sections:
